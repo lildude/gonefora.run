@@ -11,3 +11,11 @@ figcaption {
   font-size: 0.9rem;
   text-align: center;
 }
+
+.sidebar p {
+  font-size: 0.5rem;
+}
+
+.sidebar-about .lead {
+  font-size: 0.9rem;
+}
