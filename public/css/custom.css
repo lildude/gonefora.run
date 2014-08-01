@@ -5,3 +5,9 @@
 img {
   height: auto;
 }
+
+figcaption {
+  color: #999;
+  font-size: 0.9rem;
+  text-align: center;
+}
