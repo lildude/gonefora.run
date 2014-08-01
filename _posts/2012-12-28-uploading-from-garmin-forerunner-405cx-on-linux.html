@@ -1,0 +1,33 @@
+---
+layout: post
+title: Uploading from Garmin Forerunner 405CX on Linux
+categories: []
+tags:
+- Garmin
+- Forerunner 405CX
+- Linux
+- Ubuntu
+- technical
+status: draft
+type: post
+published: false
+meta: {}
+author: 
+---
+<p>Linux, specifically Ubuntu is my primary work operating system. Unfortunately, Garmin's developers haven't thought there is a need for a Linux compatible version of the Garmin plugin, so I've had to rely on uploading my runs from my watch either using the Mac at home, or using Windows 7 in VirtualBox.  The former is only ever really used if I'm running from home, which isn't very often.</p>
+<p>Firing up VirtualBox every day just to upload my runs is becoming a bit of a ballache, so I've used the free time whilst I work over the Christmas period to get uploads working on Linux.  </p>
+<p>A quick search on the Internet soon revealed "<a href="http://braiden.org/?p=293" target="_blank">implementing linux support for garmin 405cx</a>" by Braiden Kindt with a link to a <a href="https://github.com/braiden/python-ant-downloader" target="_blank">github repo</a> hosting his code for the ant downloader.</p>
+<p>Implementation was easy... just follow the instructions in the README and away you go, though I had a few slight niggles.</p>
+<p>1.  I had to run ant-downloader as root the very first time for some reason.<br />
+2.  I got the following warning right at the very beginning:</p>
+<p>[MainThread]	2012-12-28 08:53:19,199	WARNING	Config file version does not match expected version (1).<br />
+[MainThread]	2012-12-28 08:53:19,199	WARNING	If you have issues recommended you replace your configuration with /home/col/.antd/antd.cfg.1<br />
+[MainThread]	2012-12-28 08:53:19,199	WARNING	Set [antd] version=1 in your current config file to disable this warning.</p>
+<p>Seems the config file comes prepared for a version the rest of the software doesn't expect.  Doing as above soon cleared those messages, not that they were causing any problems.</p>
+<p>I've forked braiden's code and made a few enhancements of my own:</p>
+<p>1.  I only dump the traceback for exceptions when using the DEBUG logging level.  IMO tracebacks are only useful in debugging.<br />
+2.  I catch the serial.serialutil.SerialException (I'm still using an older nRF24AP1 serial USB stick) that is thrown when the USB stick isn't connected and print a nice friendly error.  As with above, the traceback is only printed if the DEBUG logging level is set.<br />
+3.  I created a FetchEveryone upload plugin.</p>
+<p>I've created these all as separate pull requests so who knows, maybe braiden will merge my changes into the main code.</p>
+<p>In the mean time, so far so good.  The downloads happen much quicker than when using the Windows Virtualbox image and I get them automatically uploaded to Garmin Connect, Strava and now FetchEveryone.</p>
+<p>My next challenge is to see if I can get the TCX file to include a personal description and or title which each of these services can take advantage of automatically.</p>
