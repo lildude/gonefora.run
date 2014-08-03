@@ -17,3 +17,5 @@ This is really of no interest to anyone other than me and is for the moment a sc
 
 - Remove fields from the frontmatter of each post that I don't use
 - Customize & optimize the theme
+- Switch out all emoticons for emoji
+- Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
