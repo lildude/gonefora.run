@@ -14,10 +14,26 @@ figcaption {
   text-align: center;
 }
 
-.sidebar p {
+/* theme-colin */
+.theme-colin .sidebar p {
   font-size: 0.5rem;
 }
 
-.sidebar-about .lead {
+.theme-colin .sidebar-about .lead {
   font-size: 0.9rem;
+}
+
+.theme-colin .content a,
+.theme-colin .content .post-title,
+.theme-colin .content .page-title {
+  color: #3453a1;
+}
+
+.theme-colin .content a:hover {
+  color: #bf0222;
+  -webkit-transition: color .25s linear,border-color .25s linear;
+  -moz-transition: color .25s linear,border-color .25s linear;
+  -ms-transition: color .25s linear,border-color .25s linear;
+  transition: color .25s linear,border-color .25s linear;
+  text-decoration: none;
 }
