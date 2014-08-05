@@ -20,3 +20,4 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - Switch out all emoticons for emoji
 - Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
 - Check each individual post & page and make they all render correctly.
+- Update Export plugin to grab all content types, not just posts and pages
