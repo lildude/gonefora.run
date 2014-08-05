@@ -5,24 +5,29 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  {% if post.tags contains "shorts" %}
+    <div class="aside">
+      <p><span class="post-date">{{ post.date | date_to_string }}</span> &middot; {{ post.content | remove:'<p>' | remove:'</p>' }}</p>
+  {% else %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {% if post.content contains "<!--more-->" or post.content contains "<!-- more -->" %}
-      {% if post.content contains "<!--more-->" %}
-        {{ post.content | split:"<!--more-->" | first % }}
+      {% if post.content contains "<!--more-->" or post.content contains "<!-- more -->" %}
+        {% if post.content contains "<!--more-->" %}
+          {{ post.content | split:"<!--more-->" | first % }}
+        {% else %}
+          {{ post.content | split:"<!-- more -->" | first %}}
+        {% endif %}
+        <strong><a href="{{ post.url }}">Continue reading →</a></strong>
       {% else %}
-        {{ post.content | split:"<!-- more -->" | first %}}
+        {{ post.content }}
       {% endif %}
-      <strong><a href="{{ post.url }}">Continue reading →</a></strong>
-    {% else %}
-      {{ post.content }}
     {% endif %}
   </div>
   {% endfor %}

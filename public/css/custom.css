@@ -29,6 +29,10 @@ figcaption {
   font-size: 0.9rem;
 }
 
+.theme-colin .content .aside .post-date {
+  display: inline;
+}
+
 .theme-colin .content .post-title,
 .theme-colin .content .page-title {
   font-family: "Abril Fatface", serif;
