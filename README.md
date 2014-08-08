@@ -15,9 +15,9 @@ This is really of no interest to anyone other than me and is for the moment a sc
 
 ## Todos
 
-- Remove fields from the frontmatter of each post that I don't use
-- Customize & optimize the theme
-- Switch out all emoticons for emoji
-- Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
-- Check each individual post & page and make they all render correctly.
-- Update Export plugin to grab all content types, not just posts and pages
+- [ ] Remove fields from the frontmatter of each post that I don't use
+- [ ] Customize & optimize the theme
+- [ ] Switch out all emoticons for emoji
+- [ ] Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
+- [ ] Check each individual post & page and make they all render correctly.
+- [x] Update Export plugin to grab all content types, not just posts and pages
