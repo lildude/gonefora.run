@@ -20,6 +20,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
   $
   ```
 
+- Changed all "link" layouts to "post"
 - Created individual directories for each of the files in `_pages` and copied the files to `[pagename]/index.html` - because I like URLs without `.html`
 
 
