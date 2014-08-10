@@ -29,6 +29,10 @@ figcaption {
   font-size: 0.9rem;
 }
 
+.theme-colin .content .aside {
+  margin-bottom: 4em;
+}
+
 .theme-colin .content .aside .post-date {
   display: inline;
 }
