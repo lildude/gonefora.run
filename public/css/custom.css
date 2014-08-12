@@ -12,6 +12,14 @@ img.emoji {
   margin: 0 0 0.3rem;
 }
 
+img.alignleft, img.left { float: left; }
+img.alignright, img.right { float: right; }
+img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
+img.alignnone, img.block { clear: both; display: block; }
+img[align="left"] { clear: left; float: left; }
+img[align="right"] { clear: right; float: right; }
+img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
+
 embed, object, video, iframe { max-width: 100%; }
 
 figcaption {
