@@ -56,6 +56,10 @@ figcaption {
   color: #3453a1;
 }
 
+.theme-colin .content ul.archives {
+  padding-left: 0;
+}
+
 .theme-colin .sidebar a:hover,
 .theme-colin .content a:hover {
   color: #bf0222;
