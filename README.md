@@ -14,15 +14,32 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - Copied all posts in `_links` to `_posts` and changed the post type in the process using:
 
   ```
-  $ for x in `ls -1`; do
-  for> sed 's/type: link/type: post/' $x > ../_posts/$x
+  $ for x in `ls -1 _links/`; do
+  for> sed 's/type: link/type: post/' $x > _posts/$x
   for> done
   $
   ```
 
-- Changed all "link" layouts to "post"
-- Created individual directories for each of the files in `_pages` and copied the files to `[pagename]/index.html` - because I like URLs without `.html`
+- Changed all "link" layouts to "post":
 
+  ```
+  $ for x in `ls -1 _posts/`; do
+  for> sed -i '' -e 's/layout: link/layout: post/' _posts/$x
+  for> done
+  $
+  ```
+
+- Created individual directories for each of the files in `_pages` and copied the files to `[pagename]/index.html` - because I like URLs without `.html`
+- Set absolute image paths - they're all relative `assets/[filename]`` which works on the front page, but not the individual posts page:
+
+  ```
+  $ for x in `ls -1 _posts/`; do
+  for> sed -i '' -e 's|src="assets|src="/assets|g' _posts/$x
+  for> done
+  $
+  ```
+
+- Do the same thing above for pages.
 
 ## Todos
 
