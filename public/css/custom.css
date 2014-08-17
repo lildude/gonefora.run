@@ -40,6 +40,10 @@ figcaption {
   font-size: 0.5rem;
 }
 
+.theme-colin .sidebar-about h1 {
+    line-height: 1em;
+}
+
 .theme-colin .sidebar-about .lead {
   font-size: 0.9rem;
 }
