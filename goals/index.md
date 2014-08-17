@@ -15,7 +15,7 @@ status: publish
 type: page
 published: true
 meta: {}
-author: 
+author:
 ---
 <h3>Goals</h3>
 <p>To try and motivate me and keep track of my barefoot running progress, I thought I'd draw up a list of goals I want to achieve.  This is a progression from running with shoes to running without or in a pair of Vibrams.  I've run all of these distances, and further, in shoes and now I want to do it barefoot/Vibramed.</p>
@@ -143,14 +143,12 @@ author:
 <tr>
 <td> </td>
 <td colspan="2"><strong>All Time PBs</strong></td>
-<td class="pad"> | </td>
 <td colspan="2"><strong>PBs Since Return</strong></td>
 </tr>
 <tr>
 <th>Dist</th>
 <th>Time</th>
 <th>Date</th>
-<td class="pad"></td>
 <th>Time</th>
 <th>Date</th>
 </tr>
@@ -158,7 +156,6 @@ author:
 <td class="number">5km Road</td>
 <td><strong>00:18:35</strong></td>
 <td>26 Jan '99</td>
-<td class="pad"></td>
 <td>--:--:--</td>
 <td> </td>
 </tr>
@@ -166,7 +163,6 @@ author:
 <td class="number">5km Off-road</td>
 <td>00:18:35</td>
 <td>26 Jan '99</td>
-<td class="pad"></td>
 <td><strong>00:17:10</strong></td>
 <td>21 Sep '13</td>
 </tr>
@@ -174,7 +170,6 @@ author:
 <td class="number">8km/5M Road</td>
 <td><strong>00:30:49</strong></td>
 <td>17 Nov '98</td>
-<td class="pad"></td>
 <td>--:--:--</td>
 <td> </td>
 </tr>
@@ -182,7 +177,6 @@ author:
 <td class="number">8km/5M Off-road</td>
 <td><strong>00:29:09</strong></td>
 <td>2 May '98</td>
-<td class="pad"></td>
 <td>00:32:03</td>
 <td>15 Jun '11</td>
 </tr>
@@ -190,7 +184,6 @@ author:
 <td class="number">10km</td>
 <td>00:36:52</td>
 <td>31 Dec '98</td>
-<td class="pad"></td>
 <td><strong>00:35:18</strong></td>
 <td>6 Oct '13</td>
 </tr>
@@ -198,7 +191,6 @@ author:
 <td class="number">15km</td>
 <td><strong>00:59:29</strong></td>
 <td>10 Jan '99</td>
-<td class="pad"></td>
 <td>--:--:--</td>
 <td> </td>
 </tr>
@@ -206,7 +198,6 @@ author:
 <td class="number">10M</td>
 <td>--:--:--</td>
 <td> </td>
-<td class="pad"></td>
 <td><strong>01:01:15</strong></td>
 <td>29 Mar '13</td>
 </tr>
@@ -214,7 +205,6 @@ author:
 <td class="number">21.1km</td>
 <td>01:26:31</td>
 <td>20 Apr '98</td>
-<td class="pad"></td>
 <td><strong>01:19:19</strong></td>
 <td>8 Sep '13</td>
 </tr>
@@ -222,7 +212,6 @@ author:
 <td class="number">42.2km</td>
 <td>04:11:13</td>
 <td>22 Feb '98</td>
-<td class="pad"></td>
 <td><strong>02:53:50</strong></td>
 <td>20 Oct '13</td>
 </tr>
@@ -230,7 +219,6 @@ author:
 <td class="number">56km</td>
 <td><strong>04:48:24</strong></td>
 <td>11 Apr '98</td>
-<td class="pad"></td>
 <td>--:--:--</td>
 <td> </td>
 </tr>
