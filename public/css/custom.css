@@ -12,6 +12,7 @@ img.emoji {
   margin: 0 0 0.3rem;
 }
 
+/*---:[ Image alignment ]:---*/
 img.alignleft, img.left { float: left; margin-right: 10px }
 img.alignright, img.right { float: right; margin-left: 10px }
 img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
@@ -19,6 +20,12 @@ img.alignnone, img.block { clear: both; display: block; }
 img[align="left"] { clear: left; float: left; margin-right: 10px }
 img[align="right"] { clear: right; float: right; margin-left: 10px }
 img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
+
+/*---:[ Other Alignment ]:---*/
+.center, .centered { margin: 0 auto; text-align: center; }
+.alignright { float: right; margin-left: 1.571em; }
+.alignleft { float: left; margin-right: 1.571em; }
+
 
 embed, object, video, iframe { max-width: 100%; }
 
@@ -58,6 +65,11 @@ figcaption {
 
 .theme-colin .content ul.archives {
   padding-left: 0;
+}
+
+.theme-colin .content .about_follow img {
+  display: inline;
+  margin-right: 20px;
 }
 
 .theme-colin .sidebar a:hover,
