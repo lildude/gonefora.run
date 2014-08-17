@@ -49,4 +49,5 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
 - [ ] Check each individual post & page and make they all render correctly.
 - [x] Update Export plugin to grab all content types, not just posts and pages
-- [ ] Add alignleft, alignright and center CSS for imgs
+- [x] Add alignleft, alignright and center CSS for imgs
+- [ ] Convert as much HTML to markdown as possible.
