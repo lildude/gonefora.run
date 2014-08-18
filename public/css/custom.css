@@ -41,7 +41,7 @@ figcaption {
 }
 
 .theme-colin .sidebar-about h1 {
-    line-height: 1em;
+  line-height: 1em;
 }
 
 .theme-colin .sidebar-about .lead {
@@ -61,8 +61,8 @@ figcaption {
   font-family: "Abril Fatface", serif;
 }
 
-.theme-colin .content a,
 .theme-colin .content .post-title,
+.theme-colin .content .post-title a,
 .theme-colin .content .page-title {
   color: #3453a1;
 }
