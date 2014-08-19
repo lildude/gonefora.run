@@ -51,3 +51,4 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Update Export plugin to grab all content types, not just posts and pages
 - [x] Add alignleft, alignright and center CSS for imgs
 - [ ] Convert as much HTML to markdown as possible.
+- [ ] Catch all changed URLs with the [Jekyll Redirect From plugin](https://github.com/jekyll/jekyll-redirect-from/)
