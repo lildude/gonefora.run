@@ -52,3 +52,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Add alignleft, alignright and center CSS for imgs
 - [ ] Convert as much HTML to markdown as possible.
 - [ ] Catch all changed URLs with the [Jekyll Redirect From plugin](https://github.com/jekyll/jekyll-redirect-from/)
+- [ ] Add a sitemap.xml
+- [ ] Add Google Analytics
+- [ ] Add Google Adsense
+- [ ] Add Google Webmaster tools header
