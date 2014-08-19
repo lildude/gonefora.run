@@ -35,6 +35,10 @@ figcaption {
   text-align: center;
 }
 
+figure img {
+  margin-bottom: 0;
+}
+
 /* theme-colin */
 .theme-colin .sidebar p {
   font-size: 0.5rem;
