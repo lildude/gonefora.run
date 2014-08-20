@@ -8,6 +8,7 @@ stash_dir       = "_stash"    # directory to stash posts for speedy generation
 drafts_dir      = "_drafts"   # directory for draft files
 posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"        # default new post file extension when using the new_post task
+editor          = "atom"      # default editor to use to open and edit your new posts
 
 ## -- Tasks -- ##
 
@@ -34,6 +35,7 @@ task :new_post, :title do |t, args|
     post.puts "type: post"
     post.puts "---"
   end
+  system "#{editor} #{filename}"
 end
 
 
