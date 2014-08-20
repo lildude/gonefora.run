@@ -43,7 +43,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 
 ## Todos
 
-- [ ] Remove fields from the frontmatter of each post that I don't use
+- [ ] Remove fields from the frontmatter of each post that I don't use (categories, meta, author, status, published)
 - [ ] Customize & optimize the theme
 - [ ] Switch out all emoticons for emoji
 - [x] Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
@@ -56,3 +56,5 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] Add Google Analytics
 - [ ] Add Google Adsense
 - [ ] Add Google Webmaster tools header
+- [ ] Update Export plugin so date is included in front matter else it's anyone's guess when the posts were originally created.
+- [ ] Add a Rakefile and borrow some of the ideas from Octopress
