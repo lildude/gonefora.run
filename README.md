@@ -42,7 +42,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 
   ```
   for x in `ls -1 _links/`; do
-  sed -e 's/type: link/type: post/' -e 's/layout: link/layout: post/' $x > _posts/$x
+  sed -e 's/type: link/type: post/' -e 's/layout: link/layout: post/' _links/$x > _posts/$x
   done
   ```
 
@@ -59,7 +59,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 
 ## Todos
 
-- [x] Remove fields from the frontmatter of each post that I don't use (categories, meta, author, status, published)
+- [x] Remove fields from the frontmatter of each post that I don't use (categories, meta, author, status)
 - [ ] Customize & optimize the theme
 - [ ] Switch out all emoticons for emoji
 - [x] Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
