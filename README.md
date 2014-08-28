@@ -38,16 +38,14 @@ This is really of no interest to anyone other than me and is for the moment a sc
   ```
 
 - Import all posts: `bundle exec ruby import.rb`
-- Copied all posts in `_links` to `_posts` and changed the post type and layout in the process using:
-
+- Copy all posts in `_links` to `_posts` and changed the post type and layout in the process using:
   ```
   for x in `ls -1 _links/`; do
   sed -e 's/type: link/type: post/' -e 's/layout: link/layout: post/' _links/$x > _posts/$x
   done
   ```
 
-- Created individual directories for each of the files in `_pages` and copied the files to `[pagename]/index.html` - because I like pretty URLs without `.html`
-
+- Create individual directories for each of the files in `_pages` and copied the files to `[pagename]/index.html` - because I like pretty URLs without `.html`
   ```
   for x in `ls -1 _pages/`; do
   dir=`echo $x | cut -d- -f4 | cut -d. -f1`
@@ -56,6 +54,22 @@ This is really of no interest to anyone other than me and is for the moment a sc
   done
   ```
 
+- Create `_drafts` and move all draft posts from `_posts` to `_drafts`:
+
+  ```
+  for x in `grep -l "published: false" _posts/*`; do
+  new=`echo $x | sed -e 's:_posts/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-::g'`
+  mv $x _drafts/$new
+  done
+  ```
+
+- Set `published` to true for all drafts as my theme will only display "published" posts when I use `jekyll server --drafts`:
+
+  ```
+  for x in `ls -1 _drafts/`; do
+  sed -i '' 's/published: false/published: true/' _drafts/$x
+  done
+  ```
 
 ## Todos
 
