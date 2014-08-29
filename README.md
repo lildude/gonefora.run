@@ -85,6 +85,6 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Add a sitemap.xml - using the code from http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/
 - [ ] Add Google Analytics
 - [ ] Add Google Adsense
-- [ ] Add Google Webmaster tools header
+- [x] Add Google Webmaster tools header
 - [x] Get date into frontmatter else it's anyone's guess when the posts were originally created.
 - [x] Add a Rakefile and borrow some of the ideas from Octopress
