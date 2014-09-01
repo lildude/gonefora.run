@@ -17,84 +17,97 @@ author:
 <p>I'm always trying to convert things between metric and imperial. I live in the UK which is entirely imperial when it comes to distance and speed, yet I'm from South Africa and thus am used to, and prefer, metric. This page of calculators is to help make my life easy.</p>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="/js/calcs2.js"></script>
-<div id="calculatorSection" class="section">
 
-        <div>
-            <fieldset id="calculatorWrapper">
-                <legend>NNM Pace Calculator JS <span class="version"></span></legend>
+<div>
+    <fieldset id="calculatorWrapper">
+        <legend>Pace Calculator</legend>
 
-                <form id="theForm">
+        <form id="theForm">
 
-                    <div id="distanceBlock">
-                        <div>
-                            Distance: <input id="distance" class="calculate" type="text" size="10">
-                            <select id="distanceUnit" class="calculate" accesskey="d">
-                            </select>
-                        </div>
-
-                        <div>
-                            Split distance:
-                            <select id="splitDistanceUnit" class="calculate">
-                                <option value="" selected="selected"></option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div id="timeBlock">
-                        Time: <input id="hours" class="calculate" type="text" size="5" placeholder="hour">
-                        : <input id="minutes" class="calculate" type="text" size="5" placeholder="min">
-                        : <input id="seconds" class="calculate" type="text" size="5" placeholder="sec">
-                    </div>
-
-                    <div id="paceBlock">
-                        Pace:
-                    <span id="timePerDistance">
-                        <input id="paceMinutes" class="calculate" type="text" size="5" placeholder="min">
-                        : <input id="paceSeconds" class="calculate" type="text" size="5" placeholder="sec">
-                    </span>
-                    <span id="distancePerTime">
-                        <input id="pace" class="calculate" type="text" size="8">
-                    </span>
-
-                        <select id="paceUnit" class="calculate" accesskey="p">
-                        </select>
-
-                    </div>
-
-                    <div id="buttonBlock">
-                        <button id="clear" type="reset">Clear fields</button>
-                    </div>
-
-                </form>
-            </fieldset>
-        </div>
-
-        <div>
-            <fieldset id="messageWrapper">
-                <legend>Messages</legend>
-                <div id="messages">
+            <div id="distanceBlock">
+                <div>
+                    Distance: <input id="distance" class="calculate" type="text" size="10">
+                    <select id="distanceUnit" class="calculate" accesskey="d"></select>
                 </div>
-            </fieldset>
-        </div>
 
-        <div>
-            <fieldset id="resultWrapper">
-                <legend>Results</legend>
-                <div id="results">
-                    <div id="distances"></div>
-                    <div id="times"></div>
-                    <div id="paces"></div>
+                <div>
+                    Split distance:
+                    <select id="splitDistanceUnit" class="calculate">
+                        <option value="" selected="selected"></option>
+                    </select>
                 </div>
-            </fieldset>
-        </div>
 
-        <div>
-            <fieldset id="splitTimeWrapper">
-                <legend>Split times</legend>
-                <div id="splitTimes">
-                </div>
-            </fieldset>
-        </div>
+            </div>
 
-    </div>
+            <div id="timeBlock">
+                Time: <input id="hours" class="calculate" type="text" size="5" placeholder="hour">
+                : <input id="minutes" class="calculate" type="text" size="5" placeholder="min">
+                : <input id="seconds" class="calculate" type="text" size="5" placeholder="sec">
+            </div>
+
+            <div id="paceBlock">
+                Pace:
+            <span id="timePerDistance">
+                <input id="paceMinutes" class="calculate" type="text" size="5" placeholder="min">
+                : <input id="paceSeconds" class="calculate" type="text" size="5" placeholder="sec">
+            </span>
+            <span id="distancePerTime">
+                <input id="pace" class="calculate" type="text" size="8">
+            </span>
+
+                <select id="paceUnit" class="calculate" accesskey="p">
+                </select>
+
+            </div>
+
+            <div id="buttonBlock">
+                <button id="clear" type="reset">Clear fields</button>
+            </div>
+
+        </form>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset id="messageWrapper">
+        <legend>Messages</legend>
+        <div id="messages">
+        </div>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset id="resultWrapper">
+        <legend>Results</legend>
+        <div id="results">
+            <div id="distances"></div>
+            <div id="times"></div>
+            <div id="paces"></div>
+        </div>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset id="splitTimeWrapper">
+        <legend>Split times</legend>
+        <div id="splitTimes">
+        </div>
+    </fieldset>
+</div>
+
+
+<!-- TODO -->
+<div>
+  <fieldset id="distanceWrapper">
+    <legend>Distance Conversion</legend>
+  </fieldset>
+</div>
+
+
+<!-- TODO -->
+<div>
+  <fieldset id="hrWrapper">
+    <legend>Heart Rate Zones</legend>
+    
+  </fieldset>
+</div>
