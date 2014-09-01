@@ -28,12 +28,9 @@ author:
                 <div>
                     Distance: <input id="distance" class="calculate" type="text" size="10">
                     <select id="distanceUnit" class="calculate" accesskey="d"></select>
-                </div>
-
-                <div>
-                    Split distance:
-                    <select id="splitDistanceUnit" class="calculate">
-                        <option value="" selected="selected"></option>
+                    or
+                    <select id="pickEvent" class="calculate">
+                      <option value="" selected="selected">Pick Event</option>
                     </select>
                 </div>
 
@@ -51,6 +48,7 @@ author:
                 <input id="paceMinutes" class="calculate" type="text" size="5" placeholder="min">
                 : <input id="paceSeconds" class="calculate" type="text" size="5" placeholder="sec">
             </span>
+
             <span id="distancePerTime">
                 <input id="pace" class="calculate" type="text" size="8">
             </span>
@@ -58,6 +56,17 @@ author:
                 <select id="paceUnit" class="calculate" accesskey="p">
                 </select>
 
+            </div>
+
+            <div>
+              Show splits: <input type="checkbox" name="showSplits">
+            </div>
+            
+            <div class="splits">
+                Split distance:
+                <select id="splitDistanceUnit" class="calculate">
+                    <option value="" selected="selected"></option>
+                </select>
             </div>
 
             <div id="buttonBlock">
@@ -108,6 +117,6 @@ author:
 <div>
   <fieldset id="hrWrapper">
     <legend>Heart Rate Zones</legend>
-    
+
   </fieldset>
 </div>
