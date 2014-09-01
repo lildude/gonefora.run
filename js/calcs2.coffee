@@ -22,7 +22,7 @@ SplitTime = (splitTimeInSeconds, splitNo, distanceUnit) ->
   @splitNo = splitNo
   @distanceUnit = distanceUnit
   return
-  
+
 clearAllInputFields = ->
   info "Clearing all input fields"
   $("#theForm input").each (index, element) ->
@@ -31,8 +31,8 @@ clearAllInputFields = ->
     #Not working in IE 7 and IE 8! element.value = null;
     element.value = ""
     return
-
   return
+
 initDistanceSelections = ->
   info "Initializing distances..."
   i = 0
@@ -47,6 +47,7 @@ initDistanceSelections = ->
     appendedSplitDistanceOption.attr "selected", "selected"  if SET_DEFAULT_FOR_SPLIT_DISTANCE and distance.unit is "km"
     i++
   return
+
 initPaceSelections = ->
   info "Initializing paces..."
   i = 0
@@ -59,6 +60,7 @@ initPaceSelections = ->
     i++
   showCorrectPaceFieldsForUser()
   return
+
 getDistanceDTO = (distanceUnit) ->
   info "Get distance DTO matching " + distanceUnit
   i = 0
@@ -69,6 +71,7 @@ getDistanceDTO = (distanceUnit) ->
       return distance
     i++
   null
+
 getPaceDTO = (paceUnit) ->
   info "Get pace DTO matching " + paceUnit
   i = 0
@@ -79,8 +82,10 @@ getPaceDTO = (paceUnit) ->
       return pace
     i++
   null
+
 isDistancePerTime = (paceUnit) ->
   getPaceDTO(paceUnit).distancePerTime
+
 init = ->
   info "Initializing..."
   $(".version").each (index, element) ->
@@ -143,17 +148,20 @@ init = ->
   logVisitor()
   $("#jsContent").show() # Show the page for JavaScript users.
   return
+
 logVisitor = ->
   if LOG_VISITORS
     debug "Logging visitor..."
     $.get "/logVisitorsVersionJS.php"
   return
+
 verifyStoragePossibility = ->
   if typeof (Storage) isnt "undefined"
     info "Can store user defined values"
   else
     info "Can NOT store user defined values"
   return
+
 doIt = ->
 
 #    validateUserInput();
@@ -161,6 +169,7 @@ doIt = ->
 #    calculate
 #    convert
 #    showresult
+
 calculate = ->
   printErrorMessages = (element, index, array) ->
     errMsg = $("<div class='error'>" + element + "</div>").appendTo("#messages")
@@ -274,6 +283,7 @@ calculate = ->
     showMessages()
   info " "
   return
+
 easterEggs = (distanceInMeters, timeInSeconds, paceInMetersPerSecond) ->
   addMessage = (msg) ->
     msgElement = $("<div>" + msg + "</div>").appendTo("#messages")
@@ -294,6 +304,7 @@ easterEggs = (distanceInMeters, timeInSeconds, paceInMetersPerSecond) ->
   else addMessage "This is the world record in 800 meters (held by David Rudisha)"  if timeInSeconds is 100.91  if distanceInMeters is 800
   showMessages()  if msgElement?
   return
+
 validateUserInput = ->
   addError = (errMsg) ->
     debug "Adding error: " + errMsg
@@ -327,6 +338,7 @@ validateUserInput = ->
   addError "Invalid time defined. Minutes must be less than 60 when also defining hours."  if context.minutesFromUser >= 60 and context.hoursFromUser > 0
   addError "Invalid pace time defined. Seconds must be less than 60 when also defining minutes."  if context.paceSecondsFromUser >= 60 and context.paceMinutesFromUser > 0
   return
+
 validateValues = ->
   isValid = true
   isValid &= validate(context.distanceFromUser)
@@ -337,10 +349,12 @@ validateValues = ->
   isValid &= validate(context.paceMinutesFromUser)
   isValid &= validate(context.paceSecondsFromUser)
   isValid
+
 validate = (number) ->
   return false  if number? and number < 0
   return false  if isNaN(number)
   true
+
 clearResult = ->
   info "Clearing result..."
   $("#distances").empty()
@@ -350,22 +364,27 @@ clearResult = ->
   $("#paces").empty()
   $("#paces").hide()
   return
+
 clearMessages = ->
   info "Clearing messages..."
   $("#messages").empty()
   return
+
 showMessages = ->
   info "Showing messages..."
   $("#messageWrapper").show()
   return
+
 showResults = ->
   info "Showing results..."
   $("#resultWrapper").show()
   return
+
 showSplitTimes = ->
   info "Showing split times..."
   $("#splitTimeWrapper").show()
   return
+
 addSplitTimesTable = (splitTimes) ->
   totalNumberOfElements = splitTimes.length
   rowsPerColumn = (Math.floor((totalNumberOfElements - 1) / (MAX_SPLIT_COLUMNS * SPLIT_INTERVAL)) + 1) * SPLIT_INTERVAL
@@ -417,12 +436,14 @@ addSplitTimesTable = (splitTimes) ->
   #    table += "</table>";
   $("#splitTimes").html table
   return
+
 hideResultInformation = ->
   info "Hiding result information..."
   $("#messageWrapper").hide()
   $("#resultWrapper").hide()
   $("#splitTimeWrapper").hide()
   return
+
 toHMS = (timeInSeconds, format) ->
   debug "Converting " + timeInSeconds + " s to " + format + "..."
   timeInSeconds = Math.round(timeInSeconds)
@@ -440,6 +461,7 @@ toHMS = (timeInSeconds, format) ->
   hms += Math.round(seconds)
   debug "HMS = " + hms
   hms
+
 convertTimes = (timeInSeconds, isTimeDefinedByUser) ->
   info "Converting times in result"
   $("#times").append "<div class='header'>Time</div>"
@@ -452,6 +474,7 @@ convertTimes = (timeInSeconds, isTimeDefinedByUser) ->
       timeHMS.addClass "definedUnit"
   $("#times").show()
   return
+
 convertDistances = (distanceInMeters, definedDistance) ->
   info "Converting distances in result"
   $("#distances").append "<div class='header'>Distance</div>"
@@ -470,6 +493,7 @@ convertDistances = (distanceInMeters, definedDistance) ->
     i++
   $("#distances").show()
   return
+
 convertPaces = (paceInMetersPerSecond, definedPace) ->
   info "Converting paces in result"
   $("#paces").append "<div class='header'>Pace</div>"
@@ -488,6 +512,7 @@ convertPaces = (paceInMetersPerSecond, definedPace) ->
     i++
   $("#paces").show()
   return
+
 round = (value, decimals) ->
   roundedValue = undefined
   if value < 10
@@ -499,6 +524,7 @@ round = (value, decimals) ->
   else
     roundedValue = value.toFixed(0)
   roundedValue
+
 showCorrectPaceFieldsForUser = ->
   selectedPaceUnit = $("#paceUnit").val()
   debug "PaceUnit = " + selectedPaceUnit
@@ -526,6 +552,7 @@ showCorrectPaceFieldsForUser = ->
 #        $("#pace").attr("disabled", "disabled");
 #        $("#paceMinutes").removeAttr("disabled");
 #        $("#paceSeconds").removeAttr("disabled");
+
 showCorrectMenuTab = (target) ->
   $("#menu div").each (index, element) ->
     info "Handling menu " + element.id
@@ -548,6 +575,7 @@ showCorrectMenuTab = (target) ->
   return
 
 #$(this).removeClass("current");
+
 debug = (message) ->
   console.log "[DEBUG] " + message  if DEBUG and message isnt ""
   return
