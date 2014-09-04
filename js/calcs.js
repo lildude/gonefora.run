@@ -27,9 +27,9 @@ if (INFO) {
 }
 
 var distances = [
-    new Distance("in", 0.0254, "inches"),
-    new Distance("ft", 0.3048, "feet"),
-    new Distance("yd", 0.9144, "yards"),
+    //new Distance("in", 0.0254, "inches"),
+    //new Distance("ft", 0.3048, "feet"),
+    //new Distance("yd", 0.9144, "yards"),
     new Distance("m", 1, "meters"),
     new Distance("100m", 100, "100 m splits"),
     new Distance("200m", 200, "200 m laps"),
@@ -37,8 +37,8 @@ var distances = [
     new Distance("500m", 500, "500 m splits"),
     new Distance("km", 1000, "kilometers"),
     new Distance("mi", 1609.344, "miles"),
-    new Distance("nmi", 1852, "nautical miles")
-//    new Distance("au", 149597870700, "astronomical units"),
+    //new Distance("nmi", 1852, "nautical miles")
+    //new Distance("au", 149597870700, "astronomical units"),
 ];
 
 var paces = [
@@ -48,13 +48,12 @@ var paces = [
     new Pace("/500m", 500, false),
     new Pace("/km", 1000, false),
     new Pace("/mi", 1609.344, false),
-    new Pace("/nmi", 1852, false),
-
-    new Pace("ft/s", 0.3048 / 1, true),
-    new Pace("m/s", 1 / 1, true),
+    //new Pace("/nmi", 1852, false),
+    //new Pace("ft/s", 0.3048 / 1, true),
+    //new Pace("m/s", 1 / 1, true),
     new Pace("km/h", 1000 / 3600, true),
     new Pace("mph", 1609.344 / 3600, true),
-    new Pace("knots", 1852 / 3600, true)
+    //new Pace("knots", 1852 / 3600, true)
 ];
 
 function Distance(unit, factor, longName) {
@@ -667,16 +666,19 @@ function convertTimes(timeInSeconds, isTimeDefinedByUser) {
     $("#times").append("<div class='header'>Time</div>");
 
     var timeHMS = $("<div><span class='resultValue'>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</span></div>").appendTo("#times");
-    var timeSeconds = $("<div><span class='resultValue'>" + Math.round(timeInSeconds) + "</span><span class='resultUnit'>s</span></div>").appendTo("#times");
+    //var timeSeconds = $("<div><span class='resultValue'>" + Math.round(timeInSeconds) + "</span><span class='resultUnit'>s</span></div>").appendTo("#times");
 
-    if (isTimeDefinedByUser) {
-        if (context.secondsFromUser >= 60) {
-            timeSeconds.addClass("definedUnit");
-        } else {
-            timeHMS.addClass("definedUnit");
-        }
+    // If time is defined by the user, don't show it.
+    //if (isTimeDefinedByUser) {
+        //if (context.secondsFromUser >= 60) {
+        //    timeSeconds.addClass("definedUnit");
+        //} else {
+    //        timeHMS.addClass("definedUnit");
+        //}
+    //}
+    if (! isTimeDefinedByUser) {
+      $("#times").show();
     }
-    $("#times").show();
 }
 
 function convertDistances(distanceInMeters, definedDistance) {
