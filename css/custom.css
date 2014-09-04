@@ -89,3 +89,25 @@ figure img {
   transition: color .25s linear,border-color .25s linear;
   text-decoration: none;
 }
+
+.theme-colin .resultValue {
+  width: 2.5em;
+  display: inline-block;
+}
+
+.theme-colin .resultUnit {
+  padding-left: 10px;
+}
+
+.theme-colin #distances,
+.theme-colin #paces,
+.theme-colin #times {
+  float: left;
+  min-width: 33%;
+}
+
+.theme-colin #distances .header,
+.theme-colin #paces .header,
+.theme-colin #times .header {
+  font-weight: bold;
+}
