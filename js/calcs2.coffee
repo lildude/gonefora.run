@@ -61,6 +61,17 @@ initPaceSelections = ->
   showCorrectPaceFieldsForUser()
   return
 
+initEventSelections = ->
+  info "Initializing events..."
+  i = 0
+  while i < events.length
+    event = events[i]
+    debug "Event: "
+    appendEventOption = $("<option value'" + event.unit +"'>'" + pace.name + "</option>").appendTo("#pickEvent")
+    i++
+  showEventFieldsForUser()
+  return
+
 getDistanceDTO = (distanceUnit) ->
   info "Get distance DTO matching " + distanceUnit
   i = 0
@@ -169,17 +180,32 @@ doIt = ->
 #    calculate
 #    convert
 #    showresult
+context = new Object()
 
 calculate = ->
+  info "Calculating..."
+
+  clearMessages()
+  hideResultInformation()
+  validateUserInput()
+
+  distanceInMeters = undefined
+  timeInSeconds = undefined
+  paceInMetersPerSecond = undefined
+
   printErrorMessages = (element, index, array) ->
     errMsg = $("<div class='error'>" + element + "</div>").appendTo("#messages")
     return
+
   decideDistanceInMeters = ->
     distanceInMeters = context.distanceFromUser * context.distance.factor
     return
+
   decideTimeInSeconds = ->
     timeInSeconds = 3600 * context.hoursFromUser + 60 * context.minutesFromUser + 1 * context.secondsFromUser
     return
+
+  # BUG: This is failing for some reason.
   decidePaceInMetersPerSecond = ->
     info "Deciding pace in m/s for " + context.pace.unit + "..."
     if isDistancePerTime(context.pace.unit)
@@ -190,24 +216,28 @@ calculate = ->
       paceInMetersPerSecond = context.pace.factor / (60 * context.paceMinutesFromUser + context.paceSecondsFromUser)
     debug "Decided pace to " + paceInMetersPerSecond + " m/s"
     return
+
   calculatePace = ->
     info "Calculating pace (v=s/t)..."
     decideDistanceInMeters()
     decideTimeInSeconds()
     paceInMetersPerSecond = distanceInMeters / timeInSeconds
     return
+
   calculateTime = ->
     info "Calculating time (t=s/v)..."
     decideDistanceInMeters()
     decidePaceInMetersPerSecond()
     timeInSeconds = distanceInMeters / paceInMetersPerSecond
     return
+
   calculateDistance = ->
     info "Calculating distance (s=v*t)..."
     decideTimeInSeconds()
     decidePaceInMetersPerSecond()
     distanceInMeters = paceInMetersPerSecond * timeInSeconds
     return
+
   calculateSplitTimes = ->
     info "Calculating split times..."
     splitTimes = new Array()
@@ -232,14 +262,9 @@ calculate = ->
     addSplitTimesTable splitTimes
     showSplitTimes()
     return
-  info "Calculating..."
-  clearMessages()
-  hideResultInformation()
-  validateUserInput()
-  distanceInMeters = undefined
-  timeInSeconds = undefined
-  paceInMetersPerSecond = undefined
+
   clearResult()
+
   if context.errors.length is 0
     if context.canCalculate
       info "Can calculate..."
@@ -277,6 +302,7 @@ calculate = ->
       #$("#times").html(toHMS(timeInSeconds));
       easterEggs distanceInMeters, timeInSeconds, paceInMetersPerSecond
       showResults()
+
   if context.errors.length > 0 # TODO
     info "Errors found: " + context.errors
     context.errors.forEach printErrorMessages
@@ -583,8 +609,8 @@ info = (message) ->
   console.log "[INFO]  " + message  if INFO and message isnt ""
   return
 
-DEBUG = false
-INFO = false
+DEBUG = true
+INFO = true
 DEFAULT_MENU = "calculator"
 CLEAR_ALL_FIELDS_WHEN_RELOAD = true
 SHOW_CLEAR_FIELDS_BUTTON = false
@@ -614,6 +640,7 @@ distances = [
   new Distance("mi", 1609.344, "miles")
   new Distance("nmi", 1852, "nautical miles")
 ]
+
 paces = [
   new Pace("/100m", 100, false)
   new Pace("/200m", 200, false)
@@ -628,7 +655,23 @@ paces = [
   new Pace("mph", 1609.344 / 3600, true)
   new Pace("knots", 1852 / 3600, true)
 ]
-context = new Object()
+
+events = [
+  new Event(42.195, "Marathon")
+  new Event(21.0975, "Half Marathon")
+  new Event(30, "30K")
+  new Event(25, "25K")
+  new Event(32.187, "20M")
+  new Event(24.140, "15M")
+  new Event(20, "20K")
+  new Event(16.093, "10M")
+  new Event(15, "15K")
+  new Event(10, "10K")
+  new Event(8, "8K")
+  new Event(8.047, "5M")
+  new Event(5, "5K")
+]
+
 $(document).ready ->
   init()
   return
