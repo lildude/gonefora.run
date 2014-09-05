@@ -90,6 +90,10 @@ figure img {
   text-decoration: none;
 }
 
+.theme-colin fieldset {
+  border: 0;
+}
+
 /* Notification colours borrowed from Bootstrap */
 .theme-colin .error,
 .theme-colin .success
