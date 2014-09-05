@@ -90,6 +90,31 @@ figure img {
   text-decoration: none;
 }
 
+/* Notification colours borrowed from Bootstrap */
+.theme-colin .error,
+.theme-colin .success
+.theme-colin .info
+.theme-colin .warning {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.theme-colin .error {
+  background-color: #f2dede;
+}
+
+.theme-colin .success {
+  background-color: #dff0d8,
+}
+
+.theme-colin .info {
+  background-color: #d9edf7,
+}
+
+.theme-colin .warning {
+  background-color: #fcf8e3;
+}
+
 .theme-colin .resultValue {
   width: 2.5em;
   display: inline-block;
