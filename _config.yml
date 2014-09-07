@@ -25,5 +25,10 @@ google-site-verification: X0GErJ8t4_IcMSb7Xy8JYdK8qlk_QoqgsxI3r94fe4A
 github:
   repo:           https://github.com/poole/hyde
 
+sass:
+  sass_dir:       _sass
+  style:          :compressed
+
+# Plugins
 gems:
   - jemoji
