@@ -2,141 +2,164 @@
  * My own CSS over-rides and customisations, independent of the main poole & hyde files
  */
 
-img {
-  height: auto;
-}
+.theme-colin {
+  img {
+    height: auto;
+  }
 
-img.emoji {
-  display: inline;
-  border-radius: 0;
-  margin: 0 0 0.3rem;
-}
+  img.emoji {
+    display: inline;
+    border-radius: 0;
+    margin: 0 0 0.3rem;
+  }
 
-/*---:[ Image alignment ]:---*/
-img.alignleft, img.left { float: left; margin-right: 10px }
-img.alignright, img.right { float: right; margin-left: 10px }
-img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
-img.alignnone, img.block { clear: both; display: block; }
-img[align="left"] { clear: left; float: left; margin-right: 10px }
-img[align="right"] { clear: right; float: right; margin-left: 10px }
-img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
+  /*---:[ Image alignment ]:---*/
+  img.alignleft, img.left { float: left; margin-right: 10px }
+  img.alignright, img.right { float: right; margin-left: 10px }
+  img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
+  img.alignnone, img.block { clear: both; display: block; }
+  img[align="left"] { clear: left; float: left; margin-right: 10px }
+  img[align="right"] { clear: right; float: right; margin-left: 10px }
+  img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
 
-/*---:[ Other Alignment ]:---*/
-.center, .centered { margin: 0 auto; text-align: center; }
-.alignright { float: right; margin-left: 1.571em; }
-.alignleft { float: left; margin-right: 1.571em; }
+  /*---:[ Other Alignment ]:---*/
+  .center, .centered { margin: 0 auto; text-align: center; }
+  .alignright { float: right; margin-left: 1.571em; }
+  .alignleft { float: left; margin-right: 1.571em; }
 
 
-embed, object, video, iframe { max-width: 100%; }
+  embed, object, video, iframe { max-width: 100%; }
 
-figcaption {
-  color: #999;
-  font-size: 0.9rem;
-  text-align: center;
-}
+  figcaption {
+    color: #999;
+    font-size: 0.9rem;
+    text-align: center;
+  }
 
-figure img {
-  margin-bottom: 0;
-}
+  figure img {
+    margin-bottom: 0;
+  }
 
-/* theme-colin */
-.theme-colin .sidebar p {
-  font-size: 0.5rem;
-}
+  .sidebar p {
+    font-size: 0.5rem;
+  }
 
-.theme-colin .sidebar-about h1 {
-  line-height: 1em;
-}
+  .sidebar-about h1 {
+    line-height: 1em;
+  }
 
-.theme-colin .sidebar-about .lead {
-  font-size: 0.9rem;
-}
+  .sidebar-about .lead {
+    font-size: 0.9rem;
+  }
 
-.theme-colin .content .aside {
-  margin-bottom: 4em;
-}
+  .content .aside {
+    margin-bottom: 4em;
+  }
 
-.theme-colin .content .aside .post-date {
-  display: inline;
-}
+  .content .aside .post-date {
+    display: inline;
+  }
 
-.theme-colin .content .post-title,
-.theme-colin .content .page-title {
-  font-family: "Abril Fatface", serif;
-}
+  .content .post-title,
+  .content .page-title {
+    font-family: "Abril Fatface", serif;
+  }
 
-.theme-colin .content .post-title,
-.theme-colin .content .post-title a,
-.theme-colin .content .page-title {
-  color: #3453a1;
-}
+  .content .post-title,
+  .content .post-title a,
+  .content .page-title {
+    color: #3453a1;
+  }
 
-.theme-colin .content ul.archives {
-  padding-left: 0;
-}
+  .content ul.archives {
+    padding-left: 0;
+  }
 
-.theme-colin .content .about_follow img {
-  display: inline;
-  margin-right: 20px;
-}
+  .content .about_follow img {
+    display: inline;
+    margin-right: 20px;
+  }
 
-.theme-colin .sidebar a:hover,
-.theme-colin .content a:hover {
-  color: #bf0222;
-  -webkit-transition: color .25s linear,border-color .25s linear;
-  -moz-transition: color .25s linear,border-color .25s linear;
-  -ms-transition: color .25s linear,border-color .25s linear;
-  transition: color .25s linear,border-color .25s linear;
-  text-decoration: none;
-}
+  .sidebar a:hover,
+  .content a:hover {
+    color: #bf0222;
+    -webkit-transition: color .25s linear,border-color .25s linear;
+    -moz-transition: color .25s linear,border-color .25s linear;
+    -ms-transition: color .25s linear,border-color .25s linear;
+    transition: color .25s linear,border-color .25s linear;
+    text-decoration: none;
+  }
 
-.theme-colin fieldset {
-  border: 0;
-}
 
-/* Notification colours borrowed from Bootstrap */
-.theme-colin .error,
-.theme-colin .success,
-.theme-colin .info,
-.theme-colin .warning {
-  padding: 5px;
-  border-radius: 5px;
-}
+  .sidebar .social-nav {
+    margin-bottom: 1rem;
+    a {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray;
+      filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>");
+    }
+    a:hover {
+      -webkit-filter: none;
+      filter: none;
+    }
+  }
 
-.theme-colin .error {
-  background-color: #f2dede;
-}
+  /* Taken directly from Strava - needs work */
+  .sidebar .strava-badge- { display: inline-block; height: 24px; }
+  .sidebar .strava-badge- img { visibility: hidden; height: 24px; }
+  .sidebar .strava-badge-:hover { background-position: 0 -37px; }
+  .sidebar .strava-badge-follow { height: 24px; width: 24px; background: url(//badges.strava.com/echelon-sprite-24.png) no-repeat 0 0;}
 
-.theme-colin .success {
-  background-color: #dff0d8;
-}
+  /*---:[ Calculators ]:---*/
+  fieldset {
+    border: 0;
+  }
 
-.theme-colin .info {
-  background-color: #d9edf7;
-}
+  /* Notification colours borrowed from Bootstrap */
+  .error,
+  .success,
+  .info,
+  .warning {
+    padding: 5px;
+    border-radius: 5px;
+  }
 
-.theme-colin .warning {
-  background-color: #fcf8e3;
-}
+  .error {
+    background-color: #f2dede;
+  }
 
-.theme-colin .resultValue {
-  width: 2.5em;
-  display: inline-block;
-}
+  .success {
+    background-color: #dff0d8;
+  }
 
-.theme-colin .resultUnit {
-  padding-left: 10px;
-}
+  .info {
+    background-color: #d9edf7;
+  }
 
-.theme-colin #distances,
-.theme-colin #paces,
-.theme-colin #times {
-  float: left;
-  min-width: 33%;
-}
+  .warning {
+    background-color: #fcf8e3;
+  }
 
-.theme-colin #distances .header,
-.theme-colin #paces .header,
-.theme-colin #times .header {
-  font-weight: bold;
+  .resultValue {
+    width: 2.5em;
+    display: inline-block;
+  }
+
+  .resultUnit {
+    padding-left: 10px;
+  }
+
+  #distances,
+  #paces,
+  #times {
+    float: left;
+    min-width: 33%;
+  }
+
+  #distances .header,
+  #paces .header,
+  #times .header {
+    font-weight: bold;
+  }
 }
