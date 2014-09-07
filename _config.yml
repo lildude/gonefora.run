@@ -27,7 +27,7 @@ github:
   repo:           https://github.com/poole/hyde
 
 sass:
-  sass_dir:       _sass
+  sass_dir:       _scss
   style:          :compressed
 
 # Plugins
