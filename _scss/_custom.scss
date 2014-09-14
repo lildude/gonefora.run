@@ -52,12 +52,24 @@
     font-size: 0.9rem;
   }
 
+  .content a {
+    color: #3453a1;
+    border-bottom: 1px solid #ccc;
+  }
+
   .content .aside {
     margin-bottom: 4em;
   }
 
   .content .aside .post-date {
     display: inline;
+  }
+
+  .content .post .more-link {
+    font-weight: bold;
+    a {
+      border: none;
+    }
   }
 
   .content .post-title,
@@ -69,6 +81,7 @@
   .content .post-title a,
   .content .page-title {
     color: #3453a1;
+    border: none;
   }
 
   .content ul.archives {
@@ -80,10 +93,7 @@
     margin-right: 20px;
   }
 
-  .content a {
-    color: #3453a1;
-    border-bottom: 1px solid #cccccc;
-  }
+
 
   .content .related-posts a {
     border: none;
@@ -98,27 +108,6 @@
     transition: color .25s linear,border-color .25s linear;
     text-decoration: none;
   }
-
-
-  .sidebar .social-nav {
-    margin-bottom: 1rem;
-    a {
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-      filter: gray;
-      filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>");
-    }
-    a:hover {
-      -webkit-filter: none;
-      filter: none;
-    }
-  }
-
-  /* Taken directly from Strava - needs work */
-  .sidebar .strava-badge- { display: inline-block; height: 24px; }
-  .sidebar .strava-badge- img { visibility: hidden; height: 24px; }
-  .sidebar .strava-badge-:hover { background-position: 0 -37px; }
-  .sidebar .strava-badge-follow { height: 24px; width: 24px; background: url(//badges.strava.com/echelon-sprite-24.png) no-repeat 0 0;}
 
   /*---:[ Calculators ]:---*/
   fieldset {
