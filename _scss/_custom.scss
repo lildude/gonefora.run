@@ -52,12 +52,24 @@
     font-size: 0.9rem;
   }
 
+  .content a {
+    color: #3453a1;
+    border-bottom: 1px solid #ccc;
+  }
+
   .content .aside {
     margin-bottom: 4em;
   }
 
   .content .aside .post-date {
     display: inline;
+  }
+
+  .content .post .more-link {
+    font-weight: bold;
+    a {
+      border: none;
+    }
   }
 
   .content .post-title,
@@ -69,6 +81,7 @@
   .content .post-title a,
   .content .page-title {
     color: #3453a1;
+    border: none;
   }
 
   .content ul.archives {
@@ -80,10 +93,7 @@
     margin-right: 20px;
   }
 
-  .content a {
-    color: #3453a1;
-    border-bottom: 1px solid #cccccc;
-  }
+
 
   .content .related-posts a {
     border: none;
