@@ -14,13 +14,14 @@ editor          = "atom"      # default editor to use to open and edit your new 
 
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{posts_dir}"
-task :new_post, :title do |t, args|
+task :new, :title do |t, args|
   if args.title
     title = args.title
   else
     title = get_stdin("Enter a title for your post: ")
   end
-  filename = "#{drafts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  #filename = "#{drafts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  filename = "#{drafts_dir}/#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
@@ -33,6 +34,7 @@ task :new_post, :title do |t, args|
     post.puts "tags:"
     post.puts "- "
     post.puts "type: post"
+    post.puts "published: true"
     post.puts "---"
   end
   system "#{editor} #{filename}"
