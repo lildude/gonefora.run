@@ -148,16 +148,40 @@
     padding-left: 10px;
   }
 
-  #distances,
-  #paces,
   #times {
+    max-width:15%;
+    td {
+      text-align: center;
+    }
+  }
+
+  #distances {
+    margin-right: 20px;
+  }
+
+  #distances,
+  #paces {
     float: left;
     width: 33%;
   }
 
-  #distances .header,
-  #paces .header,
-  #times .header {
-    font-weight: bold;
+  #distances,
+  #pace,
+  #times {
+    .header {
+      font-weight: bold;
+    }
   }
+
+  .splitTimes {
+    .special {
+      font-weight: bold;
+    }
+
+    .splitDistanceUnit {
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
+
 }
