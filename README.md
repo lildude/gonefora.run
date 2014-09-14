@@ -92,6 +92,6 @@ This is really of no interest to anyone other than me and is for the moment a sc
   - [ ] Publish draft post
   - [ ] Stash posts
 - [ ] Mark draft posts when running with `--drafts` so I can easily distinguish them.
-- [ ] MAYBE: Add fontawesone icons to posts in archives to distinguish types.
+- [ ] MAYBE: Add fontawesome icons to posts in archives to distinguish types.
 - [ ] Use local copies of remote assets when running locally
 - [ ] Determine a better method of detecting locally run than the current site.debug method I'm using
