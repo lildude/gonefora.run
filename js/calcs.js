@@ -217,7 +217,7 @@ function calculate() {
     validateUserInput();
 
     function printErrorMessages(element, index, array) {
-        var errMsg = $("<div class='error'>" + element + "</div>").appendTo("#messages");
+        var errMsg = $("<div class='error'>" + element + "</div>").appendTo(".messages");
     }
 
     var distanceInMeters;
@@ -399,7 +399,7 @@ function easterEggs(distanceInMeters, timeInSeconds, paceInMetersPerSecond) {
     }
 
     function addMessage(msg) {
-        msgElement = $("<div>" + msg + "</div>").appendTo("#messages");
+        msgElement = $("<div>" + msg + "</div>").appendTo(".messages");
     }
 }
 
@@ -504,22 +504,22 @@ function clearResult() {
 
 function clearMessages() {
     info("Clearing messages...");
-    $("#messages").empty();
+    $(".messages").empty();
 }
 
 function showMessages() {
     info("Showing messages...");
-    $("#messageWrapper").show();
+    $(".messageWrapper").show();
 }
 
 function showResults() {
     info("Showing results...");
-    $("#resultWrapper").show();
+    $(".resultWrapper").show();
 }
 
 function showSplitTimes() {
     info("Showing split times...");
-    $("#splitTimeWrapper").show();
+    $(".splitTimeWrapper").show();
 }
 
 function addSplitTimesTable(splitTimes) {
@@ -577,14 +577,14 @@ function addSplitTimesTable(splitTimes) {
 //    table += "</tr>";
 //    table += "</table>";
 
-    $("#splitTimes").html(table);
+    $(".splitTimes").html(table);
 }
 
 function hideResultInformation() {
     info("Hiding result information...");
-    $("#messageWrapper").hide();
-    $("#resultWrapper").hide();
-    $("#splitTimeWrapper").hide();
+    $(".messageWrapper").hide();
+    $(".resultWrapper").hide();
+    $(".splitTimeWrapper").hide();
 }
 
 function toHMS(timeInSeconds, format) {
