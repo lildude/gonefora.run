@@ -171,14 +171,6 @@ function init() {
         clearResult();
     });
 
-    $("#menu div").click(function (event) {
-        info("Clicking on event " + event.target.id);
-        info("Clicking on event " + event.target);
-        var target = event.target;
-
-        showCorrectMenuTab(target);
-    });
-
 
     clearMessages();
     hideResultInformation();
@@ -740,27 +732,6 @@ function showCorrectPaceFieldsForUser() {
 //        $("#paceMinutes").removeAttr("disabled");
 //        $("#paceSeconds").removeAttr("disabled");
     }
-}
-
-function showCorrectMenuTab(target) {
-    $("#menu div").each(function (index, element) {
-        info("Handling menu " + element.id);
-        if (element.id == target.id) {
-            $(this).addClass("current");
-        } else {
-            $(this).removeClass("current");
-        }
-    });
-    $("#sections div.section").each(function (index, element) {
-        debug("Handling section " + element.id);
-        if (element.id == target.id + "Section") {
-            $(this).show();
-            //$(this).addClass("current");
-        } else {
-            $(this).hide();
-            //$(this).removeClass("current");
-        }
-    });
 }
 
 function debug(message) {
