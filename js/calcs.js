@@ -5,15 +5,9 @@
 
 var DEBUG = false;
 var INFO = false;
-var DEFAULT_MENU = "calculator";
 var CLEAR_ALL_FIELDS_WHEN_RELOAD = true;
 var SHOW_CLEAR_FIELDS_BUTTON = false;
 var SET_DEFAULT_FOR_SPLIT_DISTANCE = false;
-var LOG_VISITORS = false;
-
-var VERSION = "1.2";
-var RELEASE_DATE = "2013-09-30";
-var REVISED_DATE = "2014-01-18";
 
 var MAX_SPLIT_COLUMNS = 5; // TODO Named MAX_SPLIT_ROWS in original NNM Pace Calculator.
 var SPLIT_INTERVAL = 10;
@@ -150,21 +144,9 @@ function isDistancePerTime(paceUnit) {
 function init() {
     info("Initializing...");
 
-    $(".version").each(function (index, element) {
-        $(this).text(VERSION);
-    });
-
     if (DEBUG || INFO) {
         $("#logStatus").text("#### LOGGING IS ON #####");
     }
-
-    $(".releaseDate").each(function (index, element) {
-        $(this).text(RELEASE_DATE);
-    });
-
-    $(".revisedDate").each(function (index, element) {
-        $(this).text(REVISED_DATE);
-    });
 
     $(".currentYear").each(function (index, element) {
         $(this).text(new Date().getFullYear());
@@ -204,7 +186,6 @@ function init() {
 
     clearMessages();
     hideResultInformation();
-    showCorrectMenuTab($("#" + DEFAULT_MENU).get(0));// TODO Finns bÃ¤ttre sÃ¤tt???
     initDistanceSelections();
     initPaceSelections();
     if (CLEAR_ALL_FIELDS_WHEN_RELOAD) {
@@ -218,19 +199,7 @@ function init() {
         calculate();
     }
 
-    // I have started to implement the next version 2012-10-07, which will have Configuration.
-    //verifyStoragePossibility();
-
-    logVisitor();
-
     $("#jsContent").show(); // Show the page for JavaScript users.
-}
-
-function logVisitor() {
-    if (LOG_VISITORS) {
-        debug("Logging visitor...");
-        $.get("/logVisitorsVersionJS.php");
-    }
 }
 
 function verifyStoragePossibility() {
