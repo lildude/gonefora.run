@@ -24,7 +24,7 @@ title: Home
         {% else %}
           {{ post.content | split:"<!-- more -->" | first %}}
         {% endif %}
-        <strong><a href="{{ post.url }}">Continue reading →</a></strong>
+        <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
       {% else %}
         {{ post.content }}
       {% endif %}
