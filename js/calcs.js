@@ -152,10 +152,6 @@ function init() {
         $(this).text(new Date().getFullYear());
     });
 
-    $(".contactEmail").each(function (index, element) {
-        $(this).append("anders<span>at</span>nemonisimors<span>dot</span>com");
-    });
-
     $("#paceUnit").change(function (event) {
         showCorrectPaceFieldsForUser();
 
