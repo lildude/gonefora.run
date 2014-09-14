@@ -620,9 +620,10 @@ function toHMS(timeInSeconds, format) {
 function convertTimes(timeInSeconds, isTimeDefinedByUser) {
     info("Converting times in result");
 
-    $("#times").append("<div class='header'>Time</div>");
-
-    var timeHMS = $("<div><span class='resultValue'>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</span></div>").appendTo("#times");
+    //$("#times").append("<div class='header'>Time</div>");
+    $("#times").append("<tr><th>Time</th></tr>");
+    //var timeHMS = $("<div><span class='resultValue'>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</span></div>").appendTo("#times");
+    var timeHMS = $("<tr><td>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</td></tr>").appendTo("#times");
     //var timeSeconds = $("<div><span class='resultValue'>" + Math.round(timeInSeconds) + "</span><span class='resultUnit'>s</span></div>").appendTo("#times");
 
     // If time is defined by the user, don't show it.
@@ -641,8 +642,8 @@ function convertTimes(timeInSeconds, isTimeDefinedByUser) {
 function convertDistances(distanceInMeters, definedDistance) {
     info("Converting distances in result");
 
-    $("#distances").append("<div class='header'>Distance</div>");
-
+    //$("#distances").append("<div class='header'>Distance</div>");
+    $("#distances").append("<tr><th colspan=2>Distance</th></tr>");
     for (i = 0; i < distances.length; i++) {
         var distance = distances[i];
         var distanceUnit = distance.unit;
@@ -652,7 +653,8 @@ function convertDistances(distanceInMeters, definedDistance) {
         var convertedDistance = distanceInMeters / distanceFactor;
         convertedDistance = round(convertedDistance, 3);
 
-        var appendedDistance = $("<div><span class='resultValue'>" + convertedDistance + "</span><span class='resultUnit'>" + distanceUnitLong + "</span></div>").appendTo("#distances");
+        //var appendedDistance = $("<div><span class='resultValue'>" + convertedDistance + "</span><span class='resultUnit'>" + distanceUnitLong + "</span></div>").appendTo("#distances");
+        var appendedDistance = $("<tr><td>" + convertedDistance + "</td><td>" + distanceUnitLong + "</td></tr>").appendTo("#distances");
         if (definedDistance != null) {
             debug("Comparing " + definedDistance.unit + " with " + distanceUnit);
             if (definedDistance.unit == distanceUnit) {
@@ -666,8 +668,8 @@ function convertDistances(distanceInMeters, definedDistance) {
 function convertPaces(paceInMetersPerSecond, definedPace) {
     info("Converting paces in result");
 
-    $("#paces").append("<div class='header'>Pace</div>");
-
+    //$("#paces").append("<div class='header'>Pace</div>");
+    $("#paces").append("<tr><th colspan=2>Pace</th></tr>");
     for (i = 0; i < paces.length; i++) {
         var pace = paces[i];
         var paceUnit = pace.unit;
@@ -677,7 +679,8 @@ function convertPaces(paceInMetersPerSecond, definedPace) {
         var convertedPace = isDistancePerTime ? paceInMetersPerSecond / paceFactor : paceFactor / paceInMetersPerSecond;
         convertedPace = isDistancePerTime ? round(convertedPace, 2) : toHMS(Math.round(convertedPace), "mm:ss");
 
-        var appendedPace = $("<div><span class='resultValue'>" + convertedPace + "</span><span class='resultUnit'>" + paceUnit + "</span></div>").appendTo("#paces");
+        //var appendedPace = $("<div><span class='resultValue'>" + convertedPace + "</span><span class='resultUnit'>" + paceUnit + "</span></div>").appendTo("#paces");
+        var appendedPace = $("<tr><td>" + convertedPace + "</td><td>" + paceUnit + "</td></tr>").appendTo("#paces");
         if (definedPace != null) {
             debug("Comparing " + definedPace.unit + " with " + paceUnit);
             if (definedPace.unit == paceUnit) {
