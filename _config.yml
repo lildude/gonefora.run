@@ -15,6 +15,7 @@ baseurl:          /
 author:
   name:           'Colin Seymour'
   url:            https://twitter.com/lildude
+  twitter:        '@lildude'
 
 paginate:         5
 
