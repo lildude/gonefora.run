@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>power_of_ten-logo 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Rectangle-6" fill="#FFFFFF" sketch:type="MSShapeGroup" x="-8" y="-2" width="139" height="139"></rect>
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(14.000000, 21.000000)">
+            <path d="M58,84 C77.3299662,84 93,68.3299662 93,49 C93,29.6700338 77.3299662,14 58,14 C38.6700338,14 23,29.6700338 23,49 C23,68.3299662 38.6700338,84 58,84 Z M58,67 C67.9411255,67 76,58.9411255 76,49 C76,39.0588745 67.9411255,31 58,31 C48.0588745,31 40,39.0588745 40,49 C40,58.9411255 48.0588745,67 58,67 Z" id="Oval-1" fill="#F22126" sketch:type="MSShapeGroup"></path>
+            <path d="M0,31 L0,84 L18,84 L18,31 L0,31 Z M18,13.3212891 L18,31 L0,31 L18,13.3212891 Z" id="Rectangle-1" fill="#F22126" sketch:type="MSShapeGroup"></path>
+            <path d="M90,5 L90,0 L107,0 L107,17 L102,17 L102,5 L90,5 L90,5 Z M90,0.0892469618 L90,5 L85,5 L90,0.0892469618 Z M102,21.910753 L102,17 L107,17 L102,21.910753 Z" id="Rectangle-3" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M81,14 L81,9 L98,9 L98,26 L93,26 L93,14 L81,14 L81,14 Z M81,9.08924696 L81,14 L76,14 L81,9.08924696 Z M93,30.910753 L93,26 L98,26 L93,30.910753 Z" id="Rectangle-4" fill="#000000" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
