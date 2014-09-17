@@ -5,15 +5,9 @@
 
 var DEBUG = false;
 var INFO = false;
-var DEFAULT_MENU = "calculator";
 var CLEAR_ALL_FIELDS_WHEN_RELOAD = true;
 var SHOW_CLEAR_FIELDS_BUTTON = false;
 var SET_DEFAULT_FOR_SPLIT_DISTANCE = false;
-var LOG_VISITORS = false;
-
-var VERSION = "1.2";
-var RELEASE_DATE = "2013-09-30";
-var REVISED_DATE = "2014-01-18";
 
 var MAX_SPLIT_COLUMNS = 5; // TODO Named MAX_SPLIT_ROWS in original NNM Pace Calculator.
 var SPLIT_INTERVAL = 10;
@@ -150,28 +144,12 @@ function isDistancePerTime(paceUnit) {
 function init() {
     info("Initializing...");
 
-    $(".version").each(function (index, element) {
-        $(this).text(VERSION);
-    });
-
     if (DEBUG || INFO) {
         $("#logStatus").text("#### LOGGING IS ON #####");
     }
 
-    $(".releaseDate").each(function (index, element) {
-        $(this).text(RELEASE_DATE);
-    });
-
-    $(".revisedDate").each(function (index, element) {
-        $(this).text(REVISED_DATE);
-    });
-
     $(".currentYear").each(function (index, element) {
         $(this).text(new Date().getFullYear());
-    });
-
-    $(".contactEmail").each(function (index, element) {
-        $(this).append("anders<span>at</span>nemonisimors<span>dot</span>com");
     });
 
     $("#paceUnit").change(function (event) {
@@ -193,18 +171,9 @@ function init() {
         clearResult();
     });
 
-    $("#menu div").click(function (event) {
-        info("Clicking on event " + event.target.id);
-        info("Clicking on event " + event.target);
-        var target = event.target;
-
-        showCorrectMenuTab(target);
-    });
-
 
     clearMessages();
     hideResultInformation();
-    showCorrectMenuTab($("#" + DEFAULT_MENU).get(0));// TODO Finns bÃ¤ttre sÃ¤tt???
     initDistanceSelections();
     initPaceSelections();
     if (CLEAR_ALL_FIELDS_WHEN_RELOAD) {
@@ -218,19 +187,7 @@ function init() {
         calculate();
     }
 
-    // I have started to implement the next version 2012-10-07, which will have Configuration.
-    //verifyStoragePossibility();
-
-    logVisitor();
-
     $("#jsContent").show(); // Show the page for JavaScript users.
-}
-
-function logVisitor() {
-    if (LOG_VISITORS) {
-        debug("Logging visitor...");
-        $.get("/logVisitorsVersionJS.php");
-    }
 }
 
 function verifyStoragePossibility() {
@@ -260,7 +217,7 @@ function calculate() {
     validateUserInput();
 
     function printErrorMessages(element, index, array) {
-        var errMsg = $("<div class='error'>" + element + "</div>").appendTo("#messages");
+        var errMsg = $("<div class='error'>" + element + "</div>").appendTo(".messages");
     }
 
     var distanceInMeters;
@@ -442,7 +399,7 @@ function easterEggs(distanceInMeters, timeInSeconds, paceInMetersPerSecond) {
     }
 
     function addMessage(msg) {
-        msgElement = $("<div>" + msg + "</div>").appendTo("#messages");
+        msgElement = $("<div>" + msg + "</div>").appendTo(".messages");
     }
 }
 
@@ -547,22 +504,22 @@ function clearResult() {
 
 function clearMessages() {
     info("Clearing messages...");
-    $("#messages").empty();
+    $(".messages").empty();
 }
 
 function showMessages() {
     info("Showing messages...");
-    $("#messageWrapper").show();
+    $(".messageWrapper").show();
 }
 
 function showResults() {
     info("Showing results...");
-    $("#resultWrapper").show();
+    $(".resultWrapper").show();
 }
 
 function showSplitTimes() {
     info("Showing split times...");
-    $("#splitTimeWrapper").show();
+    $(".splitTimeWrapper").show();
 }
 
 function addSplitTimesTable(splitTimes) {
@@ -620,14 +577,14 @@ function addSplitTimesTable(splitTimes) {
 //    table += "</tr>";
 //    table += "</table>";
 
-    $("#splitTimes").html(table);
+    $(".splitTimes").html(table);
 }
 
 function hideResultInformation() {
     info("Hiding result information...");
-    $("#messageWrapper").hide();
-    $("#resultWrapper").hide();
-    $("#splitTimeWrapper").hide();
+    $(".messageWrapper").hide();
+    $(".resultWrapper").hide();
+    $(".splitTimeWrapper").hide();
 }
 
 function toHMS(timeInSeconds, format) {
@@ -663,9 +620,10 @@ function toHMS(timeInSeconds, format) {
 function convertTimes(timeInSeconds, isTimeDefinedByUser) {
     info("Converting times in result");
 
-    $("#times").append("<div class='header'>Time</div>");
-
-    var timeHMS = $("<div><span class='resultValue'>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</span></div>").appendTo("#times");
+    //$("#times").append("<div class='header'>Time</div>");
+    $("#times").append("<tr><th>Time</th></tr>");
+    //var timeHMS = $("<div><span class='resultValue'>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</span></div>").appendTo("#times");
+    var timeHMS = $("<tr><td>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</td></tr>").appendTo("#times");
     //var timeSeconds = $("<div><span class='resultValue'>" + Math.round(timeInSeconds) + "</span><span class='resultUnit'>s</span></div>").appendTo("#times");
 
     // If time is defined by the user, don't show it.
@@ -684,8 +642,8 @@ function convertTimes(timeInSeconds, isTimeDefinedByUser) {
 function convertDistances(distanceInMeters, definedDistance) {
     info("Converting distances in result");
 
-    $("#distances").append("<div class='header'>Distance</div>");
-
+    //$("#distances").append("<div class='header'>Distance</div>");
+    $("#distances").append("<tr><th colspan=2>Distance</th></tr>");
     for (i = 0; i < distances.length; i++) {
         var distance = distances[i];
         var distanceUnit = distance.unit;
@@ -695,7 +653,8 @@ function convertDistances(distanceInMeters, definedDistance) {
         var convertedDistance = distanceInMeters / distanceFactor;
         convertedDistance = round(convertedDistance, 3);
 
-        var appendedDistance = $("<div><span class='resultValue'>" + convertedDistance + "</span><span class='resultUnit'>" + distanceUnitLong + "</span></div>").appendTo("#distances");
+        //var appendedDistance = $("<div><span class='resultValue'>" + convertedDistance + "</span><span class='resultUnit'>" + distanceUnitLong + "</span></div>").appendTo("#distances");
+        var appendedDistance = $("<tr><td>" + convertedDistance + "</td><td>" + distanceUnitLong + "</td></tr>").appendTo("#distances");
         if (definedDistance != null) {
             debug("Comparing " + definedDistance.unit + " with " + distanceUnit);
             if (definedDistance.unit == distanceUnit) {
@@ -709,8 +668,8 @@ function convertDistances(distanceInMeters, definedDistance) {
 function convertPaces(paceInMetersPerSecond, definedPace) {
     info("Converting paces in result");
 
-    $("#paces").append("<div class='header'>Pace</div>");
-
+    //$("#paces").append("<div class='header'>Pace</div>");
+    $("#paces").append("<tr><th colspan=2>Pace</th></tr>");
     for (i = 0; i < paces.length; i++) {
         var pace = paces[i];
         var paceUnit = pace.unit;
@@ -720,7 +679,8 @@ function convertPaces(paceInMetersPerSecond, definedPace) {
         var convertedPace = isDistancePerTime ? paceInMetersPerSecond / paceFactor : paceFactor / paceInMetersPerSecond;
         convertedPace = isDistancePerTime ? round(convertedPace, 2) : toHMS(Math.round(convertedPace), "mm:ss");
 
-        var appendedPace = $("<div><span class='resultValue'>" + convertedPace + "</span><span class='resultUnit'>" + paceUnit + "</span></div>").appendTo("#paces");
+        //var appendedPace = $("<div><span class='resultValue'>" + convertedPace + "</span><span class='resultUnit'>" + paceUnit + "</span></div>").appendTo("#paces");
+        var appendedPace = $("<tr><td>" + convertedPace + "</td><td>" + paceUnit + "</td></tr>").appendTo("#paces");
         if (definedPace != null) {
             debug("Comparing " + definedPace.unit + " with " + paceUnit);
             if (definedPace.unit == paceUnit) {
@@ -775,27 +735,6 @@ function showCorrectPaceFieldsForUser() {
 //        $("#paceMinutes").removeAttr("disabled");
 //        $("#paceSeconds").removeAttr("disabled");
     }
-}
-
-function showCorrectMenuTab(target) {
-    $("#menu div").each(function (index, element) {
-        info("Handling menu " + element.id);
-        if (element.id == target.id) {
-            $(this).addClass("current");
-        } else {
-            $(this).removeClass("current");
-        }
-    });
-    $("#sections div.section").each(function (index, element) {
-        debug("Handling section " + element.id);
-        if (element.id == target.id + "Section") {
-            $(this).show();
-            //$(this).addClass("current");
-        } else {
-            $(this).hide();
-            //$(this).removeClass("current");
-        }
-    });
 }
 
 function debug(message) {
