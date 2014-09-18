@@ -95,3 +95,9 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] MAYBE: Add fontawesome icons to posts in archives to distinguish types.
 - [ ] Use local copies of remote assets when running locally
 - [ ] Determine a better method of detecting locally run than the current site.debug method I'm using
+
+## Research material for enhancing rakefile
+
+- http://davidensinger.com/2013/04/deploying-jekyll-to-github-pages/
+- http://davidensinger.com/2013/07/easy-sass-source-maps-with-development-environments-and-rake/
+- http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
