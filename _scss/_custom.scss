@@ -95,7 +95,8 @@
 
 
 
-  .content .related-posts a {
+  .content .related-posts a,
+  .content .about_follow a {
     border: none;
   }
 
@@ -108,6 +109,36 @@
     transition: color .25s linear,border-color .25s linear;
     text-decoration: none;
   }
+
+  .sidebar .social-nav {
+    margin-bottom: 1rem;
+    img {
+      border-radius: 15px; // Makes round icons
+      display: inline-block;
+      margin: 0;
+      width: 24px;
+      height: 24px;
+    }
+    /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
+    a {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray;
+      filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='28' width='28'><filter id='greyscale'><feColorMatrix type='matrix' values='0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0 0 0 1 0' /></filter></svg>");
+    }
+    a:hover {
+      -webkit-filter: none;
+      filter: none;
+    }
+    */
+  }
+
+  /* Taken directly from Strava - needs work */
+  //.sidebar .strava-badge,
+  //.sidebar .fetch-badge { display: inline-block; height: 48px; }
+  //.sidebar .strava-badge- img { visibility: hidden; height: 24px; }
+  //.sidebar .strava-badge-:hover { background-position: 0 -37px; }
+  //.sidebar .strava-badge-follow { height: 24px; width: 24px; background: url(/img/strava-logo-orange.svg) no-repeat 0 0;}
 
   /*---:[ Calculators ]:---*/
   fieldset {
@@ -148,16 +179,40 @@
     padding-left: 10px;
   }
 
-  #distances,
-  #paces,
   #times {
-    float: left;
-    min-width: 33%;
+    max-width:15%;
+    td {
+      text-align: center;
+    }
   }
 
-  #distances .header,
-  #paces .header,
-  #times .header {
-    font-weight: bold;
+  #distances {
+    margin-right: 20px;
   }
+
+  #distances,
+  #paces {
+    float: left;
+    width: 33%;
+  }
+
+  #distances,
+  #pace,
+  #times {
+    .header {
+      font-weight: bold;
+    }
+  }
+
+  .splitTimes {
+    .special {
+      font-weight: bold;
+    }
+
+    .splitDistanceUnit {
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
+
 }

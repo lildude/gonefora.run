@@ -29,10 +29,11 @@ published: true
                 <div>
                     Distance: <input id="distance" class="calculate" type="text" size="10">
                     <select id="distanceUnit" class="calculate" accesskey="d"></select>
-                    or
+                    <!-- or
                     <select id="pickEvent" class="calculate">
                       <option value="" selected="selected">Pick Event</option>
                     </select>
+                    -->
                 </div>
 
             </div>
@@ -75,29 +76,27 @@ published: true
 </div>
 
 <div>
-    <fieldset id="messageWrapper">
-        <!--legend>Messages</legend-->
-        <div id="messages">
+    <fieldset class="messageWrapper">
+        <div class="messages">
         </div>
     </fieldset>
 </div>
 
 <div>
-    <fieldset id="resultWrapper">
+    <fieldset class="resultWrapper">
         <h3>Results</h3>
-        <div id="results">
-            <div id="distances"></div>
-            <div id="times"></div>
-            <div id="paces"></div>
+        <div class="results">
+          <table id="times"><tbody></tbody></table>
+          <table id="distances"><tbody></tbody></table>
+          <table id="paces"><tbody></tbody></table>
         </div>
     </fieldset>
 </div>
 
 <div>
-    <fieldset id="splitTimeWrapper">
+    <fieldset class="splitTimeWrapper">
         <h3>Split times</h3>
-        <div id="splitTimes">
-        </div>
+        <div class="splitTimes"></div>
     </fieldset>
 </div>
 
@@ -105,6 +104,6 @@ published: true
 <div>
   <fieldset id="hrWrapper">
     <h3>Heart Rate Zones</h3>
-
+    <div id="hrZones">Coming soon</div>
   </fieldset>
 </div>
