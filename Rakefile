@@ -41,6 +41,7 @@ task :new, :title do |t, args|
 end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
+require "reduce"
 desc "Minify _site/"
 task :minify do
   puts "\n## Compressing static assets"
