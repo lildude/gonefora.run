@@ -46,7 +46,7 @@ end
 require "reduce"
 desc "Minify _site/"
 task :minify do
-  puts "\n## Compressing static assets".yellow
+  puts "\n## Compressing static assets"
   original = 0.0
   compressed = 0
   Dir.glob("_site/**/*.*") do |file|
@@ -64,16 +64,16 @@ task :minify do
         puts "Skipping: #{file}"
       end
   end
-  puts "Total compression %0.2f\%".green % (((original-compressed)/original)*100)
+  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
 end
 
 # Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
 desc "Deploy _site/ to gh-pages branch"
 task :deploy do
   puts "\n## Deleting gh-pages branch".yellow
-  ok_failed(system("git branch -D gh-pages"))
+  ok_failed(system("git branch -D gh-pages 1>/dev/null"))
   puts "\n## Creating new gh-pages branch and switching to it".yellow
-  ok_failed(system("git checkout -b gh-pages"))
+  ok_failed(system("git checkout -b gh-pages 1>/dev/null"))
   puts "\n## Generating _site content".yellow
   ok_failed(system("jekyll build"))
   puts "\n## Removing _site from .gitignore".yellow
