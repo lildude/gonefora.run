@@ -41,6 +41,8 @@ task :new, :title do |t, args|
 end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
+# TODO: Add an "all" option
+# TODO: Add an option that only optimizes the latest post
 require "reduce"
 desc "Minify _site/"
 task :minify do
@@ -49,7 +51,8 @@ task :minify do
   compressed = 0
   Dir.glob("_site/**/*.*") do |file|
     case File.extname(file)
-      when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
+      #when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
+      when ".css", ".html"
         puts "Processing: #{file}"
         original += File.size(file).to_f
         min = Reduce.reduce(file)
