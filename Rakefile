@@ -46,7 +46,7 @@ end
 require "reduce"
 desc "Minify _site/"
 task :minify do
-  puts "\n## Compressing static assets"
+  puts "\n## Compressing static assets".yellow
   original = 0.0
   compressed = 0
   Dir.glob("_site/**/*.*") do |file|
@@ -64,7 +64,7 @@ task :minify do
         puts "Skipping: #{file}"
       end
   end
-  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
+  puts "Total compression %0.2f\%".green % (((original-compressed)/original)*100)
 end
 
 # Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
@@ -74,31 +74,31 @@ task :deploy do
   ok_failed(system("git branch -D gh-pages"))
   puts "\n## Creating new gh-pages branch and switching to it".yellow
   ok_failed(system("git checkout -b gh-pages"))
-  puts "\n## Generating _site content"
+  puts "\n## Generating _site content".yellow
   ok_failed(system("jekyll build"))
-  puts "\n## Removing _site from .gitignore"
+  puts "\n## Removing _site from .gitignore".yellow
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
-  puts "\n## Miniying _site"
+  puts "\n## Miniying _site".yellow
   Rake::Task["minify"].execute
-  puts "\n## Adding _site"
+  puts "\n## Adding _site".yellow
   sok_failed(system("git add .gitignore _site"))
   message = "Build site at #{Time.now.utc}"
-  puts "\n## Building site"
+  puts "\n## Building site".yellow
   ok_failed(system("git commit -m \"#{message}\""))
-  puts "\n## Forcing the _site subdirectory to be project root"
+  puts "\n## Forcing the _site subdirectory to be project root".yellow
   ok_failed(system("git filter-branch --subdirectory-filter _site/ -f"))
-  puts "\n## Switching back to master branch"
+  puts "\n## Switching back to master branch".yellow
   ok_failed(system("git checkout master"))
-  puts "\n## Pushing all branches to origin"
+  puts "\n## Pushing all branches to origin".yellow
   ok_failed(system("git push origin gh-pages --force"))
 end
 
 ## -- Misc Functions -- ##
 def ok_failed(condition)
   if (condition)
-    puts "\033[32m=> OK\033[0m"
+    puts "=> OK".green
   else
-    puts "\033[31m=> FAILED\033[0m"
+    puts "=> FAILED".red
   end
 end
 
