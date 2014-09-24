@@ -70,9 +70,9 @@ end
 # Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
 desc "Deploy _site/ to gh-pages branch"
 task :deploy do
-  puts "\n## Deleting gh-pages branch"
+  puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages"))
-  puts "\n## Creating new gh-pages branch and switching to it"
+  puts "\n## Creating new gh-pages branch and switching to it".yellow
   ok_failed(system("git checkout -b gh-pages"))
   puts "\n## Generating _site content"
   ok_failed(system("jekyll build"))
@@ -114,4 +114,27 @@ def ask(message, valid_options)
     answer = get_stdin(message)
   end
   answer
+end
+
+class String
+  # colorization
+  def colorize(color_code)
+    "\e[#{color_code}m#{self}\e[0m"
+  end
+
+  def red
+    colorize(31)
+  end
+
+  def green
+    colorize(32)
+  end
+
+  def yellow
+    colorize(33)
+  end
+
+  def pink
+    colorize(35)
+  end
 end
