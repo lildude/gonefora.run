@@ -71,43 +71,34 @@ end
 desc "Deploy _site/ to gh-pages branch"
 task :deploy do
   puts "\n## Deleting gh-pages branch"
-  status = system("git branch -D gh-pages")
-  puts status ? "Success" : "Failed"
+  ok_failed(system("git branch -D gh-pages"))
   puts "\n## Creating new gh-pages branch and switching to it"
-  status = system("git checkout -b gh-pages")
-  puts status ? "Success" : "Failed"
+  ok_failed(system("git checkout -b gh-pages"))
   puts "\n## Generating _site content"
-  status = system("jekyll build")
-  puts status ? "Success" : "Failed"
+  ok_failed(system("jekyll build"))
   puts "\n## Removing _site from .gitignore"
-  status = system("sed -i '' -e 's/_site//g' .gitignore")
-  puts status ? "Success" : "Failed"
+  ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
   puts "\n## Miniying _site"
   Rake::Task["minify"].execute
   puts "\n## Adding _site"
-  status = system("git add .gitignore _site")
-  puts status ? "Success" : "Failed"
+  sok_failed(system("git add .gitignore _site"))
   message = "Build site at #{Time.now.utc}"
   puts "\n## Building site"
-  status = system("git commit -m \"#{message}\"")
-  puts status ? "Success" : "Failed"
+  ok_failed(system("git commit -m \"#{message}\""))
   puts "\n## Forcing the _site subdirectory to be project root"
-  status = system("git filter-branch --subdirectory-filter _site/ -f")
-  puts status ? "Success" : "Failed"
+  ok_failed(system("git filter-branch --subdirectory-filter _site/ -f"))
   puts "\n## Switching back to master branch"
   ok_failed(system("git checkout master"))
-  puts status ? "Success" : "Failed"
   puts "\n## Pushing all branches to origin"
-  status = system("git push origin gh-pages --force")
-  ok_failed(status)
+  ok_failed(system("git push origin gh-pages --force"))
 end
 
 ## -- Misc Functions -- ##
 def ok_failed(condition)
   if (condition)
-    puts "\033[32mOK\033[0m"
+    puts "\033[32m=> OK\033[0m"
   else
-    puts "\033[31mFAILED\033[0m"
+    puts "\033[31m=> FAILED\033[0m"
   end
 end
 
