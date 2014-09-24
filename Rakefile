@@ -53,7 +53,7 @@ task :minify do
     case File.extname(file)
       #when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
       when ".css", ".html"
-        puts "Processing: #{file}"
+        #puts "Processing: #{file}"
         original += File.size(file).to_f
         min = Reduce.reduce(file)
         File.open(file, "w") do |f|
@@ -61,7 +61,7 @@ task :minify do
         end
         compressed += File.size(file)
       else
-        puts "Skipping: #{file}"
+        #puts "Skipping: #{file}"
       end
   end
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
@@ -75,22 +75,22 @@ task :deploy do
   puts "\n## Creating new gh-pages branch and switching to it".yellow
   ok_failed(system("git checkout -b gh-pages 1>/dev/null"))
   puts "\n## Generating _site content".yellow
-  ok_failed(system("jekyll build"))
+  ok_failed(system("jekyll build 1> /dev/null"))
   puts "\n## Removing _site from .gitignore".yellow
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
   puts "\n## Miniying _site".yellow
-  Rake::Task["minify"].execute
+  ok_failed(Rake::Task["minify"].execute)
   puts "\n## Adding _site".yellow
-  sok_failed(system("git add .gitignore _site"))
+  ok_failed(system("git add .gitignore _site"))
   message = "Build site at #{Time.now.utc}"
   puts "\n## Building site".yellow
-  ok_failed(system("git commit -m \"#{message}\""))
+  ok_failed(system("git commit -m \"#{message}\" 1>/dev/null"))
   puts "\n## Forcing the _site subdirectory to be project root".yellow
-  ok_failed(system("git filter-branch --subdirectory-filter _site/ -f"))
+  ok_failed(system("git filter-branch --subdirectory-filter _site/ -f 1>/dev/null"))
   puts "\n## Switching back to master branch".yellow
-  ok_failed(system("git checkout master"))
+  ok_failed(system("git checkout master 1>/dev/null"))
   puts "\n## Pushing all branches to origin".yellow
-  ok_failed(system("git push origin gh-pages --force"))
+  ok_failed(system("git push origin gh-pages --force 1>/dev/null"))
 end
 
 ## -- Misc Functions -- ##
