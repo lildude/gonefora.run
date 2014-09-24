@@ -51,8 +51,7 @@ task :minify do
   compressed = 0
   Dir.glob("_site/**/*.*") do |file|
     case File.extname(file)
-      #when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
-      when ".css", ".html"
+      when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
         puts "Processing: #{file}"
         original += File.size(file).to_f
         min = Reduce.reduce(file)
@@ -76,9 +75,22 @@ task :deploy do
   puts "\n## Creating new gh-pages branch and switching to it"
   status = system("git checkout -b gh-pages")
   puts status ? "Success" : "Failed"
+  puts "\n## Generating _site content"
+  status = system("jekyll")
+  puts status ? "Success" : "Failed"
   # TODO: Need to remove _site from .gitignore here
+  puts "\n## Removing _site from .gitignore"
+  status = system("sed -e 's/_site//g' -i.bak .gitignore")
+  puts status ? "Success" : "Failed"
   # TODO: Then git add _site
+  puts "\n## Adding _site"
+  status = system("git add .gitignore _site")
+  puts status ? "Success" : "Failed"
   # TODO: Then git commit -m msg
+  message = "Build site at #{Time.now.utc}"
+  puts "\n## Building site"
+  status = system("git commit -m \"#{message}\"")
+  puts status ? "Success" : "Failed"
   puts "\n## Forcing the _site subdirectory to be project root"
   status = system("git filter-branch --subdirectory-filter _site/ -f")
   puts status ? "Success" : "Failed"
