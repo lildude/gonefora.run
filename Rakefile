@@ -76,19 +76,32 @@ task :deploy do
   puts "\n## Creating new gh-pages branch and switching to it"
   status = system("git checkout -b gh-pages")
   puts status ? "Success" : "Failed"
-  # TODO: Need to remove _site from .gitignore here
-  # TODO: Then git add _site
-  # TODO: Then git commit -m msg
+  puts "\n## Generating _site content"
+  status = system("jekyll build")
+  puts status ? "Success" : "Failed"
+  puts "\n## Removing _site from .gitignore"
+  status = system("sed -i '' -e 's/_site//g' .gitignore")
+  puts status ? "Success" : "Failed"
+  puts "\n## Miniying _site"
+  Rake::Task["minify"].execute
+  puts "\n## Adding _site"
+  status = system("git add .gitignore _site")
+  puts status ? "Success" : "Failed"
+  message = "Build site at #{Time.now.utc}"
+  puts "\n## Building site"
+  status = system("git commit -m \"#{message}\"")
+  puts status ? "Success" : "Failed"
   puts "\n## Forcing the _site subdirectory to be project root"
   status = system("git filter-branch --subdirectory-filter _site/ -f")
   puts status ? "Success" : "Failed"
   puts "\n## Switching back to master branch"
-  status = system("git checkout master")
+  ok_failed(system("git checkout master"))
   puts status ? "Success" : "Failed"
   puts "\n## Pushing all branches to origin"
-  status = system("git push --all origin")
-  puts status ? "Success" : "Failed"
+  status = system("git push gh-pages origin --force")
+  ok_failed(status)
 end
+
 
 
 ## -- Misc Functions -- ##
