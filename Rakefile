@@ -95,7 +95,7 @@ task :deploy_gh do
 end
 
 desc "Deploy to Digital Ocean"
-task :deploy
+task :deploy do
   puts "\## Deploying to Digital Ocean".yellow
   ok_failed(system("git push master deploy"))
 end
