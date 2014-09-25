@@ -42,9 +42,6 @@ task :new, :title do |t, args|
 end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
-# TODO: Add an "all" option
-# TODO: Add an option that only optimizes the latest post
-
 desc "Minify _site/"
 task :minify, :dir do |t, args|
   if args.dir
