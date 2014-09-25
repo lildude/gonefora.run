@@ -85,8 +85,12 @@ This is really of no interest to anyone other than me and is for the moment a sc
   git clone $GIT_REPO $TMP_GIT_CLONE
   jekyll build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
   cd $TMP_GIT_CLONE
+  # Minify the content
   rake minify["$PUBLIC_WWW/"]
   rm -Rf $TMP_GIT_CLONE
+  # Put keybase.io file in place
+  mkdir $PUBLIC_WWW/.well-known
+  ln -s $HOME/ssl/keybase.txt $PUBLIC_WWW/.well-known/keybase.txt
   exit
   ```
 - deploy using: `git push deploy master`
