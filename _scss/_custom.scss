@@ -13,6 +13,10 @@
     margin: 0 0 0.3rem;
   }
 
+  del {
+    opacity: 0.3;
+  }
+  
   /*---:[ Image alignment ]:---*/
   img.alignleft, img.left { float: left; margin-right: 10px }
   img.alignright, img.right { float: right; margin-left: 10px }
