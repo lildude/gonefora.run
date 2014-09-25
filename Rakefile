@@ -55,7 +55,7 @@ task :minify, :dir do |t, args|
   Dir.glob("#{dir}**/*.*") do |file|
     case File.extname(file)
       when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
-        puts "Processing: #{file}"
+        #puts "Processing: #{file}"
         original += File.size(file).to_f
         min = Reduce.reduce(file)
         File.open(file, "w") do |f|
@@ -63,7 +63,7 @@ task :minify, :dir do |t, args|
         end
         compressed += File.size(file)
       else
-        puts "Skipping: #{file}"
+        #puts "Skipping: #{file}"
       end
   end
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
