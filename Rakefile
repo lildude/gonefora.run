@@ -52,7 +52,7 @@ task :minify, :dir do |t, args|
   else
     dir = "_site/"
   end
-  puts "\n## Compressing static assets"
+  puts "\n## Compressing static assets in #{dir}"
   original = 0.0
   compressed = 0
   Dir.glob("#{dir}**/*.*") do |file|
