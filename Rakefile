@@ -98,7 +98,7 @@ end
 desc "Deploy to Digital Ocean"
 task :deploy do
   puts "\## Deploying to Digital Ocean".yellow
-  ok_failed(system("git push master deploy"))
+  ok_failed(system("git push deploy master"))
 end
 
 ## -- Misc Functions -- ##
