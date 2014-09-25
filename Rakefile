@@ -54,7 +54,6 @@ task :minify do
     case File.extname(file)
       #puts "Processing: #{file}"
       when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
-        puts "Processing: #{file}"
         original += File.size(file).to_f
         min = Reduce.reduce(file)
         File.open(file, "w") do |f|
