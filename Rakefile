@@ -1,6 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "reduce"
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
@@ -43,7 +44,7 @@ end
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
 # TODO: Add an "all" option
 # TODO: Add an option that only optimizes the latest post
-require "reduce"
+
 desc "Minify _site/"
 task :minify do
   puts "\n## Compressing static assets"
@@ -69,7 +70,7 @@ end
 
 # Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
 desc "Deploy _site/ to gh-pages branch"
-task :deploy do
+task :deploy_gh do
   puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages 1>/dev/null"))
   puts "\n## Creating new gh-pages branch and switching to it".yellow
@@ -91,6 +92,12 @@ task :deploy do
   ok_failed(system("git checkout master 1>/dev/null"))
   puts "\n## Pushing all branches to origin".yellow
   ok_failed(system("git push origin gh-pages --force 1>/dev/null"))
+end
+
+desc "Deploy to Digital Ocean"
+task :deploy
+  puts "\## Deploying to Digital Ocean".yellow
+  ok_failed(system("git push master deploy"))
 end
 
 ## -- Misc Functions -- ##
