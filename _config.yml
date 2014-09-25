@@ -34,3 +34,6 @@ sass:
 # Plugins
 gems:
   - jemoji
+
+# Don't copy these files to the generated site
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README-hyde.md, README.md]
