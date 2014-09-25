@@ -46,11 +46,16 @@ end
 # TODO: Add an option that only optimizes the latest post
 
 desc "Minify _site/"
-task :minify do
+task :minify, :dir do |t, args|
+  if args.dir
+    dir = args.dir
+  else
+    dir = "_site/"
+  end
   puts "\n## Compressing static assets"
   original = 0.0
   compressed = 0
-  Dir.glob("_site/**/*.*") do |file|
+  Dir.glob("#{dir}**/*.*") do |file|
     case File.extname(file)
       #puts "Processing: #{file}"
       when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
