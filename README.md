@@ -85,7 +85,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
   git clone $GIT_REPO $TMP_GIT_CLONE
   jekyll build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
   cd $TMP_GIT_CLONE
-  rake minify["$PUBLIC_WWW"]
+  rake minify["$PUBLIC_WWW/"]
   rm -Rf $TMP_GIT_CLONE
   exit
   ```
