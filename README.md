@@ -74,7 +74,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 ## How I deploy to my own server
 
 - Add a new remote that is on my hosting server:
-  `git add remote user@hosting.srv`
+  `git add remote deploy user@hosting.srv`
 - Add the following `post-receive` hook to it:
 
   ```
@@ -90,7 +90,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
   exit
   ```
 - deploy using: `git push deploy master`
-- 
+-
 ## Todos
 
 - [x] Remove fields from the frontmatter of each post that I don't use (categories, meta, author, status)
