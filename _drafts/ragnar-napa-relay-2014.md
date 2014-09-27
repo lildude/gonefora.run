@@ -24,3 +24,5 @@ Interesting only 6 DNFs... pretty impressive for an event so long and tough.
 
 Organisation could be better - water stations were the biggest complaint.
 Surprised there wasn't more commercial action at the big exchanges.
+
+Medals got stuck in customs so we got a belt buckle - who wears these things - and an extra beer token. Medals will be posted to us.
