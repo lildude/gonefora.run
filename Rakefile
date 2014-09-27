@@ -16,11 +16,7 @@ editor          = "atom"      # default editor to use to open and edit your new 
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{posts_dir}"
 task :new, :title do |t, args|
-  if args.title
-    title = args.title
-  else
-    title = get_stdin("Enter a title for your post: ")
-  end
+  title = args.title || get_stdin("Enter a title for your post: ")
   #filename = "#{drafts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   filename = "#{drafts_dir}/#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
@@ -44,12 +40,9 @@ end
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
 desc "Minify _site/"
 task :minify, :dir do |t, args|
-  if args.dir
-    dir = args.dir
-  else
-    dir = "_site/"
-  end
-  puts "\n## Compressing static assets in #{dir}"
+  dir = args.dir || "_site/"
+
+  puts "\n## Compressing static assets in #{dir}".yellow
   original = 0.0
   compressed = 0
   Dir.glob("#{dir}**/*.*") do |file|
