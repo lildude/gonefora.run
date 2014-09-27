@@ -41,13 +41,17 @@ end
 desc "Minify _site/"
 task :minify, :dir do |t, args|
   dir = args.dir || "_site/"
-
+  if dir == "_site/"
+    file_exts = [".css", ".html", ".js", ".xml"]
+  else
+    file_exts = [".gif", ".jpg", ".jpeg", ".png"]
+  end
   puts "\n## Compressing static assets in #{dir}".yellow
   original = 0.0
   compressed = 0
   Dir.glob("#{dir}**/*.*") do |file|
     case File.extname(file)
-      when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
+    when *file_exts
         puts "Processing: #{file}"
         original += File.size(file).to_f
         min = Reduce.reduce(file)
