@@ -101,6 +101,25 @@ task :deploy do
   ok_failed(system("git push deploy master"))
 end
 
+# usage rake isolate[my-post]
+# TODO: Detect images in this post and only minify these.
+desc "Move all other posts than the most recently changed to a temporary stash location (stash) so regenerating the site happens much more quickly."
+task :isolate, :filename do |t, args|
+  stash_dir = "#{source_dir}/#{stash_dir}"
+  FileUtils.mkdir(stash_dir) unless File.exist?(stash_dir)
+  Dir.glob("#{source_dir}/#{posts_dir}/*.*") do |post|
+    FileUtils.mv post, stash_dir unless post.include?(args.filename)
+  end
+end
+
+desc "Move all stashed posts back into the posts directory, ready for site generation."
+task :integrate do
+  FileUtils.mv Dir.glob("#{source_dir}/#{stash_dir}/*.*"), "#{source_dir}/#{posts_dir}/"
+end
+
+
+
+
 ## -- Misc Functions -- ##
 def ok_failed(condition)
   if (condition)
