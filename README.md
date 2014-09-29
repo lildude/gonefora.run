@@ -93,6 +93,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
   ln -s $HOME/ssl/keybase.txt $PUBLIC_WWW/.well-known/keybase.txt
   exit
   ```
+  [**TODO:** Rethink this as it is not very efficient.]
 - deploy using: `git push deploy master`
 -
 ## Todos
