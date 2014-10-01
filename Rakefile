@@ -49,8 +49,7 @@ task :publish, :draft_file do |t, args|
   # Get post title for nice commit message.
   f = YAML.load_file(filename)
   post_title = f["title"]
-  system("git mv #{filename} #{posts_dir}")
-  system("git add #{filename} #{posts_dir}/#{draft_post}")
+  system("git mv #{filename} #{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{draft_post}")
   system("git commit -m \"Publishing: #{post_title} \"")
 end
 
