@@ -2,6 +2,7 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 require "reduce"
+require "yaml"
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
@@ -35,6 +36,21 @@ task :new, :title do |t, args|
     post.puts "---"
   end
   system "#{editor} #{filename}"
+end
+
+desc "Publish a draft post in #{drafts_dir}"
+task :publish, :draft_file do |t, args|
+  draft_post = args.draft_file || (system("ls -lr #{drafts_dir}") && get_stdin("\nEnter draft post filename: "))
+  filename = "#{drafts_dir}/#{draft_post}"
+  puts "Publishing #{draft_post}".yellow
+  # Update the date to the publish date
+  post = File.read(filename)
+  File.write(filename, post.gsub(/^date:.*?/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"))
+  # Get post title for nice commit message.
+  f = YAML.load_file(filename)
+  post_title = f["title"]
+  system("git mv #{filename} #{posts_dir}")
+  system("git commit -am \"Publishing: #{post_title} \"")
 end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/

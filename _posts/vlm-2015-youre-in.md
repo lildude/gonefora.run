@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VLM 2015 - You're In"
-date:
+date: 2014-10-01 12:11:58 +0100
 tags:
 - marathon
 - race
