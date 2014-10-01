@@ -50,7 +50,8 @@ task :publish, :draft_file do |t, args|
   f = YAML.load_file(filename)
   post_title = f["title"]
   system("git mv #{filename} #{posts_dir}")
-  system("git commit -am \"Publishing: #{post_title} \"")
+  system("git add #{filename} #{posts_dir}/#{draft_post}")
+  system("git commit -m \"Publishing: #{post_title} \"")
 end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
