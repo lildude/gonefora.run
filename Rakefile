@@ -54,6 +54,7 @@ task :publish, :draft_file do |t, args|
 end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
+# TODO: Only minify recently modified or added files by default.
 desc "Minify _site/"
 task :minify, :dir do |t, args|
   dir = args.dir || "_site/"
