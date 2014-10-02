@@ -177,8 +177,8 @@ author:
 <td class="number">8km/5M Off-road</td>
 <td><strong>00:29:09</strong></td>
 <td>2 May '98</td>
-<td>00:32:03</td>
-<td>15 Jun '11</td>
+<td>00:30:55</td>
+<td>20 Jun '12</td>
 </tr>
 <tr>
 <td class="number">10km</td>
