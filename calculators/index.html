@@ -27,8 +27,8 @@ published: true
 
             <div id="distanceBlock">
                 <div>
-                    Distance: <input id="distance" class="calculate" type="text" size="10">
-                    <select id="distanceUnit" class="calculate" accesskey="d"></select>
+                    <label for="distance" class="label">Distance:</label><input id="distance" class="calculate form-control" type="text">
+                    <select id="distanceUnit" class="calculate form-control" accesskey="d"></select>
                     <!-- or
                     <select id="pickEvent" class="calculate">
                       <option value="" selected="selected">Pick Event</option>
@@ -39,36 +39,30 @@ published: true
             </div>
 
             <div id="timeBlock">
-                Time: <input id="hours" class="calculate" type="text" size="5" placeholder="hour">
-                : <input id="minutes" class="calculate" type="text" size="5" placeholder="min">
-                : <input id="seconds" class="calculate" type="text" size="5" placeholder="sec">
+                <label class="label">Time:</label><input id="hours" class="calculate form-control" type="text" placeholder="hour">:<input id="minutes" class="calculate form-control" type="text" placeholder="min">:<input id="seconds" class="calculate form-control" type="text" placeholder="sec">
             </div>
 
             <div id="paceBlock">
-                Pace:
-            <span id="timePerDistance">
-                <input id="paceMinutes" class="calculate" type="text" size="5" placeholder="min">
-                : <input id="paceSeconds" class="calculate" type="text" size="5" placeholder="sec">
-            </span>
+              <label class="label">Pace:</label><span id="timePerDistance"><input id="paceMinutes" class="calculate form-control" type="text" placeholder="min">:<input id="paceSeconds" class="calculate form-control" type="text" placeholder="sec">
+              </span>
 
             <span id="distancePerTime">
-                <input id="pace" class="calculate" type="text" size="8">
+                <input id="pace" class="calculate form-control" type="text">
             </span>
 
-                <select id="paceUnit" class="calculate" accesskey="p">
+                <select id="paceUnit" class="calculate form-control" accesskey="p">
                 </select>
 
             </div>
 
             <div class="splits">
-                Split distance:
-                <select id="splitDistanceUnit" class="calculate">
+                <label class="label">Split distance:</label><select id="splitDistanceUnit" class="calculate form-control">
                     <option value="" selected="selected"></option>
                 </select>
             </div>
 
             <div id="buttonBlock">
-                <button id="clear" type="reset">Clear fields</button>
+                <button id="clear" type="reset" class="form-control">Clear fields</button>
             </div>
 
         </form>
