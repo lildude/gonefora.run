@@ -117,6 +117,17 @@
     font-size: 0.9rem;
   }
 
+  .sidebar {
+    .sidebar-nav {
+      .sidebar-nav-item {
+        @media (max-width: 58em) {
+          display: inline-block;
+          padding-right: 1em;
+        }
+      }
+    }
+  }
+
   .content a {
     color: #3453a1;
     border-bottom: 1px solid #ccc;
@@ -175,7 +186,24 @@
     text-decoration: none;
   }
 
+  .sidebar {
+    .copymsg {
+      display: none;
+      @media (min-width: 58em) {
+        display: block;
+      }
+    }
+  }
+
+  .content .copymsg {
+    display: block;
+    text-align: center;
+    @media (min-width: 58em) {
+      display: none;
+    }
+  }
   .sidebar .social-nav {
+    display: none;
     margin-bottom: 1rem;
     img {
       border-radius: 15px; // Makes round icons
@@ -183,6 +211,10 @@
       margin: 0;
       width: 24px;
       height: 24px;
+    }
+    // Only show on wider views.
+    @media (min-width: 58em) {
+      display: block;
     }
     /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
     a {
@@ -197,13 +229,6 @@
     }
     */
   }
-
-  /* Taken directly from Strava - needs work */
-  //.sidebar .strava-badge,
-  //.sidebar .fetch-badge { display: inline-block; height: 48px; }
-  //.sidebar .strava-badge- img { visibility: hidden; height: 24px; }
-  //.sidebar .strava-badge-:hover { background-position: 0 -37px; }
-  //.sidebar .strava-badge-follow { height: 24px; width: 24px; background: url(/img/strava-logo-orange.svg) no-repeat 0 0;}
 
   /*---:[ Calculators ]:---*/
   fieldset {

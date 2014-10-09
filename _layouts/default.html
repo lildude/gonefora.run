@@ -9,6 +9,8 @@
 
     <div class="content container">
       {{ content }}
+
+      <p class="copymsg">&copy; <a href="http://colinseymour.co.uk/" target="_blank">Colin Seymour</a> 2003 - {{ site.time | date: '%Y' }} All rights reserved &middot <a href="/privacy/">Privacy Policy</a></p>
     </div>
 
     {% include google-analytics.html %}
