@@ -75,19 +75,19 @@
   #calculatorWrapper {
     line-height: 2;
     .label {
-      width: 130px;
+      width: 5em;
       text-align: right;
       padding-right: 5px;
     }
     #distance {
-      width: 76px;
+      width: 4em;
     }
     #hours,
     #minutes,
     #seconds,
     #paceMinutes,
     #paceSeconds {
-      width: 60px;
+      width: 3.8em;
     }
     #hours,
     #minutes,
@@ -100,7 +100,13 @@
       margin-left: 4px;
     }
     #splitDistanceUnit {
-      width: 218px;
+      width: 12.8em;
+    }
+    #paceUnit {
+      width: 4.2em;
+    }
+    #distanceUnit {
+      width: 8.5em;
     }
   }
 
