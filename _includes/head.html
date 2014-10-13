@@ -10,9 +10,9 @@
   <meta name="description" content="{% if page.title == "Home" %}{{ site.description }}{% else %}{{ post.content | strip_html | truncate:140}}{% endif %}">
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} · {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} · {{ site.title }}
     {% endif %}
   </title>
 
