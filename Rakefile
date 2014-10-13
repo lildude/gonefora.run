@@ -106,13 +106,14 @@ task :deploy_gh do
   puts "\n## Switching back to master branch".yellow
   ok_failed(system("git checkout master 1>/dev/null"))
   puts "\n## Pushing all branches to origin".yellow
-  ok_failed(system("git push origin gh-pages --force 1>/dev/null"))
+  ok_failed(system("git push origin master gh-pages --force 1>/dev/null"))
 end
 
 desc "Deploy to Digital Ocean"
 task :deploy do
+  ok_failed(Rake::Task["deploy_gh"].execute)
   puts "\## Deploying to Digital Ocean".yellow
-  ok_failed(system("git push deploy master"))
+  ok_failed(system("git push deploy master gh-pages --force 1>/dev/null"))
 end
 
 # usage rake isolate[my-post]
