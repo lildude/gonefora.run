@@ -91,6 +91,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] Customize & optimize the theme
 - [ ] Switch out all emoticons for emoji
 - [ ] MAYBE: Use an [emoji font](http://emojisymbols.com/) for emojis instead of local or GitHub hosted
+  - [ ] TODO: If I do the above, I need to convert the jemoji plugin to insert unicode chars for each of the :emoji: references
 - [x] Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
 - [ ] Check each individual post & page and make they all render correctly.
 - [x] Update Export plugin to grab all content types, not just posts and pages
