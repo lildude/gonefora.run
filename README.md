@@ -90,6 +90,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Remove fields from the frontmatter of each post that I don't use (categories, meta, author, status)
 - [ ] Customize & optimize the theme
 - [ ] Switch out all emoticons for emoji
+- [ ] MAYBE: Use an [emoji font](http://emojisymbols.com/) for emojis instead of local or GitHub hosted
 - [x] Set absolute image paths - they're all relative assets/[filename] which works on the front page, but not the individual posts page
 - [ ] Check each individual post & page and make they all render correctly.
 - [x] Update Export plugin to grab all content types, not just posts and pages
@@ -98,7 +99,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] Catch all changed URLs with the [Jekyll Redirect From plugin](https://github.com/jekyll/jekyll-redirect-from/)
 - [x] Add a sitemap.xml - using the code from http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/
 - [x] Add Google Analytics
-- [ ] Add Google Adsense
+- [x] Add Google Adsense
 - [x] Add Google Webmaster tools header
 - [x] Get date into frontmatter else it's anyone's guess when the posts were originally created.
 - [x] Add a Rakefile and borrow some of the ideas from Octopress
@@ -109,7 +110,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] MAYBE: Add fontawesome icons to posts in archives to distinguish types.
 - [ ] Use local copies of remote assets when running locally
 - [ ] Determine a better method of detecting locally run than the current site.debug method I'm using
-- [ ] Pre-process locally and save minified content to a branch.  This makes the repo larger, but quicker to deploy.
+- [x] Pre-process locally and save minified content to a branch.  This makes the repo larger, but quicker to deploy.
 - [ ] Minify only the content that has recently changed.  Speeds things up considerably
 
 ## Research material for enhancing rakefile
