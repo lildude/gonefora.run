@@ -80,6 +80,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
   ```
   #!/bin/sh
   PUBLIC_WWW=${HOME}/www/
+  rm -rf ${PUBLIC_WWW}/*
   git archive gh-pages | tar -x -C ${PUBLIC_WWW}
   exit
   ```
