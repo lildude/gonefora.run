@@ -83,7 +83,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
   exit
   ```
 - deploy using: `git push deploy gh-pages --force`
--
+
 ## Todos
 
 - [x] Remove fields from the frontmatter of each post that I don't use (categories, meta, author, status)
