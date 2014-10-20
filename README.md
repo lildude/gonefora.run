@@ -69,6 +69,15 @@ This is really of no interest to anyone other than me and is for the moment a sc
   done
   ```
 
+- Download all assets and move them to `assets/` effectively flattening the directory structure
+- Update all posts that still refer to old assets which my [lildude/jekyll-import](https://github.com/lildude/jekyll-import) plugin has missed
+
+  ```
+  cd _posts
+  sed -i.bak -E 's:http\://barefootrunner.co.uk/user/sites/barefootrunner.co.uk/files/(docs|audio|images)/([0-9]{4}/)?:/assets/:g' *
+  ```
+  
+
 ## How I deploy to my own server
 
 - Add a new remote that is on my hosting server:
