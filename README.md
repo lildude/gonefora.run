@@ -112,6 +112,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] Determine a better method of detecting locally run than the current site.debug method I'm using
 - [x] Pre-process locally and save minified content to a branch.  This makes the repo larger, but quicker to deploy.
 - [ ] Minify only the content that has recently changed.  Speeds things up considerably
+- [x] Add robots.txt
 
 ## Research material for enhancing rakefile
 
