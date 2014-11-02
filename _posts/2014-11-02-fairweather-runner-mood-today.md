@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "In a Fairweather Runner Mood Today"
-date: 2014-11-02 09:36:43 +0000 2014-11-02 09:27:35 +0000
+date: 2014-11-02 09:37:18 +0000 2014-11-02 09:36:43 +0000 2014-11-02 09:27:35 +0000
 tags:
 - shorts
 type: post
