@@ -66,6 +66,8 @@ task :minify, :dir do |t, args|
   puts "\n## Compressing static assets in #{dir}".yellow
   original = 0.0
   compressed = 0
+  # Grab the mtime of a file that changes with each deploy.... TODO
+  #File.stat(self.source).mtime
   Dir.glob("#{dir}**/*.*") do |file|
     case File.extname(file)
     when *file_exts
