@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span class="post-date">{{ page.date | date_to_string }}</span> – <span>{% for tag in page.tags %}<a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> {% endfor %}</span>
   {{ content }}
   <div class="share-twitter"><a href="http://twitter.com/?status={{ site.author.twitter }}%20{{ page.title }}%20{{ site.url }}{{ page.url }}" target="_blank">Comment/Share on Twitter</a></div>
 </div>
