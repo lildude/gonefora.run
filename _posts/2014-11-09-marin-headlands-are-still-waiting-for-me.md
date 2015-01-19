@@ -19,7 +19,7 @@ All was good until I got to the edge of Golden Gate bridge... the footpath was c
 
 Instead, I ran the Coastal trail back towards Golden Gate park.  Lovely trail and I'm sure the sights would have been brilliant had it not been for the fog.  All I could see were trees, fog and the path.  I did hear a lot of boats on their horns as they entered the bay which was quite unusual for me.  I also ran past some pretty swish looking houses (some with astroturf front lawns) and got to run a route I'd only planned doing some other time.
 
-[![](/assets/Run-9Nov14.png)](http://www.strava.com/activities/217419869)
+<div class="center"><iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/217419869/embed/9dddd11c53206613246911d1946aad0279ad966a'></iframe></div>
 
 So whilst I'm a little disappointed I couldn't go the Marin Headlands today, I'm happy I still had a good run on the Coastal Trail and also slightly pleased I didn't make the effort as I suspect all I would have seen was white. If anything, I'm more annoyed with myself for not thinking to lookup to see if there were any races in the city whilst I'm here - I may have been able to enter this one on the day.
 
