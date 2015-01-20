@@ -27,7 +27,8 @@ title: Home
         {% endif %}
         <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
       {% else %}
-        {{ post.content }}
+        {{ post.excerpt }}
+        <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
       {% endif %}
     {% endif %}
     {% if forloop.index == 1 or forloop.index == 4 or forloop.index == 7 or forloop.index == 10 %}
