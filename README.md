@@ -113,7 +113,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Get date into frontmatter else it's anyone's guess when the posts were originally created.
 - [x] Add a Rakefile and borrow some of the ideas from Octopress
   - [x] Create new post
-  - [ ] Publish draft post
+  - [x] Publish draft post
   - [ ] Stash posts
 - [ ] Mark draft posts when running with `--drafts` so I can easily distinguish them.
 - [ ] MAYBE: Add fontawesome icons to posts in archives to distinguish types.
