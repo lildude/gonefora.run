@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Test of London Training"
-date: 2015-02-08 08:23:51 +0000
+date: 2015-02-08 08:28:18 +0000 2015-02-08 08:23:51 +0000
 tags:
 - shorts
 - training
