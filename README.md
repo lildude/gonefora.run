@@ -122,7 +122,9 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Pre-process locally and save minified content to a branch.  This makes the repo larger, but quicker to deploy.
 - [x] Add robots.txt
 - [ ] Switch to native liquid HTML compression and use built in Jekyll functionality for CSS & JS compression.
+- [ ] Put compressed CSS into header
 - [x] Use Reduce to just minimize/optimise images that change.
+- [ ] Put page specific CSS into its own file that is only loaded on that page, eg Calculators
 
 
 ## Research material for enhancing rakefile
