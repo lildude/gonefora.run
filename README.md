@@ -120,8 +120,10 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] Use local copies of remote assets when running locally
 - [ ] Determine a better method of detecting locally run than the current site.debug method I'm using - can use {{ site.host == 0.0.0.0 }}
 - [x] Pre-process locally and save minified content to a branch.  This makes the repo larger, but quicker to deploy.
-- [ ] Minify only the content that has recently changed.  Speeds things up considerably
 - [x] Add robots.txt
+- [ ] Switch to native liquid HTML compression and use built in Jekyll functionality for CSS & JS compression.
+- [x] Use Reduce to just minimize/optimise images that change.
+
 
 ## Research material for enhancing rakefile
 
