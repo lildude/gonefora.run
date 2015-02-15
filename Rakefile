@@ -68,9 +68,12 @@ task :minify, :dir do |t, args|
   compressed = 0
   # Grab the mtime of a file that changes with each deploy.... TODO
   #File.stat(self.source).mtime
+  # Grab time of last compress run
+  last_run = Time.at(IO::readlines("assets/.last-compressed")[1].strip.to_i)
   Dir.glob("#{dir}**/*.*") do |file|
     case File.extname(file)
     when *file_exts
+      if File.stat(file).mtime > last_run
         puts "Processing: #{file}"
         original += File.size(file).to_f
         min = Reduce.reduce(file)
@@ -78,11 +81,15 @@ task :minify, :dir do |t, args|
           f.write(min)
         end
         compressed += File.size(file)
-      else
-        puts "Skipping: #{file}"
       end
+    else
+      puts "Skipping: #{file}"
+    end
   end
-  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
+  # Write last compressed date to file.
+  t = Time.now
+  File.open("assets/.last-compressed", "w+") { |file| file.puts "# #{t.to_s}\n#{t.to_i}" }
+  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100) if original-compressed > 0
 end
 
 # Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
