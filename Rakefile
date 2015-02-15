@@ -18,7 +18,6 @@ editor          = "atom"      # default editor to use to open and edit your new 
 desc "Begin a new post in #{posts_dir}"
 task :new, :title do |t, args|
   title = args.title || get_stdin("Enter a title for your post: ")
-  #filename = "#{drafts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   filename = "#{drafts_dir}/#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
