@@ -1,74 +1,79 @@
 /*---:[ Calculators Page-specific CSS ]:---*/
-fieldset {
-  border: 0;
-}
 
-/* Notification colours borrowed from Bootstrap */
-.error,
-.success,
-.info,
-.warning {
-  padding: 5px;
-  border-radius: 5px;
-}
+  .theme-colin {
+  .content {
+    fieldset {
+      border: 0;
+    }
 
-.error {
-  background-color: #f2dede;
-}
+    /* Notification colours borrowed from Bootstrap */
+    .error,
+    .success,
+    .info,
+    .warning {
+      padding: 5px;
+      border-radius: 5px;
+    }
 
-.success {
-  background-color: #dff0d8;
-}
+    .error {
+      background-color: #f2dede;
+    }
 
-.info {
-  background-color: #d9edf7;
-}
+    .success {
+      background-color: #dff0d8;
+    }
 
-.warning {
-  background-color: #fcf8e3;
-}
+    .info {
+      background-color: #d9edf7;
+    }
 
-.resultValue {
-  width: 2.5em;
-  display: inline-block;
-}
+    .warning {
+      background-color: #fcf8e3;
+    }
 
-.resultUnit {
-  padding-left: 10px;
-}
+    .resultValue {
+      width: 2.5em;
+      display: inline-block;
+    }
 
-#times {
-  max-width:15%;
-  td {
-    text-align: center;
-  }
-}
+    .resultUnit {
+      padding-left: 10px;
+    }
 
-#distances {
-  margin-right: 20px;
-}
+    #times {
+      max-width:15%;
+      td {
+        text-align: center;
+      }
+    }
 
-#distances,
-#paces {
-  float: left;
-  width: 33%;
-}
+    #distances {
+      margin-right: 20px;
+    }
 
-#distances,
-#pace,
-#times {
-  .header {
-    font-weight: bold;
-  }
-}
+    #distances,
+    #paces {
+      float: left;
+      width: 33%;
+    }
 
-.splitTimes {
-  .special {
-    font-weight: bold;
-  }
+    #distances,
+    #pace,
+    #times {
+      .header {
+        font-weight: bold;
+      }
+    }
 
-  .splitDistanceUnit {
-    text-align: right;
-    white-space: nowrap;
+    .splitTimes {
+      .special {
+        font-weight: bold;
+      }
+
+      .splitDistanceUnit {
+        text-align: right;
+        white-space: nowrap;
+      }
+    }
   }
 }

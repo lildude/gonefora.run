@@ -134,68 +134,74 @@
     }
   }
 
-  .content a {
-    color: #3453a1;
-    border-bottom: 1px solid #ccc;
-  }
-
-  .content .aside {
-    margin-bottom: 4em;
-  }
-
-  .content .aside .post-date,
-  .content .post-date {
-    display: inline;
-  }
-
-  .content .post .more-link {
-    font-weight: bold;
+  .content {
     a {
+      color: #3453a1;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .aside {
+      margin-bottom: 4em;
+    }
+
+    .aside .post-date,
+    .post-date {
+      display: inline;
+    }
+
+    .post .more-link {
+      font-weight: bold;
+      a {
+        border: none;
+      }
+    }
+
+    .post-meta {
+      margin-top: -10px;
+      font-size: 15px;
+
+      .tag_list_link {
+        margin-right: 8px;
+      }
+    }
+
+    .post-meta,
+    .post-meta a,
+    .post-meta a:visited {
+      color: #9a9a9a;
+      border-bottom: none;
+    }
+
+    .post-title,
+    .page-title,
+    .post-title a {
+      font-family: "Abril Fatface", serif;
+      color: #3453a1;
       border: none;
     }
-  }
 
-  .content .post-meta {
-    margin-top: -10px;
-    font-size: 15px;
-  }
+    ul.archives {
+      padding-left: 0;
+    }
 
-  .content .post-meta,
-  .content .post-meta a,
-  .content .post-meta a:visited {
-    color: #9a9a9a;
-    border-bottom: none;
-  }
+    .about_follow img {
+      display: inline;
+      margin-right: 20px;
+    }
 
-  .content .post-meta .tag_list_link {
-    margin-right: 8px;
-  }
-  .content .post-title,
-  .content .page-title {
-    font-family: "Abril Fatface", serif;
-  }
+    .related-posts a,
+    .about_follow a {
+      border: none;
+    }
 
-  .content .post-title,
-  .content .post-title a,
-  .content .page-title {
-    color: #3453a1;
-    border: none;
-  }
+    .copymsg {
+      display: block;
+      text-align: center;
+      @media (min-width: 58em) {
+        display: none;
+      }
+    }
 
-  .content ul.archives {
-    padding-left: 0;
-  }
-
-  .content .about_follow img {
-    display: inline;
-    margin-right: 20px;
-  }
-
-
-
-  .content .related-posts a,
-  .content .about_follow a {
-    border: none;
   }
 
   .sidebar a:hover,
@@ -215,43 +221,39 @@
         display: block;
       }
     }
-  }
 
-  .content .copymsg {
-    display: block;
-    text-align: center;
-    @media (min-width: 58em) {
+    .social-nav {
       display: none;
+      margin-bottom: 1rem;
+      img {
+        border-radius: 15px; // Makes round icons
+        display: inline-block;
+        margin: 0;
+        width: 24px;
+        height: 24px;
+      }
+      // Only show on wider views.
+      @media (min-width: 58em) {
+        display: block;
+      }
+      /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
+         Update: Seems to be fixed in Chrome 40
+      a {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray;
+        filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='28' width='28'><filter id='greyscale'><feColorMatrix type='matrix' values='0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0 0 0 1 0' /></filter></svg>");
+      }
+        a:hover {
+        -webkit-filter: none;
+        filter: none;
+      }
+      */
     }
-  }
-  .sidebar .social-nav {
-    display: none;
-    margin-bottom: 1rem;
-    img {
-      border-radius: 15px; // Makes round icons
-      display: inline-block;
-      margin: 0;
-      width: 24px;
-      height: 24px;
-    }
-    // Only show on wider views.
-    @media (min-width: 58em) {
-      display: block;
-    }
-    /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
-    a {
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-      filter: gray;
-      filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='28' width='28'><filter id='greyscale'><feColorMatrix type='matrix' values='0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0 0 0 1 0' /></filter></svg>");
-    }
-    a:hover {
-      -webkit-filter: none;
-      filter: none;
-    }
-    */
   }
 
+
+  /* Remove these page-specific styles when I've got individual files working */
   /*---:[ Calculators ]:---*/
   fieldset {
     border: 0;
