@@ -66,8 +66,6 @@ task :minify, :dir do |t, args|
   puts "\n## Compressing static assets in #{dir}".yellow
   original = 0.0
   compressed = 0
-  # Grab the mtime of a file that changes with each deploy.... TODO
-  #File.stat(self.source).mtime
   # Grab time of last compress run
   last_run = Time.at(IO::readlines("assets/.last-compressed")[1].strip.to_i)
   Dir.glob("#{dir}**/*.*") do |file|
