@@ -103,7 +103,7 @@ task :deploy_gh do
   puts "\n## Miniying _site".yellow
   ok_failed(Rake::Task["minify"].execute)
   puts "\n## Adding _site".yellow
-  ok_failed(system("git add .gitignore _site"))
+  ok_failed(system("git add .gitignore _site assets/.last-compressed"))
   message = "Build site at #{Time.now.utc}"
   puts "\n## Building site".yellow
   ok_failed(system("git commit -m \"#{message}\" 1>/dev/null"))
