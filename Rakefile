@@ -54,20 +54,15 @@ end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
 # TODO: Only minify recently modified or added files by default.
-desc "Minify _site/"
-task :minify, :dir do |t, args|
-  dir = args.dir || "_site/"
-  if dir == "_site/"
-    file_exts = [".css", ".html", ".js", ".xml"]
-  else
-    file_exts = [".gif", ".jpg", ".jpeg", ".png"]
-  end
-  puts "\n## Compressing static assets in #{dir}".yellow
+desc "Minify assets"
+task :minify do |t, args|
+  file_exts = [".gif", ".jpg", ".jpeg", ".png"]
+  puts "\n## Compressing static assets".yellow
   original = 0.0
   compressed = 0
   # Grab time of last compress run
   last_run = Time.at(IO::readlines("assets/.last-compressed")[1].strip.to_i)
-  Dir.glob("#{dir}**/*.*") do |file|
+  Dir.glob("assets/**/*.*") do |file|
     case File.extname(file)
     when *file_exts
       if File.stat(file).mtime > last_run
@@ -78,14 +73,14 @@ task :minify, :dir do |t, args|
           f.write(min)
         end
         compressed += File.size(file)
+        # Write last compressed date to file.
+        t = Time.now
+        File.open("assets/.last-compressed", "w+") { |file| file.puts "# #{t.to_s}\n#{t.to_i}" }
       end
     else
       puts "Skipping: #{file}"
     end
   end
-  # Write last compressed date to file.
-  t = Time.now
-  File.open("assets/.last-compressed", "w+") { |file| file.puts "# #{t.to_s}\n#{t.to_i}" }
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100) if original-compressed > 0
 end
 
