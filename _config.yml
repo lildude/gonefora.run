@@ -29,7 +29,7 @@ github:
 
 sass:
   sass_dir:       _scss
-  style:          :compressed
+  style:          compressed
 
 # Plugins
 gems:
