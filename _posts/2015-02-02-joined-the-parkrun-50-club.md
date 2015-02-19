@@ -8,7 +8,7 @@ tags:
 type: post
 published: true
 ---
-<img class="alignleft" src="/assets/parkrun50.jpg" alt="parkrun 50 club" height="169" height="151" /> It's taken me four years and eight months and I've finally done it.  I can now proudly say I'm now a member of the [parkrun 50 club](http://www.parkrun.com/about/our-clubs/50club/).
+<img class="alignleft" src="/assets/parkrun50.jpg" alt="parkrun 50 club" width="169" height="151" /> It's taken me four years and eight months and I've finally done it.  I can now proudly say I'm now a member of the [parkrun 50 club](http://www.parkrun.com/about/our-clubs/50club/).
 
 Waaaay back on 23 May 2010, I _didn't_ don my running shoes and ran my first ever parkrun, and ran it [completely barefoot](http://barefootrunner.co.uk/reading-parkrun-barefoot/).  Since then I've run three more completely barefoot and all the rest in a variety of minimalist shoes - the stony & rocky parts of the Reading course became a hinderance to my times :wink:.
 
