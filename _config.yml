@@ -31,6 +31,12 @@ sass:
   sass_dir:       _scss
   style:          compressed
 
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: []
 # Plugins
 gems:
   - jemoji
