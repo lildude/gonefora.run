@@ -14,7 +14,7 @@ So what is it? It's a site that will let you know who you passed or "flew by" wh
 
 Kind of cool but not really useful, except maybe to learn the name of the rude runner who didn't wave back on your long run this morning or to stalk the handsome/pretty man/lady who's derriere you gazed at non-stop for countless hours.  Actually, that's a pretty good use... now you can work out precisely home long you were looking at her bum :stuck_out_tongue_winking_eye:.
 
-Another useful feature is I can fire up LICEcap (a terrible gif screen capture tool but oh so good at what it does) and create a gif of today's Reading parkrun to show you how it went:
+Another useful feature is I can fire up LICEcap (a terrible gif screen capture tool but pretty good at what it does) and create a gif of today's Reading parkrun to show you how it went:
 
 <img class="center" src="/assets/flyby.gif" width="450" height="600" />
 
