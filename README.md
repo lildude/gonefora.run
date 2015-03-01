@@ -118,7 +118,7 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [ ] Mark draft posts when running with `--drafts` so I can easily distinguish them.
 - [ ] MAYBE: Add fontawesome icons to posts in archives to distinguish types.
 - [ ] Use local copies of remote assets when running locally
-- [ ] Determine a better method of detecting locally run than the current site.debug method I'm using - can use {{ site.host == 0.0.0.0 }}
+- [x] Determine a better method of detecting locally run than the current site.debug method I'm using - Found it: `JEKYLL_ENV=local jekyll server --watch` and then use `jekyll.environment == 'local'` wherever you need the conditional. Jekyll 2.1 intro'd this support.
 - [x] Pre-process locally and save minified content to a branch.  This makes the repo larger, but quicker to deploy.
 - [x] Add robots.txt
 - [ ] Switch to native liquid HTML compression and use built in Jekyll functionality for CSS & JS compression.
