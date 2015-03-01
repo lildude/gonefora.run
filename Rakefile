@@ -75,13 +75,13 @@ task :minify do |t, args|
         compressed += File.size(file)
         # Write last compressed date to file.
         t = Time.now
-        File.open("assets/.last-compressed", "w+") { |file| file.puts "# #{t.to_s}\n#{t.to_i}" }
+        File.open("assets/.last-compressed", "w+") { |f| f.puts "# #{t.to_s}\n#{t.to_i}" }
       end
     else
       puts "Skipping: #{file}"
     end
   end
-  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100) if original-compressed > 0
+  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100) if compressed > 0
 end
 
 # Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
