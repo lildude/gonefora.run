@@ -3,20 +3,21 @@
  */
 
 .theme-colin {
+  /* Everywhere */
   img {
     height: auto;
   }
-
+  /* Everywhere */
   img.emoji {
     display: inline;
     border-radius: 0;
     margin: 0 0 0.3rem;
   }
-
+  /* Everywhere */
   del {
     opacity: 0.3;
   }
-
+  /* Everywhere */
   /*---:[ Image alignment ]:---*/
   img.alignleft, img.left { float: left; margin-right: 10px }
   img.alignright, img.right { float: right; margin-left: 10px }
@@ -25,25 +26,25 @@
   img[align="left"] { clear: left; float: left; margin-right: 10px }
   img[align="right"] { clear: right; float: right; margin-left: 10px }
   img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
-
+  /* Everywhere */
   /*---:[ Other Alignment ]:---*/
   .center, .centered { margin: 0 auto; text-align: center; }
   .alignright { float: right; margin-left: 1.571em; }
   .alignleft { float: left; margin-right: 1.571em; }
 
-
+  /* Everywhere */
   embed, object, video, iframe { max-width: 100%; }
-
+  /* Everywhere */
   figcaption {
     color: #999;
     font-size: 0.9rem;
     text-align: center;
   }
-
+  /* Everywhere */
   figure img {
     margin-bottom: 0;
   }
-
+  /* Calculators only */
   .form-control {
     height: 32px;
     padding: 6px 12px;
@@ -66,12 +67,12 @@
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(53,83,161,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(53,83,161,.6);
   }
-
+  /* Everywhere */
   label {
     display: inline-block;
     max-width: 100%;
   }
-
+  /* Calculators */
   #calculatorWrapper {
     line-height: 2;
     .label {
@@ -110,19 +111,19 @@
     }
   }
 
-
+  /* Everywhere */
   .sidebar p {
     font-size: 0.5rem;
   }
-
+  /* Everywhere */
   .sidebar-about h1 {
     line-height: 1em;
   }
-
+  /* Everywhere */
   .sidebar-about .lead {
     font-size: 0.9rem;
   }
-
+  /* Everywhere */
   .sidebar {
     .sidebar-nav {
       .sidebar-nav-item {
@@ -133,29 +134,29 @@
       }
     }
   }
-
+  /* Everywhere */
   .content {
     a {
       color: #3453a1;
       border-bottom: 1px solid #ccc;
     }
-
+    /* Home */
     .aside {
       margin-bottom: 4em;
     }
-
+    /* Home */
     .aside .post-date,
     .post-date {
       display: inline;
     }
-
+    /* Home */
     .post .more-link {
       font-weight: bold;
       a {
         border: none;
       }
     }
-
+    /* Everywhere */
     .post-meta {
       margin-top: -10px;
       font-size: 15px;
@@ -164,14 +165,14 @@
         margin-right: 8px;
       }
     }
-
+    /* Everywhere */
     .post-meta,
     .post-meta a,
     .post-meta a:visited {
       color: #9a9a9a;
       border-bottom: none;
     }
-
+    /* Everywhere */
     .post-title,
     .page-title,
     .post-title a {
@@ -179,21 +180,20 @@
       color: #3453a1;
       border: none;
     }
-
+    /* Archives */
     ul.archives {
       padding-left: 0;
     }
-
+    /* About */
     .about_follow img {
       display: inline;
       margin-right: 20px;
     }
-
-    .related-posts a,
+    /* About */
     .about_follow a {
       border: none;
     }
-
+    /* Everywhere */
     .copymsg {
       display: block;
       text-align: center;
@@ -202,15 +202,21 @@
       }
     }
 
-    .share-twitter {
+    /* Posts only */
+    .tweet {
+      border-top: 1px solid #eee;
+      padding-top: 15px;
       text-align: center;
-      a {
-        border: none;
+      span {
+        font-size: 13px;
+        color: #999;
+        margin-right: 15px;
+        vertical-align: text-top;
       }
     }
 
   }
-
+  /* Everywhere */
   .sidebar a:hover,
   .content a:hover {
     color: #bf0222;
@@ -220,7 +226,7 @@
     transition: color .25s linear,border-color .25s linear;
     text-decoration: none;
   }
-
+  /* Everywhere */
   .sidebar {
     .copymsg {
       display: none;
@@ -228,7 +234,7 @@
         display: block;
       }
     }
-
+    /* Everywhere */
     .social-nav {
       display: none;
       margin-bottom: 1rem;
@@ -266,6 +272,7 @@
     border: 0;
   }
 
+  /* Everywhere */
   /* Notification colours borrowed from Bootstrap */
   .error,
   .success,
@@ -274,49 +281,40 @@
     padding: 5px;
     border-radius: 5px;
   }
-
   .error {
     background-color: #f2dede;
   }
-
   .success {
     background-color: #dff0d8;
   }
-
   .info {
     background-color: #d9edf7;
   }
-
   .warning {
     background-color: #fcf8e3;
   }
-
+  /* Calculators */
   .resultValue {
     width: 2.5em;
     display: inline-block;
   }
-
   .resultUnit {
     padding-left: 10px;
   }
-
   #times {
     max-width:15%;
     td {
       text-align: center;
     }
   }
-
   #distances {
     margin-right: 20px;
   }
-
   #distances,
   #paces {
     float: left;
     width: 33%;
   }
-
   #distances,
   #pace,
   #times {
@@ -324,7 +322,7 @@
       font-weight: bold;
     }
   }
-
+  /* Calculators */
   .splitTimes {
     .special {
       font-weight: bold;
