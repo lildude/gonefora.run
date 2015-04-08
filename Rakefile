@@ -87,6 +87,10 @@ end
 # Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
 desc "Deploy _site/ to gh-pages branch"
 task :deploy_gh do
+  unless Dir.glob("#{stash_dir}/*.*").empty?
+    puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
+    exit
+  end
   puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages 1>/dev/null"))
   puts "\n## Creating new gh-pages branch and switching to it".yellow
