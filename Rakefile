@@ -117,23 +117,20 @@ task :deploy do
   ok_failed(system("git push deploy master gh-pages --force 1>/dev/null"))
 end
 
-# usage rake isolate[my-post]
-# TODO: Detect images in this post and only minify these.
-desc "Move all other posts than the most recently changed to a temporary stash location (stash) so regenerating the site happens much more quickly."
-task :isolate, :filename do |t, args|
-  stash_dir = "#{source_dir}/#{stash_dir}"
+desc "Move all but the last 20 posts to the temporary stash location"
+task :stash do
   FileUtils.mkdir(stash_dir) unless File.exist?(stash_dir)
-  Dir.glob("#{source_dir}/#{posts_dir}/*.*") do |post|
-    FileUtils.mv post, stash_dir unless post.include?(args.filename)
-  end
+  puts "\n## Stashing all but the last 20 posts".yellow
+  FileUtils.mv Dir.glob("#{posts_dir}/*.*")[0..-21], stash_dir
+  puts "Posts stash. Unstash with `rake unstash`"
 end
 
-desc "Move all stashed posts back into the posts directory, ready for site generation."
-task :integrate do
-  FileUtils.mv Dir.glob("#{source_dir}/#{stash_dir}/*.*"), "#{source_dir}/#{posts_dir}/"
+desc "Move all stashes posts back"
+task :unstash do
+  puts "\n## Unstashing all posts".yellow
+  FileUtils.mv Dir.glob("#{stash_dir}/*.*"), posts_dir
+  puts "Posts unstashed"
 end
-
-
 
 
 ## -- Misc Functions -- ##
