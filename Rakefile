@@ -136,6 +136,12 @@ task :unstash do
   puts "Posts unstashed"
 end
 
+desc "Check links in whole site"
+task :linkcheck do
+  puts "\n## Checking all links".yellow
+  ok_failed(system("check-links '_posts' --max-threads 20"))
+end
+
 
 ## -- Misc Functions -- ##
 def ok_failed(condition)
