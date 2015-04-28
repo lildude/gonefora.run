@@ -197,8 +197,8 @@ author:
 <td class="number">10M</td>
 <td>--:--:--</td>
 <td> </td>
-<td><strong>01:01:15</strong></td>
-<td>29 Mar '13</td>
+<td><strong>01:00:21</strong></td>
+<td>3 Apr '15</td>
 </tr>
 <tr>
 <td class="number">21.1km</td>
