@@ -211,8 +211,8 @@ author:
 <td class="number">42.2km</td>
 <td>04:11:13</td>
 <td>22 Feb '98</td>
-<td><strong>02:53:50</strong></td>
-<td>20 Oct '13</td>
+<td><strong>02:53:34</strong></td>
+<td>26 Apr '15</td>
 </tr>
 <tr>
 <td class="number">56km</td>
