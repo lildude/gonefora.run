@@ -3,6 +3,7 @@ require "bundler/setup"
 require "stringex"
 require "reduce"
 require "yaml"
+require "html/proofer"
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
@@ -136,10 +137,15 @@ task :unstash do
   puts "Posts unstashed"
 end
 
-desc "Check links in whole site"
-task :linkcheck do
-  puts "\n## Checking all links".yellow
-  ok_failed(system("check-links '_posts' --max-threads 20"))
+desc "HTML Proof site"
+task :htmlproof do
+  sh "bundle exec jekyll build"
+  HTML::Proofer.new("./_site", {:href_ignore => ['/tag'], :typhoeus => { :verbose => false, :followlocation => true }, :parallel => { :in_processes => 5}}).run
+end
+
+desc "Generate and display locally"
+task :server do
+  system("JEKYLL_ENV=local  bundle exec jekyll serve --watch --safe")
 end
 
 
