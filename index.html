@@ -16,7 +16,7 @@ title: Home
         </a>
       </h1>
 
-      <p class="post-meta"><span class="post-date">{{ post.date | date_to_string }}</span> // <span>{% for tag in post.tags %}<a class="tag_list_link" href="/tag/{{ tag }}">{{ tag | capitalize }}</a> {% endfor %}</span></p>
+      <p class="post-meta"><span class="post-date">{{ post.date | date_to_string }}</span> // <span>{% for tag in post.tags %}{{ tag | capitalize }}{% if forloop.last != true %}, {% endif %}{% endfor %}</span></p>
 
 
       {% if post.content contains "<!--more-->" or post.content contains "<!-- more -->" %}

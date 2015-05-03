@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <p class="post-meta"><span class="post-date">{{ page.date | date_to_string }}</span> // <span>{% for tag in page.tags %}{{ tag | capitalize }} {% endfor %}</span></p>
+  <p class="post-meta"><span class="post-date">{{ page.date | date_to_string }}</span> // <span>{% for tag in page.tags %}{{ tag | capitalize }}{% if forloop.last != true %}, {% endif %}{% endfor %}</span></p>
   {{ content }}
   <div class="tweet"><span>Here's an internet social media button to impress your friends:</span>
     <a href="https://twitter.com/share" class="twitter-share-button" data-via="lildude">Tweet</a>
