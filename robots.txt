@@ -28,3 +28,5 @@ Disallow: /*/*/*/trackback/$
 Disallow: /*/atom/comments$
 # Don't allow robots to crawl my tag atom feeds
 Disallow: /*/tag/*/atom*
+# Don't allow robots to crawl my tags anymore - 3 May '15
+Disallow: /tag/*
