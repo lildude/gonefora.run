@@ -97,7 +97,7 @@ task :deploy_gh do
   puts "\n## Creating new gh-pages branch and switching to it".yellow
   ok_failed(system("git checkout -b gh-pages 1>/dev/null"))
   puts "\n## Generating _site content".yellow
-  ok_failed(system("jekyll build 1> /dev/null"))
+  ok_failed(system("bundle exec jekyll build 1> /dev/null"))
   puts "\n## Removing _site from .gitignore".yellow
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
   puts "\n## Miniying _site".yellow
@@ -140,7 +140,7 @@ end
 desc "HTML Proof site"
 task :htmlproof do
   sh "bundle exec jekyll build"
-  HTML::Proofer.new("./_site", {:href_ignore => ['/tag'], :typhoeus => { :verbose => false, :followlocation => true }, :parallel => { :in_processes => 5}}).run
+  HTML::Proofer.new("./_site", {:typhoeus => { :verbose => false, :followlocation => true }, :parallel => { :in_processes => 5}}).run
 end
 
 desc "Generate and display locally"
