@@ -17,7 +17,7 @@ Kind of cool but not really useful, except maybe to learn the name of the rude r
 
 Another useful feature is I can fire up LICEcap (a terrible gif screen capture tool but pretty good at what it does) and create a gif of today's Reading parkrun to show you how it went:
 
-<img class="center" src="/assets/flyby.gif" width="450" height="600" />
+<img class="center" src="/assets/flyby.gif" width="450" height="600" alt="Reading parkrun on FlyBy"/>
 
 I'm the red one :grinning:.
 
