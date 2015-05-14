@@ -145,7 +145,7 @@ end
 
 desc "Generate and display locally"
 task :server do
-  system("JEKYLL_ENV=local bundle exec jekyll serve --watch")
+  system("JEKYLL_ENV=local bundle exec jekyll serve --watch --drafts")
 end
 
 
