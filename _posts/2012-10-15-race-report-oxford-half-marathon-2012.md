@@ -16,6 +16,7 @@ On 14 October 2012 I ran the <a href="http://www.oxfordhalfmarathon.co.uk/" targ
 
 What a brilliant race. It was a clear crisp morning with loads of potential for a good time. I headed off probably a little fast (I went through 10k one second quicker than my all-time 10k PB) in an attempt to get a sub-80min half marathon. I knew I was capable of it, I just wanted to do it this season.
 
+<!-- more -->
 Things went really well and my faster start meant I wasn't too far off target after slowing due to the hills and sharp corners towards the end of the race. I still needed to sprint at the end to dip in under 80mins gun time, but that's a small price to pay for a fab race and a new all-time PB.
 
 This is only the second running of this race, so it can be forgiven for not quite getting everything right.  Whilst everything went well for me, I did spot several places for improvement:
