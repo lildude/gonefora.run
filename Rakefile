@@ -56,7 +56,7 @@ end
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
 # TODO: Only minify recently modified or added files by default.
 desc "Minify assets"
-task :minify do |t, args|
+task :minify do
   file_exts = [".gif", ".jpg", ".jpeg", ".png"]
   puts "\n## Compressing static assets".yellow
   original = 0.0
