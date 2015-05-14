@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Race Review: London Marathon 2015"
+title: "Race Report: London Marathon 2015"
 date: 2015-04-28 18:01:04 +0100
 tags:
 - marathon
