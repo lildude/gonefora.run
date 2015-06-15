@@ -122,30 +122,20 @@ task :deploy do
   ok_failed(system("git push deploy master gh-pages --force 1>/dev/null"))
 end
 
-desc "Move all but the last 20 posts to the temporary stash location"
-task :stash do
-  FileUtils.mkdir(stash_dir) unless File.exist?(stash_dir)
-  puts "\n## Stashing all but the last 20 posts".yellow
-  FileUtils.mv Dir.glob("#{posts_dir}/*.*")[0..-21], stash_dir
-  puts "Posts stash. Unstash with `rake unstash`"
-end
-
-desc "Move all stashes posts back"
-task :unstash do
-  puts "\n## Unstashing all posts".yellow
-  FileUtils.mv Dir.glob("#{stash_dir}/*.*"), posts_dir
-  puts "Posts unstashed"
-end
-
 desc "HTML Proof site"
 task :htmlproof do
   sh "bundle exec jekyll build"
-  HTML::Proofer.new("./_site", {:disable_external => true, :empty_alt_ignore => true, :typhoeus => { :verbose => false, :followlocation => true }, :parallel => { :in_processes => 10}}).run
+  HTML::Proofer.new("./_site", {
+    :disable_external => true,
+    :empty_alt_ignore => true,
+    :verbose => true,
+    :typhoeus => { :verbose => true, :followlocation => true },
+    :parallel => { :in_processes => 1}}).run
 end
 
 desc "Generate and display locally"
 task :server do
-  system("JEKYLL_ENV=local bundle exec jekyll serve --watch --drafts")
+  system("JEKYLL_ENV=local bundle exec jekyll serve --watch --drafts --baseurl= --limit_posts=20")
 end
 
 
