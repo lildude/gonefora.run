@@ -5,3 +5,5 @@ gem "stringex"
 gem "reduce"
 gem "jemoji"
 gem "html-proofer"
+gem "jekyll-sitemap"
+
