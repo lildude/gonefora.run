@@ -19,17 +19,13 @@
   </title>
 
   <!-- CSS -->
-{% if jekyll.environment == 'local' %}
-  <!-- LOCAL -->
-  <link rel="stylesheet" href="{{ site.baseurl }}css/screen.css">
-{% else %}
   <style type="text/css">
     {% capture include_to_scssify %}
       {% include screen.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
-{% endif %}
+
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
