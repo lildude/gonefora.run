@@ -41,11 +41,17 @@ compress_html:
 # Configure RedCarpet
 redcarpet:
   extensions:       [tables, autolink, strikethrough, footnotes, superscript]
-  
+
 # Plugins
 gems:
-  - jemoji
   - jekyll-sitemap
+  - jekyll/twemoji
+  #- jemoji
+
+
+
+#jekyll-twemoji:
+#  image_type: "svg"
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README-hyde.md, README.md]

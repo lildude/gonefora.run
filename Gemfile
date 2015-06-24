@@ -6,4 +6,4 @@ gem "reduce"
 gem "jemoji"
 gem "html-proofer"
 gem "jekyll-sitemap"
-
+gem "jekyll-twemoji"
