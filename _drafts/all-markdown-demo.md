@@ -31,6 +31,8 @@ This is a "test" post with all the markdown and HTML I'm likely to use in my wri
 **Sometimes I want a lot of text to be bold.
 Like, seriously, a _LOT_ of text**
 
+*I'm italic,  **we're not**, we are*.
+
 #### Blockquotes
 
 > Right angle brackets &gt; are used for block quotes.
