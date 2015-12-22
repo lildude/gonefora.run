@@ -136,7 +136,7 @@ end
 desc "Deploy to Digital Ocean using rsync"
 task :deploy_rsync do
   puts "\## Deploying to Digital Ocean using rsync".yellow
-  ok_failed(system("rsync --compress --recursive --checksum --delete --itemize-changes _site/ do1:bf/"))
+  ok_failed(system("rsync --compress --recursive --checksum --delete --itemize-changes _site/ do1:www/static-sites/barefootrunner/"))
 end
 
 desc "HTML Proof site"
