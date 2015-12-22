@@ -85,9 +85,8 @@ task :minify do
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100) if compressed > 0
 end
 
-# Taken from http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/ and changed for the gh-pages branch
-desc "Deploy _site/ to gh-pages branch"
-task :deploy_gh do
+desc "Deploy master to Digital Ocean using rsync and copy _site/ to gh-pages branch and push to GitHub repo."
+task :deploy do
   unless Dir.glob("#{stash_dir}/*.*").empty?
     puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
     exit
@@ -103,7 +102,7 @@ task :deploy_gh do
   puts "\n## Miniying _site".yellow
   ok_failed(Rake::Task["minify"].execute)
   puts "\## Deploying to Digital Ocean".yellow
-  ok_failed(Rake::Task["deploy_rsync"].execute)
+  ok_failed(system("rsync --compress --recursive --checksum --delete --itemize-changes _site/ do1:www/static-sites/barefootrunner/"))
   puts "\n## Adding _site".yellow
   ok_failed(system("git add .gitignore _site assets/.last-compressed"))
   message = "Build site at #{Time.now.utc}"
@@ -115,27 +114,6 @@ task :deploy_gh do
   ok_failed(system("git checkout master 1>/dev/null"))
   puts "\n## Pushing all branches to origin".yellow
   ok_failed(system("git push origin master gh-pages --force 1>/dev/null"))
-end
-
-# This method requires a post-receive hook in the destination repo on Digital Ocean
-# with the following in it:
-#
-#!/bin/sh
-#PUBLIC_WWW=${HOME}/www/static-sites/barefootrunner/
-#rm -rf ${PUBLIC_WWW}/*
-#git archive gh-pages | tar -x -C ${PUBLIC_WWW}
-#exit
-#
-desc "Deploy to Digital Ocean"
-task :deploy do
-  Rake::Task["deploy_gh"].execute
-  #puts "\## Deploying to Digital Ocean".yellow
-  #ok_failed(system("git push deploy master gh-pages --force 1>/dev/null"))
-end
-
-desc "Deploy to Digital Ocean using rsync"
-task :deploy_rsync do
-  ok_failed(system("rsync --compress --recursive --checksum --delete --itemize-changes _site/ do1:www/static-sites/barefootrunner/"))
 end
 
 desc "HTML Proof site"
