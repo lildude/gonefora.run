@@ -126,9 +126,11 @@ desc "HTML Proof site"
 task :htmlproof do
   sh "bundle exec jekyll build"
   HTML::Proofer.new("./_site", {
-    :disable_external => true,
+    :disable_external => false,
+    :cache => { :timeframe => '2w' },
     :empty_alt_ignore => true,
     :verbose => true,
+    :href_swap => {%r{(?<!\/)^\/{1}(?!\/)} => "https://barefootrunner.co.uk/"}, # Matches /foo/doo but not //foo/doo - useful for protocol-less links.
     :typhoeus => { :verbose => true, :followlocation => true },
     :parallel => { :in_processes => 1}}).run
 end
