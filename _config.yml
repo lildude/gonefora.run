@@ -10,7 +10,7 @@ title:            Barefoot Runner
 tagline:          'From Shoes to Nothing'
 description:      "I ran. I ran fast. I ran lots. I stopped, got fat and now I'm back, but this time barefoot and almost barefoot with new goals, dreams and aspirations."
 url:              https://barefootrunner.co.uk
-baseurl:          
+baseurl:          /
 
 author:
   name:           'Colin Seymour'
