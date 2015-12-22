@@ -102,6 +102,8 @@ task :deploy_gh do
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
   puts "\n## Miniying _site".yellow
   ok_failed(Rake::Task["minify"].execute)
+  puts "\## Deploying to Digital Ocean".yellow
+  ok_failed(Rake::Task["deploy_rsync"].execute)
   puts "\n## Adding _site".yellow
   ok_failed(system("git add .gitignore _site assets/.last-compressed"))
   message = "Build site at #{Time.now.utc}"
@@ -127,14 +129,14 @@ end
 desc "Deploy to Digital Ocean"
 task :deploy do
   ok_failed(Rake::Task["deploy_gh"].execute)
-  puts "\## Deploying to Digital Ocean".yellow
-  ok_failed(system("git push deploy master gh-pages --force 1>/dev/null"))
+  #puts "\## Deploying to Digital Ocean".yellow
+  #ok_failed(system("git push deploy master gh-pages --force 1>/dev/null"))
 end
 
 desc "Deploy to Digital Ocean using rsync"
 task :deploy_rsync do
   puts "\## Deploying to Digital Ocean using rsync".yellow
-  ok_failed(system("rsync --compress --recursive --checksum --delete _site/ do1:bf/"))
+  ok_failed(system("rsync --compress --recursive --checksum --delete --itemize-changes _site/ do1:bf/"))
 end
 
 desc "HTML Proof site"
