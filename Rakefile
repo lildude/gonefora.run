@@ -115,11 +115,26 @@ task :deploy_gh do
   ok_failed(system("git push origin master gh-pages --force 1>/dev/null"))
 end
 
+# This method requires a post-receive hook in the destination repo on Digital Ocean
+# with the following in it:
+#
+#!/bin/sh
+#PUBLIC_WWW=${HOME}/www/static-sites/barefootrunner/
+#rm -rf ${PUBLIC_WWW}/*
+#git archive gh-pages | tar -x -C ${PUBLIC_WWW}
+#exit
+#
 desc "Deploy to Digital Ocean"
 task :deploy do
   ok_failed(Rake::Task["deploy_gh"].execute)
   puts "\## Deploying to Digital Ocean".yellow
   ok_failed(system("git push deploy master gh-pages --force 1>/dev/null"))
+end
+
+desc "Deploy to Digital Ocean using rsync"
+task :deploy_rsync do
+  puts "\## Deploying to Digital Ocean using rsync".yellow
+  ok_failed(system("rsync --compress --recursive --checksum --delete _site/ do1:bf/"))
 end
 
 desc "HTML Proof site"
