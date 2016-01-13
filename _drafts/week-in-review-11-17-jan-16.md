@@ -18,3 +18,11 @@ I had planned on doing a MAF test today and nearly didn't, but then I thought: "
 Didn't feel too bad during the MAF test - not my best, but certainly not bad - and certainly didn't feel tired or drained at the end of it.  I actually felt quite invigorated.
 
 Will see what my HRV reading is tomorrow and if it's poor again I'll keep the run short and then see what Thursday brings.  If Thurs is good and the weather is good, I'll try the MAF test again.
+
+Wednesday: HRV much better today (70) and the weather seemed good so I thought I'd give the MAF test another go to see how much of a different the HRV makes.
+
+Well, quite a bit. Definitely much quicker and easier to stay within range. Still a slight westerly breeze today but nowhere near as noticeable as yesterday.
+
+A decrease in my pace between 2km and 6km suggests my 15min warmup wasn't long enough (it's 6C out today so not that surprising).
+
+Overall felt really good and I think this clearly shows poor HRV definitely corresponds with a poor MAF test. Of course, two data points aren't really a good indicator so I might do the MAF test again tomorrow and see what that gets us.
