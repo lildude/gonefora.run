@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week in Review: 11 - 17 Jan '16"
-date: 2016-01-12 14:36:15 +0000
+date: 2016-01-17 13:21:49 +0000 2016-01-12 14:36:15 +0000
 tags:
 - training
 - review
