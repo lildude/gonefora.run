@@ -45,7 +45,7 @@ task :publish, :draft_file do |t, args|
   puts "Publishing #{draft_post}".yellow
   # Update the date to the publish date
   post = File.read(filename)
-  File.write(filename, post.gsub(/^date:.*?/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"))
+  File.write(filename, post.gsub!(/^date:.*?/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"))
   # Get post title for nice commit message.
   f = YAML.load_file(filename)
   post_title = f["title"]
