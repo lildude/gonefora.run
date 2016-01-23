@@ -95,12 +95,12 @@ task :deploy do
     puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
     exit
   end
-  puts "\n## Miniying _site".yellow
-  ok_failed(Rake::Task["minify"].execute)
-
-  puts "\n## Update minified files".yellow
-  ok_failed(system("git add assets"))
-  ok_failed(system("git commit -m \"Update minified files\" 1>/dev/null"))
+  # This doesn't do anything except slow things down.
+  #puts "\n## Miniying _site".yellow
+  #ok_failed(Rake::Task["minify"].execute)
+  #puts "\n## Update minified files".yellow
+  #ok_failed(system("git add assets"))
+  #ok_failed(system("git commit -m \"Update minified files\" 1>/dev/null"))
 
   puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages 1>/dev/null"))
