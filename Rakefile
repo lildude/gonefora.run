@@ -133,6 +133,7 @@ task :deploy do
   puts "\n## Pushing all branches to origin".yellow
   ok_failed(system("git push origin master gh-pages --force 1>/dev/null"))
 end
+
 desc "HTML Proof site"
 task :htmlproof do
   sh "bundle exec jekyll build"
