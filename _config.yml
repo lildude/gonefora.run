@@ -46,8 +46,8 @@ redcarpet:
 # Plugins
 gems:
   - jekyll-sitemap
-  - jekyll/twemoji
-  #- jemoji
+  #- jekyll/twemoji
+  - jemoji
 
 
 
