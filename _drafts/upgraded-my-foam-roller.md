@@ -10,7 +10,7 @@ type: post
 published: true
 ---
 
-As a birthday :birthday: treat, I treated myself to an upgrade to my foam roller and got myself one of these bad boys...
+As a birthday treat, I treated myself to an upgrade to my foam roller and got myself one of these bad boys...
 
 <img src="/assets/grid-x.jpg" width=600 height=343 class=center />
 
