@@ -92,7 +92,7 @@ task :deploy do
   end
 
   # This only produces output of there are files to minify.
-  #ok_failed(Rake::Task["minify"].execute)
+  ok_failed(Rake::Task["minify"].execute)
 
   puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages 1>/dev/null"))
