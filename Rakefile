@@ -57,10 +57,18 @@ task :publish, :draft_file do |t, args|
   system("git commit -am \"Publishing: #{post_title} \"")
 end
 
-# Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
-# TODO: Find a better method as Smush.it is dead.
+# Requires ImageOptim and ImageOptim-CLI
 desc "Minify assets"
 task :minify do
+  images = `git diff --exit-code --cached --name-only --diff-filter=ACM -- '*.png' '*.jpg'`
+  unless images.blank?
+    puts "\n## Compressing new images".yellow
+    ok_failed(system("echo #{images} | imageoptim --image-alpha --quit"))
+    ok_failed(system("git add assets"))
+    ok_failed(system("git commit -m \"Update minified files\" 1>/dev/null"))
+  end
+
+=begin
   file_exts = [".gif", ".jpg", ".jpeg", ".png", ".JPG"]
   puts "\n## Compressing static assets".yellow
   original = 0.0
@@ -87,6 +95,7 @@ task :minify do
     end
   end
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100) if compressed > 0
+=end
 end
 
 desc "Deploy master to Digital Ocean using rsync and copy _site/ to gh-pages branch and push to GitHub repo."
@@ -95,12 +104,9 @@ task :deploy do
     puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
     exit
   end
-  # This doesn't do anything except slow things down.
-  #puts "\n## Miniying _site".yellow
-  #ok_failed(Rake::Task["minify"].execute)
-  #puts "\n## Update minified files".yellow
-  #ok_failed(system("git add assets"))
-  #ok_failed(system("git commit -m \"Update minified files\" 1>/dev/null"))
+
+  # This only produces output of there are files to minify.
+  ok_failed(Rake::Task["minify"].execute)
 
   puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages 1>/dev/null"))
