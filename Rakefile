@@ -60,42 +60,28 @@ end
 # Requires ImageOptim and ImageOptim-CLI
 desc "Minify assets"
 task :minify do
-  images = `git diff --exit-code --cached --name-only --diff-filter=ACM -- '*.png' '*.jpg'`
-  unless images.blank?
-    puts "\n## Compressing new images".yellow
-    ok_failed(system("echo #{images} | imageoptim --image-alpha --quit"))
-    ok_failed(system("git add assets"))
-    ok_failed(system("git commit -m \"Update minified files\" 1>/dev/null"))
-  end
-
-=begin
   file_exts = [".gif", ".jpg", ".jpeg", ".png", ".JPG"]
-  puts "\n## Compressing static assets".yellow
-  original = 0.0
-  compressed = 0.0
+  images = ''
   # Grab time of last compress run
   last_run = File.exist?("assets/.last-compressed") ? Time.at(IO::readlines("assets/.last-compressed")[1].strip.to_i) : Time.new(1990)
   Dir.glob("assets/**/*.*") do |file|
     case File.extname(file)
     when *file_exts
       if File.stat(file).mtime > last_run
-        puts "Processing: #{file}"
-        original += File.size(file).to_f
-        min = Reduce.reduce(file)
-        File.open(file, "w") do |f|
-          f.write(min)
-        end
-        compressed += File.size(file).to_f
-        # Write last compressed date to file.
-        t = Time.now
-        File.open("assets/.last-compressed", "w+") { |f| f.puts "# #{t.to_s}\n#{t.to_i}" }
+        images << "#{file}\n"
       end
-    else
-      puts "Skipping: #{file}"
     end
   end
-  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100) if compressed > 0
-=end
+
+  unless images.blank?
+    puts "\n## Compressing new images".yellow
+    ok_failed(system("echo \"#{images}\" | ~/bin/ImageOptim-CLI-1.11.6/bin/imageoptim --image-alpha --quit"))
+    # Write last compressed date to file.
+    t = Time.now
+    File.open("assets/.last-compressed", "w+") { |f| f.puts "# #{t.to_s}\n#{t.to_i}" }
+    ok_failed(system("git add assets"))
+    ok_failed(system("git commit -m \"Optimise images\" 1>/dev/null"))
+  end
 end
 
 desc "Deploy master to Digital Ocean using rsync and copy _site/ to gh-pages branch and push to GitHub repo."
@@ -106,7 +92,7 @@ task :deploy do
   end
 
   # This only produces output of there are files to minify.
-  ok_failed(Rake::Task["minify"].execute)
+  #ok_failed(Rake::Task["minify"].execute)
 
   puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages 1>/dev/null"))
