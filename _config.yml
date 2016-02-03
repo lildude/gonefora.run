@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        :title
@@ -49,6 +49,7 @@ gems:
   - jekyll-sitemap
   #- jekyll/twemoji
   - jemoji
+  - jekyll-paginate
 
 
 
