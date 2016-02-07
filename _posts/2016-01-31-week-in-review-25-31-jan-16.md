@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-25-31Jan16.png"><img alt="Week in Review: 25 - 31 Jan '16" src="/assets/week-in-review-25-31Jan16.png" width=840 height=240 class="center" /></a>
+<a href="/assets/week-in-review-25-31Jan16.png"><img alt="Week in Review: 25 - 31 Jan '16" src="/assets/week-in-review-25-31Jan16.png" width="840" height="240" class="center" /></a>
 
 I'm really liking this MAF training right now.  I'm getting quite a bit quicker as Tuesday's MAF test confirmed and I'm not really finding the running particularly taxing in the long run, hence this week's easy/recovery week still ended up with just over 80km or running.
 

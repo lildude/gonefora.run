@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-11-17Jan16.png"><img alt="Week in Review: 11 - 17 Jan '16" src="/assets/week-in-review-11-17Jan16.png" width=840 height=240 class="center" /></a>
+<a href="/assets/week-in-review-11-17Jan16.png"><img alt="Week in Review: 11 - 17 Jan '16" src="/assets/week-in-review-11-17Jan16.png" width="840" height="240" class="center" /></a>
 
 Started the week off with a rest day and was pleased to wake up with a good HRV despite the long run, booze and carbs - full roast dinner at the pub - on Sunday.
 

@@ -17,7 +17,7 @@ Unlike the referenced article, I'm putting it on my blog as there's nothing like
 
 So without further ado, here is my first ever "Week in Review" post.
 
-<a href="/assets/week-in-review-28Dec-3Jan16.png"><img alt="Week in Review: 28 Dec - 3 Jan '16" src="/assets/week-in-review-28Dec-3Jan16.png" width=840 height=240 class="center" /></a>
+<a href="/assets/week-in-review-28Dec-3Jan16.png"><img alt="Week in Review: 28 Dec - 3 Jan '16" src="/assets/week-in-review-28Dec-3Jan16.png" width="840" height="240" class="center" /></a>
 
 Looking back at the type of training I did in my best year - 2013 - and comparing it to last year, I realised I didn't do anywhere near the same level of base training nor as much [MAF](/does-maf-training-work) training.  I wouldn't be surprised if the two heavy marathon training cycles following the [Hansons Method](http://www.amazon.co.uk/Hansons-Marathon-Method-Renegade-ebook/dp/B00AWE9686/) I did had a bit influence on my performances last year.  On reflection, the [Hansons Method worked really well for me in 2013](/race-report-abingdon-marathon-2013/), but only once I'd spent months running at MAF.  Last year I didn't build this big base before hitting the programs so this year I'm changing it.
 
