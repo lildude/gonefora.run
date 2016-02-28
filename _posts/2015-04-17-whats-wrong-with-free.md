@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What's Wrong with Free?"
-date: 2015-04-17 20:08:10 -0700 2015-04-17 19:35:29 -0700
+date: 2015-04-17 20:08:10 -0700
 tags:
 - parkrun
 type: post

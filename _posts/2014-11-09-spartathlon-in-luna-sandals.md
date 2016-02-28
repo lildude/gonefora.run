@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spartathlon in Luna Sandals"
-date: 2014-11-09 11:22:58 -0800 2014-11-04 15:58:20 +0000
+date: 2014-11-09 11:22:58 -0800
 tags:
 - luna sandals
 type: post

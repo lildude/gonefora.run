@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Red Bull 400 Debuts in Whistler for 2015"
-date: 2015-07-06 13:31:39 +0100 2015-07-06 13:16:52 +0100
+date: 2015-07-06 13:31:39 +0100
 tags:
 - race
 - challenge

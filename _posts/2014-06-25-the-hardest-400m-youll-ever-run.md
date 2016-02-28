@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Hardest 400m You'll Ever Run
-date: 2014-06-25 15:54:36.000000000 +01:00
+date: 2014-06-25 15:54:36 +0100
 tags:
 - race
 - challenge

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatically Sync Workouts from Garmin Connect to Strava
-date: 2014-08-06 15:35:52.000000000 +01:00
+date: 2014-08-06 15:35:52 +0100
 tags:
 - training
 - Garmin

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tricking The Mind to a Sub-2 Hour Marathon"
-date: 2014-12-21 13:28:26 +0000 2014-12-21 13:27:11 +0000 2014-12-21 12:39:21 +0000
+date: 2014-12-21 13:28:26 +0000
 tags:
 - training
 - marathon

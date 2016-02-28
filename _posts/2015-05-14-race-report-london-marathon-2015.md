@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Race Report: London Marathon 2015"
-date: 2015-05-14 13:47:18 +0100 2015-04-28 18:01:04 +0100
+date: 2015-05-14 13:47:18 +0100
 tags:
 - marathon
 - race

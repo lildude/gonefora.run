@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Running in Whistler is Freaking Amazing
-date: 2014-07-15 16:25:32.000000000 +01:00
+date: 2014-07-15 16:25:32 +0100
 tags:
 - trails
 - Whistler
