@@ -130,7 +130,7 @@ desc "HTML Proof site"
 task :htmlproof do
   sh "bundle exec jekyll build"
   HTML::Proofer.new("./_site", {
-    :disable_external => false,
+    :disable_external => true,
     :cache => { :timeframe => '2w' },
     :empty_alt_ignore => true,
     :verbose => true,
@@ -141,7 +141,7 @@ end
 
 desc "Generate and display locally"
 task :server do
-  system("JEKYLL_ENV=local bundle exec jekyll serve --watch --drafts --baseurl= --limit_posts=20")
+  system("JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20")
 end
 
 
