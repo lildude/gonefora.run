@@ -57,4 +57,4 @@ gems:
 #  image_type: "svg"
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README-hyde.md, README.md]
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README-hyde.md, README.md, .sass-cache]
