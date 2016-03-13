@@ -48,9 +48,16 @@ redcarpet:
 gems:
   - jekyll-sitemap
   #- jekyll/twemoji
-  - jemoji
+  #- jemoji
   - jekyll-paginate
+  - jekyll-emoji
 
+# jekyll-emoji config - note, it's use of "Emoji" module name clashes with other gems.
+# TODO: I'd :heart: to have an option that will embed the SVG rather than use an <img> tag.
+emoji:
+  format: emojione-svg # default html
+  ascii: true # default false
+  shortname: true # default true
 
 
 #jekyll-twemoji:
