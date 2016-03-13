@@ -192,3 +192,119 @@ pre {
   display: inline;
   margin-left: 10px;
 }
+
+/* Everywhere */
+.social-nav {
+  display: none;
+  margin-bottom: 1rem;
+  img {
+    border-radius: 15px; // Makes round icons
+    display: inline-block;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+  }
+  // TODO: Only show on wider views.
+  @media (min-width: 58em) {
+    display: block;
+  }
+  /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
+     Update: Seems to be fixed in Chrome 40 */
+  a {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='28' width='28'><filter id='greyscale'><feColorMatrix type='matrix' values='0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0 0 0 1 0' /></filter></svg>");
+  }
+    a:hover {
+    -webkit-filter: none;
+    filter: none;
+  }
+  /* */
+}
+
+
+/* Calculators */
+fieldset {
+  border: none;
+}
+
+#calculatorWrapper {
+  line-height: 2;
+  .label {
+    width: 5em;
+    text-align: right;
+    padding-right: 5px;
+  }
+  #distance {
+    width: 4em;
+  }
+  #hours,
+  #minutes,
+  #seconds,
+  #paceMinutes,
+  #paceSeconds {
+    width: 3.8em;
+  }
+  #hours,
+  #minutes,
+  #paceMinutes {
+    margin-right: 2px;
+  }
+  #minutes,
+  #seconds,
+  #paceSeconds {
+    margin-left: 4px;
+  }
+  #splitDistanceUnit {
+    width: 12.8em;
+  }
+  #paceUnit {
+    width: 4.2em;
+  }
+  #distanceUnit {
+    width: 8.5em;
+  }
+}
+
+.resultValue {
+  width: 2.5em;
+  display: inline-block;
+}
+.resultUnit {
+  padding-left: 10px;
+}
+#times {
+  max-width:15%;
+  td {
+    text-align: center;
+  }
+}
+#distances {
+  margin-right: 20px;
+}
+#distances,
+#paces {
+  float: left;
+  width: 33%;
+}
+#distances,
+#pace,
+#times {
+  .header {
+    font-weight: bold;
+  }
+}
+/* Calculators */
+.splitTimes {
+  .special {
+    font-weight: bold;
+  }
+
+  .splitDistanceUnit {
+    text-align: right;
+    white-space: nowrap;
+  }
+}
+
+/* /Calculators */
