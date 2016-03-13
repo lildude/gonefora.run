@@ -4,23 +4,24 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <p class="post-meta"><span class="post-date">{{ page.date | date_to_string }}</span> // <span>{% for tag in page.tags %}{{ tag | capitalize }}{% if forloop.last != true %}, {% endif %}{% endfor %}</span></p>
-  {% include google-adsense-responsive.html %}
+  {% comment %}
+  <p class="meta">
+    {% if site.name and site.name != "" %}
+      <a href="/about/" class="post-author-image"><img src="/assets/avatar-40x40.png" alt="{{ site.name }}" width=20 height=20 /></a>
+    {% endif %}
+    Posted {% if site.name and site.name != "" %}by <a href="/about/" class="post-author">{{ site.name }}</a> {% endif %}
+    on <span class="post-date">{{ page.date | date: "%d %B %Y" }}</span>
+  </p>
+  {% endcomment %}
+
   {{ content }}
-  {% include google-adsense-responsive.html %}
+
+  <p class="meta">
+    <span class="post-date">— Published {{ page.date | date: "%d %B %Y" }}</span>
+  </p>
+  {% if page.discussion %}
+  <div class="discussion">
+    <a href="{{ page.discussion }}">View the Discussion</a>
+  </div>
+  {% endif %}
 </div>
-<!-- div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div -->
