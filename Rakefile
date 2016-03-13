@@ -75,6 +75,7 @@ task :minify do
 
   unless images.blank?
     puts "\n## Compressing new images".yellow
+    puts images
     ok_failed(system("echo \"#{images}\" | ~/bin/ImageOptim-CLI-1.11.6/bin/imageoptim --image-alpha --quit"))
     # Write last compressed date to file.
     t = Time.now
@@ -92,7 +93,7 @@ task :deploy do
   end
 
   # This only produces output of there are files to minify.
-  ok_failed(Rake::Task["minify"].execute)
+  Rake::Task["minify"].execute
 
   puts "\n## Deleting gh-pages branch".yellow
   ok_failed(system("git branch -D gh-pages 1>/dev/null"))
@@ -106,14 +107,17 @@ task :deploy do
   puts "\n## Removing _site from .gitignore".yellow
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
 
+  puts "\n## Force GitHub Pages Jekyll processing bypass with .nojekyll".yellow
+  ok_failed(system("touch _site/.nojekyll"))
+
   puts "\## Deploying to Digital Ocean".yellow
   ok_failed(system("/usr/local/bin/rsync --compress --recursive --checksum --delete --itemize-changes --iconv=utf-8-mac,utf-8 _site/ do1:www/static-sites/#{$site}/")) # Requires rsync 3 on the Mac.
 
   puts "\n## Adding _site".yellow
   ok_failed(system("git add .gitignore _site assets/.last-compressed"))
 
-  puts "\n## Building site".yellow
-  message = "Build site at #{Time.now.utc}"
+  puts "\n## Committing site".yellow
+  message = "Built site at #{Time.now.utc}"
   ok_failed(system("git commit -m \"#{message}\" 1>/dev/null"))
 
   puts "\n## Forcing the _site subdirectory to be project root".yellow
@@ -130,7 +134,7 @@ desc "HTML Proof site"
 task :htmlproof do
   sh "bundle exec jekyll build"
   HTML::Proofer.new("./_site", {
-    :disable_external => false,
+    :disable_external => true,
     :cache => { :timeframe => '2w' },
     :empty_alt_ignore => true,
     :verbose => true,
