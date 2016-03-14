@@ -59,12 +59,15 @@ img.emoji, img.emojione {
 
 /* Everywhere */
 embed, object, video, iframe { max-width: 100%; }
-
+a { color: #fb0006; }
 
 .masthead {
-  background:#fafafa;
+  background:#380200;
   border-bottom:1px solid #ededed;
   margin-bottom:32px;
+  a {
+    color: #fff;
+  }
 }
 
 .post {
@@ -75,30 +78,22 @@ embed, object, video, iframe { max-width: 100%; }
   padding-bottom:12px;
 }
 
-.masthead a, .post-title a {
+.post-title a {
   color:#454E55;
   &:hover {
     text-decoration: none;
-    color: #268bd2;
+    color: #fb0006;
   }
 }
 
-.masthead-title a.home:hover, .base a:hover {
-  // Only looks nice in Webkit
-  background: -webkit-linear-gradient(left, #4913E8 0%, #2A9DF9 40%, #22c589 90%);
-  background: linear-gradient(to right, #4913e8 0%,#2a9df9 40%,#22c589 90%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.masthead-title a:hover {
+  text-decoration: none;
 }
 
 .masthead-title {
   font-size:1.1em;
-  span a {
-    font-size: 0.8em;
-    font-weight: 300;
-    &:hover {
-      color: #268bd2;
-    }
+  span {
+    color: #fb0006;
   }
 }
 
@@ -109,31 +104,8 @@ embed, object, video, iframe { max-width: 100%; }
   margin-bottom:-2em;
 }
 
-.post-author-image {
-  position:absolute;
-  top:-1px;
-  left:0;
-  width:20px;
-  height:20px;
-}
-
-.page-title, .post-title, .post-title a {
+.page-title, .post-title, .post-title a, h2, h3, h4 {
   color: #454E55;
-  //&:hover {
-  //  color: #268bd2;
-  //  text-decoration: none;
-  //}
-}
-
-.post-author-image:after {
-  content:'';
-  width:20px;
-  height:20px;
-  position:absolute;
-  top:0;
-  left:0;
-  border-radius:16px;
-  box-shadow:inset rgba(0,0,0,0.1) 0 0 0 1px;
 }
 
 .meta img {
@@ -143,23 +115,8 @@ embed, object, video, iframe { max-width: 100%; }
   margin-right:12px;
 }
 
-.post-author {
-  font-weight:bold;
-}
-
 .meta a {
   color:#444;
-}
-
-.discussion a {
-  color:#444;
-  padding:8px 12px;
-  margin-top:12px;
-  border:1px solid #ededed;
-  border-radius:3px;
-  font-size:15px;
-  font-weight:bold;
-  background:#f8f8f8;
 }
 
 pre code {
@@ -191,6 +148,21 @@ pre {
 .page-list li {
   display: inline;
   margin-left: 10px;
+  a:hover {
+    text-decoration: none;
+    padding-bottom: 12px;
+    border-bottom: 4px #fb0006 solid;
+  }
+}
+
+.page-list li.active {
+  padding-bottom: 12px;
+  border-bottom: 4px #fb0006 solid;
+}
+
+.more-link {
+  display: block;
+  padding-top: 15px;
 }
 
 /* Everywhere */
@@ -219,6 +191,22 @@ pre {
     a:hover {
     -webkit-filter: none;
     filter: none;
+  }
+  .strava-badge img, .powerof10-badge img {
+    opacity: 0.6;
+  }
+
+  .fetch-badge img, .runbritain-badge img {
+    opacity: 0.45;
+  }
+
+  .parkrun-badge img {
+    opacity: 0.7;
+  }
+  .strava-badge img, .fetch-badge img, .runbritain-badge img, .parkrun-badge img, .powerof10-badge img {
+    &:hover {
+      opacity: 1;
+    }
   }
   /* */
 }
