@@ -17,15 +17,10 @@ author:
   url:            https://twitter.com/lildude
   twitter:        '@lildude'
 
-paginate:         10
+paginate:         15
 
 # Custom vars
-version:          0.0.1
 google-site-verification: X0GErJ8t4_IcMSb7Xy8JYdK8qlk_QoqgsxI3r94fe4A
-debug:            false
-
-github:
-  repo:           https://github.com/poole/hyde
 
 sass:
   sass_dir:       _scss
@@ -64,4 +59,4 @@ emoji:
 #  image_type: "svg"
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README-hyde.md, README.md, .sass-cache]
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README-hyde.md, README.md]
