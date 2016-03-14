@@ -5,10 +5,12 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
 
+  {% include google-adsense-responsive.html %}
   {{ content }}
+  {% include google-adsense-responsive.html %}
 
   <p class="meta">
     <span class="post-date">— Published {{ page.date | date: "%d %B %Y" }}</span>
   </p>
-  
+
 </div>
