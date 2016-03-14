@@ -56,10 +56,11 @@ layout: compress
             <a href="{{ site.baseurl }}/" class="home">{{ titleparts[0] }} <span>{{ titleparts[1] }}</span></a>
           </h1>
           <ul class="page-list">
-            <li><a href="/archives">Archives</a></li>
-            <li><a href="/goals">Goals</a></li>
-            <li><a href="/calculators">Calculators</a></li>
-            <li><a href="/about">About</a></li>
+            {% assign current = page.url | downcase | split: '/' %}
+            <li{% if current[1] == 'archives' %} class='active'{% endif %}><a href="/archives">Archives</a></li>
+            <li{% if current[1] == 'goals' %} class='active'{% endif %}><a href="/goals">Goals</a></li>
+            <li{% if current[1] == 'calculators' %} class='active'{% endif %}><a href="/calculators">Calculators</a></li>
+            <li{% if current[1] == 'about' %} class='active'{% endif %}><a href="/about">About</a></li>
           </ul>
         </div>
       </div>
