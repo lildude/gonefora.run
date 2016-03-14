@@ -1,79 +1,235 @@
-/*
- * My own CSS over-rides and customisations, independent of the main poole & hyde files
- */
-
-/* Google fonts, take from https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700 */
+/* Google fonts, from https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic,700italic */
 /* Experimenting with native fonts ala https://github.com/twbs/bootstrap/pull/19098
- @font-face {
-  font-family: 'PT Sans';
+@font-face {
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
-  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v8/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'Open Sans';
   font-style: italic;
-  font-weight: 400;
-  src: local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v8/PIPMHY90P7jtyjpXuZ2cLLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxvR_54zmj3SbGZQh3vCOwvY.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff) format('woff');
 }
 */
-.theme-colin {
-  /* Everywhere */
-  img {
-    height: auto;
-  }
-  /* Everywhere */
-  img.emoji {
-    display: inline;
-    border-radius: 0;
-    margin: 0 0 0.3rem;
-    width: 20px;
-    height: 20px;
-    vertical-align: bottom;
-  }
-  /* Everywhere */
-  del {
-    opacity: 0.3;
-  }
-  /* Everywhere */
-  /*---:[ Image alignment ]:---*/
-  img.alignleft, img.left { float: left; margin-right: 10px }
-  img.alignright, img.right { float: right; margin-left: 10px }
-  img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
-  img.alignnone, img.block { clear: both; display: block; }
-  img[align="left"] { clear: left; float: left; margin-right: 10px }
-  img[align="right"] { clear: right; float: right; margin-left: 10px }
-  img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
-  /* Everywhere */
-  /*---:[ Other Alignment ]:---*/
-  .center, .centered { margin: 0 auto; text-align: center; }
-  .alignright { float: right; margin-left: 1.571em; }
-  .alignleft { float: left; margin-right: 1.571em; }
 
-  /* Everywhere */
-  embed, object, video, iframe { max-width: 100%; }
-  /* Everywhere */
-  figcaption {
-    color: #999;
-    font-size: 0.9rem;
-    text-align: center;
+html {
+  font-size:16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  color:#727272;
+}
+
+/*---:[ Image alignment ]:---*/
+img.alignleft, img.left { float: left; margin-right: 10px }
+img.alignright, img.right { float: right; margin-left: 10px }
+img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
+img.alignnone, img.block { clear: both; display: block; }
+img[align="left"] { clear: left; float: left; margin-right: 10px }
+img[align="right"] { clear: right; float: right; margin-left: 10px }
+img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
+/* Everywhere */
+/*---:[ Other Alignment ]:---*/
+.center, .centered { margin: 0 auto; text-align: center; }
+.alignright { float: right; margin-left: 1.571em; }
+.alignleft { float: left; margin-right: 1.571em; }
+img.emoji, img.emojione, svg.emojione {
+  display: inline;
+  border-radius: 0;
+  margin: 0 0 0.3rem;
+  width: 20px;
+  height: 20px;
+  vertical-align: text-top;
+}
+
+/* Everywhere */
+embed, object, video, iframe { max-width: 100%; }
+a { color: #fb0006; }
+
+p.adsense-local {
+  height: 90px;
+  display: block;
+  background-color: #eee;
+  vertical-align: middle;
+  line-height: 90px;
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.masthead {
+  background:#380200;
+  margin-bottom:32px;
+  a {
+    color: #fff;
   }
-  /* Everywhere */
-  figure img {
-    margin-bottom: 0;
+}
+
+.post {
+  margin-bottom:32px;
+}
+
+.container.content {
+  padding-bottom:12px;
+}
+
+.post-title a {
+  color:#454E55;
+  &:hover {
+    text-decoration: none;
+    color: #fb0006;
   }
-  p.adsense-local {
-    height: 90px;
+}
+
+.masthead-title a:hover {
+  text-decoration: none;
+}
+
+.masthead-title {
+  font-size:1.1em;
+  span {
+    color: #fb0006;
+  }
+}
+
+.meta {
+  font-size:12px;
+  color:#999;
+  padding-left:28px;
+  margin-bottom:-2em;
+}
+
+.page-title, .post-title, .post-title a, h2, h3, h4 {
+  color: #454E55;
+}
+
+.meta img {
+  width:20px;
+  height:20px;
+  border-radius:16px;
+  margin-right:12px;
+}
+
+.meta a {
+  color:#444;
+}
+
+pre code {
+  white-space: pre;
+  word-wrap: normal;
+  word-break: normal;
+}
+pre {
+  overflow-x: scroll;
+}
+
+.base {
+  border-top:1px solid #efefef;
+  padding:20px 0;
+  font-size:12px;
+}
+
+.base a {
+  color:#555;
+  font-weight:bold;
+}
+
+.page-list {
+  float: right;
+  margin-top: -17px;
+  font-size: 13px;
+}
+
+.page-list li {
+  display: inline;
+  margin-left: 10px;
+  a:hover {
+    text-decoration: none;
+    padding-bottom: 12px;
+    border-bottom: 4px #fb0006 solid;
+  }
+}
+
+.page-list li.active {
+  padding-bottom: 12px;
+  border-bottom: 4px #fb0006 solid;
+}
+
+.more-link {
+  display: block;
+  padding-top: 15px;
+}
+
+/* Everywhere */
+.social-nav {
+  display: none;
+  margin-bottom: 1rem;
+  img {
+    border-radius: 15px; // Makes round icons
+    display: inline-block;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+  }
+  // TODO: Only show on wider views.
+  @media (min-width: 58em) {
     display: block;
-    background-color: #0A0;
   }
-  /* Calculators only */
+  /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
+     Update: Seems to be fixed in Chrome 40 */
+  a {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='28' width='28'><filter id='greyscale'><feColorMatrix type='matrix' values='0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0 0 0 1 0' /></filter></svg>");
+  }
+    a:hover {
+    -webkit-filter: none;
+    filter: none;
+  }
+  .strava-badge img, .powerof10-badge img {
+    opacity: 0.6;
+  }
+
+  .fetch-badge img, .runbritain-badge img {
+    opacity: 0.45;
+  }
+
+  .parkrun-badge img {
+    opacity: 0.7;
+  }
+  .strava-badge img, .fetch-badge img, .runbritain-badge img, .parkrun-badge img, .powerof10-badge img {
+    &:hover {
+      opacity: 1;
+    }
+  }
+  /* */
+}
+
+
+/* Calculators */
+fieldset {
+  border: none;
+}
+
+#calculatorWrapper {
+  line-height: 2;
   .form-control {
     height: 32px;
     padding: 6px 12px;
@@ -91,278 +247,87 @@
     vertical-align: middle;
   }
   .form-control:focus {
-    border-color: #3453a1;
+    border-color: #380200;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(53,83,161,.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(53,83,161,.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(56,2,0,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(56,2,0,.6);
   }
-  /* Everywhere */
-  label {
+  .label {
+    width: 5em;
+    text-align: right;
+    padding-right: 5px;
     display: inline-block;
     max-width: 100%;
   }
-  /* Calculators */
-  #calculatorWrapper {
-    line-height: 2;
-    .label {
-      width: 5em;
-      text-align: right;
-      padding-right: 5px;
-    }
-    #distance {
-      width: 4em;
-    }
-    #hours,
-    #minutes,
-    #seconds,
-    #paceMinutes,
-    #paceSeconds {
-      width: 3.8em;
-    }
-    #hours,
-    #minutes,
-    #paceMinutes {
-      margin-right: 2px;
-    }
-    #minutes,
-    #seconds,
-    #paceSeconds {
-      margin-left: 4px;
-    }
-    #splitDistanceUnit {
-      width: 12.8em;
-    }
-    #paceUnit {
-      width: 4.2em;
-    }
-    #distanceUnit {
-      width: 8.5em;
-    }
+  #distance {
+    width: 4em;
   }
-
-  /* Everywhere */
-  .sidebar p {
-    font-size: 0.5rem;
+  #hours,
+  #minutes,
+  #seconds,
+  #paceMinutes,
+  #paceSeconds {
+    width: 3.8em;
   }
-  /* Everywhere */
-  .sidebar-about h1 {
-    line-height: 1em;
+  #hours,
+  #minutes,
+  #paceMinutes {
+    margin-right: 2px;
   }
-  /* Everywhere */
-  .sidebar-about .lead {
-    font-size: 0.9rem;
+  #minutes,
+  #seconds,
+  #paceSeconds {
+    margin-left: 4px;
   }
-  /* Everywhere */
-  .sidebar {
-    .sidebar-nav {
-      .sidebar-nav-item {
-        @media (max-width: 58em) {
-          display: inline-block;
-          padding-right: 1em;
-        }
-      }
-    }
+  #splitDistanceUnit {
+    width: 12.8em;
   }
-  /* Everywhere */
-  .content {
-      padding-bottom: 0;
-    a {
-      color: #3453a1;
-      border-bottom: 1px solid #ccc;
-    }
-    /* Home */
-    .aside {
-      margin-bottom: 4em;
-    }
-    /* Home */
-    .aside .post-date,
-    .post-date {
-      display: inline;
-    }
-    /* Home */
-    .post .more-link {
-      font-weight: bold;
-      display: block;
-      padding-top: 15px;
-      a {
-        border: none;
-      }
-    }
-    /* Everywhere */
-    .post-meta {
-      margin-top: -10px;
-      font-size: 15px;
-
-      .tag_list_link {
-        margin-right: 8px;
-      }
-    }
-    /* Everywhere */
-    .post-meta,
-    .post-meta a,
-    .post-meta a:visited {
-      color: #9a9a9a;
-      border-bottom: none;
-    }
-    /* Everywhere */
-    .post-title,
-    .page-title,
-    .post-title a {
-      color: #3453a1;
-      border: none;
-    }
-    /* Archives */
-    ul.archives {
-      padding-left: 0;
-    }
-    /* About */
-    .about_follow img {
-      display: inline;
-      margin-right: 20px;
-    }
-    /* About */
-    .about_follow a {
-      border: none;
-    }
-    /* Everywhere */
-    .copymsg {
-      display: block;
-      text-align: center;
-      @media (min-width: 58em) {
-        display: none;
-      }
-    }
-
-    /* Posts only */
-    .tweet {
-      border-top: 1px solid #eee;
-      padding-top: 15px;
-      text-align: center;
-      span {
-        font-size: 13px;
-        color: #999;
-        margin-right: 15px;
-        vertical-align: text-top;
-      }
-    }
-
+  #paceUnit {
+    width: 4.2em;
   }
-  /* Everywhere */
-  .sidebar a:hover,
-  .content a:hover {
-    color: #bf0222;
-    -webkit-transition: color .25s linear,border-color .25s linear;
-    -moz-transition: color .25s linear,border-color .25s linear;
-    -ms-transition: color .25s linear,border-color .25s linear;
-    transition: color .25s linear,border-color .25s linear;
-    text-decoration: none;
+  #distanceUnit {
+    width: 8.5em;
   }
-  /* Everywhere */
-  .sidebar {
-    .copymsg {
-      display: none;
-      @media (min-width: 58em) {
-        display: block;
-      }
-    }
-    /* Everywhere */
-    .social-nav {
-      display: none;
-      margin-bottom: 1rem;
-      img {
-        border-radius: 15px; // Makes round icons
-        display: inline-block;
-        margin: 0;
-        width: 24px;
-        height: 24px;
-      }
-      // Only show on wider views.
-      @media (min-width: 58em) {
-        display: block;
-      }
-      /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
-         Update: Seems to be fixed in Chrome 40
-      a {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        filter: gray;
-        filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='28' width='28'><filter id='greyscale'><feColorMatrix type='matrix' values='0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0 0 0 1 0' /></filter></svg>");
-      }
-        a:hover {
-        -webkit-filter: none;
-        filter: none;
-      }
-      */
-    }
-  }
-
-
-  /* Remove these page-specific styles when I've got individual files working */
-  /*---:[ Calculators ]:---*/
-  fieldset {
-    border: 0;
-  }
-
-  /* Everywhere */
-  /* Notification colours borrowed from Bootstrap */
-  .error,
-  .success,
-  .info,
-  .warning {
-    padding: 5px;
-    border-radius: 5px;
-  }
-  .error {
-    background-color: #f2dede;
-  }
-  .success {
-    background-color: #dff0d8;
-  }
-  .info {
-    background-color: #d9edf7;
-  }
-  .warning {
-    background-color: #fcf8e3;
-  }
-  /* Calculators */
-  .resultValue {
-    width: 2.5em;
-    display: inline-block;
-  }
-  .resultUnit {
-    padding-left: 10px;
-  }
-  #times {
-    max-width:15%;
-    td {
-      text-align: center;
-    }
-  }
-  #distances {
-    margin-right: 20px;
-  }
-  #distances,
-  #paces {
-    float: left;
-    width: 33%;
-  }
-  #distances,
-  #pace,
-  #times {
-    .header {
-      font-weight: bold;
-    }
-  }
-  /* Calculators */
-  .splitTimes {
-    .special {
-      font-weight: bold;
-    }
-
-    .splitDistanceUnit {
-      text-align: right;
-      white-space: nowrap;
-    }
-  }
-
 }
+
+.resultValue {
+  width: 2.5em;
+  display: inline-block;
+}
+.resultUnit {
+  padding-left: 10px;
+}
+#times {
+  max-width:15%;
+  td {
+    text-align: center;
+  }
+}
+#distances {
+  margin-right: 20px;
+}
+#distances,
+#paces {
+  float: left;
+  width: 33%;
+}
+#distances,
+#pace,
+#times {
+  .header {
+    font-weight: bold;
+  }
+}
+/* Calculators */
+.splitTimes {
+  .special {
+    font-weight: bold;
+  }
+
+  .splitDistanceUnit {
+    text-align: right;
+    white-space: nowrap;
+  }
+}
+
+/* /Calculators */
