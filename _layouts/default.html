@@ -52,7 +52,8 @@ layout: compress
         <div class="container">
 
           <h1 class="masthead-title">
-            <a href="{{ site.baseurl }}/" class="home">{{ site.title }}</a>
+            {% assign titleparts = site.title | split: ' ' %}
+            <a href="{{ site.baseurl }}/" class="home">{{ titleparts[0] }} <span>{{ titleparts[1] }}</span></a>
           </h1>
           <ul class="page-list">
             <li><a href="/archives">Archives</a></li>
