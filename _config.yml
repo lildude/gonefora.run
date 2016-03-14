@@ -48,12 +48,13 @@ gems:
   - jekyll-emoji
 
 # jekyll-emoji config - note, it's use of "Emoji" module name clashes with other gems.
-# TODO: I'd :heart: to have an option that will embed the SVG rather than use an <img> tag.
 emoji:
-  format: emojione-svg # default html
+  format: emojione-svg-embed # default html
   ascii: false # default false
   shortname: true # default true
-
+  src: "/Users/lildude/Sites/static/emojione/svg" # defaults to https://cdn.jsdelivr.net/emojione/assets/#{ext}
+  #src: "https://twemoji.maxcdn.com/svg/" # Twmoji
+  #src: "https://cdn.jsdelivr.net/emojione/assets/svg"
 
 #jekyll-twemoji:
 #  image_type: "svg"
