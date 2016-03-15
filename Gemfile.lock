@@ -15,6 +15,7 @@ PATH
   remote: ~/Development/jekyll-emoji
   specs:
     jekyll-emoji (1.0.3)
+      httpclient (>= 2.7)
       jekyll (>= 2.0)
       oga (~> 1.2, >= 1.2.0)
       yajl-ruby (~> 1.2, >= 1.2.0)
