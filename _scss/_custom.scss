@@ -180,7 +180,7 @@ pre {
 .social-nav {
   display: none;
   margin-bottom: 1rem;
-  img {
+  svg, img {
     border-radius: 15px; // Makes round icons
     display: inline-block;
     margin: 0;
@@ -202,19 +202,20 @@ pre {
     a:hover {
     -webkit-filter: none;
     filter: none;
+    text-decoration: none;
   }
-  .strava-badge img, .powerof10-badge img {
+  .strava-badge svg, .powerof10-badge svg {
     opacity: 0.6;
   }
 
-  .fetch-badge img, .runbritain-badge img {
+  .fetch-badge svg, .runbritain-badge svg {
     opacity: 0.45;
   }
 
-  .parkrun-badge img {
+  .parkrun-badge svg {
     opacity: 0.7;
   }
-  .strava-badge img, .fetch-badge img, .runbritain-badge img, .parkrun-badge img, .powerof10-badge img {
+  .strava-badge svg, .fetch-badge svg, .runbritain-badge svg, .parkrun-badge svg, .powerof10-badge svg {
     &:hover {
       opacity: 1;
     }
