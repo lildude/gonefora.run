@@ -36,6 +36,7 @@ body {
 }
 
 /*---:[ Image alignment ]:---*/
+img { max-width: 100%; height: auto; width: auto; }
 img.alignleft, img.left { float: left; margin-right: 10px }
 img.alignright, img.right { float: right; margin-left: 10px }
 img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
