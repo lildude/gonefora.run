@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
-    <title>feed-icon 2</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="feed-icon" sketch:type="MSLayerGroup">
-            <rect id="Rectangle-4" fill="#F69537" sketch:type="MSShapeGroup" x="0" y="0" width="256" height="256"></rect>
-            <circle id="Oval" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="68" cy="189" r="24"></circle>
-            <path d="M160,213 L126,213 C126,167.712651 89.2873495,131 44,131 L44,97 C108.065031,97 160,148.934969 160,213 L160,213 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <path d="M184,213 C184,135.680135 121.319865,73 44,73 L44,38 C140.649831,38 219,116.350169 219,213 L184,213 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#F69537" x="0" y="0" width="256" height="256"/><circle fill="#FFFFFF" cx="68" cy="189" r="24"/><path d="M160 213L126 213C126 167.7 89.3 131 44 131L44 97C108.1 97 160 148.9 160 213L160 213ZM184 213C184 135.7 121.3 73 44 73L44 38C140.6 38 219 116.4 219 213L184 213Z" fill="#FFFFFF"/></g></svg>
