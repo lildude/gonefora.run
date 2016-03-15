@@ -71,10 +71,9 @@ p.adsense-local {
   text-align: center;
   color: #fff;
   font-weight: bold;
-}
-
-p.adsense span {
-  display: none;
+  span {
+    display: block !important;
+  }
 }
 
 .masthead {
