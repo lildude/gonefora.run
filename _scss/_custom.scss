@@ -155,9 +155,18 @@ pre {
 }
 
 .page-list {
-  float: right;
-  margin-top: -17px;
+  @media(min-width: 480px) {
+    float: right;
+    margin-top: -18px;
+  }
+  @media(max-width: 270px) {
+    display: none;
+  }
+  margin-top: 1rem;
+  margin-bottom: 0;
   font-size: 13px;
+  padding: 0;
+  text-align: center;
 }
 
 .page-list li {
@@ -182,7 +191,7 @@ pre {
 
 /* Everywhere */
 .social-nav {
-  display: none;
+  display: block;
   margin-bottom: 1rem;
   svg, img {
     border-radius: 15px; // Makes round icons
@@ -191,12 +200,7 @@ pre {
     width: 24px;
     height: 24px;
   }
-  // TODO: Only show on wider views.
-  @media (min-width: 58em) {
-    display: block;
-  }
-  /* This looks really crap on Retina. Known issue: https://bugs.webkit.org/show_bug.cgi?id=93471
-     Update: Seems to be fixed in Chrome 40 */
+
   a {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
