@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Boris Berian's Gutsy 800m Final at the World Indoor Champs 2016"
-date: 2016-03-21 10:39:42 +0000
+date: 2016-03-21 10:58:52 +0000
 tags:
 - race
 - athletics
