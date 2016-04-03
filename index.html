@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.posts limit:15 %}
   {% if post.tags contains "shorts" %}
     <div class="aside">
       <p><span class="post-date">{{ post.date | date_to_string }}</span> &middot; {{ post.content | remove:'<p>' | remove:'</p>' }}</p>
