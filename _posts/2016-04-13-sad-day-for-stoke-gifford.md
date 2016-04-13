@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "It's a Sad Day for Stoke Gifford"
-date: 2016-04-13 15:24:37 +0100
+date: 2016-04-13 17:11:28 +0100
 tags:
 - parkrun
 type: post
