@@ -1,24 +1,20 @@
 ---
 layout: page
 title: About
-categories: []
 tags:
 - experience
 - about
 - Colin Seymour
 - history
-status: publish
 type: page
 published: true
-meta: {}
-author:
 ---
 
 So I've got this blog documenting my path from running in shoes to running barefoot, but I've recently realised that people don't know anything about me, my running background or my motivations for ditching the shoes and heading down the barefoot road, so here it is.  This is my Who, What, Why and When page.
 
 ## Who Am I?
 
-<img class="alignleft" alt="Colin Seymour" src="/assets/photo.jpg" width="128" height="128" /> I'm [Colin Seymour](http://colinseymour.co.uk) ([Google+](https://plus.google.com/114832296216697565318)), a 35 year old gent, born and brought up in the leafy northern suburbs of Johannesburg, South Africa and now living in one of the home counties in England.
+![Colin Seymour](/assets/photo.jpg){:width="128" height="128" class="alignleft"} I'm Colin Seymour, a 35 year old gent, born and brought up in the leafy northern suburbs of Johannesburg, South Africa and now living in one of the home counties in England.
 
 ## What Is My Running Experience
 
@@ -32,8 +28,9 @@ As the years went on, my love of road running grew, and so did the distances.  I
 
 I ran my first, and only marathon at 18.  It was a terrible run, but I didn't really care as I didn't run it for a marathon PB. I ran it purely to get the qualifying time I needed to run my first ultra-marathon: the 56Km [Two Oceans Marathon](http://www.twooceansmarathon.org.za/) (what a brilliant race):
 
-[<figure class="center" >![Colin Seymour](/assets/2OceansResults.png)](http://admin.twooceansmarathon.org.za/HistoryList.aspx?RunnerCode=39205)<figcaption>(1397 out of 7441 finishers.  5th junior)</figcaption></figure>
-<p>I also took part in several [duathlons](http://en.wikipedia.org/wiki/Duathlon) and [sprint-distance triathlons](http://www.bsgenergadetriseries.co.za/).
+[![My Two Oceans Marathon results](/assets/2OceansResults.png){:class="center"}](http://admin.twooceansmarathon.org.za/HistoryList.aspx?RunnerCode=39205 "1397 out of 7441 finishers.  5th junior")
+
+I also took part in several [duathlons](http://en.wikipedia.org/wiki/Duathlon) and [sprint-distance triathlons](http://www.bsgenergadetriseries.co.za/).
 
 Sadly, my last official road race, and technically the start of a long hiatus from running was the Randburg Harrier's Valentines 10km Nite race which I ran the week before I packed my bags and moved to the UK in 1999.
 
@@ -75,15 +72,13 @@ I also promised myself that I would make a concerted effort this time and try my
 
 Want to follow me, and I don't mean because you run slower than me or you're a stalker, then you can do so in loads of places:
 
-<div class="center about_follow">
-  <a href="http://www.thepowerof10.info/athletes/profile.aspx?athleteid=246985" target="_blank"><img alt="Power of 10" src="/assets/powerof10.png" width="336" height="82" /></a><br />
-  <a href="http://twitter.com/lildude" target="_blank"><img alt="Twitter" src="/assets/twitter.png" width="200" height="46" /></a>
-  <a href="http://www.fetcheveryone.com/userprofile.php?id=32814" target="_blank"><img alt="FetchEveryone" src="/assets/fetcheveryone.png" width="125" height="71" /></a>
-  <a href="http://app.strava.com/athletes/1295848" target="_blank"><img alt="StravaRun.jpg" src="/assets/StravaRun.jpg" width="71" height="71" /></a>
-  <a href="http://www.runbritainrankings.com/runners/profile.aspx?athleteid=246985" target="_blank"><img alt="runbritain" src="/assets/runbritain.png" width="251" height="94" /></a>
-  <a href="http://www.parkrun.org.uk/athleteresultshistory?athleteNumber=73185" target="_blank"><img alt="parkrun" src="/assets/parkrun.png" width="205" height="100" /></a>
-</div>
-
+[![Power of 10](/assets/powerof10.png){:style="width:336px; height=82px"}](http://www.thepowerof10.info/athletes/profile.aspx?athleteid=246985){:target="_blank"}  
+[![Twitter](/assets/twitter.png){:style="width:200px; height:46px"}](http://twitter.com/lildude){:target="_blank"}
+[![FetchEveryone](/assets/fetcheveryone.png){:style="width:125px; height:71px"}](http://www.fetcheveryone.com/userprofile.php?id=32814){:target="_blank"}
+[![Strava](/assets/StravaRun.jpg){:style="width:71px; height=:71px"}](http://app.strava.com/athletes/1295848){:target="_blank"}
+[![RunBritain](/assets/runbritain.png){:style="width:251px; height:94px"}](http://www.runbritainrankings.com/runners/profile.aspx?athleteid=246985){:target="_blank"}
+[![parkrun](/assets/parkrun.png){:style="width:205px height:100px"}](http://www.parkrun.org.uk/athleteresultshistory?athleteNumber=73185){:target="_blank"}
+{:class="center"}
 
 <del>I'm still dabbling with DailyMile. I might decide to ditch it at some point in the future - it really depends how they improve their API this year (2012) and how many people want to be my running friend</del> :grinning:  (Ditched at the end of 2012. It didn't meet my needs and there was no progress on the API side of things).
 
