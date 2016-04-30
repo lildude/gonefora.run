@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reading Half Marathon Price Ooops"
-date: 2016-04-30 10:39:07 +0100
+date: 2016-04-30 11:46:21 +0100
 tags:
 - race
 - half-marathon
