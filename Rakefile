@@ -59,7 +59,7 @@ task :wir do
   bow = eow - 6
   bowfmt = (bow.mon == eow.mon) ? bow.strftime('%-d') : bow.strftime('%-d %b')
   eowfmt = eow.strftime("%-d %b '%y")
-  Rake::Task["new"].invoke("Week in Review: #{bowfmt} - #{eow.strftime("%-d %b '%y'")}", bowfmt, eowfmt)
+  Rake::Task["new"].invoke("Week in Review: #{bowfmt} - #{eow.strftime("%-d %b '%y")}", bowfmt, eowfmt)
 end
 
 desc "Publish a draft post in #{drafts_dir}"
