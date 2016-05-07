@@ -37,6 +37,11 @@ compress_html:
 redcarpet:
   extensions:       [tables, autolink, strikethrough, footnotes, superscript]
 
+# Configure kramdown
+kramdown:
+  input:            GFM
+  smart_quotes:     ["apos", "apos", "quot", "quot"]  # Don't do smart quoting by replacing like for like.
+
 # Plugins
 gems:
   - jekyll-sitemap
