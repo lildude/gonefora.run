@@ -3,7 +3,7 @@ require "bundler/setup"
 require "stringex"
 require "reduce"
 require "yaml"
-require "html/proofer"
+require "html-proofer"
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
@@ -150,10 +150,13 @@ task :deploy do
   ok_failed(system("git push origin master gh-pages --force 1>/dev/null"))
 end
 
-desc "HTML Proof site"
-task :htmlproof do
-  sh "bundle exec jekyll build"
-  HTML::Proofer.new("./_site", {
+desc "Test site"
+task :test do
+  sh "JEKYLL_ENV=test bundle exec jekyll build"
+  HTMLProofer.check_directory("./_site", {
+    :assume_extension => true,
+    :check_favicon => true,
+    :check_html => true,
     :disable_external => true,
     :cache => { :timeframe => '2w' },
     :empty_alt_ignore => true,
