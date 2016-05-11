@@ -11,14 +11,17 @@ tagline:          'From Shoes to Nothing'
 description:      "I ran. I ran fast. I ran lots. I stopped, got fat and now I'm back, but this time barefoot and almost barefoot with new goals, dreams and aspirations."
 url:              https://barefootrunner.co.uk
 baseurl:          ""
+twitter:
+  username:       lildude
+logo:             assets/profile.png
+author:           'Colin Seymour'
 
-author:
-  name:           'Colin Seymour'
-  url:            https://twitter.com/lildude
-  twitter:        '@lildude'
+social:
+  name:           Colin Seymour
+  links:          ["https://twitter.com/lildude", "https://www.instagram.com/lildoodlil/"]
 
 # Custom vars
-google-site-verification: X0GErJ8t4_IcMSb7Xy8JYdK8qlk_QoqgsxI3r94fe4A
+google_site_verification:   X0GErJ8t4_IcMSb7Xy8JYdK8qlk_QoqgsxI3r94fe4A
 
 sass:
   sass_dir:       _scss
@@ -49,6 +52,7 @@ gems:
   #- jemoji
   - jekyll-paginate
   - jekyll-emoji
+  #- jekyll-seo-tag
 
 # jekyll-emoji config - note, it's use of "Emoji" module name clashes with other gems.
 emoji:

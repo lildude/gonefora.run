@@ -166,6 +166,7 @@ DEPENDENCIES
   html-proofer
   jekyll-emoji!
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-sitemap
   reduce
   stringex
