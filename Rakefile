@@ -163,7 +163,7 @@ task :test do
     :verbose => true,
     :href_swap => {%r{(?<!\/)^\/{1}(?!\/)} => "https://#{$site}.co.uk/"}, # Matches /foo/doo but not //foo/doo - useful for protocol-less links.
     :typhoeus => { :verbose => true, :followlocation => true },
-    :parallel => { :in_processes => 1}}).run
+    :parallel => { :in_processes => 3}}).run
 end
 
 desc "Generate and display locally"
