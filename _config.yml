@@ -29,7 +29,7 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: []
+    envs: [test, local]
   profile: false
   startings: [html, body]
 
