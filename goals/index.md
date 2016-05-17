@@ -17,7 +17,7 @@ published: true
 meta: {}
 author:
 ---
-<p>To try and motivate me and keep track of my barefoot running progress, I thought I'd draw up a list of goals I want to achieve.  This is a progression from running with shoes to running without or in a pair of Vibrams.  I've run all of these distances, and further, in shoes and now I want to do it barefoot/Vibramed.</p>
+<p>To try and motivate me and keep track of my barefoot running progress, I thought I'd draw up a list of goals I want to achieve.  This is a progression from running with shoes to running without or in a pair of Vibrams or other minimalist "show".  I've run all of these distances, and further, in shoes and now I want to do it barefoot or in minimalist shoes.</p>
 <p>I'm not putting a target date on any of these as I don't want to push myself or become a slave to my goals.</p>
 <table id="goals-table">
 <tr class="odd">
