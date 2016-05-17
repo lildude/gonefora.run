@@ -1,29 +1,37 @@
 <head>
   <link href="http://gmpg.org/xfn/11" rel="profile" />
-  <link rel="canonical" href="{{ site.url }}{{ page.url | remove:'index.html' }}" />
-  <link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }} - Atom Feed" type="application/atom+xml" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  {% seo title=true %}
+
+  {% comment %}
+
+  <!-- This stuff in provided by the jekyll-seo-tag gem/plugn -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove:'index.html' }}" />
   {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
   {% endif %}
 
-  <!-- Enable responsiveness on mobile devices -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta name="description" content="{% if page.title == "Home" %}{{ site.description }} {% if paginator.page > 1 %} (Page {{ paginator.page }}) {% endif %}{% else %}{{ content | strip_html | truncatewords:50 | strip_newlines | escape_once }}{% endif %}" />
-  <meta name="keywords" content="{% for tag in page.tags %}{{ tag | downcase }}{% if forloop.last != true %}, {% endif %}{% endfor %}" />
+  <!-- Description and title rely on my own fork of jekyll-seo-tag -->
+  <meta name="description" content="{% if page.title == "Home" %}{{ site.description }} {% if paginator.page > 1 %} (Page {{ paginator.page }}) {% endif %}{% else %}{{ page.content | strip_html | remove: 'Google Adsense Advert Here' | truncatewords:50 | strip_newlines | escape_once }}{% endif %}" />
+
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} · {{ site.tagline }}
+      {{ site.title | escape_once }} · {{ site.tagline | escape_once }}
     {% else %}
-      {{ page.title }} · {{ site.title }}
+      {{ page.title | escape_once }} · {{ site.title | escape_once }}
     {% endif %}
     {% if paginator.page > 1 %} (Page {{ paginator.page }}) {% endif %}
   </title>
 
+  {% endcomment %}
+
   <!-- CSS -->
   {% if jekyll.environment == 'local' %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" />
   {% else %}
     <style type="text/css">
       {% capture include_to_scssify %}
@@ -36,6 +44,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico" />
 
-  <!-- RSS -->
+  <!-- RSS & Atom -->
+  <link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }} - Atom Feed" type="application/atom+xml" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml" />
 </head>
