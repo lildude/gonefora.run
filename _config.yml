@@ -8,13 +8,16 @@ permalink:        :title
 # Setup
 title:            Barefoot Runner
 tagline:          'From Shoes to Nothing'
+separator:        ' · '
 description:      "I ran. I ran fast. I ran lots. I stopped, got fat and now I'm back, but this time barefoot and almost barefoot with new goals, dreams and aspirations."
 url:              https://barefootrunner.co.uk
 baseurl:          ""
 twitter:
   username:       lildude
-logo:             assets/profile.png
-author:           'Colin Seymour'
+logo:             /assets/favicon.png
+author:
+  name:           'Colin Seymour'
+  twitter:        lildude
 
 social:
   name:           Colin Seymour
@@ -52,7 +55,7 @@ gems:
   #- jemoji
   - jekyll-paginate
   - jekyll-emoji
-  #- jekyll-seo-tag
+  - jekyll-seo-tag
 
 # jekyll-emoji config - note, it's use of "Emoji" module name clashes with other gems.
 emoji:
