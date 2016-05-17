@@ -14,7 +14,7 @@ url:              https://barefootrunner.co.uk
 baseurl:          ""
 twitter:
   username:       lildude
-logo:             /assets/favicon.png
+logo:             /img/favicon.png
 author:
   name:           'Colin Seymour'
   twitter:        lildude
