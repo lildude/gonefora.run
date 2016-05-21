@@ -340,3 +340,16 @@ fieldset {
 }
 
 /* /Calculators */
+
+/* Home page only */
+
+.aside .post-date {
+  font-weight: bold;
+}
+
+.aside svg {
+  margin: 4px 0 0 -5px;
+  path {
+    fill: #fb0006;
+  }
+}
