@@ -1,7 +1,6 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
-require "reduce"
 require "yaml"
 require "html-proofer"
 
