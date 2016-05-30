@@ -32,7 +32,7 @@ title: Home
           {{ post.content | split:"<!-- more -->" | first %}}
         {% endif %}
         <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
-      {% elsif word_count > 200 %}
+      {% elsif word_count > 100 %}
         {{ post.excerpt }}
         <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
       {% else %}
