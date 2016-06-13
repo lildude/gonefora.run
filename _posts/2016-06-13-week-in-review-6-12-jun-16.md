@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week in Review: 6 - 12 Jun '16"
-date: 2016-06-12 12:20:24 +0100
+date: 2016-06-13 10:01:19 +0100
 tags:
 - training
 - review
