@@ -41,8 +41,8 @@ compress_html:
   startings: [html, body]
 
 # Configure RedCarpet
-redcarpet:
-  extensions:       [tables, autolink, strikethrough, footnotes, superscript]
+#redcarpet:
+#  extensions:       [tables, autolink, strikethrough, footnotes, superscript]
 
 # Configure kramdown
 kramdown:
