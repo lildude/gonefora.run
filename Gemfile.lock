@@ -37,13 +37,13 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.10)
     gemoji (2.1.0)
-    github-pages (81)
+    github-pages (78)
       github-pages-health-check (= 1.1.0)
-      jekyll (= 3.1.6)
+      jekyll (= 3.0.5)
       jekyll-coffeescript (= 1.0.1)
       jekyll-feed (= 0.5.1)
       jekyll-gist (= 1.4.0)
-      jekyll-github-metadata (= 2.0.0)
+      jekyll-github-metadata (= 1.11.1)
       jekyll-mentions (= 1.1.2)
       jekyll-paginate (= 1.1.0)
       jekyll-redirect-from (= 0.10.0)
@@ -77,7 +77,7 @@ GEM
       yell (~> 2.0)
     httpclient (2.8.0)
     i18n (0.7.0)
-    jekyll (3.1.6)
+    jekyll (3.0.5)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -91,8 +91,7 @@ GEM
     jekyll-feed (0.5.1)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
-    jekyll-github-metadata (2.0.0)
-      jekyll (~> 3.1)
+    jekyll-github-metadata (1.11.1)
       octokit (~> 4.0)
     jekyll-mentions (1.1.2)
       html-pipeline (~> 2.3)
@@ -164,7 +163,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 78)
   html-proofer
   jekyll-emoji!
   jekyll-paginate

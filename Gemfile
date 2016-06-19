@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "github-pages"
+gem "github-pages", "78" # FIXME: Jekyll 3.1.0 and later seems to cause me probs.
 gem "stringex"
 gem "reduce"
 #gem "jemoji"
