@@ -10,4 +10,5 @@ gem "jekyll-sitemap"
 #gem "jekyll-twemoji"
 gem "jekyll-paginate"
 gem "jekyll-emoji", :path => "~/Development/jekyll-emoji"  # https://github.com/omninonsense/jekyll-emoji
+#gem "jekyll-emoji"
 gem "jekyll-seo-tag", :path => "~/Development/jekyll-seo-tag" # I have my own customisations.
