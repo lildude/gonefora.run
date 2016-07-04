@@ -30,7 +30,7 @@ I ran my first, and only marathon at 18.  It was a terrible run, but I didn't re
 
 [![My Two Oceans Marathon results](/assets/2OceansResults.png){:class="center"}](http://admin.twooceansmarathon.org.za/HistoryList.aspx?RunnerCode=39205 "1397 out of 7441 finishers.  5th junior")
 
-I also took part in several [duathlons](http://en.wikipedia.org/wiki/Duathlon) and [sprint-distance triathlons](http://www.bsgenergadetriseries.co.za/).
+I also took part in several [duathlons](http://en.wikipedia.org/wiki/Duathlon) and sprint-distance triathlons.
 
 Sadly, my last official road race, and technically the start of a long hiatus from running was the Randburg Harrier's Valentines 10km Nite race which I ran the week before I packed my bags and moved to the UK in 1999.
 
@@ -60,9 +60,9 @@ So that's what I did, but this time I was going to do it right.
 
 ## Why Run Barefoot/Minimalist?
 
-I started researching on how I could improve my running form, and that's when I discovered the [POSE method](http://www.posetech.com/) of running.  As I read the [book](http://www.amazon.co.uk/Pose-Method-Running-Nicholas-Romanov/dp/0972553703/?tag=costest-21), [watched the videos](http://www.youtube.com/user/posetv) and trawled the forums, I soon found a pattern: people were not running in expensive shoes.  They were running in what I would consider one up from plimsolls - light thin-soled shoes. In fact the most popular pair of shoes were the Puma H-Streets.
+I started researching on how I could improve my running form, and that's when I discovered the [POSE method](http://www.posetech.com/) of running.  As I read the [book](http://www.amazon.co.uk/Pose-Method-Running-Nicholas-Romanov/dp/0972553703/), [watched the videos](http://www.youtube.com/user/posetv) and trawled the forums, I soon found a pattern: people were not running in expensive shoes.  They were running in what I would consider one up from plimsolls - light thin-soled shoes. In fact the most popular pair of shoes were the Puma H-Streets.
 
-Of course it didn't stop there, there were also quite a lot of people who'd taken the second recommendation on [choosing shoes for POSE running](http://www.posetech.com/runningshoes/how_to_choose_best_running_shoes_for_you.html) - "_2. The shoes should have thin soles, with no cushioning at all._" - quite literally by going completely barefoot.
+Of course it didn't stop there, there were also quite a lot of people who'd taken the second recommendation on choosing shoes for POSE running - "_2. The shoes should have thin soles, with no cushioning at all._" - quite literally by going completely barefoot.
 
 This struck a chord with me as for years I'd been told I needed support, cushioning, anti-pronation technology etc etc and if I didn't have it, I'd get hurt, but here were people, like [Barefoot Ted](http://barefootted.com/), who were running considerable distances quite happily without all this technology strapped to the bottom of their feet. So I started researching and the more I did, the more I found out about the benefits, financially, but more importantly, bio-mechanically, of running barefoot.  I also discovered the Vibram Five Fingers, bought myself a pair, took them for a spin and loved every step of that run.  That was the turning point and the point where I decided that I'd transition away from running in heavy expensive "running shoes" to barefoot or minimalist shoes.
 

@@ -12,7 +12,7 @@ published: true
 ---
 <img class="center" alt="" src="/assets/OxfordHalf-2012-logo.gif" width="822" height="290" />
 
-On 14 October 2012 I ran the <a href="http://www.oxfordhalfmarathon.co.uk/" target="_blank">Oxford Half-Marathon</a>.
+On 14 October 2012 I ran the Oxford Half-Marathon.
 
 What a brilliant race. It was a clear crisp morning with loads of potential for a good time. I headed off probably a little fast (I went through 10k one second quicker than my all-time 10k PB) in an attempt to get a sub-80min half marathon. I knew I was capable of it, I just wanted to do it this season.
 
@@ -25,7 +25,7 @@ This is only the second running of this race, so it can be forgiven for not quit
 2.  Don't funnel everyone the moment you cross the start line.
 3.  Use flatter timing "mats".  The timing ridges are very sudden and quite high. I didn't experience too much of a problem as I knew what to expect before the start so I was actively looking out for a 3-5cm step, but given the start became very cramped due to the funneling, I'm sure many a person behind me tripped over or stumbled over the timing "ridges".  The same thing applies to the finish straight.  Right when you legs are knackered, the last thing you want to do is hop, skip and jump over 3 hurdles on the finishing straight.
 
-[Results](http://www.racetimingsystems.com/public/result.aspx?raceid=2116&bib=590):  
+Results:
 Gun time: 1:19:58  
 Chip time: 1:19:53  
 Position: 29 / 3032

@@ -10,7 +10,7 @@ published: true
 
 Once again I find myself in San Francisco for work and I realised the American distrust for free extends to running too.
 
-On Sunday morning I went for my last long run before the London Marathon and ran the length of the Embarcadero. I like the route as it's nice and flat, except for the big hill round Fort Mason, and has great views of the bridge and Alcatraz. It's also a great sunny route so I can top-up on my vitamin D at the same time. Anyway, my run was cut short because of an event starting and finishing at Crissy Field, the [Presidio 10 Mile/10KM/5KM](http://guardsmen.org/presidio10/race-info.html).  I knew this event was on but chose not to enter any of them as a) I didn't want to tempt fate by racing so close to London, b) I had other plans for a long run already scheduled and c) I objected to paying what I consider an exorbitant entry fee. And it's this last point that I want to come back to.
+On Sunday morning I went for my last long run before the London Marathon and ran the length of the Embarcadero. I like the route as it's nice and flat, except for the big hill round Fort Mason, and has great views of the bridge and Alcatraz. It's also a great sunny route so I can top-up on my vitamin D at the same time. Anyway, my run was cut short because of an event starting and finishing at Crissy Field, the Presidio 10 Mile/10KM/5KM.  I knew this event was on but chose not to enter any of them as a) I didn't want to tempt fate by racing so close to London, b) I had other plans for a long run already scheduled and c) I objected to paying what I consider an exorbitant entry fee. And it's this last point that I want to come back to.
 
 <!-- more -->
 

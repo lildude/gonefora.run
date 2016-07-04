@@ -19,7 +19,7 @@ This got me thinking... how likely are we to get that sub-2 hour marathon if Den
 
 It's an interesting thing to ponder, especially as elite athletes are probably right on the edge of what they can do in terms of physicality without resorting to drugs.
 
-The chapter did bring up another topic which intrigues me and which I'm looking into now: "brain endurance training". The idea is you perform mentally fatiguing exercises before and during training with the aim of reducing mental fatigue and perception of effort whilst racing. The book mentions some pretty amazing and [impressive results from research performed by Samuele Marcora](http://www.thesportinmind.com/articles/brain-training-improving-performance-from-your-lounge-room-2/), a researcher at the University of Kent, that is definitely worth looking into.
+The chapter did bring up another topic which intrigues me and which I'm looking into now: "brain endurance training". The idea is you perform mentally fatiguing exercises before and during training with the aim of reducing mental fatigue and perception of effort whilst racing. The book mentions some pretty amazing and impressive results from research performed by Samuele Marcora, a researcher at the University of Kent, that is definitely worth looking into.
 
 Marcora is apparently working with British Athletic in their preparations for Rio so it'll be interesting to see how this research pans out over the next few years.
 
