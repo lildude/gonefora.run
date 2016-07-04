@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Goals
+title: Goals & Personal Bests
+permalink: /goals
 categories: []
 tags:
 - barefoot
@@ -17,210 +18,57 @@ published: true
 meta: {}
 author:
 ---
-<p>To try and motivate me and keep track of my barefoot running progress, I thought I'd draw up a list of goals I want to achieve.  This is a progression from running with shoes to running without or in a pair of Vibrams or other minimalist "show".  I've run all of these distances, and further, in shoes and now I want to do it barefoot or in minimalist shoes.</p>
-<p>I'm not putting a target date on any of these as I don't want to push myself or become a slave to my goals.</p>
-<table id="goals-table">
-<tr class="odd">
-<th width="20px">#</th>
-<th width="400px">Goal/Distance</th>
-<th width="160px">Date Achieved</th>
-</tr>
-<tr class="even">
-<td class="number">1</td>
-<td class="left">1km training run, 3x a week</td>
-<td class="right">14 Jun '09 <sup>*</sup></td>
-</tr>
-<tr class="odd">
-<td class="number">2</td>
-<td class="left">2km training run, 3x a week</td>
-<td class="right">14 Jun '09 <sup>*</sup></td>
-</tr>
-<tr class="even">
-<td class="number">3</td>
-<td class="left">10km per week in training</td>
-<td class="right">14 Jun '09 <sup>*</sup></td>
-</tr>
-<tr class="odd">
-<td class="number">4</td>
-<td class="left">10km per week in training completely barefoot</td>
-<td class="right"><a href="http://barefootrunner.co.uk/10km-in-a-week-barefoot-goal-ticked-off">16 Oct '09</a>  </td>
-</tr>
-<tr class="even">
-<td class="number">5</td>
-<td class="left">20km per week in training</td>
-<td class="right">23 Oct '09  </td>
-</tr>
-<tr class="odd">
-<td class="number">6</td>
-<td class="left">20km per week in training completely barefoot</td>
-<td class="right"><a href="http://barefootrunner.co.uk/two-more-goals-can-be-ticked-off">7 Mar '10</a>  </td>
-</tr>
-<tr class="even">
-<td class="number">7</td>
-<td class="left">10km long training run</td>
-<td class="right"><a href="http://barefootrunner.co.uk/two-more-goals-can-be-ticked-off">7 Mar '10</a>  </td>
-</tr>
-<tr class="odd">
-<td class="number">8</td>
-<td class="left">15km long training run</td>
-<td class="right"><a href="http://barefootrunner.co.uk/long-runs-are-back-and-theyre-good">7 Aug '11</a></td>
-</tr>
-<tr class="even">
-<td class="number">9</td>
-<td class="left">5km road race</td>
-<td class="right"><a href="http://barefootrunner.co.uk/reading-parkrun-barefoot">22 May '10</a> <sup>+</sup></td>
-</tr>
-<tr class="odd">
-<td class="number">10</td>
-<td class="left">5km road race in under 20 mins (sub 4:00/km)</td>
-<td class="right"><a href="http://barefootrunner.co.uk/parkrun-two-and-a-pb-too">29 May '10</a> <sup>+</sup></td>
-</tr>
-<tr class="even">
-<td class="number">11</td>
-<td class="left">5km race in under 19 mins</td>
-<td class="right">2 Jun '12</td>
-</tr>
-<tr class="odd">
-<td class="number">12</td>
-<td class="left">5km race in under 18 mins</td>
-<td class="right"><a href="http://barefootrunner.co.uk/back-in-sub-18min-5k-club">25 Aug '12</a></td>
-</tr>
-<tr class="even">
-<td class="number">13</td>
-<td class="left">10km road race</td>
-<td class="right"><a href="http://barefootrunner.co.uk/yateley-10k-series-race-1-completed-barefoot">5 Jun '10</a> </td>
-</tr>
-<tr class="odd">
-<td class="number">14</td>
-<td class="left">10km road race in under 45 mins (sub 4:30/km)</td>
-<td class="right"><a href="http://barefootrunner.co.uk/race-report-yateley-10k-series-2010-race-2">7 Jul '10</a> </td>
-</tr>
-<tr class="even">
-<td class="number">15</td>
-<td class="left">10km road race in under 40 mins (sub 4:00/km)</td>
-<td class="right"><a href="http://barefootrunner.co.uk/race-report-woodley-10k-2011">15 May '11</a> </td>
-</tr>
-<tr class="odd">
-<td class="number">16</td>
-<td class="left">15km road race</td>
-<td class="right"> </td>
-</tr>
-<tr class="even">
-<td class="number">17</td>
-<td class="left">21.1km road race</td>
-<td class="right">1 Apr '12</td>
-</tr>
-<tr class="odd">
-<td class="number">18</td>
-<td class="left">21.1km road race in under 90 mins (sub 4:15/km)</td>
-<td class="right"><a href="http://barefootrunner.co.uk/race-report-reading-half-marathon-2012">1 Apr '12</a></td>
-</tr>
-<tr class="even">
-<td class="number">19</td>
-<td class="left">42.2km road race</td>
-<td><a href="http://barefootrunner.co.uk/it-wasnt-my-day-today">6 May '13</a></td>
-</tr>
-<tr class="odd">
-<td class="number">20</td>
-<td class="left">42.2km road race in under 3 hours (sub 4:15/km)</td>
-<td><a href="http://barefootrunner.co.uk/race-report-abingdon-marathon-2013">10 Oct '13</a></td>
-</tr>
-<tr class="even">
-<td class="number">21</td>
-<td class="left"><a href="http://www.comrades.com/">The Comrades Marathon</a> (before I'm 40)</td>
-<td> </td>
-</tr>
-</table>
-<p><a name="oops"></a><br />
-* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.<br />
-+ - It was a race, but mainly on grass as opposed to on the road.</p>
-<p>This table will naturally change and grow as I start to tick each goal off.</p>
-<h3>Personal Bests</h3>
-<p>Since taking the effort to locate and extract my old training and racing logs, I've decided to display my Personal Bests here on my goals page.  Each of these times will essentially always be a goal, so it makes sense to have them on the same page.</p>
-<p>I've split the table into two: "All Time Personal Bests" and "Personal Bests Since Return" which are my best times since I've returned to running after taking about 10 years off.</p>
-<table id="bests-table">
-<tr>
-<td> </td>
-<td colspan="2"><strong>All Time PBs</strong></td>
-<td colspan="2"><strong>PBs Since Return</strong></td>
-</tr>
-<tr>
-<th>Dist</th>
-<th>Time</th>
-<th>Date</th>
-<th>Time</th>
-<th>Date</th>
-</tr>
-<tr>
-<td class="number">5km Road</td>
-<td><strong>00:18:35</strong></td>
-<td>26 Jan '99</td>
-<td>--:--:--</td>
-<td> </td>
-</tr>
-<tr>
-<td class="number">5km Off-road</td>
-<td>00:18:35</td>
-<td>26 Jan '99</td>
-<td><strong>00:17:10</strong></td>
-<td>21 Sep '13</td>
-</tr>
-<tr>
-<td class="number">8km/5M Road</td>
-<td><strong>00:30:49</strong></td>
-<td>17 Nov '98</td>
-<td>--:--:--</td>
-<td> </td>
-</tr>
-<tr>
-<td class="number">8km/5M Off-road</td>
-<td><strong>00:29:09</strong></td>
-<td>2 May '98</td>
-<td>00:30:55</td>
-<td>20 Jun '12</td>
-</tr>
-<tr>
-<td class="number">10km</td>
-<td>00:36:52</td>
-<td>31 Dec '98</td>
-<td><strong>00:35:18</strong></td>
-<td>6 Oct '13</td>
-</tr>
-<tr>
-<td class="number">15km</td>
-<td><strong>00:59:29</strong></td>
-<td>10 Jan '99</td>
-<td>--:--:--</td>
-<td> </td>
-</tr>
-<tr>
-<td class="number">10M</td>
-<td>--:--:--</td>
-<td> </td>
-<td><strong>01:00:21</strong></td>
-<td>3 Apr '15</td>
-</tr>
-<tr>
-<td class="number">21.1km</td>
-<td>01:26:31</td>
-<td>20 Apr '98</td>
-<td><strong>01:19:19</strong></td>
-<td>8 Sep '13</td>
-</tr>
-<tr>
-<td class="number">42.2km</td>
-<td>04:11:13</td>
-<td>22 Feb '98</td>
-<td><strong>02:53:34</strong></td>
-<td>26 Apr '15</td>
-</tr>
-<tr>
-<td class="number">56km</td>
-<td><strong>04:48:24</strong></td>
-<td>11 Apr '98</td>
-<td>--:--:--</td>
-<td> </td>
-</tr>
-</table>
+
+### Personal Bests
+
+I was once a fast runner. Then I stopped, picked it up again, and now find myself a fast runner again.  Here are my all time personal bests:
+
+|-----------+---------+-----------
+| Distance  | Time    | Date
+|-----------|:---------:|-----------
+| 5K        | 17:10   | 21 Sep '13
+| 8K / 5M   | 29:05   | 15 Jun '16
+| 10K       | 35:18   | 6 Oct '13
+| 15K       | 59:29   | 10 Jan '99 *
+| 10M       | 1:00:21 | 3 Apr '15
+| 21.1K     | 1:19:19 | 8 Sep '13
+| 42.2K     | 2:53:34 | 26 Apr '15
+| 56K       | 4:48:24 | 11 Apr '98
+
+### Goals
+
+Note: This is old information, but I'm keeping it here for posterity.
+
+To try and motivate me and keep track of my running progress, since returning to running after an extended break, I drew up a list of goals I wanted to achieve.  This was a progression from running with shoes to running without or in a pair of Vibrams or other minimalist "shoe".  I'd run all of these distances, and further, in shoes and I wanted to do it barefoot or in minimalist shoes, in a slow and structured way so as not to burn out or injure myself.
+
+I didn't put a target date on any of these as I didn't want to push myself or become a slave to my goals.
+
+|-----+-------------------------------------------------+---------------------------
+| #   | Goal/Distance                                   | Date Achieved
+|-----|-------------------------------------------------|---------------------------
+| 1   | 1km training run, 3x a week                     | 14 Jun '09 <sup>*</sup>
+| 2   | 2km training run, 3x a week                     | 14 Jun '09 <sup>*</sup>
+| 3   | 10km per week in training                       | 14 Jun '09 <sup>*</sup>
+| 4   | 10km per week in training completely barefoot   | [16 Oct '09](/10km-in-a-week-barefoot-goal-ticked-off)
+| 5   | 20km per week in training                       | 23 Oct '09
+| 6   | 20km per week in training completely barefoot   | [7 Mar '10](/two-more-goals-can-be-ticked-off)
+| 7   | 10km long training run                          | [7 Mar '10](/two-more-goals-can-be-ticked-off)
+| 8   | 15km long training run                          | [7 Aug '11](/long-runs-are-back-and-theyre-good)
+| 9   | 5km road race                                   | [22 May '10](/reading-parkrun-barefoot) <sup>+</sup>
+| 10  | 5km road race in under 20 mins (sub 4:00/km)    | [29 May '10](/parkrun-two-and-a-pb-too) <sup>+</sup>
+| 11  | 5km race in under 19 mins                       | 2 Jun '12
+| 12  | 5km race in under 18 mins                       | [25 Aug '12](/back-in-sub-18min-5k-club)
+| 13  | 10km road race                                  | [5 Jun '10](/yateley-10k-series-race-1-completed-barefoot)
+| 14  | 10km road race in under 45 mins (sub 4:30/km)   | [7 Jul '10](/race-report-yateley-10k-series-2010-race-2)
+| 15  | 10km road race in under 40 mins (sub 4:00/km)   | [15 May '11](/race-report-woodley-10k-2011)
+| 16  | 21.1km road race                                | [1 Apr '12](/race-report-reading-half-marathon-2012)
+| 17  | 21.1km road race in under 90 mins (sub 4:15/km) | [1 Apr '12](/race-report-reading-half-marathon-2012)
+| 18  | 42.2km road race                                | [6 May '13](/it-wasnt-my-day-today)
+| 19  | 42.2km road race in under 3 hours (sub 4:15/km) | [10 Oct '13](/race-report-abingdon-marathon-2013)
+| 20  | [The Comrades Marathon](http://www.comrades.com/) (before I'm 40) | TBC
+
+
+\* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.  
+\+ - It was a race, but mainly on grass as opposed to on the road.
 
 {% include google-adsense-responsive.html %}
