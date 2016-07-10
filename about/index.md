@@ -14,7 +14,7 @@ So I've got this blog documenting my path from running in shoes to running baref
 
 ## Who Am I?
 
-![Colin Seymour](/assets/photo.jpg){:width="128" height="128" class="alignleft"} I'm Colin Seymour,, born and brought up in the leafy northern suburbs of Johannesburg, South Africa and now living in one of the home counties in England.
+![Colin Seymour](/img/profile.png){:width="128" height="128" class="alignleft"} I'm Colin Seymour,, born and brought up in the leafy northern suburbs of Johannesburg, South Africa and now living in one of the home counties in England.
 
 ## What Is My Running Experience
 
