@@ -29,7 +29,9 @@ I flew across the finish line feeling absolutely fantastic and very pleased with
 
 [![Forest Five 2016 Top 10](/assets/Forest-Five-2016.png)](http://bfrraces.weebly.com/uploads/5/7/0/1/57012387/provisional_results.pdf)
 
-This is still a great offroad race and Wednesday's race was a new 5 mile / 8k offroad PB.  It was also my second podium finish (no prize though :cry:).
+This is still a great offroad race and Wednesday's race was a new 5 mile / 8k offroad PB.  It was also my second podium finish ~~(no prize though :cry:)~~.
+
+**Update:** There _was_ a prize for third after all. I received a £25 voucher in the post a few weeks later.
 
 The rest of the week was back on schedule though Saturday and today's runs were a slightly affected by too many beers - I really need to stop enjoying beer so much.
 
