@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+<div class="post h-entry">
+  <h1 class="post-title p-name">{{ page.title }}</h1>
 
   {% include google-adsense-responsive.html %}
+  <div class="e-content">
   {{ content }}
+  </div>
   {% include google-adsense-responsive.html %}
 
   <p class="meta">
-    <span class="post-date">— Published {{ page.date | date: "%d %B %Y" }}</span>
+    <span class="post-date" datetime="{{ page.date | date_to_xmlschema }}">— Published {{ page.date | date: "%d %B %Y" }}<a href="{{ page.url }}" class="u-url">.</a></span>
   </p>
 
 </div>
