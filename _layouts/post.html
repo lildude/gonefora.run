@@ -12,7 +12,8 @@ layout: default
   {% include google-adsense-responsive.html %}
 
   <p class="meta">
-    <span class="post-date" datetime="{{ page.date | date_to_xmlschema }}">— Published {{ page.date | date: "%d %B %Y" }}<a href="{{ page.url }}" class="u-url">.</a></span>
+    <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">— Published {{ page.date | date: "%d %B %Y" }}<a href="{{ page.url }}" class="u-url">.</a></time>
+    <span style="display:none"><a rel="author" href="{{ site.url }}">Colin Seymour</a></span>
   </p>
 
 </div>
