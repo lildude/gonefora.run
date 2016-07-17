@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I Ran America's Toughest Trail: The Manitou Incline"
-date: 2016-07-17 16:25:36 -0600
+date: 2016-07-17 16:52:46 -0600
 tags:
 - trail
 - travel
