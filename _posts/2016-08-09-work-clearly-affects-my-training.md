@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Work Clearly Affects My Training"
-date: 2016-08-07 13:32:30 +0100
+date: 2016-08-09 17:31:22 +0100
 tags:
 - training
 type: post
