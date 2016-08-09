@@ -16,6 +16,6 @@ I clicked the graph icon and poked around the different graphs, which for the mo
 
 ![Elevation Jumps](/assets/elevation-jumps.png){:class="center"}
 
-Those are considerable and very obvious jumps.  So what can then be attributed to?  Work, well sort of.  They coincide with when our company Summit occurred and the runs I did at each Summit.  In 2014 we went to Whistler and I ran right to the top of Whistler and this year we went to Colorado Springs and I ran up "The Incline".
+Those are considerable and very obvious jumps.  So what can then be attributed to?  Work, well sort of.  They coincide with when our company summits occurred and the runs I did at each.  In 2014 we went to Whistler and I ran right to the top of Whistler and this year we went to Colorado Springs and I ran up "The Incline".
 
-So if anyone tells you work doesn't play nice with your running, tell them then they need to find a better job :stuck_out_tongue_winking_eye:.
+So if anyone tells you work doesn't play nice with your running, tell them they need to find a better job :stuck_out_tongue_winking_eye:.
