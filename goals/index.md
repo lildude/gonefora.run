@@ -31,7 +31,7 @@ I was once a fast runner. Then I stopped, picked it up again, and now find mysel
 | 10K       | 35:18   | 6 Oct '13
 | 15K       | 59:29   | 10 Jan '99 *
 | 10M       | 1:00:21 | 3 Apr '15
-| 21.1K     | 1:19:19 | 8 Sep '13
+| 21.1K     | 1:19:10 | 14 Aug '16
 | 42.2K     | 2:53:34 | 26 Apr '15
 | 56K       | 4:48:24 | 11 Apr '98
 
