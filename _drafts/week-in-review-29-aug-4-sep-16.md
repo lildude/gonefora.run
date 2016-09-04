@@ -13,7 +13,7 @@ published: true
 
 This week has been a great week and surprising week of running. I'm in Jo'burg visiting my mum so am at over 1600m above sea level and I really was expecting this to have a major impact on my training, but this doesn't appear to be the case.  The uphills are still tough but these are more then compensated for by all the downhills.  This week has also seen me run way more elevation that I'd normally do in a single week thanks to the rolling hills everywhere.
 
-Started the week off with a 75min recovery run. It should have been split across two runs but as I'm doing tourisity and family stuff I thought it best to cram it all into a single run.
+Started the week off with a 75min recovery run. It should have been split across two runs but as I'm doing touristy and family stuff I thought it best to cram it all into a single run.
 
 Tuesday was a good MAF run and then Wednesday was a scheduled interval session of 6x 1200m. Doing these on a flat section of road proved to be quite a challenge. In the end I settled for a stretch of dirt road which was mostly flat and needed a turnaround at 1k for the last 200m. These went surprisingly well and I found I relaxed into them more as I progressed with the last two almost being within the desired range.
 
