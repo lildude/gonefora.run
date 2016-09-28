@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week in Review: 19 - 25 Sep '16"
-date: 2016-09-28 10:03:21 +0100
+date: 2016-09-28 18:27:13 +0100
 tags:
 - training
 - review
