@@ -27,9 +27,9 @@ title: Home
 
       {% if post.content contains "<!--more-->" or post.content contains "<!-- more -->" %}
         {% if post.content contains "<!--more-->" %}
-          {{ post.content | split:"<!--more-->" | first % }}
+          {{ post.content | split:"<!--more-->" | first }}
         {% else %}
-          {{ post.content | split:"<!-- more -->" | first %}}
+          {{ post.content | split:"<!-- more -->" | first }}
         {% endif %}
         <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
       {% elsif word_count > 100 %}
@@ -48,7 +48,7 @@ title: Home
 
 <p class="center">-[ <a href="/archives">Older Posts</a> ]-</p>
 
-{{ hCard - hidden from view as it's only useful for computers }}
+{% comment %} hCard - hidden from view as its only useful for computers {% endcomment %}
 <span style="display:none" class="h-card">
   <img src="https://barefootrunner.co.uk/img/profile.png" alt="" class="u-photo" />
   <a class="p-name u-url" href="https://barefootrunner.co.uk">{{ site.name }}</a>
