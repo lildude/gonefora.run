@@ -21,6 +21,8 @@ Saturday I headed down to TVP for parkrun. I haven't done one in a couple of wee
 
 This effort rewarded me with my first first place at my home parkrun of the year.
 
+I skipped a run on Friday as I had that "pinched nerve" feeling in my back. In the past I'd ignored this, run, and then paid the price for days after. I didn't want to tempt fate so played it safe and stayed off the roads for the day.
+
 Getting out for this morning's run was a bit of an effort. I had a few too many beers last night, shared a platter of chicken wings and woke to the pitter-patter of rain drops but I pulled on my Yuki-suit and headed out the door into the rain anyway.
 
 The motivation for ensuring I did today's run was two-fold: one it's a last chance to get in a long-ish run before next week's taper and two, I wanted to try out a High5 EnergyGel Plus gel. I don't normally train or race with gels but I was wondering if part of my [Berlin experience](/berlin-marathon-2016) was down to an early bonk so I wanted to experiment, once :wink:, with a gel before trying them out as part of my race nutrition at the Chelmsford marathon next weekend.
