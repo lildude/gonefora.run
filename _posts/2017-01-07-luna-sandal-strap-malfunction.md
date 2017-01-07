@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Luna Sandal Strap Malfunction"
-date: 2017-01-07 11:59:35 +0000
+date: 2017-01-07 12:06:08 +0000
 tags:
 - Luna Sandals
 type: post
