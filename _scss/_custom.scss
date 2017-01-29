@@ -85,7 +85,7 @@ p.adsense-local {
   }
 }
 
-.post {
+.post, .aside {
   margin-bottom:32px;
 }
 
@@ -343,13 +343,16 @@ fieldset {
 
 /* Home page only */
 
-.aside .post-date {
-  font-weight: bold;
-}
-
-.aside svg {
-  margin: 4px 0 0 -5px;
-  path {
-    fill: #fb0006;
+.aside {
+  a.meta:hover {
+    text-decoration: none;
+    color: #999;
+  }
+  .meta {
+    margin-bottom: 0;
+    color: #ccc;
+  }
+  p {
+    margin-bottom: 0;
   }
 }
