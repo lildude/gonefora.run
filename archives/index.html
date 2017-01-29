@@ -12,6 +12,12 @@ type: page
             {% if forloop.index != 1 %}</ul>{% endif %}
             <h3>{{ post.date | date: '%B %Y' }}</h3><ul>
         {% endif %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url }}">
+      {% if post.tags contains "shorts" or post.tags contains "aside" or post.tags contains "note" %}
+      {{ post.content | remove:'<p>' | remove:'</p>' | truncatewords: 15 }}
+      {% else %}
+      {{ post.title }}
+      {% endif %}
+    </a></li>
 {% endfor %}
 </ul>
