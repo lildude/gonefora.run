@@ -362,6 +362,9 @@ fieldset {
 .archives {
   svg {
     vertical-align: text-bottom;
-    fill: #454E55;
+    stroke: #454E55;
+  }
+  #i-moleskin {
+    transform: rotate(270deg);
   }
 }
