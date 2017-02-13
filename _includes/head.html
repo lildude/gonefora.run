@@ -36,6 +36,8 @@
   <!-- CSS -->
   {% if jekyll.environment == 'local' %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" />
+  {% assign current = page.title | downcase | split: '/' %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ current }}.css" />
   {% else %}
     <style type="text/css">
       {% capture include_to_scssify %}
