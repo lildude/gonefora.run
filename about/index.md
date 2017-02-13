@@ -8,7 +8,6 @@ tags:
 - Colin Seymour
 - history
 type: page
-published: true
 ---
 
 So I've got this blog documenting my path from running in shoes to running barefoot/minimalist, but I've recently realised that people don't know anything about me, my running background or my motivations for ditching the shoes and heading down the barefoot/minimalist road, so here it is.  This is my Who, What, Why and When page.
