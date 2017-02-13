@@ -1,2 +1,13 @@
 @import 'poole';
 @import 'custom';
+{% if page.title == "Archives" %}
+@import 'archives';
+{% elsif page.title == "Goals" %}
+@import 'goals';
+{% elsif page.title == "About" %}
+@import 'about';
+{% elsif page.title == "Calculations" %}
+@import 'calcs';
+{% elsif page.title == "Home" %}
+@import 'home';
+{% endif %}

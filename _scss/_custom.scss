@@ -1,31 +1,3 @@
-/* Google fonts, from https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic,700italic */
-/* Experimenting with native fonts ala https://github.com/twbs/bootstrap/pull/19098
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxvR_54zmj3SbGZQh3vCOwvY.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff) format('woff');
-}
-*/
-
 html {
   font-size:16px;
 }
@@ -44,7 +16,7 @@ img.alignnone, img.block { clear: both; display: block; }
 img[align="left"] { clear: left; float: left; margin-right: 10px }
 img[align="right"] { clear: right; float: right; margin-left: 10px }
 img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
-/* Everywhere */
+
 /*---:[ Other Alignment ]:---*/
 .center, .centered { margin: 0 auto; text-align: center; }
 .alignright { float: right; margin-left: 1.571em; }
@@ -58,7 +30,6 @@ img.emoji, img.emojione, svg.emojione {
   vertical-align: text-top;
 }
 
-/* Everywhere */
 embed, object, video, iframe { max-width: 100%; }
 a { color: #fb0006; }
 
@@ -195,7 +166,6 @@ pre {
   padding-top: 15px;
 }
 
-/* Everywhere */
 .social-nav {
   display: block;
   margin-bottom: 1rem;
@@ -233,144 +203,5 @@ pre {
     &:hover {
       opacity: 1;
     }
-  }
-  /* */
-}
-
-
-/* Calculators */
-fieldset {
-  border: none;
-}
-
-#calculatorWrapper {
-  line-height: 2;
-  .form-control {
-    height: 32px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    vertical-align: middle;
-  }
-  .form-control:focus {
-    border-color: #380200;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(56,2,0,.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(56,2,0,.6);
-  }
-  .label {
-    width: 5em;
-    text-align: right;
-    padding-right: 5px;
-    display: inline-block;
-    max-width: 100%;
-  }
-  #distance {
-    width: 6em;
-  }
-  #hours,
-  #minutes,
-  #seconds,
-  #paceMinutes,
-  #paceSeconds {
-    width: 3.8em;
-  }
-  #hours,
-  #minutes,
-  #paceMinutes {
-    margin-right: 2px;
-  }
-  #minutes,
-  #seconds,
-  #paceSeconds {
-    margin-left: 4px;
-  }
-  #splitDistanceUnit {
-    width: 12.8em;
-  }
-  #paceUnit {
-    width: 4.2em;
-  }
-  #distanceUnit {
-    width: 6.7em;
-  }
-}
-
-.resultValue {
-  width: 2.5em;
-  display: inline-block;
-}
-.resultUnit {
-  padding-left: 10px;
-}
-#times {
-  max-width:15%;
-  td {
-    text-align: center;
-  }
-}
-#distances {
-  margin-right: 20px;
-}
-#distances,
-#paces {
-  float: left;
-  width: 33%;
-}
-#distances,
-#pace,
-#times {
-  .header {
-    font-weight: bold;
-  }
-}
-/* Calculators */
-.splitTimes {
-  .special {
-    font-weight: bold;
-  }
-
-  .splitDistanceUnit {
-    text-align: right;
-    white-space: nowrap;
-  }
-}
-
-/* /Calculators */
-
-/* Home page only */
-
-.aside {
-  a.meta:hover {
-    text-decoration: none;
-    color: #999;
-  }
-  .meta {
-    margin-bottom: 0;
-    color: #ccc;
-  }
-  p {
-    margin-bottom: 0;
-  }
-}
-
-/* Archives */
-
-.archives {
-  svg {
-    vertical-align: text-bottom;
-    stroke: #454E55;
-  }
-  #i-moleskin {
-    transform: rotate(270deg);
   }
 }
