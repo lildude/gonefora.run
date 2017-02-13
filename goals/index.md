@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Goals & Personal Bests
+description: I was once a fast runner. Then I stopped, picked it up again, and now find myself a fast runner again.  Here are my all time personal bests and the goals I set for my come-back.
 permalink: /goals
 categories: []
 tags:

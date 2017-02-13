@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Wanna know all about me and my running? Well, you're in the right place.
 tags:
 - experience
 - about
