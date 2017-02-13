@@ -6,8 +6,8 @@
 @import 'goals';
 {% elsif page.title == "About" %}
 @import 'about';
-{% elsif page.title == "Calculations" %}
-@import 'calcs';
+{% elsif page.title == "Calculators" %}
+@import 'calculators';
 {% elsif page.title == "Home" %}
 @import 'home';
 {% endif %}
