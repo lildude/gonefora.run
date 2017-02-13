@@ -62,6 +62,12 @@ img.emoji, img.emojione, svg.emojione {
 embed, object, video, iframe { max-width: 100%; }
 a { color: #fb0006; }
 
+ul {
+  @media(max-width: 415px) {
+    margin-left: -1rem;
+  }
+}
+
 p.adsense-local {
   height: 90px;
   display: block;
