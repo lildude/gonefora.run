@@ -16,7 +16,7 @@ img.alignnone, img.block { clear: both; display: block; }
 img[align="left"] { clear: left; float: left; margin-right: 10px }
 img[align="right"] { clear: right; float: right; margin-left: 10px }
 img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
-/* Everywhere */
+
 /*---:[ Other Alignment ]:---*/
 .center, .centered { margin: 0 auto; text-align: center; }
 .alignright { float: right; margin-left: 1.571em; }
@@ -30,7 +30,6 @@ img.emoji, img.emojione, svg.emojione {
   vertical-align: text-top;
 }
 
-/* Everywhere */
 embed, object, video, iframe { max-width: 100%; }
 a { color: #fb0006; }
 
@@ -167,7 +166,6 @@ pre {
   padding-top: 15px;
 }
 
-/* Everywhere */
 .social-nav {
   display: block;
   margin-bottom: 1rem;
