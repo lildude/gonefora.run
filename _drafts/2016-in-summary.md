@@ -11,7 +11,7 @@ type: post
 published: true
 ---
 
-Hey look at this, a summary of my 2016 year of training and racing, and it's only just over a month late 😁.
+Hey look at this, a summary of my 2016 year of training and racing, and it's only nearly two months late 😁.
 
 Lets start off with my training.
 
@@ -31,9 +31,33 @@ I followed the programme pretty closely with a few exceptions:
 
 This approach ensured I built up a huge aerobic base whilst also allowing me to continue with the polarised training I'd started doing at the beginning of the year.
 
-As the weeks progressed, this proved to be a great programme and strategy for me. I was getting faster, the runs felt easier and I wasn't struggling with the high mileage at all. This training brought my times right down with me getting close to my 5k and 10k PBs, I set a new 5 mile PB and I also managed to set a half-marathon PB six weeks out from Berlin on an undulating course I really wasn't expecting to dip under 80 minutes on, let alone set a new PB of 79:09.
+As the weeks progressed, this proved to be a great programme and strategy for me. I was getting faster, the runs felt easier and I wasn't struggling with the high mileage at all. This training brought my times right down with me getting close to my 5k and 10k PBs, I set a new 5 mile PB (29:05 offroad and 3rd place) and I also managed to set a half-marathon PB six weeks out from Berlin on an undulating course I really wasn't expecting to dip under 80 minutes on, let alone set a new PB of 79:09.
+
+So how much of my training was at MAF in the end? This much:
+
+![](/assets/2016-hr-zone-duration.png)
+
+This is from [SmashRun](http://en-gb.smashrun.com/colin.seymour).  I don't have any control over the ranges they use here but as you can see most of my training was in the recovery and aerobic zones, which is expected with MAF. When you flip the graph into percentage mode - I don't like this view, but it illustrates the point well - you can see I spent closer to 90% of my time in aerobic or recovery heart ranges:
+
+![](/assets/2016-hr-zone-percent.png)
+
+I'm pretty chuffed with this consistency and confirmation that going slower definitely makes you a faster running, and without injury too.
+
 
 ## Racing
+
+2016 was a good year for my racing.  These are my best times for the year, compared to my PBs:
+
+
+| Distance | 2016 | PB | Notes
+|----|------|----|-------
+| 5K | 17:13 | 17:10 | Offroad parkrun.
+| 10K | 36:31 | 35:18 | This is technically an "official" PB as my actual PB isn't from a UKA licensed race so doesn't appear on the Power of 10.
+| 5M | 29:05 | 29:05 | New PB, offroad and 3rd place.
+| 10M | 1:01:51 | 1:00:21 | Too knackered for a PB, but probably possible.
+| ½ Marathon | 79:10 | 79:10 | New PB on undulating course and 4th place.
+| Marathon | 2:47:31 | 2:47:31 | New PB by over 6 minutes and 6th place.
+
 
 
 
