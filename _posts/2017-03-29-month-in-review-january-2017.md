@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Month in Review: January 2017"
-date: 2017-03-29 14:16:21 +0100
+date: 2017-03-29 18:24:30 +0100
 tags:
 - training
 - review
