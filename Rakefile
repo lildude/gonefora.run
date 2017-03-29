@@ -48,7 +48,7 @@ task :new, [:title, :bowfmt, :eowfmt] do |t, args|
       post.puts "\n![Week in Review: #{args.bowfmt} - #{args.eowfmt}](/assets/week-in-review-#{args.bowfmt.gsub(/[\s']/,'')}-#{args.eowfmt.gsub(/[\s']/,'')}.png){:height=\"240\" width=\"840\" class=\"center\"}"
     end
   end
-  system "#{editor} #{filename}"
+  system "#{editor} ."
 end
 
 desc "New Week in Review post."
