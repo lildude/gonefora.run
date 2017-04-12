@@ -6,11 +6,11 @@ highlighter:      rouge
 permalink:        :title
 
 # Setup
-title:            Barefoot Runner
-tagline:          'From Shoes to Nothing'
+title:            Gone For A Run
+tagline:          'Where else would I have gone?'
 separator:        ' · '
-description:      "I ran. I ran fast. I ran lots. I stopped, got fat and now I'm back, but this time barefoot and almost barefoot with new goals, dreams and aspirations."
-url:              https://barefootrunner.co.uk
+description:      "I ran. I ran fast. I ran lots. I stopped, got fat and now I'm back, but this time minimalist, zero-drop and with new goals, dreams and aspirations."
+url:              https://gonefora.run
 baseurl:          ""
 twitter:
   username:       lildude
