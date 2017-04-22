@@ -10,7 +10,7 @@ tags:
 type: post
 published: true
 ---
-<img class="center" alt="" src="/assets/OxfordHalf-2012-logo.gif" width="822" height="290" />
+<img class="center" alt="Oxford Half 2012" src="/assets/OxfordHalf-2012-logo.gif" width="822" height="290" />
 
 On 14 October 2012 I ran the Oxford Half-Marathon.
 
