@@ -158,7 +158,7 @@ task :test do
     :check_html => true,
     :disable_external => true,
     :cache => { :timeframe => '2w' },
-    :empty_alt_ignore => true,
+    :empty_alt_ignore => false,
     :verbose => true,
     :href_swap => {%r{(?<!\/)^\/{1}(?!\/)} => config["url"]}, # Matches /foo/doo but not //foo/doo - useful for protocol-less links.
     :typhoeus => { :verbose => true, :followlocation => true },
