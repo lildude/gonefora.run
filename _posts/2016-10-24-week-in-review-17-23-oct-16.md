@@ -11,7 +11,7 @@ published: true
 
 ![Week in Review: 17 - 23 Oct '16](/assets/week-in-review-17-23Oct16.png){:height="240" width="840" class="center"}
 
-This week was once again all about tapering. After my [disastrous Berlin Marathon](https://barefootrunner.co.uk/berlin-marathon-2016) I sought out another marathon that I could take a second stab at to confirm my training had worked and that was the Chelmsford Marathon I ran on Sunday.
+This week was once again all about tapering. After my [disastrous Berlin Marathon](/berlin-marathon-2016) I sought out another marathon that I could take a second stab at to confirm my training had worked and that was the Chelmsford Marathon I ran on Sunday.
 
 As it was a taper week all my running was really easy, either under MAF or within MAF.  Unlike the taper week before Berlin, I bunged in two days of complete rest and this seems to have paid off really well.
 

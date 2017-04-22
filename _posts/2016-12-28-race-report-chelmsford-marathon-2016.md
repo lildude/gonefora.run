@@ -10,7 +10,7 @@ type: post
 published: true
 ---
 
-![Chelmsford Marathon - 23 October 2016](/assets/chelmsford-marathon-logo.jpg){:class="alignright" width="200" height="167"} In a bid to make up for a [disastrous Berlin Marathon](https://barefootrunner.co.uk/berlin-marathon-2016) I hunted out a flat-ish marathon a month later to see if having another go would get me the results I wanted and prove my training was right and I could run 2:45 or pretty damn close, and this is what I came up with: the [Chelmsford Marathon](http://www.chelmsfordmarathon.org.uk/).
+![Chelmsford Marathon - 23 October 2016](/assets/chelmsford-marathon-logo.jpg){:class="alignright" width="200" height="167"} In a bid to make up for a [disastrous Berlin Marathon](/berlin-marathon-2016) I hunted out a flat-ish marathon a month later to see if having another go would get me the results I wanted and prove my training was right and I could run 2:45 or pretty damn close, and this is what I came up with: the [Chelmsford Marathon](http://www.chelmsfordmarathon.org.uk/).
 
 The race website [describes the course](http://www.chelmsfordmarathon.org.uk/course-2016/) as...
 
