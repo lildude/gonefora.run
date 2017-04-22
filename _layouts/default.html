@@ -8,11 +8,39 @@ layout: compress
     <div class="wrap">
       <div class="masthead">
         <div class="container">
+          {% comment %}
+          <!-- Use JS to pull in the distance of my last run from Strava to plop in before "run"
+              TODO:
+              - Move to /js/last-run.js
+              - Cache response
+              - minify and obfuscate
+            -->
+          {% endcomment %}
+          <script>
+          var request = new XMLHttpRequest();
+          request.open('GET', 'https://www.strava.com/api/v3/athlete/activities?page=1&per_page=1&access_token=8b2e10065b13a32effca31c90eae217a8c500e30&callback=', true);
 
+          request.onload = function() {
+            if (request.status >= 200 && request.status < 400) {
+              // Success!
+              var data = JSON.parse(request.responseText);
+              d = Math.round(data[0]["distance"]/1000) + "k";
+              document.getElementById("last_run").innerHTML = '<a href="https://strava.com/" target="_blank" title="See my latest run on Strava">' + d + '<br>^';
+            } else {
+              // We reached our target server, but it returned an error
+            }
+          };
+          request.onerror = function() {
+            // There was a connection error of some sort
+            document.getElementById("last_run").innerHTML = '<a href="https://strava.com/" target="_blank" title="See my latest run on Strava">long<br>^';
+          };
+          request.send();
+          </script>
           <h1 class="masthead-title">
             {% assign titleparts = site.title | split: ' ' %}
-            <a href="{{ site.baseurl }}/" class="home">{{ titleparts[0] }} <span>{{ titleparts[1] }}</span></a>
+            <a href="{{ site.baseurl }}/" class="home">{{ titleparts[0] }} {{ titleparts[1] }} <span>{{ titleparts[2] }} <span id="spacer"></span> {{ titleparts[3] }}</span></a>
           </h1>
+          <span id="last_run"></span>
           <ul class="page-list">
             {% assign current = page.url | downcase | split: '/' %}
             <li{% if current[1] == 'archives' %} class='active'{% endif %}><a href="/archives">Archives</a></li>
