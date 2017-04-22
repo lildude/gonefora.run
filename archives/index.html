@@ -18,7 +18,7 @@ type: page
       <!-- modified calendar icon from https://github.com/danklammer/bytesize-icons -->
       <svg class="i-moleskin" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
         <path d="M2 6 L2 30 30 30 30 6 Z M2 22 L30 22 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" />
-      </svg> {{ post.content | remove:'<p>' | remove:'</p>' | truncatewords: 15 }}
+      </svg> {{ post.content | strip_html | truncatewords: 10 }}
       {% else %}
       {{ post.title }}
       {% endif %}
