@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Golden Gate Bridge And The Marin Headlands"
-date: 2017-04-23 12:30:59 -0700
+date: 2017-04-23 13:13:28 -0700
 tags:
 - training
 - tourism
