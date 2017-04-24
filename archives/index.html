@@ -4,7 +4,6 @@ title: Archives
 description: Find links to every post on this site on my archives page.
 type: page
 ---
-{% include google-adsense-responsive.html %}
 <ul class="archives">
 {% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
