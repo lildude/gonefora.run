@@ -66,5 +66,3 @@ I didn't put a target date on any of these as I didn't want to push myself or be
 
 \* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.  
 \+ - It was a race, but mainly on grass as opposed to on the road.
-
-{% include google-adsense-responsive.html %}
