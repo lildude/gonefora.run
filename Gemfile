@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem "github-pages"
 gem "stringex"
+gem "httpclient"
 #gem "reduce"
 #gem "jekyll-admin"
 #gem "jemoji"

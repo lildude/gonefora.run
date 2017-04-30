@@ -142,12 +142,9 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (1.5.3)
-    rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
-    reduce (0.3.0)
-      smusher
     rouge (1.11.1)
     ruby-ll (2.1.2)
       ansi
@@ -157,10 +154,6 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-    smusher (0.4.9)
-      httpclient (>= 2.2)
-      json
-      rake
     stringex (2.7.1)
     terminal-table (1.7.3)
       unicode-display_width (~> 1.1.1)
@@ -179,11 +172,11 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
+  httpclient
   jekyll-emoji!
   jekyll-paginate
   jekyll-seo-tag!
   jekyll-sitemap
-  reduce
   stringex
 
 BUNDLED WITH
