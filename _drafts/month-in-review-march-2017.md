@@ -8,7 +8,8 @@ type: post
 published: true
 ---
 
-With a week to go, here's March's summary.
+Wooohooo!!! With a day and a bit to go in April, here's March's summary 🎉. Thank goodness I'm not paid to blog else I'd find myself unemployed PDQ!!
+
 
 Got a new PB for the half marathon at the Fleet Half... 1:17:02 chip time. I feel a little cheated by those two seconds. Had I known, I'm sure I could have dug in just that teeny weeny bit more to dip under 77 mins. On the plus side, at least I've got a target for my next half 😄.
 
