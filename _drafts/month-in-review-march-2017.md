@@ -15,6 +15,6 @@ Got a new PB for the half marathon at the Fleet Half... 1:17:02 chip time. I fee
 
 ## Strava Log
 
-![Strava log: March](/assets/mir-mar-2017.png){:width=815 height=780}
+![Strava log: March](/assets/mir-mar-2017.png){:width=820 height=800}
 
 See that blurry red blob in the image :point_up:?  That's big news coming next.
