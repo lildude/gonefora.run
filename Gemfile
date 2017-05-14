@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 gem "github-pages"
 gem "stringex"
-gem "reduce"
+gem "httpclient"
+#gem "reduce"
 #gem "jekyll-admin"
 #gem "jemoji"
 #gem "html-proofer", :path => "~/Development/html-proofer"

@@ -24,12 +24,13 @@ I was once a fast runner. Then I stopped, picked it up again, and now find mysel
 |-----------|:---------:|-----------
 | 5K        | 17:10   | 21 Sep '13
 | 8K / 5M   | 29:05   | 15 Jun '16
-| 10K       | 35:18   | 6 Oct '13
-| 15K       | 59:29   | 10 Jan '99 *
-| 10M       | 1:00:21 | 3 Apr '15
+| 10K       | 34:39   | 7 May '17
+| 15K       | 59:29   | 10 Jan '99
+| 10M       | 57:59   | 14 Apr '17
 | 21.1K     | 1:17:31 | 12 Feb '17
-| 42.2K     | 2:47:31 | 23 Oct '16
+| 42.2K     | 2:43:39 | 2 Apr '17
 | 56K       | 4:48:24 | 11 Apr '98
+| Comrades  | TBC     | 4 Jun '17
 
 ### Goals
 
@@ -66,5 +67,3 @@ I didn't put a target date on any of these as I didn't want to push myself or be
 
 \* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.  
 \+ - It was a race, but mainly on grass as opposed to on the road.
-
-{% include google-adsense-responsive.html %}
