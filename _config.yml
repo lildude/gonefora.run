@@ -18,6 +18,7 @@ logo:             /img/favicon.png
 author:
   name:           'Colin Seymour'
   twitter:        lildude
+  avatar:         'https://barefootrunner.co.uk/img/profile.png'
 first_img:        true  # Use first image in post when a page.image is not defined.
 
 social:
