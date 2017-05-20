@@ -57,6 +57,7 @@ gems:
   - jekyll-paginate
   - jekyll-emoji
   - jekyll-seo-tag
+  - jekyll-json-feed
   #- jekyll-admin
 
 # jekyll-emoji config - note, it's use of "Emoji" module name clashes with other gems.
