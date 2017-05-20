@@ -40,10 +40,6 @@ compress_html:
   profile: false
   startings: [html, body]
 
-# Configure RedCarpet
-#redcarpet:
-#  extensions:       [tables, autolink, strikethrough, footnotes, superscript]
-
 # Configure kramdown
 kramdown:
   input:            GFM
@@ -52,25 +48,10 @@ kramdown:
 # Plugins
 gems:
   - jekyll-sitemap
-  #- jekyll/twemoji
-  #- jemoji
   - jekyll-paginate
-  - jekyll-emoji
   - jekyll-seo-tag
   - jekyll-json-feed
   #- jekyll-admin
-
-# jekyll-emoji config - note, it's use of "Emoji" module name clashes with other gems.
-emoji:
-  format: emojione-svg-embed # default html
-  ascii: false # default false
-  shortname: true # default true
-  src: "/Users/lildude/Sites/static/emojione/svg" # defaults to https://cdn.jsdelivr.net/emojione/assets/#{ext}
-  #src: "https://twemoji.maxcdn.com/svg/" # Twmoji
-  #src: "https://cdn.jsdelivr.net/emojione/assets/svg"
-
-#jekyll-twemoji:
-#  image_type: "svg"
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
