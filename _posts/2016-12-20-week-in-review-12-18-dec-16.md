@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 12 - 18 Dec '16](/assets/week-in-review-12-18Dec16.png){:class="center"}
+![Week in Review: 12 - 18 Dec '16](/img/week-in-review-12-18Dec16.png){:class="center"}
 
 Not much of a running week this week thanks to the pain and suffering I somehow inflicted upon myself during last week Saturday's run.
 
@@ -21,6 +21,6 @@ I gave my traps one final massage before the start of the race and my back playe
 
 I started the race off a little quick but eased off and kept up a good pace for the first lap. Finished the first lap in third place and took the moment to push things a little bit to see if I could reel in the first place chap. I did for a bit but I think he saw me as he definitely picked up the pace and I didn't see him again. Eased off a bit more in the middle of the second lap to put a bit in the bank just in case I needed to sprint at the end. Towards the end of the race I determined I wouldn't need to keep anything in the tank so let loose and finished strong in a season best in second place.
 
-![Second at the Muddly Welly 10k 2016 - Gun time: 36:00 / Chip time: 35:58](/assets/muddy-welly-2nd.jpg){:class="center"}
+![Second at the Muddly Welly 10k 2016 - Gun time: 36:00 / Chip time: 35:58](/img/muddy-welly-2nd.jpg){:class="center"}
 
 So whilst I didn't get to run as much as I'd have hoped, I did manage to pull off a great run, get my second podium finish of the year and new 10k season best, and it was off road too. I think I need to take a whole week off before races all the time 😉.

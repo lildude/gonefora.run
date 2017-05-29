@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 18 - 24 Apr '16](/assets/week-in-review-18-24Apr16.png){:height="240" width="840" class="center"}
+![Week in Review: 18 - 24 Apr '16](/img/week-in-review-18-24Apr16.png){:height="240" width="840" class="center"}
 
 After last week's record total of 134.2km, I stepped off the gas a bit this week, cut down the mileage and threw in a few more rest days. No running on Monday, Friday or Saturday, but good quality runs on the other days.
 

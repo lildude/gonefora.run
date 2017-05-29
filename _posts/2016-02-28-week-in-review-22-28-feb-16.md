@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-22-28Feb16.png"><img alt="Week in Review: 22 - 28 Feb '16" class="center" height="240" src="/assets/week-in-review-22-28Feb16.png" width="840" /></a>
+<a href="/img/week-in-review-22-28Feb16.png"><img alt="Week in Review: 22 - 28 Feb '16" class="center" height="240" src="/img/week-in-review-22-28Feb16.png" width="840" /></a>
 
 Another week of experimentation and taking my training to new levels. This week I introduced doubles to my training.  On Tuesday and Thursday I did my usual 60-65min ran at MAF in the morning and then went for a second, very easy, 30-ish minute run in the afternoon.  I was expecting this to have a real noticeable impact on how I felt, but it didn't seem to make me feel any more tired than usual. Even after doing parkrun on Saturday, I woke up at 6am today for my long run and my HRV was up at 70, the region it sits when I'm really recovered.  Maybe the fact I'm doing the runs at MAF is accounting for this.
 
@@ -17,7 +17,7 @@ Ran parkrun on Saturday for the first time this year.  Not a bad run but I could
 
 Today's run turned out to be a little longer than anticipated...
 
-<img alt="Sunday longrun detour" class="center" height="673" src="/assets/longrun-detour.png" width="600" />
+<img alt="Sunday longrun detour" class="center" height="673" src="/img/longrun-detour.png" width="600" />
 
 As you can see, I took the wrong fork in the road and headed out into the countryside. Had I taken the original planned route along the dotted line, today's run would have taken about 2:45. Instead it ended up being 3:02 and that's with a push over the last fifteen minutes to see if I could get in under three hours. Thankfully the detour didn't take me too far off course.
 

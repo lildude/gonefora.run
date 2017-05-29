@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 13 - 19 Jun '16](/assets/week-in-review-13-19Jun16.png){:height="240" width="840" class="center"}
+![Week in Review: 13 - 19 Jun '16](/img/week-in-review-13-19Jun16.png){:height="240" width="840" class="center"}
 
 What a week of running!! Topped out at just short of 130km for the week including a race in which I came third!
 
@@ -27,7 +27,7 @@ The last kilometre is mostly downhill and a fantastic run into the finish. As we
 
 I flew across the finish line feeling absolutely fantastic and very pleased with my performance and strong finish. After the race Jock said he'd seen me finish strong in other races so was expecting me to blitz him on the final straight :blush:.
 
-[![Forest Five 2016 Top 10](/assets/Forest-Five-2016.png)](http://bfrraces.weebly.com/uploads/5/7/0/1/57012387/provisional_results.pdf)
+[![Forest Five 2016 Top 10](/img/Forest-Five-2016.png)](http://bfrraces.weebly.com/uploads/5/7/0/1/57012387/provisional_results.pdf)
 
 This is still a great offroad race and Wednesday's race was a new 5 mile / 8k offroad PB.  It was also my second podium finish ~~(no prize though :cry:)~~.
 

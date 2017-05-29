@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 6 - 12 Jun '16](/assets/week-in-review-6-12Jun16.png){:height="240" width="840" class="center"}
+![Week in Review: 6 - 12 Jun '16](/img/week-in-review-6-12Jun16.png){:height="240" width="840" class="center"}
 
 Some precarious balancing was needed this week. Working in London on Wednesday and Thursday and racing on Sunday meant a little tweaking of my planned training was in order so that a) I could get in the planned training and b) not kill myself so much that it would severely affect my race on Sunday.
 

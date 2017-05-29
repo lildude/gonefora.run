@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 11 - 17 Jul '16](/assets/week-in-review-11-17Jul16.png){:height="240" width="840" class="center"}
+![Week in Review: 11 - 17 Jul '16](/img/week-in-review-11-17Jul16.png){:height="240" width="840" class="center"}
 
 I seemed to have managed to fight off whatever was attempting to take over my body last week and ended up with a great week of running.
 

@@ -32,7 +32,7 @@ I ran from my AirBnB, through part of Golden Gate park, along the edge of the Pr
 [![A big strut](https://dgtzuqphqg23d.cloudfront.net/AmoRwZn82MtvtZoKbiqNMI8SkgC28Vs9OvI3w436obc-1536x2048.jpg){:style="width:32%"}](https://dgtzuqphqg23d.cloudfront.net/AmoRwZn82MtvtZoKbiqNMI8SkgC28Vs9OvI3w436obc-1536x2048.jpg)
 
 ## Check Out the Hills
-![Check out that elevation profile](/assets/gg-bridge-headlands-elevation.png){:class="center" width="1024" height="342"}
+![Check out that elevation profile](/img/gg-bridge-headlands-elevation.png){:class="center" width="1024" height="342"}
 
 I didn't worry about HR too much on this run as I knew this would be a challenging run and that it would be stop-start for photo ops but I did try to keep things a little contained... after all I was planning on running nearly 40k on an empty stomach without carrying any water. This worked really well, though I took the opportunity to grab a few mouthfuls of water at Vista Point before heading back over the bridge.
 

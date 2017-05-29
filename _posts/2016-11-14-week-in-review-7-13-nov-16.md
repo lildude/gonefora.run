@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 7 - 13 Nov '16](/assets/week-in-review-7-13Nov16.png){:height="240" width="840" class="center"}
+![Week in Review: 7 - 13 Nov '16](/img/week-in-review-7-13Nov16.png){:height="240" width="840" class="center"}
 
 Not much of a running week this week. More of a travelling week. Went for a nice long easy tourist run in the sunshine on election day as very few people were around and the weather was gorgeous. I then jetted across America to Cincinnati for RubyConf.
 

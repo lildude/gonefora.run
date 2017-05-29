@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-29Feb-6Mar16.png"><img alt="Week in Review: 29 Feb - 6 Mar '16" class="center" height="240" src="/assets/week-in-review-29Feb-6Mar16.png" width="840" /></a>
+<a href="/img/week-in-review-29Feb-6Mar16.png"><img alt="Week in Review: 29 Feb - 6 Mar '16" class="center" height="240" src="/img/week-in-review-29Feb-6Mar16.png" width="840" /></a>
 
 This week started off well. It was intended to be a bit of a recovery week so I cut down on the length of my morning runs, but kept the easy evening runs on Tuesday and Thursday.
 

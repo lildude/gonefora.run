@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-8-14Feb16.png"><img alt="Week in Review: 8 - 14 Feb '16" src="/assets/week-in-review-8-14Feb16.png" width="840" height="240" class="center" /></a>
+<a href="/img/week-in-review-8-14Feb16.png"><img alt="Week in Review: 8 - 14 Feb '16" src="/img/week-in-review-8-14Feb16.png" width="840" height="240" class="center" /></a>
 
 Not much of a running week this week thanks to travelling to Austin, TX for work.  
 

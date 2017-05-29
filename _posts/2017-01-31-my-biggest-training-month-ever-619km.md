@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![619km in January 2017](/assets/619k-in-jan-2017.png){:class="alignright"}
+![619km in January 2017](/img/619k-in-jan-2017.png){:class="alignright"}
 
 Check it out folks, I've just closed off my biggest training month ever at a whopping 619km and I feel great.
 

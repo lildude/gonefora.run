@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-4-10Apr16.png"><img alt="Week in Review: 4 - 10 Apr '16" class="center" height="240" src="/assets/week-in-review-4-10Apr16.png" width="840" /></a>
+<a href="/img/week-in-review-4-10Apr16.png"><img alt="Week in Review: 4 - 10 Apr '16" class="center" height="240" src="/img/week-in-review-4-10Apr16.png" width="840" /></a>
 
 Started the week off with my usual rest day on Monday and then did the 4x 8min hard with 2min rest interval session on Tuesday.  I'm really starting to enjoy these intervals.  They're really tough as I'm doing them really hard deliberately trying _not_ to keep them all within the same pace range.  The whole point of these is they're meant to be hard.  I could do the first one a bit harder but I know that would have a considerable effect on the other three so I hold back a little on the first, but the rest are pretty much as hard as I can with the idea of trying to get them as quick as the first.
 

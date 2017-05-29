@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 16 - 22 May '16](/assets/week-in-review-16-22May16.png){:height="240" width="840" class="center"}
+![Week in Review: 16 - 22 May '16](/img/week-in-review-16-22May16.png){:height="240" width="840" class="center"}
 
 I'm on holiday so not much running but plenty of eating, drinking, swimming, walking, sunning and resting.  That said, I did still get out for three decent runs this week.
 

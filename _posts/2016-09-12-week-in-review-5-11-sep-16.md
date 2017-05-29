@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 5 - 11 Sep '16](/assets/week-in-review-5-11Sep16.png){:height="240" width="840" class="center"}
+![Week in Review: 5 - 11 Sep '16](/img/week-in-review-5-11Sep16.png){:height="240" width="840" class="center"}
 
 Monday was my last day in South Africa so I took to the hills (I had no choice, they're everywhere) for my final recovery run at altitude. I skipped my run on Tuesday as I really wasn't up for a run after out flight. I got plenty of sleep on the plane but also too much free booze :face_with_head_bandage:.
 

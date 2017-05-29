@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 15 - 21 Aug '16](/assets/week-in-review-15-21Aug16.png){:height="240" width="840" class="center"}
+![Week in Review: 15 - 21 Aug '16](/img/week-in-review-15-21Aug16.png){:height="240" width="840" class="center"}
 
 Bumped the mileage back up this week after last week's racing and felt pretty good for it.
 

@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 28 Nov - 4 Dec '16](/assets/week-in-review-28Nov-4Dec16.png){:height="240" width="840" class="center"}
+![Week in Review: 28 Nov - 4 Dec '16](/img/week-in-review-28Nov-4Dec16.png){:height="240" width="840" class="center"}
 
 I had hopped to bump my mileage this week but thanks to tension and signs on pinching across the top of my back, I skipped my run on Friday.  I didn't want to run with a possibly pinched nerve and prevent myself from racing on Sunday, as I've done in the past. This proved to be a good idea as whilst I don't think it was a pinched nerve this time, it did allow me to rest and relax my back and go into Sunday's race relatively fresh. But before we get into that, first the training.
 

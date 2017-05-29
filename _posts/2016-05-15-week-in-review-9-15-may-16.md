@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 9 - 15 May '16](/assets/week-in-review-9-15May16.png){:height="240" width="840" class="center"}
+![Week in Review: 9 - 15 May '16](/img/week-in-review-9-15May16.png){:height="240" width="840" class="center"}
 
 I started the week off with the idea of loading it up front to get in my mileage ahead of my holiday, but as they say, all good intentions and that.
 

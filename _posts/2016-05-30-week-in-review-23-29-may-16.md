@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 23 - 29 May '16](/assets/week-in-review-23-29May16.png){:height="150" width="840" class="center"}
+![Week in Review: 23 - 29 May '16](/img/week-in-review-23-29May16.png){:height="150" width="840" class="center"}
 
 Still on holiday this week so not much running but still loads of swimming, relaxing, drinking and eating.
 

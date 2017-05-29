@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 4 - 10 Jul '16](/assets/week-in-review-4-10Jul16.png){:height="240" width="840" class="center"}
+![Week in Review: 4 - 10 Jul '16](/img/week-in-review-4-10Jul16.png){:height="240" width="840" class="center"}
 
 Started this week off a little on the sluggish side. I was expecting this after a relatively large week last week and waaaaay to many beers over the weekend, especially Sunday evening :blush:.
 

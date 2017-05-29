@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 25 - 31 Jul '16](/assets/week-in-review-25-31Jul16.png){:height="240" width="840" class="center"}
+![Week in Review: 25 - 31 Jul '16](/img/week-in-review-25-31Jul16.png){:height="240" width="840" class="center"}
 
 Wow!!! What a great week of running.
 

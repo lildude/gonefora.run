@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 29 Aug - 4 Sep '16](/assets/week-in-review-29Aug-4Sep16.png){:height="240" width="840" class="center"}
+![Week in Review: 29 Aug - 4 Sep '16](/img/week-in-review-29Aug-4Sep16.png){:height="240" width="840" class="center"}
 
 This week has been a great week and surprising week of running. I'm in Jo'burg visiting my mum so am at over 1600m above sea level and I really was expecting this to have a major impact on my training, but this doesn't appear to be the case.  The uphills are still tough but these are more then compensated for by all the downhills.  This week has also seen me run way more elevation that I'd normally do in a single week thanks to the rolling hills everywhere.
 

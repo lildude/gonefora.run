@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 31 Oct - 6 Nov '16](/assets/week-in-review-31Oct-6Nov16.png){:height="240" width="840" class="center"}
+![Week in Review: 31 Oct - 6 Nov '16](/img/week-in-review-31Oct-6Nov16.png){:height="240" width="840" class="center"}
 
 I'm in San Francisco this week for a much needed visit to HQ but more importantly for the [Ragnar Napa Valley relay](https://www.runragnar.com/event-detail/relay/napavalley).  For the uninitiated, it's a relay in which teams of twelve (or six if you're an ultra team) run a winding and sometimes scenic 200-ish miles from San Francisco to Napa all in the name of fun.
 

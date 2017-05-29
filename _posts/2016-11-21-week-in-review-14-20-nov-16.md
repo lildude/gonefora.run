@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 14 - 20 Nov '16](/assets/week-in-review-14-20Nov16.png){:height="140" width="840" class="center"}
+![Week in Review: 14 - 20 Nov '16](/img/week-in-review-14-20Nov16.png){:height="140" width="840" class="center"}
 
 Another small week of running thanks to travel, jetlag and too much "I couldn't be arsed" 😁.
 

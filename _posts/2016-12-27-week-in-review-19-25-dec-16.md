@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 19 - 25 Dec '16](/assets/week-in-review-19-25Dec16.png){:class="center"}
+![Week in Review: 19 - 25 Dec '16](/img/week-in-review-19-25Dec16.png){:class="center"}
 
 After Sunday's great success and confirmation my back was on the mend, I hit the road and bumped my mileage back up. I got in my miles early in the week as I knew Christmas was at the end of the week so no run would be on the cards and we were also meeting a few friends on Thursday evening, and after my last hangover run, there was no way I was going to risk going out on Friday.
 

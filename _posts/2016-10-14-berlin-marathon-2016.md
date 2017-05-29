@@ -9,13 +9,13 @@ type: post
 published: true
 ---
 
-![43rd Berlin Marathon - 25 Sep 2016](/assets/berlin-marathon-2016-logo.gif){:class="alignright"} It was around about this time last year that I noticed the Berlin Marathon was close to opening up entry for this year's race and I decided I'd give it a go.  Entry is via a ballot system and I had nothing to lose if I wasn't selected as I'd get my money back. So on [21 October 2015 I stumped up my cash and put my name on the list](https://twitter.com/lildude/status/656631881715159040).
+![43rd Berlin Marathon - 25 Sep 2016](/img/berlin-marathon-2016-logo.gif){:class="alignright"} It was around about this time last year that I noticed the Berlin Marathon was close to opening up entry for this year's race and I decided I'd give it a go.  Entry is via a ballot system and I had nothing to lose if I wasn't selected as I'd get my money back. So on [21 October 2015 I stumped up my cash and put my name on the list](https://twitter.com/lildude/status/656631881715159040).
 
 A few months later I received notification that I'd been selected and the wheels were put in motion for my first attempt at the world's fastest marathon.  With the memory of managing to successfully run a 2:53 marathon at London after blowing up spectacularly, and quiet confidence in my abilities, I set myself the ambitious goal of running 2:45 at Berlin and set to putting everything in place in my training to get me there.
 
 I'll detail my training and build up in another post, but suffice to say 17 weeks and over 1500 kilometres later I found myself in Berlin wondering around the race expo with my goodie bag containing my Championchip, race number and a pile of other gumpf you get at these race expo's, checking out the various exhibitors pushing their massively cushioned shoes, branded clothing, fancy devices and sugary products, oh yes and also watching people attempting to gain a last minute advantage by hanging from a bar to extend their stride length :stuck_out_tongue_winking_eye:.
 
-[![Berlin Marathon 2016 Tagging Wall](/assets/berlin-marathon-2016-tag-wall.jpg){:style="width:32%"}](https://www.instagram.com/p/BKsnXgHAN5A/) [![Erdinger Sports Bar](/assets/erdinger-sports-bar.jpg){:style="width:32%"}](https://www.instagram.com/p/BKso8CugNug/) [![Last-minute Stride Lengthening](/assets/berlin-marathon-2016-hanging.jpg){:style="width:32%"}](https://www.instagram.com/p/BKsu4gFgJMb/)
+[![Berlin Marathon 2016 Tagging Wall](/img/berlin-marathon-2016-tag-wall.jpg){:style="width:32%"}](https://www.instagram.com/p/BKsnXgHAN5A/) [![Erdinger Sports Bar](/img/erdinger-sports-bar.jpg){:style="width:32%"}](https://www.instagram.com/p/BKso8CugNug/) [![Last-minute Stride Lengthening](/img/berlin-marathon-2016-hanging.jpg){:style="width:32%"}](https://www.instagram.com/p/BKsu4gFgJMb/)
 
 The excitement was building and I was starting to get anxious about the race. I was feeling good and was confident my training had gone well but I still remained pretty anxious.
 
@@ -33,7 +33,7 @@ At bang on 9:15 we were sent on our way.
 
 As is usual with these big races, there was a fair bit of pushing and shoving as people made their way across the start line and onto the run though running wasn't really possible for several hundred metres. Things soon started to spread out a bit and I got into my stride and was soon ticking over the kilometres pretty much on target pace.  I felt really good and concentrated hard on holding back and keeping to pace; I didn't want my London marathon excitement to repeat itself. This worked well and I was really enjoying the race, taking in the sights, enjoying the crowds and generally having a good time. I passed half-way just a little behind schedule, but nothing too concerning as I could easily make it up in the second half, or so I thought.
 
-![My Berlin Marathon Pace Analysis](/assets/berlin-marathon-2016-race-analysis.png){:class="center"}
+![My Berlin Marathon Pace Analysis](/img/berlin-marathon-2016-race-analysis.png){:class="center"}
 
 It wasn't long after half-way that I felt a twitch in my right sacroiliac joint. I didn't think too much about it as I've felt this before and it usually shifts after a few higher-than-usual knee lifts. Not this time. The twitch hung around for a little longer and soon became a cramp in my lower right quad just above the knee. This caused me to start slowing down and soon I was experiencing light cramps in my left lower quad too which caused me to slow down even more.
 
@@ -55,7 +55,7 @@ I'll definitely be back to give Berlin another go in future.
 
 On a lighter note, you have to checkout [this cool interactive infographic](http://interaktiv.morgenpost.de/berlin-marathon-2016/) from the race. It's all in German but that shouldn't stop you from playing with things.  Here's a screenshot I took of where I stood (probably quite literally :laughing:) and where the average finisher was when Kenenisa Bekele crosses the finish line.
 
-[![Berlin Marathon 2016 Infographic](/assets/berlin-marathon-info-graphic.png){:class="center"}](http://interaktiv.morgenpost.de/berlin-marathon-2016/)
+[![Berlin Marathon 2016 Infographic](/img/berlin-marathon-info-graphic.png){:class="center"}](http://interaktiv.morgenpost.de/berlin-marathon-2016/)
 
 I'm the red man in the bottom left, the average finisher is the red clock.
 

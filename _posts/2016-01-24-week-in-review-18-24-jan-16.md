@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-18-24Jan16.png"><img alt="Week in Review: 18 - 24 Jan '16" src="/assets/week-in-review-18-24Jan16.png" width="840" height="240" class="center" /></a>
+<a href="/img/week-in-review-18-24Jan16.png"><img alt="Week in Review: 18 - 24 Jan '16" src="/img/week-in-review-18-24Jan16.png" width="840" height="240" class="center" /></a>
 
 Well look at that 100k run this week.  Not bad at all, especially considering it was my birthday week.
 

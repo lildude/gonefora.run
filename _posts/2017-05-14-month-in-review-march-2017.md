@@ -35,4 +35,4 @@ Whilst March ended up being my lowest mileage month of the year so far, it inclu
 
 ## Strava Log
 
-![Strava log: March](/assets/mir-mar-2017.png){:width=820 height=800}
+![Strava log: March](/img/mir-mar-2017.png){:width=820 height=800}

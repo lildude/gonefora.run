@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 8 - 14 Aug '16](/assets/week-in-review-8-14Aug16.png){:height="240" width="840" class="center"}
+![Week in Review: 8 - 14 Aug '16](/img/week-in-review-8-14Aug16.png){:height="240" width="840" class="center"}
 
 The goal of last week was to back off my training just a little bit to give my body a rest after the heeeeaaaaawwwwwwgggg week before it, in preparation for the [Burnham Beeches half](http://bbhm.burnhamjoggers.org.uk/), which I had scheduled as a trial to see how the training was going.
 
@@ -23,7 +23,7 @@ Sunday rolled around and I was feeling fantastic.  I ate a good meal the night b
 
 I knew this was an undulating course going in so wasn't expecting to dip under 80 mins but I changed my mind towards the end of the first lap when I discovered that the ups weren't that steep or long, but the downs were, and I was flying down the downs.
 
-![Burnham Beeches half marathon profile](/assets/burnham-beeches-half-profile.png){:class="center"}
+![Burnham Beeches half marathon profile](/img/burnham-beeches-half-profile.png){:class="center"}
 
 I went through halfway bang on target for getting 79 mins on the dot and felt really good too so I backed off a little up the hills and flew down the downs on the second lap. I was expecting to fall off the pace in the second half, but that didn't happen. Yes I was slightly slower, but not significantly.
 

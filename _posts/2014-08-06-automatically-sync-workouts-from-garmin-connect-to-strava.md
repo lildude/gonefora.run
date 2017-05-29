@@ -9,7 +9,7 @@ tags:
 type: post
 published: true
 ---
-<img class="center" alt="Automatically Sync Workouts from Garmin Connect to Strava" src="/assets/garmin-to-strava.png" width="700" height="392" />
+<img class="center" alt="Automatically Sync Workouts from Garmin Connect to Strava" src="/img/garmin-to-strava.png" width="700" height="392" />
 
 Woohoo!! You can now <a href="http://garmin.blogs.com/my_weblog/2014/08/garmin-announces-partnerships-with-leading-fitness-applications-strava-mapmyfitness-and-endomondo.html" target="_blank">automatically sync your uploads from Garmin Connect to Strava</a>.  I can't find Strava's announcement but I have found they've started documenting this is available <a href="https://strava.zendesk.com/entries/48729094" target="_blank">here</a>.  This is a huge time saver for me, though it does come at the expense that I've had to flip to the new modern Garmin Connect interface and install Garmin Express at the expense of the Garmin ANT Agent.  Whilst I like the new interface, I've been reluctant to switch due to reports of unavailability and the fact I'd have to install Garmin Express to upload my runs, which at the time, meant getting into the manual PITA upload process for all the sites I store my runs on.
 

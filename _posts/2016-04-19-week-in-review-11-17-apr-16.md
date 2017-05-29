@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 11 - 17 Apr '16](/assets/week-in-review-11-17Apr16.png){:height="240" width="840" class="center"}
+![Week in Review: 11 - 17 Apr '16](/img/week-in-review-11-17Apr16.png){:height="240" width="840" class="center"}
 
 This week I decided I'd bump up the mileage just a little more on my quest to one day running a 100 mile week (~161km).  Instead of completely resting on Monday, I went for a very easy run and then bumped up the distances on each day by a kilometre or two.  This worked well, and coupled with the fact I did very little in the way of intensity other than the up-and-downs on Thursday and parkrun on Saturday, turned out to be quite achievable without completely knackering me out.
 

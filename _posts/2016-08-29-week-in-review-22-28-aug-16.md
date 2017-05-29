@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 22 - 28 Aug '16](/assets/week-in-review-22-28Aug16.png){:height="240" width="840" class="center"}
+![Week in Review: 22 - 28 Aug '16](/img/week-in-review-22-28Aug16.png){:height="240" width="840" class="center"}
 
 Started the week off with a double recovery on Monday.  The first run felt OK but unusually, the second run felt better.
 

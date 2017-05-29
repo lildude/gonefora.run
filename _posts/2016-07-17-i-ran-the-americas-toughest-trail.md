@@ -21,7 +21,7 @@ I ran the 14k from The Broadmoor hotel to the base of the incline and then made 
 
 Once at the top, I paused for a while to recover, snap a photo or two and then headed back down using the zig-zaggy Barr trail, which was way less challenging and more scenic.
 
-![The Incline Summit](/assets/top-manitou-incline.jpg){:class="center" width="600" height="600"}
+![The Incline Summit](/img/top-manitou-incline.jpg){:class="center" width="600" height="600"}
 
 By the time I got to the bottom I was really really thirsty. I'd been sweating like a pig and I didn't take any water with me.  I bought a bottle of water from the shoppe at the base, had a peek at the cog railway station and train and then headed back to the hotel.
 
@@ -29,6 +29,6 @@ The run back to the hotel was a lot tougher than going out. The incline took a h
 
 All in all I was out for just over 4 hours, ran just short of 34k and climbed over 1050m in the glorious sunshine, and got this really cool shark-fin elevation profile:
 
-![Shark-fin elevation profile](/assets/shark-fin-profile.png){:class="center"}
+![Shark-fin elevation profile](/img/shark-fin-profile.png){:class="center"}
 
 This was a fantastic run and I'm so glad I've done the incline. You can check it out on [Strava](https://www.strava.com/activities/644200334) too.

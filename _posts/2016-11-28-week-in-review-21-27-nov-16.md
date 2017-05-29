@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 21 - 27 Nov '16](/assets/week-in-review-21-27Nov16.png){:height="140" width="840" class="center"}
+![Week in Review: 21 - 27 Nov '16](/img/week-in-review-21-27Nov16.png){:height="140" width="840" class="center"}
 
 The week before last I determined that I'd spent more than enough time sitting on my bum recovering from my previous bout of training which culminated in the Chelmsford marathon so last week I knuckled down and put in some good training.
 

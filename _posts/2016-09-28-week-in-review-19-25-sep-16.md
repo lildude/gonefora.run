@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 19 - 25 Sep '16](/assets/week-in-review-19-25Sep16.png){:height="240" width="840" class="center"}
+![Week in Review: 19 - 25 Sep '16](/img/week-in-review-19-25Sep16.png){:height="240" width="840" class="center"}
 
 So last week was it... the final week of a gruelling 17 week training programme I've been using to build up for the Berlin Marathon and it was a very easy week of running.
 

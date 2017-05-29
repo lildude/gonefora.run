@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 10 - 16 Oct '16](/assets/week-in-review-10-16Oct16.png){:height="240" width="840" class="center"}
+![Week in Review: 10 - 16 Oct '16](/img/week-in-review-10-16Oct16.png){:height="240" width="840" class="center"}
 
 Picked up the distance again this week as I picked up where I left off last week in the final three weeks of the programme I used to train for the Berlin marathon.
 

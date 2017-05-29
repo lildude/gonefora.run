@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-7-13Mar16.png"><img alt="Week in Review: 7 - 13 Mar '16" class="center" height="240" src="/assets/week-in-review-7-13Mar16.png" width="840" /></a>
+<a href="/img/week-in-review-7-13Mar16.png"><img alt="Week in Review: 7 - 13 Mar '16" class="center" height="240" src="/img/week-in-review-7-13Mar16.png" width="840" /></a>
 
 Started experimenting with polarised training this week, sometimes called the 80/20 approach.  In short, approximately 80% of your running it done very easy and 20% is done very hard.  For the very easy, I stuck to my usual MAF and for the very hard I introduced intervals.  Tuesday I did 4x 8min intervals as fast as I could hold the pace for each ([uniquely effective intervals](http://www.runnersworld.com/newswire/are-8-minute-intervals-uniquely-effective?nopaging=1), possibly) and then Thursday I did 10x ~100m all out sprints.
 

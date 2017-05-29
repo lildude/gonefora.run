@@ -11,7 +11,7 @@ published: true
 
 Brilliant!! You can now get lit [truck nuts for your bike](https://www.amazon.com/Gift-Pro-Waterproof-Silicone-TailLight/dp/B01I0ZF0SI):
 
-![Truck nut for your bike](/assets/truck-nuts-for-bike.jpg){:class="center" width="425" height="425"}
+![Truck nut for your bike](/img/truck-nuts-for-bike.jpg){:class="center" width="425" height="425"}
 
 :joy: And it'll improve your safety too. :joy:
 

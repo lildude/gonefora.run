@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-21-27Mar16.png"><img alt="Week in Review: 21 - 27 Mar '16" class="center" height="240" src="/assets/week-in-review-21-27Mar16.png" width="840" /></a>
+<a href="/img/week-in-review-21-27Mar16.png"><img alt="Week in Review: 21 - 27 Mar '16" class="center" height="240" src="/img/week-in-review-21-27Mar16.png" width="840" /></a>
 
 Second race week in a row.
 

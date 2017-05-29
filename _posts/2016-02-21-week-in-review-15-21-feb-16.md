@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-15-21Feb16.png"><img alt="Week in Review: 15 - 21 Feb '16" class="center" height="240" src="/assets/week-in-review-15-21Feb16.png" width="840" /></a>
+<a href="/img/week-in-review-15-21Feb16.png"><img alt="Week in Review: 15 - 21 Feb '16" class="center" height="240" src="/img/week-in-review-15-21Feb16.png" width="840" /></a>
 
 As expected, this week was a bit of a reverse taper building up to the Wokingham half-marathon.  It was only a reverse taper in as much as I did near to bugger all training last week and did a fair whack this week.
 
@@ -25,6 +25,6 @@ I finished in a watch time of 1:22:30, a gun time of 1:22:34 and a chip time of 
 
 Now comes the interesting thing...
 
-<a href="/assets/wokingham-half-times-2013-2016.png"><img alt="My Wokingham half marathon times: 2013 - 2016" class="center" height="270" src="/assets/wokingham-half-times-2013-2016.png" width="840" /></a>
+<a href="/img/wokingham-half-times-2013-2016.png"><img alt="My Wokingham half marathon times: 2013 - 2016" class="center" height="270" src="/img/wokingham-half-times-2013-2016.png" width="840" /></a>
 
 My gun and chip times were _exactly_ the same as in 2013. 2013 was my best running year to date - almost all my PBs were set in 2013 - and also the year I spent a considerable amount of time running at MAF. This year I've done a lot more mileage as MAF and much less intensity and I've got the same results. I'm definitely going to keep this up and see how it translates at the [Fleet half](http://fleethalfmarathon.com/) in a month's time.

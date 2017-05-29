@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 30 May - 5 Jun '16](/assets/week-in-review-30May-5Jun16.png){:height="240" width="840" class="center"}
+![Week in Review: 30 May - 5 Jun '16](/img/week-in-review-30May-5Jun16.png){:height="240" width="840" class="center"}
 
 I'm back from my two week early summer holiday, we're 17 weeks out from the Berlin marathon and I'm rearing to go. I feel relaxed and revitalised and excited to start racking up the mileage, and I don't plan to do it the easy way.
 

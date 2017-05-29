@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 25 Apr - 1 May '16](/assets/week-in-review-25Apr-1May16.png){:height="240" width="840" class="center"}
+![Week in Review: 25 Apr - 1 May '16](/img/week-in-review-25Apr-1May16.png){:height="240" width="840" class="center"}
 
 Picked up the mileage a little this week from last but kept in two rest days.  Wasn't up for anything strenuous so no hard session this week.  I did however turn Thursday's two runs into a single long run as that afternoon was dedicated to meetings and the Reading beer festival.
 

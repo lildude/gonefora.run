@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 5 - 11 Dec '16](/assets/week-in-review-5-11Dec16.png){:class="center"}
+![Week in Review: 5 - 11 Dec '16](/img/week-in-review-5-11Dec16.png){:class="center"}
 
 This week started off with good intentions. I had planned on bumping my mileage up to about 110-120km and was bang on target until Saturday afternoon.
 

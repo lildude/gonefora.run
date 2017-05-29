@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-1-7Feb16.png"><img alt="Week in Review: 1 - 7 Feb '16" src="/assets/week-in-review-1-7Feb16.png" width="840" height="240" class="center" /></a>
+<a href="/img/week-in-review-1-7Feb16.png"><img alt="Week in Review: 1 - 7 Feb '16" src="/img/week-in-review-1-7Feb16.png" width="840" height="240" class="center" /></a>
 
 As you can see from the image above, this hasn't been a week for running.  I finished Sunday's run last week with a bit of tightness in my upper back between my shoulder blades.  It was a wet long run in which I really got cold and put it down to hunching or tensing whilst running.
 

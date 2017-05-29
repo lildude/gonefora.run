@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 24 - 30 Oct '16](/assets/week-in-review-24-30Oct16.png){:height="240" width="840" class="center"}
+![Week in Review: 24 - 30 Oct '16](/img/week-in-review-24-30Oct16.png){:height="240" width="840" class="center"}
 
 Recovery week!!! Even though I felt OK on Monday I decided it was best to take the day off to really kickstart the recovery process. I then kept things nice and easy for the rest of the week, trying my hardest not to go for a run when I didn't need one or going too fast or too far.
 

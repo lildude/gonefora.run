@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 1 - 7 Aug '16](/assets/week-in-review-1-7Aug16.png){:height="240" width="840" class="center"}
+![Week in Review: 1 - 7 Aug '16](/img/week-in-review-1-7Aug16.png){:height="240" width="840" class="center"}
 
 This turned out to be one of the toughest training weeks I've ever had. It certainly was the longest closing in at a whopping 146.5km with today's long run being my longest training run too.  For most parts I felt pretty good all week though a little tired at times.  This was particularly evident on Wednesday when I ran the third in the series of the Yateley 10k races.
 
@@ -19,11 +19,11 @@ I hit half way in 18:20 and managed to pick up my pace for a a bit but I couldn'
 
 The interesting this is my HRV for this morning was terrible, and I mean really terrible:
 
-![HRV Morning Readiness on 3 Aug 2016](/assets/HRV-3Aug2016.png){:class="center"}
+![HRV Morning Readiness on 3 Aug 2016](/img/HRV-3Aug2016.png){:class="center"}
 
 And I have no idea why. I didn't do anything particularly challenging earlier in the week and this one day sticks out like a sore thumb in the whole week:
 
-![HRV Morning Readiness for 1-7 Aug 2016](/assets/HRV-1-7Aug2016.png){:class="center"}
+![HRV Morning Readiness for 1-7 Aug 2016](/img/HRV-1-7Aug2016.png){:class="center"}
 
 I suspect I may have been edging on the brink of [functional over-training](https://philmaffetone.com/the-overtraining-syndrome/) last week which ended with Wednesday being the day my HRV actually showed this.  The training towards the end of last week was fantastic and I felt quick and fluid, which can sometimes be an indication of over-training or too much stress.  It also makes sense given how big a week last week was.
 

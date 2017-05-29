@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 26 Dec - 1 Jan '17](/assets/week-in-review-26Dec-1Jan17.png){:class="center"}
+![Week in Review: 26 Dec - 1 Jan '17](/img/week-in-review-26Dec-1Jan17.png){:class="center"}
 
 Welcome to the final "Week in Review" for 2016 and for the foreseeable future.  I've had a good run of 52 weeks of summaries but have come to the conclusion that a weekly review is probably a bit much. It's also starting to feel like a bit of a burden and has ended up being published later and later into the subsequent week as the months have moved on.  From January 2017 onward I think I'm going to switch to doing a monthly review and see how it goes.
 
@@ -19,7 +19,7 @@ This was a great muddy challenging run out in the Berkshire countryside. I start
 
 I kept this going right through the muddiest and slippiest sections in the second half of the race until the final mile when I finally caught him, had a little exchange and pulled ahead.
 
-![Gut Buster 2016 Results - Saving this for posterity, just in case they change](/assets/gutbuster2016-results.jpg){:class="alignright"} I finished strong in what I'd calculated as second place, but alas I didn't get a second place goody bag when I crossed the line. A bit confused I went to the computer to check and it had me finishing third and second in my gender. Huh!? A few other peeps were a bit confused by this especially the guy who came first ("second" according to the computer) in a tremendously fast time of 52:15 which surprised him - he suspects he may have been sent the wrong way or missed a turn at some point.
+![Gut Buster 2016 Results - Saving this for posterity, just in case they change](/img/gutbuster2016-results.jpg){:class="alignright"} I finished strong in what I'd calculated as second place, but alas I didn't get a second place goody bag when I crossed the line. A bit confused I went to the computer to check and it had me finishing third and second in my gender. Huh!? A few other peeps were a bit confused by this especially the guy who came first ("second" according to the computer) in a tremendously fast time of 52:15 which surprised him - he suspects he may have been sent the wrong way or missed a turn at some point.
 
 I didn't hang around too much longer as I was starting to get cold so claimed my bag and got on the bus back to the park & ride. On the way I checked the results again and they had me second, behind the guy who I thought came first. By the time I got home I was in first place with the original first place guy now under query. Sadly this confusion meant I haven't got a prize yet, but I'm sure they'll sort things out in time. The win is nice to have but there's no way I would have caught the guy ahead of me so I'm happy with 2nd if that's what I get in the end.
 

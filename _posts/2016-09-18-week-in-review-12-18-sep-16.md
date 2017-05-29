@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 12 - 18 Sep '16](/assets/week-in-review-12-18Sep16.png){:height="240" width="840" class="center"}
+![Week in Review: 12 - 18 Sep '16](/img/week-in-review-12-18Sep16.png){:height="240" width="840" class="center"}
 
 This week was my penultimate week of training before next weekend's Berlin Marathon and was pretty much exclusively recovery and MAF runs, with a few exceptions.
 

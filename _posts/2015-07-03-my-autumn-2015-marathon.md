@@ -9,7 +9,7 @@ tags:
 type: post
 published: true
 ---
-![Valencia Marathon](/assets/valencia-marathon.jpg)
+![Valencia Marathon](/img/valencia-marathon.jpg)
 
 After a lot of umming and aaahhing, I've finally made up my mind and have decided I'll be doing the Valencia Marathon for my autumn marathon this year.  It's a fast flat route in a beautiful city with a great climate at that time of year.
 

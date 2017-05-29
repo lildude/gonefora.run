@@ -20,7 +20,7 @@ This is interesting idea and the New York Times article opens with:
 
 ... and by looking at the [infographic and analysis](http://runrepeat.com/research-marathon-performance-across-nations), they're right:
 
-<a href="http://runrepeat.com/research-marathon-performance-across-nations" target="_blank"><img src="/assets/RunRepeat-Graphic.jpg" class="center" alt="Truncated infographic"></a>
+<a href="http://runrepeat.com/research-marathon-performance-across-nations" target="_blank"><img src="/img/RunRepeat-Graphic.jpg" class="center" alt="Truncated infographic"></a>
 
 ... however, as I see it, the data isn't really representative of the world as a whole and as such doesn't fully support the comments and conclusions made.
 

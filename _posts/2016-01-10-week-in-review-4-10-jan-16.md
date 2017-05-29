@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-4-10-Jan16.png"><img alt="Week in Review: 28 Dec - 3 Jan '16" src="/assets/week-in-review-4-10-Jan16.png" width="840" height="240" class="center" /></a>
+<a href="/img/week-in-review-4-10-Jan16.png"><img alt="Week in Review: 28 Dec - 3 Jan '16" src="/img/week-in-review-4-10-Jan16.png" width="840" height="240" class="center" /></a>
 
 Stuck with running for at least an hour at MAF each time I run this week.  Originally had the aim of running 80km this week but then kicked myself for trying to get into that "I must run X kilometres this week" mindset.  Ended up running only 3km more than last week, though that is partly because I didn't run on Saturday thanks to a mean hangover from a big night out with the Mrs on Friday night.
 

@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-28Mar-3Apr16.png"><img alt="Week in Review: 28 Mar - 3 Apr '16" class="center" height="240" src="/assets/week-in-review-28Mar-3Apr16.png" width="840" /></a>
+<a href="/img/week-in-review-28Mar-3Apr16.png"><img alt="Week in Review: 28 Mar - 3 Apr '16" class="center" height="240" src="/img/week-in-review-28Mar-3Apr16.png" width="840" /></a>
 
 I managed to hurt my back again on Sunday evening like I did in February before I went to Austin, but this time I know how I did it.  Seems my back doesn't like me lying on my side with my upper body propped up on my elbow. Things were really painful on Monday when I woke up and still quite tender on Tuesday so I didn't run on Tuesday.  It felt much better come Wednesday so I only lost out on a single day's worth of training.
 

@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<a href="/assets/week-in-review-14-20Mar16.png"><img alt="Week in Review: 14 - 20 Mar '16" class="center" height="240" src="/assets/week-in-review-14-20Mar16.png" width="840" /></a>
+<a href="/img/week-in-review-14-20Mar16.png"><img alt="Week in Review: 14 - 20 Mar '16" class="center" height="240" src="/img/week-in-review-14-20Mar16.png" width="840" /></a>
 
 Dialed back the training quite a bit this week as I was racing the Fleet Half Marathon on Sunday and I really wanted to do well.  Last year I ever-so-slightly mis-paced things such that even a mad-panic sprint down the finishing straight wasn't enough to dip under 80mins and I didn't want to do that again this time round.
 

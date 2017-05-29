@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-![Oh look my running shoes](/assets/oh-look-my-running-shoes.png)
+![Oh look my running shoes](/img/oh-look-my-running-shoes.png)
 
 This is definitely me, though I say "Oh look, my Luna sandals" :smile:.
 

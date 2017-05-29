@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 18 - 24 Jul '16](/assets/week-in-review-18-24Jul16.png){:height="240" width="840" class="center"}
+![Week in Review: 18 - 24 Jul '16](/img/week-in-review-18-24Jul16.png){:height="240" width="840" class="center"}
 
 I didn't do much running last wee. Instead I spent the time taking full advantage of our company annual Summit in Colorado Springs and spent a fair amount of time socialising with my colleagues in a swanky hotel, which of course came with a few beers, wines and cocktails, along with loads of activities.
 

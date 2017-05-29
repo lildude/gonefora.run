@@ -10,7 +10,7 @@ type: post
 published: true
 ---
 
-![Chelmsford Marathon - 23 October 2016](/assets/chelmsford-marathon-logo.jpg){:class="alignright" width="200" height="167"} In a bid to make up for a [disastrous Berlin Marathon](/berlin-marathon-2016) I hunted out a flat-ish marathon a month later to see if having another go would get me the results I wanted and prove my training was right and I could run 2:45 or pretty damn close, and this is what I came up with: the [Chelmsford Marathon](http://www.chelmsfordmarathon.org.uk/).
+![Chelmsford Marathon - 23 October 2016](/img/chelmsford-marathon-logo.jpg){:class="alignright" width="200" height="167"} In a bid to make up for a [disastrous Berlin Marathon](/berlin-marathon-2016) I hunted out a flat-ish marathon a month later to see if having another go would get me the results I wanted and prove my training was right and I could run 2:45 or pretty damn close, and this is what I came up with: the [Chelmsford Marathon](http://www.chelmsfordmarathon.org.uk/).
 
 The race website [describes the course](http://www.chelmsfordmarathon.org.uk/course-2016/) as...
 
@@ -24,7 +24,7 @@ I picked up my finishers t-shirt - yes, it felt odd picking up my finishers shir
 
 I warmed up, stripped down, packed my pockets and then made my way over to the Shire Hall for the start, along with everyone else. The start showed more signs that this was going to be a small race. The start area was mostly open to spectators and runners and the pace-band signs were pretty close together. My wife stayed with me chatting until about three minutes to go when I handed her my t-shirt and they started with the pre-race announcements. Just before nine they moved us all forward to the start line and then we were off.
 
-![Start of the 2016 Chelmsford Marathon](/assets/chelmsford-marathon-start-2016.jpg "Where's the wally?")
+![Start of the 2016 Chelmsford Marathon](/img/chelmsford-marathon-start-2016.jpg "Where's the wally?")
 
 Everything so far was proving this would be a small race and this was further confirmed when I was pleasantly surprised to find myself in 9th place less than a kilometre into the race and the tenth place person wasn't keeping up. The lead guys weren't too far ahead of me and didn't seem to be pulling away too quickly either. It was so tempting to pick up my pace and run with them, but I restrained myself and dropped into a good rhythm. Whilst I was doing a fair amount of experimenting with this race, flying off with the lead guys and then holding on for dear life was _not_ on the cards.
 

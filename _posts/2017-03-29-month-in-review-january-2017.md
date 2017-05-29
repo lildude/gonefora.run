@@ -23,4 +23,4 @@ Anyway, all this mileage led me to two major milestones: I clocked up my [first 
 
 The double-run days three times a week and the two medium-long runs really helped here, and knowing how I've raced since January (I am writing this at the end of March) I can say it's had a huge impact on my performance, but you'll have to wait until next month's review (coming in the next few days) to find out more.  Until then, they say a picture is worth a thousand words, so here's a picture of my training log from Strava:
 
-![Strava log: January](/assets/mir-jan-2017.png){: class="center" width="815" height="775"}
+![Strava log: January](/img/mir-jan-2017.png){: class="center" width="815" height="775"}

@@ -35,4 +35,4 @@ In summary, keeping the three double-runs, the two medium-long runs and introduc
 
 ## Strava Log
 
-![Strava log: February](/assets/mir-feb-2017.png){:class="center" width="815" height="780"}
+![Strava log: February](/img/mir-feb-2017.png){:class="center" width="815" height="780"}

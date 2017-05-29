@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Week in Review: 3 - 9 Oct '16](/assets/week-in-review-3-9Oct16.png){:height="240" width="840" class="center"}
+![Week in Review: 3 - 9 Oct '16](/img/week-in-review-3-9Oct16.png){:height="240" width="840" class="center"}
 
 This week was another light week of training with a fair amount of bingeing. I was in Amsterdam for a work mini-summit so ended up eating a fair amount of really good food on the company's dime.  I tried to keep this low carb as best I could but didn't succeed.
 
