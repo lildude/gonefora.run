@@ -14,7 +14,7 @@ So I've got this blog documenting my path from running in shoes to running baref
 
 ## Who Am I?
 
-![Colin Seymour](/img/profile.png){:width="128" height="128" class="alignleft" style="height:128px; width=128px"} I'm Colin Seymour, born and brought up in the leafy northern suburbs of Johannesburg, :za: and now living in one of the home counties in :gb:.
+![Colin Seymour](/assets/profile.png){:width="128" height="128" class="alignleft" style="height:128px; width=128px"} I'm Colin Seymour, born and brought up in the leafy northern suburbs of Johannesburg, :za: and now living in one of the home counties in :gb:.
 
 ## What Is My Running Experience
 
@@ -28,7 +28,7 @@ As the years went on, my love of road running grew, and so did the distances.  I
 
 I ran my first, and only marathon at 18.  It was a terrible run, but I didn't really care as I didn't run it for a marathon PB. I ran it purely to get the qualifying time I needed to run my first ultra-marathon: the 56Km [Two Oceans Marathon](http://www.twooceansmarathon.org.za/) (what a brilliant race):
 
-[![My Two Oceans Marathon results](/assets/2OceansResults.png){:class="center"}](http://admin.twooceansmarathon.org.za/HistoryList.aspx?RunnerCode=39205 "1397 out of 7441 finishers.  5th junior")
+[![My Two Oceans Marathon results](/img/2OceansResults.png){:class="center"}](http://admin.twooceansmarathon.org.za/HistoryList.aspx?RunnerCode=39205 "1397 out of 7441 finishers.  5th junior")
 
 I also took part in several [duathlons](http://en.wikipedia.org/wiki/Duathlon) and sprint-distance triathlons.
 
@@ -78,12 +78,12 @@ Why am I not running more barefoot?  Simple. The skin on my feet can't keep up w
 
 Want to follow me, and I don't mean because you run slower than me or you're a stalker, then you can do so in loads of places:
 
-[![Power of 10](/assets/powerof10.png){:style="width:336px; height=82px"}](http://www.thepowerof10.info/athletes/profile.aspx?athleteid=246985){:target="_blank"}  
-[![Twitter](/assets/twitter.png){:style="width:200px; height:46px"}](http://twitter.com/lildude){:target="_blank"}
-[![FetchEveryone](/assets/fetcheveryone.png){:style="width:125px; height:71px"}](http://www.fetcheveryone.com/userprofile.php?id=32814){:target="_blank"}
-[![Strava](/assets/StravaRun.jpg){:style="width:71px; height=:71px"}](http://app.strava.com/athletes/1295848){:target="_blank"}
-[![RunBritain](/assets/runbritain.png){:style="width:251px; height:94px"}](http://www.runbritainrankings.com/runners/profile.aspx?athleteid=246985){:target="_blank"}
-[![parkrun](/assets/parkrun.png){:style="width:205px height:100px"}](http://www.parkrun.org.uk/athleteresultshistory?athleteNumber=73185){:target="_blank"}
+[![Power of 10](/img/powerof10.png){:style="width:336px; height=82px"}](http://www.thepowerof10.info/athletes/profile.aspx?athleteid=246985){:target="_blank"}  
+[![Twitter](/img/twitter.png){:style="width:200px; height:46px"}](http://twitter.com/lildude){:target="_blank"}
+[![FetchEveryone](/img/fetcheveryone.png){:style="width:125px; height:71px"}](http://www.fetcheveryone.com/userprofile.php?id=32814){:target="_blank"}
+[![Strava](/img/StravaRun.jpg){:style="width:71px; height=:71px"}](http://app.strava.com/athletes/1295848){:target="_blank"}
+[![RunBritain](/img/runbritain.png){:style="width:251px; height:94px"}](http://www.runbritainrankings.com/runners/profile.aspx?athleteid=246985){:target="_blank"}
+[![parkrun](/img/parkrun.png){:style="width:205px height:100px"}](http://www.parkrun.org.uk/athleteresultshistory?athleteNumber=73185){:target="_blank"}
 {:class="center"}
 
 <del>I'm still dabbling with DailyMile. I might decide to ditch it at some point in the future - it really depends how they improve their API this year (2012) and how many people want to be my running friend</del> :grinning:  (Ditched at the end of 2012. It didn't meet my needs and there was no progress on the API side of things).
