@@ -45,7 +45,7 @@ task :new, [:title, :bowfmt, :eowfmt] do |t, args|
     post.puts "---"
     # Add img to top of week in review posts
     if title.include? "Week in Review:"
-      post.puts "\n![Week in Review: #{args.bowfmt} - #{args.eowfmt}](/assets/week-in-review-#{args.bowfmt.gsub(/[\s']/,'')}-#{args.eowfmt.gsub(/[\s']/,'')}.png){:height=\"240\" width=\"840\" class=\"center\"}"
+      post.puts "\n![Week in Review: #{args.bowfmt} - #{args.eowfmt}](/img/week-in-review-#{args.bowfmt.gsub(/[\s']/,'')}-#{args.eowfmt.gsub(/[\s']/,'')}.png){:height=\"240\" width=\"840\" class=\"center\"}"
     end
   end
   system "#{editor} ."
@@ -77,13 +77,13 @@ task :publish, :draft_file do |t, args|
 end
 
 # Requires ImageOptim and ImageOptim-CLI
-desc "Minify assets"
+desc "Minify img"
 task :minify do
   file_exts = [".gif", ".jpg", ".jpeg", ".png", ".JPG"]
   images = ''
   # Grab time of last compress run
-  last_run = File.exist?("assets/.last-compressed") ? Time.at(IO::readlines("assets/.last-compressed")[1].strip.to_i) : Time.new(1990)
-  Dir.glob("assets/**/*.*") do |file|
+  last_run = File.exist?("img/.last-compressed") ? Time.at(IO::readlines("img/.last-compressed")[1].strip.to_i) : Time.new(1990)
+  Dir.glob("img/**/*.*") do |file|
     case File.extname(file)
     when *file_exts
       if File.stat(file).mtime > last_run
@@ -98,8 +98,8 @@ task :minify do
     ok_failed(system("echo \"#{images}\" | ~/bin/ImageOptim-CLI-1.11.6/bin/imageoptim --image-alpha --quit"))
     # Write last compressed date to file.
     t = Time.now
-    File.open("assets/.last-compressed", "w+") { |f| f.puts "# #{t.to_s}\n#{t.to_i}" }
-    ok_failed(system("git add assets"))
+    File.open("img/.last-compressed", "w+") { |f| f.puts "# #{t.to_s}\n#{t.to_i}" }
+    ok_failed(system("git add img"))
     ok_failed(system("git commit -m \"Optimise images\" 1>/dev/null"))
   end
 end
@@ -133,7 +133,7 @@ task :deploy do
   ok_failed(system("/usr/local/bin/rsync --compress --recursive --checksum --delete --itemize-changes --iconv=utf-8-mac,utf-8 _site/ do1:www/static-sites/#{$site}/")) # Requires rsync 3 on the Mac.
 
   puts "\n## Adding _site".yellow
-  ok_failed(system("git add .gitignore _site assets/.last-compressed"))
+  ok_failed(system("git add .gitignore _site img/.last-compressed"))
 
   puts "\n## Committing site".yellow
   message = "Built site at #{Time.now.utc}"
