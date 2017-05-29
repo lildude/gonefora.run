@@ -14,11 +14,11 @@ url:              https://gonefora.run
 baseurl:          ""
 twitter:
   username:       lildude
-logo:             /img/favicon.png
+logo:             /assets/favicon.png
 author:
   name:           'Colin Seymour'
   twitter:        lildude
-  avatar:         'https://barefootrunner.co.uk/img/profile.png'
+  avatar:         'https://barefootrunner.co.uk/assets/profile.png'
 first_img:        true  # Use first image in post when a page.image is not defined.
 
 social:
