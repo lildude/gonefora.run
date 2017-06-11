@@ -10,7 +10,7 @@ stash_dir       = "_stash"    # directory to stash posts for speedy generation
 drafts_dir      = "_drafts"   # directory for draft files
 posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"        # default new post file extension when using the new_post task
-editor          = "atom -n"      # default editor to use to open and edit your new posts
+editor          = "atom"      # default editor to use to open and edit your new posts
 
 ## -- Site -- ##  This is so I can easily share the same Rakefile between all my sites.
 config = YAML.load_file('_config.yml')
