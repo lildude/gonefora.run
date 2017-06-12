@@ -29,7 +29,7 @@ I finished with a 1:17:02 chip time. It would have been nice to be three seconds
 
 The next week was a whopper of a week. Somehow I found the energy and motivation after the Fleet Half to put in a massive week of 170.9km making this my new largest ever week. Looking back over my log, it was only really the Wednesday medium long run in which I struggled. The other days went really week and I flew through the Sunday long run too.
 
-I finished off the month with another recovery week. This time, no travels for work, but I did travel up to Manchester for the Manchester Marathon (the big fuzzy red blob :point_down:).
+I finished off the month with another recovery week. This time, no travels for work, but I did travel up to Manchester for the Manchester Marathon (the big fuzzy red blob 👇).
 
 Whilst March ended up being my lowest mileage month of the year so far, it included two massive weeks and a fantastic new half marathon PB.
 
