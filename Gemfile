@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem "github-pages"
 gem "stringex"
 gem "httpclient"
+gem "rake"
 #gem "jekyll-admin"
 #gem "html-proofer", :path => "~/Development/html-proofer"
 gem "html-proofer"
