@@ -17,6 +17,6 @@ Monday was usual day off and my back remained tight, but not painful.  Tuesday, 
 
 And the pain just got worse as the afternoon progressed.
 
-It's Sunday today.  I'm in Austin, Texas and the sun is just coming up on what is likely to be a lovely day.  I had planned of hitting the streets of Austin for three hours today, but my back is still tender and painful when lying on my back or doing any sudden movements.  Sadly, this means no run today :cry: and for who knows how much longer.  I want to run the Wokingham Half on the 21st so I won't be "testing the waters" until I'm sure the pain has gone.
+It's Sunday today.  I'm in Austin, Texas and the sun is just coming up on what is likely to be a lovely day.  I had planned of hitting the streets of Austin for three hours today, but my back is still tender and painful when lying on my back or doing any sudden movements.  Sadly, this means no run today 😢 and for who knows how much longer.  I want to run the Wokingham Half on the 21st so I won't be "testing the waters" until I'm sure the pain has gone.
 
-I'm off to go cry into my big southern breakfast. :cry:.
+I'm off to go cry into my big southern breakfast. 😢.

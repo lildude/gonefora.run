@@ -23,4 +23,4 @@ The chapter did bring up another topic which intrigues me and which I'm looking 
 
 Marcora is apparently working with British Athletic in their preparations for Rio so it'll be interesting to see how this research pans out over the next few years.
 
-In the mean time, I'm off to scour the interwebs and I might start doing tough sudokus before my runs :smile:
+In the mean time, I'm off to scour the interwebs and I might start doing tough sudokus before my runs 🙂

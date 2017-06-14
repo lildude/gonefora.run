@@ -17,9 +17,9 @@ I started off well with an easy run on Monday, which felt pretty good following 
 
 Wednesday I hit the hills for the fun, yet tough, Woodlands 5-and-a-bit race. It's a small low-key race series that takes in two loops of a very challenging route in the woods next to Broadmoor hospital. I'd forgotten what a great run this was. I also forgot that it's a two lapper that involves running "[The Hill](https://www.strava.com/segments/7063372)" twice.
 
-Not sure how I'd perform given I raced quite hard on Sunday and it was pretty muddy and humid, I started off at a moderately good pace and slowly made my way into the top 8 and quickly moved into third place just before "The Hill" on the first lap, thinking I could power up that and then breeze through the rest of the race. It was only once I'd crested the hill that I checked my watch and saw we'd only just covered 4km and remembered I'd need to do that again. Ooops, :blush:.
+Not sure how I'd perform given I raced quite hard on Sunday and it was pretty muddy and humid, I started off at a moderately good pace and slowly made my way into the top 8 and quickly moved into third place just before "The Hill" on the first lap, thinking I could power up that and then breeze through the rest of the race. It was only once I'd crested the hill that I checked my watch and saw we'd only just covered 4km and remembered I'd need to do that again. Ooops, 😊.
 
-Fear not, I held my composure and took my foot off the pedal just a little to try and recover for the second lap. The guy I passed going up "The Hill" passed me again - he was much better prepared :wink: - and I was then passed by another chap. I stuck with this guy and used him as a pacer until the foot of "The Hill" again, where I showed my climbing prowess :stuck_out_tongue_winking_eye: and shot past him and onto the finish.
+Fear not, I held my composure and took my foot off the pedal just a little to try and recover for the second lap. The guy I passed going up "The Hill" passed me again - he was much better prepared 😉 - and I was then passed by another chap. I stuck with this guy and used him as a pacer until the foot of "The Hill" again, where I showed my climbing prowess :stuck_out_tongue_winking_eye: and shot past him and onto the finish.
 
 This was a great challenging run which netted me a 4th place out of a small field of 85.
 
@@ -31,4 +31,4 @@ And that was the last of running for the week.  Saturday was spent in airports a
 
 For the next two weeks I'll be on my early summer holiday. I'm not sure how much running I'll be doing, but I do intend to use this time to relax, recover and enjoy myself because when I get back, it'll be 16 weeks to [Berlin](http://www.bmw-berlin-marathon.com/) which means 16 weeks of grueling training.  I will of course get out at least a few times: you can't travel without going for a run.
 
-I'm off to relax and enjoy my holiday. :wave:
+I'm off to relax and enjoy my holiday. 👋

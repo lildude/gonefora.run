@@ -35,4 +35,4 @@ I had plenty time to spare on Sunday morning, so I headed out for a moderately l
 
 By the time I got back to my hotel, I was soaked through in sweat. My shirt and shorts were dripping with sweat. I happened to weigh myself the night before and came in at 73.8kg. After my run I was down to 69.9kg. I know all of this weight loss can't be attributed to sweat but I'm pretty certain most of it was.
 
-All in, a great week in Singapore without as much running as I'd planned. If you ever get the chance to go to Singapore, don't miss it, and take your Luna sandals :wink:.
+All in, a great week in Singapore without as much running as I'd planned. If you ever get the chance to go to Singapore, don't miss it, and take your Luna sandals 😉.

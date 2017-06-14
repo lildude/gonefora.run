@@ -25,11 +25,11 @@ I ran the first kilometre quite conservatively and then started to push things a
 
 The last kilometre is mostly downhill and a fantastic run into the finish. As we turned into the final straight I unleashed the beast and flew passed Jock with about 300m to go and pulled a good five second lead on him.
 
-I flew across the finish line feeling absolutely fantastic and very pleased with my performance and strong finish. After the race Jock said he'd seen me finish strong in other races so was expecting me to blitz him on the final straight :blush:.
+I flew across the finish line feeling absolutely fantastic and very pleased with my performance and strong finish. After the race Jock said he'd seen me finish strong in other races so was expecting me to blitz him on the final straight 😊.
 
 [![Forest Five 2016 Top 10](/img/Forest-Five-2016.png)](http://bfrraces.weebly.com/uploads/5/7/0/1/57012387/provisional_results.pdf)
 
-This is still a great offroad race and Wednesday's race was a new 5 mile / 8k offroad PB.  It was also my second podium finish ~~(no prize though :cry:)~~.
+This is still a great offroad race and Wednesday's race was a new 5 mile / 8k offroad PB.  It was also my second podium finish ~~(no prize though 😢)~~.
 
 **Update:** There _was_ a prize for third after all. I received a £25 voucher in the post a few weeks later.
 

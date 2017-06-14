@@ -19,6 +19,6 @@ Another useful feature is I can fire up LICEcap (a terrible gif screen capture t
 
 <img class="center" src="/img/flyby.gif" width="450" height="600" alt="Reading parkrun on FlyBy"/>
 
-I'm the red one :grinning:.
+I'm the red one 😀.
 
 I'm not sure this will become particularly popular but it's a nice way to kill a few minutes.

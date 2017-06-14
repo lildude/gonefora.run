@@ -13,6 +13,6 @@ Brilliant!! You can now get lit [truck nuts for your bike](https://www.amazon.co
 
 ![Truck nut for your bike](/img/truck-nuts-for-bike.jpg){:class="center" width="425" height="425"}
 
-:joy: And it'll improve your safety too. :joy:
+😂 And it'll improve your safety too. 😂
 
-And if you've been a bit of a naughty boy and the Mrs is giving you a timeout, you can let everyone know with a [blue pair](https://www.amazon.com/Egoodbest-Heart-Shaped-Bike-Light/dp/B01GZWTZMA/). :joy:
+And if you've been a bit of a naughty boy and the Mrs is giving you a timeout, you can let everyone know with a [blue pair](https://www.amazon.com/Egoodbest-Heart-Shaped-Bike-Light/dp/B01GZWTZMA/). 😂

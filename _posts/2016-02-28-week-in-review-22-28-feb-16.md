@@ -27,4 +27,4 @@ Felt surprisingly good on the entire run given yesterday's parkrun and the high 
 
 Next week will see a backoff in mileage, though I will be keeping the doubles.  I'm also planning on introducing a second high intensity run in each week starting the week after next.  The idea hear is to explore polarised training and see how much of an impact it has on my training. I plan to write a separate post on what I've read on polarised training and some of the research behind it.
 
-Well, that's it for this week. Time for a short :walking: for a few :beers:.
+Well, that's it for this week. Time for a short 🚶 for a few 🍻.

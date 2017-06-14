@@ -19,7 +19,7 @@ I'm now approaching the end of my programme so the intervals are back with Tuesd
 
 Wednesday was a longish MAF run in which I felt fantastic with Thursday, Friday and Saturday dedicated to being recovery runs keeping my HR under 144 BPM, with a set of 6x 100m strides tacked onto the end of Thursday's run. It took until Saturday's run to start feeling fully recovered from the intervals which worked out perfectly.
 
-Sunday rolled around and I was feeling fantastic.  I ate a good meal the night before - roast chicken with roast butternut and beetroot is becoming my go-to race staple - limited my alcohol to a 340ml can of Life & Death IPA :yum: and two small glasses of wine and got a good night's sleep.  I woke up nice and early on Sunday morning, had my customary Bulletproof coffee, breakfast and headed to the race.
+Sunday rolled around and I was feeling fantastic.  I ate a good meal the night before - roast chicken with roast butternut and beetroot is becoming my go-to race staple - limited my alcohol to a 340ml can of Life & Death IPA 😋 and two small glasses of wine and got a good night's sleep.  I woke up nice and early on Sunday morning, had my customary Bulletproof coffee, breakfast and headed to the race.
 
 I knew this was an undulating course going in so wasn't expecting to dip under 80 mins but I changed my mind towards the end of the first lap when I discovered that the ups weren't that steep or long, but the downs were, and I was flying down the downs.
 

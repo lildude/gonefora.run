@@ -10,6 +10,6 @@ published: true
 
 ![Oh look my running shoes](/img/oh-look-my-running-shoes.png)
 
-This is definitely me, though I say "Oh look, my Luna sandals" :smile:.
+This is definitely me, though I say "Oh look, my Luna sandals" 🙂.
 
 <small>[Source](https://twitter.com/Oatmeal/status/689919526956232704/photo/1)</small>

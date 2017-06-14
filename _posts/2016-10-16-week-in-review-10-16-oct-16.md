@@ -25,7 +25,7 @@ I skipped a run on Friday as I had that "pinched nerve" feeling in my back. In t
 
 Getting out for this morning's run was a bit of an effort. I had a few too many beers last night, shared a platter of chicken wings and woke to the pitter-patter of rain drops but I pulled on my Yuki-suit and headed out the door into the rain anyway.
 
-The motivation for ensuring I did today's run was two-fold: one it's a last chance to get in a long-ish run before next week's taper and two, I wanted to try out a High5 EnergyGel Plus gel. I don't normally train or race with gels but I was wondering if part of my [Berlin experience](/berlin-marathon-2016) was down to an early bonk so I wanted to experiment, once :wink:, with a gel before trying them out as part of my race nutrition at the Chelmsford marathon next weekend.
+The motivation for ensuring I did today's run was two-fold: one it's a last chance to get in a long-ish run before next week's taper and two, I wanted to try out a High5 EnergyGel Plus gel. I don't normally train or race with gels but I was wondering if part of my [Berlin experience](/berlin-marathon-2016) was down to an early bonk so I wanted to experiment, once 😉, with a gel before trying them out as part of my race nutrition at the Chelmsford marathon next weekend.
 
 Well, I can say I certainly didn't notice very much in my run. My biggest concern was the taste and the effect it would have on an empty stomach: it didn't taste too bad and I didn't notice anything in my stomach. I also didn't really notice much of an energy boost which I suppose is a good thing too. Hopefully that translates into a good level supply of energy next week, but we'll see.
 

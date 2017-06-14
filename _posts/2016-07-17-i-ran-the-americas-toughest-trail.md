@@ -15,7 +15,7 @@ Today is Sunday and that means one thing: it's long run day, and there's no way 
 >
 >Situated near the base of Pikes Peak in Manitou Springs, Colo., the Manitou Incline rises more than 2,000 vertical feet in less than a mile. It’s unyieldingly steep—68 percent in some places—but that’s why runners and hikers from near and far have been taking the challenge for years.
 
-... and there's no way I was going to miss out on this one. I've brought up the idea of running this in the work running repo and there seems to be quite a bit of enthusiasm for it, but I wanted to make sure I got to do it at least once, just in case the :beers:, :wine_glass: and :cocktail: took over and persuaded peeps against it, so I did that this morning.
+... and there's no way I was going to miss out on this one. I've brought up the idea of running this in the work running repo and there seems to be quite a bit of enthusiasm for it, but I wanted to make sure I got to do it at least once, just in case the 🍻, :wine_glass: and 🍸 took over and persuaded peeps against it, so I did that this morning.
 
 I ran the 14k from The Broadmoor hotel to the base of the incline and then made my way up the incline.  I originally thought I'd be able to run/power walk up the incline.  Oh I was sooooo wrong. This incline gets very steep very quickly and coupled with the altitude, I soon found just walking was tough and had to pause many times. It took me [40:36 from first to last step](https://www.strava.com/activities/644200334/segments/15749715025).
 

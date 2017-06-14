@@ -21,7 +21,7 @@ Wednesday was dedicated to a medium long run of two hours. Nothing much to write
 
 Thursday and Friday was a recovery run and and MAF run respectively with Saturday dedicated to parkrun.  I wasn't going to do this given the distance I've run this week but thought, what the heck, lets give it a go.  Not a bad run in the end but very windy.
 
-Finished off the week with a long run.  I woke up early on Sunday morning for my run and really didn't really feel like hitting the road.  Then I remembered I'd gone to bed late after drinking way too many ciders watching the Olympics so that's probably why I wasn't feeling up for a run :smile:. It took about 20mins to shake that feeling off and get into a good comfy groove. Stuck around the 144 BPM HR range for just over an hour before picking up the pace to just slower than MP for an hour before finishing off keeping my HR around the 149 BPM range for the final 20mins.
+Finished off the week with a long run.  I woke up early on Sunday morning for my run and really didn't really feel like hitting the road.  Then I remembered I'd gone to bed late after drinking way too many ciders watching the Olympics so that's probably why I wasn't feeling up for a run 🙂. It took about 20mins to shake that feeling off and get into a good comfy groove. Stuck around the 144 BPM HR range for just over an hour before picking up the pace to just slower than MP for an hour before finishing off keeping my HR around the 149 BPM range for the final 20mins.
 
 Felt pretty good once I'd shaken off the initial sluggish start and had to fight the wind through most of the fast section of my run. Could probably have gone fast if there wasn't the wind.
 

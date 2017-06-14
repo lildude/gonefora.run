@@ -27,7 +27,7 @@ Being a noob I didn't know the route. I'd looked it up online before the race, b
 
 Today is long run day and I had originally planned on doing the RAC Tough One 32k route but speaking with people over the week, several suggested using the cycle lanes out in The Cradle of Humankind. I was advised it's incredibly scenic and quiet, except for the cyclists, which sounded great... certainly better than trudging through the suburbs of Randburg. Well, it lived up to the promises. Fantastic scenic, quiet and challenging route. I felt pretty good too and ticked over the miles, through all the ups and downs until about the last 5km when my bowels reminded me that I'd eaten birthday cake last night and they didn't want to keep hold of the by-product for much longer so I cut my run short at the point I started and headed to the loo.
 
-This was a fantastic fun and I even saw wildlife: a giraffe at the Lion Park, two monkeys crossed the road ahead of me and two camels... in the back of a truck :grinning: I'm definitely going to have to remember to head out this direction when I'm next back in Jo'burg.
+This was a fantastic fun and I even saw wildlife: a giraffe at the Lion Park, two monkeys crossed the road ahead of me and two camels... in the back of a truck 😀 I'm definitely going to have to remember to head out this direction when I'm next back in Jo'burg.
 
 All in all, running this week back in my old stomping ground was really enjoyable and went really well. I think I've acclimatised quite quickly and hope the altitude and hills will result in improved running when back at sea level on the flat.
 

@@ -12,7 +12,7 @@ I'm in Whistler this week for a work do and have just got back from my first run
 
 <figure class="center"><img alt="LostLake.jpg" src="/img/LostLake.jpg" width="1024" height="768" /><figcaption>Lost Lake in the morning</figcaption></figure>
 
-I had no plans in mind for this morning's run other than to loop round Lost Lake (I found it ⇧ :grinning:) and then see where my feet took me. They took me all over the show. Over easy trails, hard trails, rocky trails and smooth trails. The big main "road" trails are nice and easy going though a little boring. The cross-country ski routes are great smooth fast paths that meander through the trees and the hard-core MTB trails are particularly challenging and the most fun.
+I had no plans in mind for this morning's run other than to loop round Lost Lake (I found it ⇧ 😀) and then see where my feet took me. They took me all over the show. Over easy trails, hard trails, rocky trails and smooth trails. The big main "road" trails are nice and easy going though a little boring. The cross-country ski routes are great smooth fast paths that meander through the trees and the hard-core MTB trails are particularly challenging and the most fun.
 
 I'm really looking forward to getting out there again, though I think it'll only be in the mornings as it's topping 30°C every day this week with bonus humidity too.
 

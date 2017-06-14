@@ -23,11 +23,11 @@ All the training and fighting the lurgy doesn't seem to have had too much of an 
 
 This worked well and I finished 6 seconds quicker than last month. I also definitely noticed the effect picking up the pace in the first half in the second half, though it could have just been over-all tiredness rather than anything related to starting quicker.
 
-Great run and I really enjoyed it and not only was I 6 seconds quicker, I finished a place higher too - 10th - thanks to my killer finish :grin:.
+Great run and I really enjoyed it and not only was I 6 seconds quicker, I finished a place higher too - 10th - thanks to my killer finish 😁.
 
 Thursday was easy as scheduled and then Friday I did the scheduled medium long run with 10k at LTP, only to realise part way through that Wednesday's race should probably have counted as doing this.  Oh well.  The run wasn't too bad though I found it hard to keep up the pace towards the end.  This is probably due to a bit of tiredness left over from Wednesday's race.
 
-No run on Saturday as I spent the day sitting in airports and then flying across the Atlantic - in business class too, I was bumped at the gate :smile: - to Denver for our annual company Summit in Colorado Springs.
+No run on Saturday as I spent the day sitting in airports and then flying across the Atlantic - in business class too, I was bumped at the gate 🙂 - to Denver for our annual company Summit in Colorado Springs.
 
 And then we get to Sunday's run.  Oh what a run. It was such a good run, it's got it's own post - [I Ran America's Toughest Trail: The Manitou Incline](/i-ran-the-americas-toughest-trail).
 

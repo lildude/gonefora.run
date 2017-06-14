@@ -15,7 +15,7 @@ So last week was it... the final week of a gruelling 17 week training programme 
 
 There's not much to report on the training side of things other than to say I took it really easy every day, with the exception of Wednesday which was mostly easy but also included 3K at marathon pace.
 
-Suffice to say I was feeling fresh, recovered and really good on my feet and eager for the race on Sunday morning.  Sadly it didn't all go to plan :cry:.
+Suffice to say I was feeling fresh, recovered and really good on my feet and eager for the race on Sunday morning.  Sadly it didn't all go to plan 😢.
 
 I won't go into too much detail about the race in this post as I've got a big post coming up, but severe cramping down my right leg started around the 25k mark and it was pretty much downhill from there.
 
