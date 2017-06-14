@@ -49,7 +49,7 @@ kramdown:
 # Plugins
 gems:
   - jekyll-sitemap
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-seo-tag
   - jekyll-json-feed
   #- jekyll-admin
