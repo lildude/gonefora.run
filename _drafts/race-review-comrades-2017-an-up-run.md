@@ -20,6 +20,18 @@ Once in the pen I really started to feel the excitement around the race. Loads o
 
 With about 15mins to go the commentator started the traditional Comrades start "procedure" - the national anthem was played and everyone sung along, then shoshaloza, eye of the tiger, chariots of fire, the shuffle forward and squeeze, and then the final countdown before the cannon went off and we were on our way.
 
-As is common with every race, many people raced ahead like their lives depended on it, however many more held back and started at a very sedate pace as we made our way through the city and onto the N3 highway and the start of the climbing - yes, things start climbing as soon as you join the N3 at about ??km.
+As is common with every race, many people raced ahead like their lives depended on it, however many more held back and ran at a very sedate pace as we made our way through the city and onto the N3 highway and the start of the climbing - yes, things start climbing as soon as you join the N3 at about ??km. It was quite refreshing to see so many people holding back this early in a race, which isn't surprising given the distance we still had to cover. I certainly held back and diligently kept things nice and easy by exclusively using nose-breathing.
 
-I showed great restraint and kept my pace down by ensuring I only breathed through my nose.
+Along with keeping things very easy for the first 37km - the hardest kilometres of the up run - I also planned to use a run-walk strategy for the big hills. The strategy was to run about 200 paces and then walk 100 and repeat until I reached the top of the hill and then free-wheel down the other side. Well, that was the intention and it wasn't until I was most of the way up Field's Hill that I realised that I really should have used the strategy up XXXX and then Field's Hill - I was feeling so fresh the first hill didn't really feel that steep 😄.
+
+Started showing signs of cramping around 40km (TBC - check Strava) so started backing off. I'd come prepared and packed 6 electrolyte salt tablets. I swallowed two whole but after a few k's felt they probably weren't having much effect so started sucking on another. Whilst quite horrible at first, this definitely started to help and the symptoms of the cramping started to subside.
+
+Had a particularly dark patch through XXX - XXX km when I started to doubt myself and started to worry that I'd start cramping in the severe way that I did during the Berlin marathon forcing me to walk the second half in about 7 hours crying like a baby. It was during this time of walking that I started chatting to other runners around me who were also taking walking breaks and it was during this period that I started to feel better and soon picked up my pace again and started running.
+
+It was also around this point that I realised a sub-7:30 and a silver medal were not the cards this year. It would have been nice to get the silver medal, but that wasn't my primary goal. My primary goal was to finish the race and enjoy myself, no matter what.
+
+As the race progressed I found I would start showing the signs of cramping and even cramped a little going up the hills, but eased out of that state on the downhills. This was probably due to a combination of taking on as much salt as I could find during the uphills which then took effect by the time I reached the top. By this stage my run-walk strategy had changed to more of a run 100 paces, walk 100 paces.
+
+I walked almost all of Polly Shortts - I couldn't muster the strength to run more than a few steps and when I did, I'd start cramping. I wasn't too concerned as I know once I'd reached the top, there was a long downhill which my legs seemed to be having little problems handling, another small hill which no one mentions in the route descriptions and then it's all downhill to the finish.
+
+At the top of Polly Shortts I checked my watch and determined that things weren't going to be as bad after all. With a little effort and not much walking, a sub-8 hours and a Bill Rowan medal were definitely on the cards.
