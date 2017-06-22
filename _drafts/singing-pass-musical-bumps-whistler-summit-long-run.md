@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Singing Pass, Musical Bumps, Whistler Summit Long Run
-date: 2014-07-19 00:45:05.000000000 +01:00
+date: 2014-07-19 00:45:05 +01:00
 tags:
 - long run
-- Whistler
 type: post
 published: true
 ---
