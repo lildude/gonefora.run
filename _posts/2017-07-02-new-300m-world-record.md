@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New 300m World Record"
-date: 2017-07-02 10:53:11 +0100
+date: 2017-07-02 11:00:05 +0100
 tags:
 - athletics
 type: post
