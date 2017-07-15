@@ -4,7 +4,6 @@ title: "Month in Review: February 2017"
 date: 2017-04-04 14:36:52 +0100
 tags:
 - training
-- review
 type: post
 published: true
 ---

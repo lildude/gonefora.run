@@ -4,7 +4,6 @@ title: "Week in Review: 12 - 18 Dec '16"
 date: 2016-12-20 11:24:25 +0000
 tags:
 - training
-- review
 type: post
 published: true
 ---

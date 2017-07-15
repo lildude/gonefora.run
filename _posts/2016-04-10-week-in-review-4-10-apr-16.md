@@ -4,7 +4,6 @@ title: "Week in Review: 4 - 10 Apr '16"
 date: 2016-04-10 11:43:48 +0100
 tags:
 - training
-- review
 type: post
 published: true
 ---

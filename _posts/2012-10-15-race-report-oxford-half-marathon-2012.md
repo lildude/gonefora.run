@@ -4,7 +4,6 @@ title: 'Race Report: Oxford Half-Marathon 2012'
 date: 2012-10-15 11:37:03.000000000 +01:00
 tags:
 - race
-- review
 - 21.1km
 - Half Marathon
 type: post

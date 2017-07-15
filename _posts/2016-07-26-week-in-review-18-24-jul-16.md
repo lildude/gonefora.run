@@ -4,7 +4,6 @@ title: "Week in Review: 18 - 24 Jul '16"
 date: 2016-07-26 14:46:02 +0100
 tags:
 - training
-- review
 type: post
 published: true
 ---

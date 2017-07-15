@@ -4,7 +4,6 @@ title: "Week in Review: 2 - 8 May '16"
 date: 2016-05-10 19:30:00 +0100
 tags:
 - training
-- review
 type: post
 published: true
 ---

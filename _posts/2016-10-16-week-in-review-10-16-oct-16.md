@@ -4,7 +4,6 @@ title: "Week in Review: 10 - 16 Oct '16"
 date: 2016-10-16 12:43:14 +0100
 tags:
 - training
-- review
 type: post
 published: true
 ---

@@ -3,7 +3,6 @@ layout: post
 title: "Week in Review: 8 - 14 Feb '16"
 date: 2016-02-14 14:38:31 +0000
 tags:
-- review
 - training
 type: post
 published: true

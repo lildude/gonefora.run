@@ -4,7 +4,6 @@ title: "Week in Review: 22 - 28 Aug '16"
 date: 2016-08-29 11:13:14 +0200
 tags:
 - training
-- review
 type: post
 published: true
 ---
