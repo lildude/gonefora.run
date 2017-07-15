@@ -40,10 +40,11 @@ ul {
 }
 
 .masthead {
-  background:#380200;
+  background-color:#001e49;
   margin-bottom:32px;
   a {
     color: #fff;
+    font-weight: bold;
   }
 }
 
@@ -55,12 +56,9 @@ ul {
   padding-bottom:12px;
 }
 
-.post-title a {
-  color:#454E55;
-  &:hover {
+.post-title a:hover {
     text-decoration: none;
     color: #fb0006;
-  }
 }
 
 .masthead-title a:hover {
@@ -156,14 +154,13 @@ pre {
   margin-left: 10px;
   a:hover {
     text-decoration: none;
-    padding-bottom: 12px;
-    border-bottom: 4px #fb0006 solid;
+    color: #fb0006;
+    transition: color 0.25s ease-out;
   }
 }
 
-.page-list li.active {
-  padding-bottom: 12px;
-  border-bottom: 4px #fb0006 solid;
+.page-list li.active a {
+  color: #fb0006;
 }
 
 .more-link {
