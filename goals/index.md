@@ -30,7 +30,7 @@ I was once a fast runner. Then I stopped, picked it up again, and now find mysel
 | 21.1K     | 1:17:31 | 12 Feb '17
 | 42.2K     | 2:43:39 | 2 Apr '17
 | 56K       | 4:48:24 | 11 Apr '98
-| Comrades  | TBC     | 4 Jun '17
+| Comrades  | 7:55:16 | 4 Jun '17
 
 ### Goals
 
@@ -62,7 +62,7 @@ I didn't put a target date on any of these as I didn't want to push myself or be
 | 17  | 21.1km road race in under 90 mins (sub 4:15/km) | [1 Apr '12](/race-report-reading-half-marathon-2012)
 | 18  | 42.2km road race                                | [6 May '13](/it-wasnt-my-day-today)
 | 19  | 42.2km road race in under 3 hours (sub 4:15/km) | [10 Oct '13](/race-report-abingdon-marathon-2013)
-| 20  | [The Comrades Marathon](http://www.comrades.com/) (before I'm 40) | TBC
+| 20  | [The Comrades Marathon](http://www.comrades.com/) (before I'm 40) | [4 jun '17](/race-report-comrades-2017-an-up-run)
 
 
 \* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.  
