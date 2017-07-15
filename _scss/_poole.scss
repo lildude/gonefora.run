@@ -116,13 +116,14 @@ ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+/* unused
 dt {
   font-weight: bold;
 }
 dd {
   margin-bottom: .5rem;
 }
+*/
 
 /* Misc */
 hr {
@@ -132,7 +133,7 @@ hr {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
 }
-
+/* unused
 abbr {
   font-size: 85%;
   font-weight: bold;
@@ -143,8 +144,10 @@ abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #e5e5e5;
 }
+*/
 
 /* Code */
+/* unused
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -175,6 +178,7 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+*/
 /* CNS: unused
 .highlight {
   margin-bottom: 1rem;
@@ -209,7 +213,8 @@ img {
   border-radius: 5px;
 }
 
-/* Tables */
+/* Tables - now in goals.scss */
+/*
 table {
   margin-bottom: 1rem;
   width: 100%;
@@ -225,7 +230,7 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
-
+*/
 
 /*
  * Custom type
@@ -289,12 +294,12 @@ tbody tr:nth-child(odd) th {
 .masthead-title a {
   color: #505050;
 }
-.masthead-title small {
+/*.masthead-title small {
   font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
-}
+}*/
 
 
 /*

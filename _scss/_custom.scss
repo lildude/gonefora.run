@@ -53,12 +53,11 @@ ul {
     color: #fb0006;
 }
 
-.masthead-title a:hover {
-  text-decoration: none;
-}
-
 .masthead-title {
   font-size:1.1em;
+  a:hover {
+    text-decoration: none;
+  }
   span {
     color: #fb0006;
     &.whackwhack {
@@ -80,6 +79,7 @@ ul {
   color: #454E55;
 }
 
+/* unused
 .meta img {
   width:20px;
   height:20px;
@@ -90,7 +90,9 @@ ul {
 .meta a {
   color:#444;
 }
+*/
 
+/* unused
 pre code {
   white-space: pre;
   word-wrap: normal;
@@ -99,7 +101,7 @@ pre code {
 pre {
   overflow-x: scroll;
 }
-
+*/
 .base {
   border-top:1px solid #efefef;
   padding:20px 0;
