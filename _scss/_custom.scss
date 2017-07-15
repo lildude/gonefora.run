@@ -69,27 +69,12 @@ ul {
   font-size:1.1em;
   span {
     color: #fb0006;
+    &.whackwhack {
+      color: #FFD400;
+      padding-right: 0.5em;
+      font-size: larger;
+    }
   }
-}
-
-#last_run a {
-  font-style: italic;
-  font-size: 13px;
-  color: #f65624;
-  position: absolute;
-  top: 10px;
-  margin-left: 7.4em;
-  text-align: center;
-  text-decoration: none;
-  &:hover {
-    color: lighten(#f65624, 15%);
-  }
-}
-
-#spacer {
-  width:0.8em;
-  display: inline-block;
-  font-style: normal;
 }
 
 .meta {
