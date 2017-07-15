@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Race Report: Comrades 2017 - An Up-run"
-date: 2017-06-22 12:26:08 +0200
+date: 2017-07-15 18:03:03 +0100
 tags:
 - race
 - report
