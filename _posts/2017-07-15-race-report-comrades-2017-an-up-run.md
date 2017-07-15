@@ -10,7 +10,7 @@ type: post
 published: true
 ---
 
-![Start of Comrades 2017](/assets/comrades-2017-start.jpg)
+![Start of Comrades 2017](/img/comrades-2017-start.jpg)
 With just short of 2600km of dedicated training and racing over six months in my legs, I embarked upon the final test of all my training, and the ultimate purpose of it all: the Comrades Marathon, and what a fantastic race and event it was.
 
 I started the day bright-eyed and bushy tailed at 3am for my usual pre-race bulletproof coffee and catching up on the world's news whilst the coffee worked its way through my system. At about 4am, I leapt out of bed, abluted, smothered myself in suncream (I swear by UltraSun 20), lubed up (I don't normally, but you can never be too careful on such a long race), dressed, shovelled down a plain omelette and we headed out the door and made our way from my uncle's house in Umhlanga to the race start in Durban. As Umhlanga isn't that far from the city, and very little in the way of traffic, it didn't take long to reach the city where we double-parked outside the expo centre to boot me out and for my wife to take over driving in no time.  I then walked round to the start, and that's where all the excitement begins.
@@ -45,7 +45,7 @@ It was around about Drummond that things started taking a turn for the worse; I 
 
 Of course this is all easier said than done and written about after the event. It actually took me quite a few kilometres of quite painful run-hobbling with a load of walking to sink in. You can see this from the live timing splits 👇 - the dark patch was between Drummond and Umlaas Road. It was also during this particularly dark patch that I remembered the research I'd read about cramping and salt and about how it appears there is some neurological signal that happens when tasting salt or pickle juice that relieves the cramping. Fool! I'd swallowed the previous two tabs whole. I grabbed another tablet and started sucking on it whilst I walked. Bingo!!! It was horrible at first, but the cramping started to subside and I started to feel less like I was going to cramp so was able to start running again. Tucking the tablet into my cheek also made it more palatable. As I only had three electrolyte tablets left, I took advantage of any salt I could get hold of from the spectators - yes, people stand on the side of the road with great big tubs of salt at Comrades; one chap even handed me Malden salt crystals from a foil package he took from his pocket 😁
 
-[![Comrades 2017 Live Tracking](/assets/comrades-2017-live-tracking.png){:class=center}](http://live.ultimate.dk/desktop/front/?eventid=3361&pid=20435)
+[![Comrades 2017 Live Tracking](/img/comrades-2017-live-tracking.png){:class=center}](http://live.ultimate.dk/desktop/front/?eventid=3361&pid=20435)
 
 It was also around this point that I confirmed that, whilst certainly within my capabilities, and confident I'd found a way to control my cramping, a sub-7:30 and a silver medal were not on the cards this year so I just "sat back", relaxed, took in the crowds of spectators and company of other runners and enjoyed the rest of the race. I kept the possibility of a sub-8 in the back of my mind though. Oh yes, and I put on a brave face as I ran through the very well spectated Camperdown and waved at my wife again.
 
@@ -59,11 +59,11 @@ By the time I got to the Umlass Road, the highest point in the race, I was start
 
 I wound my way along the grass, waved at my wife again in the international athletes area, and finally saw the finish gantry and knew I'd done it. I'd started off well, worked my way through a particularly dark spot, confirmed that Comrades is indeed a very mental race, and come out the other side to finish in a gun time of 7:55:39.
 
-![Comrades 2017 Finish](/assets/comrades2017-finish.jpg){:class="center"}
+![Comrades 2017 Finish](/img/comrades2017-finish.jpg){:class="center"}
 
 I was chuffed to bits and hooked. I hobbled over to the international athletes area to meet my wife, tuck into some grub and have an ice cold beer... oh I was soooo looking forward to that beer. Sadly I had to endure the hour drive back to Umhlanga to get a good beer (I had two) as the only beers offered in the international tent were Becks Blue alcohol free (WTF!?) or Castle Lite lime. I tried the Castle but didn't finish it - lager + fairy liquid == 🤢.
 
-[![Chuffed](/assets/comrades-2017-instagram.jpg){:class="center" style="width:480px"}](https://www.instagram.com/p/BU6qH93FuPH/)
+[![Chuffed](/img/comrades-2017-instagram.jpg){:class="center" style="width:480px"}](https://www.instagram.com/p/BU6qH93FuPH/)
 
 ## Will I be Back?
 
