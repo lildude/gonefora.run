@@ -15,4 +15,4 @@ Last night saw the UK 10,000m trails being held in one of the most innovative an
 
 I think this is a brilliant idea and a great way to get people excited about athletics. It also greats a brilliant environment for the athletes themselves.  By having the crowds so close to the athletes - spectators can occupy anywhere on the track but the inside three lanes, the runners get to experience the excitement of the crowd and feel the energy with the added bonus that larger crowds will create a lovely buffer against any winds that may crop up during the trials.
 
-So not only do you get excited crowds and motivated runners, you should in theory get great fast times too, perfect for events like world record attempts and Olympic trials.
+So not only do you get excited crowds and motivated runners, you should in theory, get great fast times too, perfect for events like world record attempts and Olympic trials.

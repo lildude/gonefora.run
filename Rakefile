@@ -106,8 +106,17 @@ end
 desc "Deploy master to Digital Ocean using rsync and copy _site/ to gh-pages branch and push to GitHub repo."
 task :deploy do
   unless Dir.glob("#{stash_dir}/*.*").empty?
-    puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
-    exit
+    $stderr.puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
+    exit 1
+  end
+
+  out = `ps aux | grep 'jekyll serv[e]'`
+  unless out.blank?
+    $stderr.puts "ERROR: jekyll serve is running:".red
+    $stderr.puts ""
+    $stderr.puts "#{out}".red
+    $stderr.puts "Stop and try again.".red
+    exit 1
   end
 
   # This only produces output of there are files to minify.
@@ -175,7 +184,7 @@ def ok_failed(condition)
   if (condition)
     puts "=> OK".green
   else
-    puts "=> FAILED".red
+    $stderr.puts "=> FAILED".red
   end
 end
 
