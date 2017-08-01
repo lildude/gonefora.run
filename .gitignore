@@ -40,5 +40,6 @@ nbproject
 validation-status.json
 validation-report.json
 
-# Folders to ignore
+# Folders & files to ignore
 node_modules
+.jekyll-metadata
