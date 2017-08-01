@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Proper Racing Flat Coming From Altra"
-date: 2017-08-01 13:58:35 +0100
+date: 2017-08-01 14:24:48 +0100
 tags:
 - shoes
 type: post
