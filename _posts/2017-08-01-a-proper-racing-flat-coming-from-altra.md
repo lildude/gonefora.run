@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-Earlier this year I was in the market for a new pair of zero-drop racing flats to replace my last pair of aging and very thoroughly worn Inov-8 Road X-treme 138s. I search the net high and low and didn't find very much so I turned to Twitter...
+Earlier this year I was in the market for a new pair of zero-drop racing flats to replace my last pair of aging and very thoroughly worn Inov-8 Road X-treme 138s. I searched the net high and low and didn't find very much so I turned to Twitter...
 
 <blockquote class="twitter-tweet" data-lang="en-gb" data-dnt="true" data-align="center"><p lang="en" dir="ltr">Hmmm, if <a href="https://twitter.com/AltraRunning">@AltraRunning</a> dropped the stack of the Golden Spike by 2-5mm &amp; added a road sole, I&#39;d have   my ideal flat <a href="https://t.co/2CCbHGiJME">https://t.co/2CCbHGiJME</a></p>&mdash; Lildude Esquire 🤘 (@lildude) <a href="https://twitter.com/lildude/status/821270976356904961">17 January 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
