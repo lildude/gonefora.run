@@ -1,1 +1,2 @@
 theme: jekyll-theme-cayman
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
