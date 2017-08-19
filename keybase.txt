@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/lildude
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gonefora.run
+  * I am lildude (https://keybase.io/lildude) on keybase.
+  * I have a public key ASD84GWGsD4TmhR7VEFb1IQeMNYCAZ709a8hM9zYvq6HYwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ff7e5caf7c809ea24dce2fc772a17b0e2b5234f83f0a9c6d047925c341d9b9c00a",
+      "host": "keybase.io",
+      "kid": "0120fce06586b03e139a147b54415bd4841e30d602019ef4f5af2133dcd8beae87630a",
+      "uid": "b29a39038385cadb5905329a78837b00",
+      "username": "lildude"
+    },
+    "service": {
+      "hostname": "gonefora.run",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.18"
+  },
+  "ctime": 1503138907,
+  "expire_in": 504576000,
+  "merkle_root": {
+    "ctime": 1503138731,
+    "hash": "e9e2fc05bdfc71be996264ba37e7ad786c74c6d598382c67dd4f656389c7e5486154493f02fb94b756007cf8527d7c1773a5c1c967fca260adda0fd798988de5",
+    "seqno": 1335409
+  },
+  "prev": "f8d4398415595531fc7c8612c3658122e0cfd77c3100a2c3c3bdc04ca72bdf70",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/OBlhrA+E5oUe1RBW9SEHjDWAgGe9PWvITPc2L6uh2MKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZmY3ZTVjYWY3YzgwOWVhMjRkY2UyZmM3NzJhMTdiMGUyYjUyMzRmODNmMGE5YzZkMDQ3OTI1YzM0MWQ5YjljMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmNlMDY1ODZiMDNlMTM5YTE0N2I1NDQxNWJkNDg0MWUzMGQ2MDIwMTllZjRmNWFmMjEzM2RjZDhiZWFlODc2MzBhIiwidWlkIjoiYjI5YTM5MDM4Mzg1Y2FkYjU5MDUzMjlhNzg4MzdiMDAiLCJ1c2VybmFtZSI6ImxpbGR1ZGUifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImdvbmVmb3JhLnJ1biIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNTAzMTM4OTA3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDMxMzg3MzEsImhhc2giOiJlOWUyZmMwNWJkZmM3MWJlOTk2MjY0YmEzN2U3YWQ3ODZjNzRjNmQ1OTgzODJjNjdkZDRmNjU2Mzg5YzdlNTQ4NjE1NDQ5M2YwMmZiOTRiNzU2MDA3Y2Y4NTI3ZDdjMTc3M2E1YzFjOTY3ZmNhMjYwYWRkYTBmZDc5ODk4OGRlNSIsInNlcW5vIjoxMzM1NDA5fSwicHJldiI6ImY4ZDQzOTg0MTU1OTU1MzFmYzdjODYxMmMzNjU4MTIyZTBjZmQ3N2MzMTAwYTJjM2MzYmRjMDRjYTcyYmRmNzAiLCJzZXFubyI6MzksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAFZqmWe7+a/I7Dty7fDxPDDM5ZFnZ63cfarVW+CR+RGsCMZXkJYjIVG8NYOqlFvbxTtbhn3seRvqnj0eIN0KpBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEsKsqYfxkdkPQs7zwS0Uomk1Z+syEqJiCU6CVyPoXW8o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lildude
+
+==================================================================
