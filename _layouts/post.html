@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="post h-entry">
+  <h1 class="post-title p-name">{{ page.title }}</h1>
+  <div class="e-content">
+  {{ content }}
+  </div>
+
+  <p class="meta">
+    <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}">— Published {{ page.date | date: "%d %B %Y" }}</time> // <span>{% for tag in page.tags %}{{ tag | capitalize }}{% if forloop.last != true %}, {% endif %}{% endfor %}</span><a href="{{ page.url }}" class="u-url">.</a>
+    <span style="display:none"><a rel="author" href="{{ site.url }}">Colin Seymour</a></span>
+  </p>
+
+</div>

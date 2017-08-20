@@ -1,0 +1,188 @@
+html {
+  font-size:16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  color:#727272;
+}
+
+/*---:[ Image alignment ]:---*/
+img { max-width: 100%; height: auto; width: auto; }
+img.alignleft, img.left { float: left; margin-right: 10px }
+img.alignright, img.right { float: right; margin-left: 10px }
+img.aligncenter, img.center { clear: both; display: block; float: none; margin: 0 auto; }
+img.alignnone, img.block { clear: both; display: block; }
+img[align="left"] { clear: left; float: left; margin-right: 10px }
+img[align="right"] { clear: right; float: right; margin-left: 10px }
+img[align="middle"] { clear: both; display: block; float: none; margin: 0 auto; }
+
+/*---:[ Other Alignment ]:---*/
+.center, .centered { margin: 0 auto; text-align: center; }
+.alignright { float: right; margin-left: 1.571em; }
+.alignleft { float: left; margin-right: 1.571em; }
+
+embed, object, video, iframe { max-width: 100%; }
+a { color: #fb0006; }
+
+ul {
+  @media(max-width: 415px) {
+    margin-left: -1rem;
+  }
+}
+
+.masthead {
+  background-color:#001e49;
+  margin-bottom:32px;
+  a {
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
+.post, .aside {
+  margin-bottom:32px;
+}
+
+.container.content {
+  padding-bottom:12px;
+}
+
+.post-title a:hover {
+    text-decoration: none;
+    color: #fb0006;
+}
+
+.masthead-title {
+  font-size:1.1em;
+  a:hover {
+    text-decoration: none;
+  }
+  span {
+    color: #fb0006;
+    &.whackwhack {
+      color: #FFD400;
+      padding-right: 0.5em;
+      font-size: larger;
+    }
+  }
+}
+
+.meta {
+  font-size:12px;
+  color:#999;
+  padding-left:28px;
+  margin-bottom:-2em;
+}
+
+.page-title, .post-title, .post-title a, h2, h3, h4 {
+  color: #454E55;
+}
+
+/* unused
+.meta img {
+  width:20px;
+  height:20px;
+  border-radius:16px;
+  margin-right:12px;
+}
+
+.meta a {
+  color:#444;
+}
+*/
+
+/* unused
+pre code {
+  white-space: pre;
+  word-wrap: normal;
+  word-break: normal;
+}
+pre {
+  overflow-x: scroll;
+}
+*/
+.base {
+  border-top:1px solid #efefef;
+  padding:20px 0;
+  font-size:12px;
+}
+
+.base a {
+  color:#555;
+  font-weight:bold;
+}
+
+.page-list {
+  @media(min-width: 480px) {
+    float: right;
+    margin-top: -18px;
+  }
+  @media(max-width: 270px) {
+    display: none;
+  }
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 13px;
+  padding: 0;
+  text-align: center;
+}
+
+.page-list li {
+  display: inline;
+  margin-left: 10px;
+  a:hover {
+    text-decoration: none;
+    color: #fb0006;
+    transition: color 0.25s ease-out;
+  }
+}
+
+.page-list li.active a {
+  color: #fb0006;
+}
+
+.more-link {
+  display: block;
+  padding-top: 15px;
+}
+
+.social-nav {
+  display: block;
+  margin-bottom: 1rem;
+  svg, img {
+    border-radius: 15px; // Makes round icons
+    display: inline-block;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+  }
+
+  a {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /*filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='28' width='28'><filter id='greyscale'><feColorMatrix type='matrix' values='0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0.6666 0.6666 0.6666 0 0 0 0 0 1 0' /></filter></svg>");*/
+  }
+    a:hover {
+    -webkit-filter: none;
+    filter: none;
+    text-decoration: none;
+  }
+  .strava-badge svg, .powerof10-badge svg {
+    opacity: 0.6;
+  }
+
+  .fetch-badge svg, .runbritain-badge svg {
+    opacity: 0.45;
+  }
+
+  .parkrun-badge svg {
+    opacity: 0.7;
+  }
+  .strava-badge svg, .fetch-badge svg, .runbritain-badge svg, .parkrun-badge svg, .powerof10-badge svg {
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        :title
+
+# Setup
+title:            Gone For A Run
+tagline:          'Where else would I have gone?'
+separator:        ' · '
+description:      "I ran. I ran fast. I ran lots. I stopped, got fat and now I'm back, but this time minimalist, zero-drop and with new goals, dreams and aspirations and running faster than I ever have."
+url:              https://gonefora.run
+baseurl:          ""
+twitter:
+  username:       lildude
+logo:             /assets/favicon.png
+author:
+  name:           'Colin Seymour'
+  twitter:        lildude
+  avatar:         'https://gonefora.run/assets/profile.png'
+first_img:        true  # Use first image in post when a page.image is not defined.
+
+social:
+  name:           Colin Seymour
+  links:          ["https://twitter.com/lildude", "https://www.instagram.com/lildoodlil/"]
+
+# Custom vars
+google_site_verification:   X0GErJ8t4_IcMSb7Xy8JYdK8qlk_QoqgsxI3r94fe4A
+
+sass:
+  sass_dir:       _scss
+  style:          compressed
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [test, local]
+  profile: false
+  startings: [html, body]
+
+# Configure kramdown
+kramdown:
+  input:            GFM
+  smart_quotes:     ["apos", "apos", "quot", "quot"]  # Don't do smart quoting by replacing like for like.
+
+# Plugins
+gems:
+  - jekyll-sitemap
+  #- jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-json-feed
+  #- jekyll-admin
+
+# Don't copy these files to the generated site
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
+# Don't attempt to process these - ie leave as-is
+keep_files: [assets, img]

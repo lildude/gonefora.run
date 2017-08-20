@@ -1,0 +1,53 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in site.posts limit:15 %}
+  {% if post.tags contains "shorts" or post.tags contains "aside" or post.tags contains "note" %}
+    <div class="aside">
+      <p>{{ post.content | remove:'<p>' | remove:'</p>' }}</p>
+      <a href="{{ post.url }}" class="u-url meta">
+        <time class="post-date dt-published" datetime="{{ post.date | date_to_xmlschema }}">— {{ post.date | date: "%d %b %Y %H:%M" }}</time>
+      </a>
+  {% else %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+
+      <p class="post-meta"><span class="post-date">{{ post.date | date_to_string }}</span> // <span>{% for tag in post.tags %}{{ tag | capitalize }}{% if forloop.last != true %}, {% endif %}{% endfor %}</span></p>
+
+      {% assign word_count = post.content | strip_html | number_of_words %}
+
+      {% if post.content contains "<!--more-->" or post.content contains "<!-- more -->" %}
+        {% if post.content contains "<!--more-->" %}
+          {{ post.content | split:"<!--more-->" | first }}
+        {% else %}
+          {{ post.content | split:"<!-- more -->" | first }}
+        {% endif %}
+        <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
+      {% elsif word_count > 100 %}
+        {{ post.excerpt }}
+        <span class="more-link"><a href="{{ post.url }}">Continue reading →</a></span>
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<p class="center">-[ <a href="/archives">Older Posts</a> ]-</p>
+
+{% comment %} hCard - hidden from view as its only useful for computers {% endcomment %}
+<span style="display:none" class="h-card">
+  <img src="/assets/profile.png" alt="Colin Seymour" class="u-photo" />
+  <a class="p-name u-url" href="https://gonefora.run">{{ site.name }}</a>
+  <span class="u-email">lildood@gmail.com</span>
+  <span class="p-note">GitHub developing, beer drinking, minimalist running fundi.</span>
+  <span class="p-country-name">United Kingdom</span>
+</span>

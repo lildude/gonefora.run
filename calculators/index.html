@@ -1,0 +1,103 @@
+---
+layout: page
+title: Calculators
+description: Calculators for things I often need to calculate relating to running.
+tags:
+- Calculators
+- miles
+- kilometres
+- metric
+- imperial
+type: page
+---
+<p>I'm always trying to convert things between metric and imperial. I live in the UK which is entirely imperial when it comes to distance and speed, yet I'm from South Africa and thus am used to, and prefer, metric. This page of calculators is to help make my life easy.</p>
+{% if jekyll.environment == 'local' %}
+<script src="/js/jquery-2.1.1.min.js"></script>
+{% else %}
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+{% endif %}
+<script src="/js/calcs.js"></script>
+
+<div>
+    <fieldset id="calculatorWrapper">
+        <h3>Pace Calculator</h3>
+
+        <form id="theForm">
+
+            <div id="distanceBlock">
+                <div>
+                    <label for="distance" class="label">Distance:</label><input id="distance" class="calculate form-control" type="number">
+                    <select id="distanceUnit" class="calculate form-control" accesskey="d"></select>
+                    <!-- or
+                    <select id="pickEvent" class="calculate">
+                      <option value="" selected="selected">Pick Event</option>
+                    </select>
+                    -->
+                </div>
+
+            </div>
+
+            <div id="timeBlock">
+                <label class="label">Time:</label><input id="hours" class="calculate form-control" type="text" placeholder="HH" pattern="[0-9]*">:<input id="minutes" class="calculate form-control" type="text" placeholder="MM" pattern="[0-9]*">:<input id="seconds" class="calculate form-control" type="text" placeholder="SS" pattern="[0-9]*">
+            </div>
+
+            <div id="paceBlock">
+              <label class="label">Pace:</label><span id="timePerDistance"><input id="paceMinutes" class="calculate form-control" type="text" placeholder="MM" pattern="[0-9]*">:<input id="paceSeconds" class="calculate form-control" type="text" placeholder="SS" pattern="[0-9]*">
+              </span>
+
+            <span id="distancePerTime">
+                <input id="pace" class="calculate form-control" type="text">
+            </span>
+
+                <select id="paceUnit" class="calculate form-control" accesskey="p">
+                </select>
+
+            </div>
+
+            <div class="splits">
+                <label class="label">Split:</label><select id="splitDistanceUnit" class="calculate form-control">
+                    <option value="" selected="selected"></option>
+                </select>
+            </div>
+
+            <div id="buttonBlock">
+                <button id="clear" type="reset" class="form-control">Clear fields</button>
+            </div>
+
+        </form>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset class="messageWrapper">
+        <div class="messages">
+        </div>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset class="resultWrapper">
+        <h3>Results</h3>
+        <div class="results">
+          <table id="times"><tbody></tbody></table>
+          <table id="distances"><tbody></tbody></table>
+          <table id="paces"><tbody></tbody></table>
+        </div>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset class="splitTimeWrapper">
+        <h3>Split times</h3>
+        <div class="splitTimes"></div>
+    </fieldset>
+</div>
+
+{% comment %}
+<div>
+  <fieldset id="hrWrapper">
+    <h3>Heart Rate Zones</h3>
+    <div id="hrZones">Coming soon</div>
+  </fieldset>
+</div>
+{% endcomment %}
