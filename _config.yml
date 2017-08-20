@@ -55,6 +55,6 @@ gems:
   #- jekyll-admin
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor]
 # Don't attempt to process these - ie leave as-is
 keep_files: [assets, img]
