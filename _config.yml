@@ -1,4 +1,0 @@
-theme: jekyll-theme-minimal
-title: gonefora.run
-description: This is a short description
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
