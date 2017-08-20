@@ -49,10 +49,8 @@ kramdown:
 # Plugins
 gems:
   - jekyll-sitemap
-  #- jekyll-paginate
   - jekyll-seo-tag
   - jekyll-json-feed
-  #- jekyll-admin
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor]
