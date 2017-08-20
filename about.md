@@ -10,11 +10,11 @@ tags:
 type: page
 ---
 
-So I've got this blog documenting my path from running in shoes to running barefoot/minimalist, but I've recently realised that people don't know anything about me, my running background or my motivations for ditching the shoes and heading down the barefoot/minimalist road, so here it is.  This is my Who, What, Why and When page.
+So I've got this blog documenting my path from running in shoes to running barefoot/minimalist and now back to minimalist shoes, but I've recently realised that people don't know anything about me, my running background or my motivations for ditching the shoes and heading down the barefoot/minimalist road, so here it is.  This is my Who, What, Why and When page.
 
 ## Who Am I?
 
-![Colin Seymour](/assets/profile.png){:width="128" height="128" class="alignleft" style="height:128px; width=128px"} I'm Colin Seymour, born and brought up in the leafy northern suburbs of Johannesburg, :za: and now living in one of the home counties in :gb:.
+![Colin Seymour](/assets/profile.png){:width="128" height="128" class="alignright" style="height:128px; width=128px"} I'm Colin Seymour, born and brought up in the leafy northern suburbs of Johannesburg, 🇿🇦 and now living in one of the home counties in 🇬🇧.
 
 ## What Is My Running Experience
 
@@ -26,7 +26,7 @@ All through high school, I continued to compete aggressively and successfully in
 
 As the years went on, my love of road running grew, and so did the distances.  I was soon regularly clocking up sub-40min 10k's, sub-60min 15k's, sub 90-min half marathons and I'd even run a 32km race - the RAC Tough One - by the time I [matriculated](http://en.wikipedia.org/wiki/Matriculation_(South_Africa)) top of the class at 17.
 
-I ran my first, and only marathon at 18.  It was a terrible run, but I didn't really care as I didn't run it for a marathon PB. I ran it purely to get the qualifying time I needed to run my first ultra-marathon: the 56Km [Two Oceans Marathon](http://www.twooceansmarathon.org.za/) (what a brilliant race):
+I ran my first marathon at 18.  It was a terrible run, but I didn't really care as I didn't run it for a marathon PB. I ran it purely to get the qualifying time I needed to run my first ultra-marathon: the 56Km [Two Oceans Marathon](http://www.twooceansmarathon.org.za/) (what a brilliant race):
 
 [![My Two Oceans Marathon results](/img/2OceansResults.png){:class="center"}](http://admin.twooceansmarathon.org.za/HistoryList.aspx?RunnerCode=39205 "1397 out of 7441 finishers.  5th junior")
 
@@ -42,7 +42,7 @@ Thankfully, I wasn't plagued by many injuries in my early days.  The only recurr
 
 The only major "injury" I suffered was plantar fasciitis that struck in the final stages of the Two Oceans marathon. Thankfully I was young and a strong runner at the time so recovered very quickly.
 
-## So Why Am I Running Again?
+## So Why Did I Pick Up Running Again?
 
 After 5 years without running any significant distance (10 - 20 mins on a treadmill really doesn't count as running), a lot of real ale, and a dedication to shifting lead (aka weightlifting), I started to miss running.  I missed the grace.  I missed the speed.  I missed the feeling of freedom. I missed the runner's high. I missed the "me" time.
 
@@ -68,15 +68,17 @@ This struck a chord with me as for years I'd been told I needed support, cushion
 
 I also promised myself that I would make a concerted effort this time and try my hardest to take it slowly as I am technically learning to run all over again and that's what this blog is all about.  What better way to force yourself to do something than advertise it to those who want to see it.
 
-## Where am I Today in 2016?
+## Where am I Today in 2017?
 
 I am still running, a lot, and I mean a lot. I regularly run over 100km per week. I train predominantly in my new favourite minimalist shoe: [Luna Sandals](http://lunasandals.com/) and race on the road in Inov-8 Road-X-Treme 138's and offroad in Inov-8 X-Talon 200's.  I still do a bit of barefoot running, but mostly in training and on grass.
 
-Why am I not running more barefoot?  Simple. The skin on my feet can't keep up with me :grinning:. As my pace and distances increased, I found it harder and harder for the skin on my feet to handle the pace and recover from the long distances.  Running in Luna Sandals has allowed me to keep that feeling of barefoot but without losing the skin on my feet.
+I've run the [Comrades marathon](/race-report-comrades-2017-an-up-run), and my [PBs](/goals) are pretty impressive with all but the 5k and 5 mile being set this year.
+
+Why am I not running more barefoot?  Simple. The skin on my feet can't keep up with me 😁. As my pace and distances increased, I found it harder and harder for the skin on my feet to handle the pace and recover from the long distances.  Running in Luna Sandals has allowed me to keep that feeling of barefoot but without losing the skin on my feet.
 
 ## Follow Me
 
-Want to follow me, and I don't mean because you run slower than me or you're a stalker, then you can do so in loads of places:
+Want to follow me, and I don't mean because you run slower than me or you're a stalker 😜, then you can do so in loads of places:
 
 [![Power of 10](/img/powerof10.png){:style="width:336px; height=82px"}](http://www.thepowerof10.info/athletes/profile.aspx?athleteid=246985){:target="_blank"}  
 [![Twitter](/img/twitter.png){:style="width:200px; height:46px"}](http://twitter.com/lildude){:target="_blank"}
@@ -85,8 +87,6 @@ Want to follow me, and I don't mean because you run slower than me or you're a s
 [![RunBritain](/img/runbritain.png){:style="width:251px; height:94px"}](http://www.runbritainrankings.com/runners/profile.aspx?athleteid=246985){:target="_blank"}
 [![parkrun](/img/parkrun.png){:style="width:205px height:100px"}](http://www.parkrun.org.uk/athleteresultshistory?athleteNumber=73185){:target="_blank"}
 {:class="center"}
-
-<del>I'm still dabbling with DailyMile. I might decide to ditch it at some point in the future - it really depends how they improve their API this year (2012) and how many people want to be my running friend</del> :grinning:  (Ditched at the end of 2012. It didn't meet my needs and there was no progress on the API side of things).
 
 ## Contact Me
 
