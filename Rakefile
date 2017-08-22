@@ -2,6 +2,7 @@ require "rubygems"
 require "bundler/setup"
 require "yaml"
 require "html-proofer"
+require 'stringex'
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
