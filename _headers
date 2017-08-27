@@ -12,3 +12,5 @@
 Link: </css/goals.css>; rel=preload; as=style
 /assets/*
   Cache-Control: public, max-age=2678400
+/css/*
+  Cache-Control: public, max-age=3600
