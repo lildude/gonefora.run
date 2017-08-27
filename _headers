@@ -1,12 +1,14 @@
 /*
-Link: </css/style.css>; rel=preload; as=stylesheet
+Link: </css/style.css>; rel=preload; as=style
 /
-Link: </css/home.css>; rel=preload; as=stylesheet
+Link: </css/home.css>; rel=preload; as=style
 /about
-Link: </css/about.css>; rel=preload; as=stylesheet
+Link: </css/about.css>; rel=preload; as=style
 /archives
-Link: </css/archives.css>; rel=preload; as=stylesheet
+Link: </css/archives.css>; rel=preload; as=style
 /calculators
-Link: </css/calculators.css>; rel=preload; as=stylesheet
+Link: </css/calculators.css>; rel=preload; as=style
 /goals
-Link: </css/goals.css>; rel=preload; as=stylesheet
+Link: </css/goals.css>; rel=preload; as=style
+/assets/*
+  Cache-Control: public, max-age=7200
