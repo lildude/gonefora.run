@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --shm-size=1g --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io $1 --video --speedIndex
