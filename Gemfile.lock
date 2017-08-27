@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lildude/jekyll-seo-tag
-  revision: 67862e8cb6b4aad6fa5e7d29e6294dde0de98ba4
+  revision: f26f96670b1724f4f1102b3371bea2a562fcb8b8
   branch: lildude-customisations
   specs:
     jekyll-seo-tag (2.0.0)
