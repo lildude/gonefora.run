@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "barefootrunner.co.uk is now gonefora.run"
-date: 2017-08-22 18:21:21 +0100
+date: 2017-08-27 10:38:05 +0100
 tags:
 - website
 type: post
