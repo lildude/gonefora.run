@@ -43,3 +43,4 @@ validation-report.json
 # Folders & files to ignore
 node_modules
 .jekyll-metadata
+sitespeed-result
