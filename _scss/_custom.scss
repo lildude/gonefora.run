@@ -169,18 +169,18 @@ pre {
     filter: none;
     text-decoration: none;
   }
-  .strava-badge svg, .powerof10-badge svg {
+  .strava-badge, .powerof10-badge {
     opacity: 0.6;
   }
 
-  .fetch-badge svg, .runbritain-badge svg {
+  .fetch-badge, .runbritain-badge {
     opacity: 0.45;
   }
 
-  .parkrun-badge svg {
+  .parkrun-badge {
     opacity: 0.7;
   }
-  .strava-badge svg, .fetch-badge svg, .runbritain-badge svg, .parkrun-badge svg, .powerof10-badge svg {
+  .strava-badge, .fetch-badge, .runbritain-badge, .parkrun-badge, .powerof10-badge {
     &:hover {
       opacity: 1;
     }
