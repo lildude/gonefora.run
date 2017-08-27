@@ -38,17 +38,10 @@
   {% endcomment %}
 
   <!-- CSS -->
-  {% if jekyll.environment == 'local' %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+  {% if page.layout == 'page' or page.layout == 'default' %}
   {% assign current = page.title | downcase | split: ' ' %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ current[0] }}.css">
-  {% else %}
-    <style type="text/css">
-      {% capture include_to_scssify %}
-        {% include screen.scss %}
-      {% endcapture %}
-      {{ include_to_scssify | scssify }}
-    </style>
   {% endif %}
 
   <!-- Icons -->
