@@ -1,12 +1,5 @@
 /*
 Link: </css/style.css>; rel=preload; as=style
-Link: </assets/feed.svg>; rel=preload; as=image
-Link: </assets/fetch.svg>; rel=preload; as=image
-Link: </assets/parkrun.svg>; rel=preload; as=image
-Link: </assets/powerof10.svg>; rel=preload; as=image
-Link: </assets/runbritain.svg>; rel=preload; as=image
-Link: </assets/strava.svg>; rel=preload; as=image
-Link: </assets/twitter.svg>; rel=preload; as=image
 /
 Link: </css/home.css>; rel=preload; as=style
 /about
