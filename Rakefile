@@ -106,6 +106,8 @@ end
 
 desc "Deploy master to Digital Ocean using rsync and copy _site/ to gh-pages branch and push to GitHub repo."
 task :deploy do
+  $stderr.puts "Whoopsie, you forgot this isn't needed anymore. `git push` is all you need now.".red
+  exit 1
   unless Dir.glob("#{stash_dir}/*.*").empty?
     $stderr.puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
     exit 1
