@@ -63,7 +63,7 @@ task :note do
   puts "Creating new short post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: post"
+    post.puts "layout: note"
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "tags:"
     post.puts "- note"
