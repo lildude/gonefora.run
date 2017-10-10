@@ -51,6 +51,28 @@ task :new, [:title, :bowfmt, :eowfmt] do |t, args|
   system "#{editor} ."
 end
 
+desc "Begin new short post in _posts"
+task :note do
+  now = DateTime.now
+  number = now.strftime('%s').to_i % (24 * 60 * 60)
+  date = now.strftime('%F')
+  filename = "_posts/#{date}-#{number.to_s.to_url}.#{new_post_ext}"
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  puts "Creating new short post: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "---"
+    post.puts "layout: note"
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
+    post.puts "tags:"
+    post.puts "- note"
+    post.puts "type: post"
+    post.puts "---"
+  end
+  system "#{editor} #{filename}"
+end
+
 desc "New Week in Review post."
 task :wir do
   now = DateTime.now
@@ -179,7 +201,7 @@ end
 
 desc "Generate and display locally"
 task :server do
-  system("JEKYLL_ENV=local bundle exec jekyll serve --incremental --profile --watch --drafts --baseurl= --limit_posts=20")
+  system("JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20")
 end
 
 
