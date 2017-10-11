@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Utilities for Strava and Garmin Connect"
-date: 2017-10-11 10:08:52 +0100
+date: 2017-10-11 10:55:56 +0100
 tags:
 - Strava
 - Garmin
