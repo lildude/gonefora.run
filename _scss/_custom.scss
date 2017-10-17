@@ -23,6 +23,34 @@ img.instagram { max-width: 640px; display: block; float: none; margin: 0 auto; }
 .alignright { float: right; margin-left: 1.571em; }
 .alignleft { float: left; margin-right: 1.571em; }
 
+figure {
+  img {
+    display: block;
+  }
+
+  &.half {
+    > a
+    > img {
+      display: inline;
+      width: calc(50% - 0.5em);
+    }
+  }
+
+  &.third {
+    > a 
+    > img {
+      display: inline;
+      width: calc(33.3333% - 0.5em);
+    }
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: smaller;
+    width: 100%;
+  }
+}
+
 embed, object, video, iframe { max-width: 100%; }
 a { color: #fb0006; }
 
