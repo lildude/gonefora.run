@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Strava Looks Like Twitter Now"
-date: 2017-10-17 10:07:00 +0100
+date: 2017-10-17 10:38:46 +0100
 tags:
 - Strava
 type: post
