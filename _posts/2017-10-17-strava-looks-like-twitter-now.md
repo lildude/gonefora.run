@@ -19,3 +19,5 @@ Well, I can say my ponderings have been answered...  they've been beavering away
 </figure>
 
 I'm glad to see Strava is still working on their site, I'm just a little disappointed that they've spent their time mimicking Twitter rather than coming up with something new or enhancing the features they offer, like some of the advanced features you get with TrainingPeaks.
+
+**Update** It all falls into place now... [Strava launches posts to bring athletes back for everything else beyond their workouts](https://techcrunch.com/2017/10/17/strava-launches-posts-to-bring-athletes-back-for-everything-else-beyond-their-workouts/).
