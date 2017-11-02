@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Smiling Makes You a More Efficient Runner"
-date: 2017-11-02 08:53:40 -0700
+date: 2017-11-02 09:07:18 -0700
 tags:
 - Research
 type: post
