@@ -20,7 +20,7 @@ author:
   twitter:        lildude
   avatar:         'https://gonefora.run/assets/profile.png'
 first_img:        true  # Use first image in post when a page.image is not defined.
-lang:             en_GB
+lang:             en-GB
 
 social:
   name:           Colin Seymour
