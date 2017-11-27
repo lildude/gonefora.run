@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "London Marathon 2018 Championship Entry Confirmed"
-date: 2017-11-27 17:44:22 +0000
+date: 2017-11-27 17:48:25 +0000
 tags:
 - Race
 type: post
