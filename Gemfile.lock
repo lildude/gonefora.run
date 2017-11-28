@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/lildude/jekyll-feed
+  revision: a8288b5e6d8b23e25234204e2b82c20c920dbad1
+  branch: lildude-customisations
+  specs:
+    jekyll-feed (0.9.2)
+      jekyll (~> 3.3)
+
+GIT
   remote: https://github.com/lildude/jekyll-seo-tag
   revision: f26f96670b1724f4f1102b3371bea2a562fcb8b8
   branch: lildude-customisations
@@ -95,6 +103,7 @@ DEPENDENCIES
   html-proofer
   httpclient
   jekyll
+  jekyll-feed!
   jekyll-json-feed
   jekyll-paginate
   jekyll-seo-tag!

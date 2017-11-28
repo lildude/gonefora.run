@@ -54,6 +54,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-json-feed
+  - jekyll-feed
+
+# Configure jekyll-feed
+feed:
+  path: atom.xml
+  use_excerpts: false
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result]
