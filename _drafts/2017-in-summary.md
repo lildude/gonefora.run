@@ -1,0 +1,96 @@
+---
+layout: post
+title: "2017 in Summary"
+date: 2017-12-31 13:30:42 +0000
+tags:
+- training
+- racing
+- summary
+type: post
+---
+
+I've just got home from my first run of the year and what better time to take a quick look back at what last year involved in my world of running.
+
+## Quick Stats
+
+Strava has done some of the work for me in my [2017 Year in Sport video](https://2017.strava.com/en-us/videos/ca06d82c3e86e867487b40ddfab649c7185ae063/) and finishes off with this nice summary, which includes all the cycling and running in the same stats:
+
+![2017 Year in Sport Summary from Strava](/img/2017-Year-in-Sport.png){: center}
+
+This is nice, but I'd like to break things down a bit more as this year has definitely been my best running year to date. Lucky for me, [SmashRun](https://smashrun.com) has done most of the work for me too:
+
+![2017 Overview from SmashRun](/img/2017-Smashrun-Overview.png){: center}
+
+A few other interesting stats:
+
+- Total running time: 352 hours, 28 minutes
+- Longest month: January at 619km
+- Longest week: 170.9km - 20-26 March
+- Longest training run: 40.1km
+- Number of races, excluding parkrun (they're not races 😜): 10
+- Number of parkruns: 11
+  - 3 @ Reading 🇬🇧
+  - 2 @ Crissy Field 🇺🇸
+  - 1 each @ Durban North Beach 🇿🇦, Greenpoint 🇿🇦, Bracknell 🇬🇧, Henley 🇬🇧, Maidenhead 🇬🇧 , and Wycombe Rye 🇬🇧
+- Personal bests: 5
+
+## Training
+
+As with previous years, I've continued to concentrate on using MAF as the foundation of my training.
+
+![HR Zone distribution](/img/2017-hr-zone-distribution.png)
+
+This year, the Comrades marathon was my A race so all training was directed towards getting me through the gruelling race, and with great results too. I used the 18 week Pfitzinger 85+ miles per week programme from the [Advanced Marathoning book](https://www.amazon.co.uk/dp/B0026IUOX2/) as a guide for my training as [I said I would](https://gonefora.run/2016-in-summary), with all the tweaks I'd planned. This worked brilliantly with me smashing new PBs in all distances I actually raced and successfully [completed the Comrades Marathon](https://gonefora.run/race-report-comrades-2017-an-up-run).
+
+The only downside to this year is I suffered from incredibly tight calves in the months building up to Comrades. I ran Comrades, recovered for a week, ran Greenpoint parkrun and then did a long run from Camps Bay, up Lion's Head, across to Signal Hill and back down to Camps Bay. This was really rocky and tricky and incredibly tough on my achilles tendons and probably not the best idea so close to finishing Comrades. As a result, I found I couldn't run comfortably so sidelined myself for the middle of the year to recover as you can see from the graph above.
+
+I've since learnt that this tension in my calves is likely to be linked to low mineral levels as since October, I've been deliberately supplementing with potassium, sodium and magnesium salts twice a day, along with some pretty tough [myofacial stretching](https://gonefora.run/fixing-my-tender-achilles-and-heels) and this has worked wonders in loosening up my calves and achilles.
+
+## Racing
+
+As pointed out above, I set PBs in all distances I raced this year, some of which were pretty large leaps too.
+
+| Distance      | 2016 SB     | 2017 SB   | Notes
+|---------------|-------------|-----------|---------
+| 5K            | 17:13       | 17:46     | I didn't race 5k and didn't push any parkruns to PB levels. My 10k time however indicates I definitely set a new 5k PB during that race.
+| 10K           | 36:31       | 34:09*    | Over 2min improvement two weeks before Comrades.
+| 5M            | 29:05*      | --:--     | I didn't race a 5M this year.
+| 10M           | 61:51       | 57:59*    | Over 2min improvement.
+| ½ Marathon    | 79:10*      | 77:31*    | Nearly a 2min improvement.
+| Marathon      | 2:47:31*    | 2:43:39   | Nearly a 4min improvement and a week after my largest ever training week.
+| Comrades (Up) | --:--:--  | 7:55:16*  | My only attempt so an easy PB 😜
+
+\* Are new PBs
+
+## Diet
+
+Nothing has changed much in this respect since last year. To quote:
+
+> Same old, same old. I'm still predominantly low carb, high fat (LCHF) and still benefitting tremendously from it. I'm not 100% carb-free all the time as I've learnt I need a little more than nothing to sustain my racing and training, and it's also incredibly hard to be carb free in exotic countries with loads of food I've never eaten before. However, I'm no where near "normal" and I definitely notice when I've eaten too much sugar or processed carbs.
+
+## What's on the Cards for 2018?
+
+This year I'm going for the Comrades back-to-back so the first half of the year is all about training for Comrades. As part of this training I'm going to use the same approach as last year, namely use the 18 week Pfitzinger 85+ miles per week programme from the [Advanced Marathoning book](https://www.amazon.co.uk/dp/B0026IUOX2/) as a guide, and then throw in the following tweaks:
+
+- run up and downhill repeats at least once a week,
+- run an interval or VO2 max session at least once a week,
+- build strength in my legs with lots of lunges and plyo's,
+- run all runs which aren't recovery or don't specify a pace at MAF - 144 to 149 BPM (I'm not changing my MAF range again this year),
+- run all sessions with paces at or close to PB pace for each distance specified in the programme,
+- round all distances in the programme up to approximate times.
+- throw in a few marathons, half marathons, 10k's and parkruns which aren't specifically called for by the programme to keep me sharp.
+
+These tweaks should push the aerobic/balls-to-the-wall balance more closely to 80/20 and hopefully result in me going into Comrades a much stronger and faster runner than last year. This should in turn pay off in all my other racing and hopefully protect me from injury so I can run all year.
+
+I've not planned all my racing for the year as I don't know how I'll get on at Comrades, but my build up includes the following races:
+
+- Farnborough half marathon - I'm doing this instead of the Wokingham half for a change.
+- Bramley 20 - I've never raced a 20 mile and the last race I did of similar distance, the RAC Tough One 32k, was many many many years ago.
+- Seville marathon - I technically need a Comrades qualifier still as I didn't run an autumn marathon.
+- Reading half marathon - I'm doing this instead of the Fleet half for a change.
+- London marathon - my spring A-race marathon. I've got a Championship entry for this one.
+- Milton Keynes marathon - I plan to run this as a fast training run as it will be my last long run before Comrades.
+
+I'll probably throw in a few other races and parkruns too.
+
+And that's pretty much it for 2017 and my plans for early 2018. See you on the roads peeps.
