@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "It's Far Too Early to Get Serious About Comrades Training!"
-date: 2018-02-08 13:51:28 +0000
+date: 2018-02-08 14:03:02 +0000
 tags:
 - Comrades
 - Training
