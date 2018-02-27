@@ -12,9 +12,11 @@
 Link: </css/goals.css>; rel=preload; as=style
 /assets/*
   Cache-Control: public, max-age=2678400
+/assets/*.svg
+  Content-Type: image/svg+xml, charset=utf-8
 /img/*
   Cache-Control: public, max-age=2678400
-*.svg
+/img/*.svg
   Content-Type: image/svg+xml, charset=utf-8
 /css/*
   Cache-Control: public, max-age=86400
