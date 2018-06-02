@@ -22,7 +22,7 @@ I was once a fast runner. Then I stopped, picked it up again, and now find mysel
 |-----------+---------+-----------
 | Distance  | Time    | Date
 |-----------|:---------:|-----------
-| 5K        | 17:10   | 21 Sep '13
+| 5K        | 16:56   | 2 Jun '18
 | 8K / 5M   | 29:05   | 15 Jun '16
 | 10K       | 34:09   | 21 May '17
 | 15K       | 59:29   | 10 Jan '99
