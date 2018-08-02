@@ -29,8 +29,10 @@ I was once a fast runner. Then I stopped, picked it up again, and now find mysel
 | 10M       | 57:59   | 14 Apr '17
 | 21.1K     | 1:17:31 | 12 Feb '17
 | 42.2K     | 2:43:39 | 2 Apr '17
+| 50K       | 3:54:46 | 28 Jul '18
 | 56K       | 4:48:24 | 11 Apr '98
-| Comrades  | 7:55:16 | 4 Jun '17
+| Comrades - Up  | 7:55:16 | 4 Jun '17
+| Comrades - Down | 7:21:03 | 10 Jun '18
 
 ### Goals
 
