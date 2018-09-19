@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Eliud Kipchoge's Insanely Fast Marathon Record"
-date: 2018-09-19 16:30:14 +0100
+date: 2018-09-19 18:03:31 +0100
 tags:
 - marathon
 - Berlin
