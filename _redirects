@@ -7,7 +7,7 @@
 /dom.webslookup.com                                                   /         410
 
 # Redirects
-/page*                                                                /
+/page*                                                                /archives
 /*/Want_Speed_Slow_Down_2007.pdf                                      /img/Want_Speed_Slow_Down_2007.pdf
 /*/RunLikeYourAncestors.pdf                                           /img/RunLikeYourAncestors.pdf
 /*/hadd.pdf                                                           /img/hadd.pdf
