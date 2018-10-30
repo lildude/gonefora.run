@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 50b553f3059d75b5f2c642493f659a8e2162a686
+  revision: 2e0ea3f156421582cce358fc542e79fe19fe614d
   branch: make-running-site-compat
   specs:
     minima-dude (1.0.0)
