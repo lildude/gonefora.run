@@ -53,7 +53,7 @@ kramdown:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-json-feed
+  #- jekyll-json-feed
   - jekyll-feed
 
 # Configure jekyll-feed

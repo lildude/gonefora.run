@@ -21,12 +21,12 @@
   <link href="https://tokens.indieauth.com/token" rel="token_endpoint">
 
   <!-- This stuff in provided by the jekyll-seo-tag gem/plugn -->
-  {% seo title=true %}
+  {% seo %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   {% if page.layout == 'page' or page.layout == 'default' %}
-  {% assign current = page.title | downcase | split: ' ' %}
+  {% assign current = page.title | default: "home" | downcase | split: ' ' %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ current[0] }}.css">
   {% endif %}
 
@@ -35,5 +35,4 @@
 
   <!-- RSS & Atom -->
   <link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }} - Atom Feed" type="application/atom+xml">
-  {% json_feed_meta %}
 </head>
