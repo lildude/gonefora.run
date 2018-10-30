@@ -60,7 +60,7 @@ So that's what I did, but this time I was going to do it right.
 
 ## Why Run Barefoot/Minimalist?
 
-I started researching on how I could improve my running form, and that's when I discovered the [POSE method](http://www.posetech.com/) of running.  As I read the [book](http://www.amazon.co.uk/Pose-Method-Running-Nicholas-Romanov/dp/0972553703/), [watched the videos](http://www.youtube.com/user/posetv) and trawled the forums, I soon found a pattern: people were not running in expensive shoes.  They were running in what I would consider one up from plimsolls - light thin-soled shoes. In fact the most popular pair of shoes were the Puma H-Streets.
+I started researching on how I could improve my running form, and that's when I discovered the [POSE method](http://www.posetech.com/) of running.  As I read the [book](http://www.amazon.co.uk/Pose-Method-Running-Nicholas-Romanov/dp/0972553703/), [watched the videos](http://www.youtube-nocookie.com/user/posetv) and trawled the forums, I soon found a pattern: people were not running in expensive shoes.  They were running in what I would consider one up from plimsolls - light thin-soled shoes. In fact the most popular pair of shoes were the Puma H-Streets.
 
 Of course it didn't stop there, there were also quite a lot of people who'd taken the second recommendation on choosing shoes for POSE running - "_2. The shoes should have thin soles, with no cushioning at all._" - quite literally by going completely barefoot.
 
@@ -80,7 +80,7 @@ Why am I not running more barefoot?  Simple. The skin on my feet can't keep up w
 
 Want to follow me, and I don't mean because you run slower than me or you're a stalker 😜, then you can do so in loads of places:
 
-[![Power of 10](/img/powerof10.png){:style="width:336px; height=82px"}](http://www.thepowerof10.info/athletes/profile.aspx?athleteid=246985){:target="_blank"}  
+[![Power of 10](/img/powerof10.png){:style="width:336px; height=82px"}](http://www.thepowerof10.info/athletes/profile.aspx?athleteid=246985){:target="_blank"}
 [![Twitter](/img/twitter.png){:style="width:200px; height:46px"}](http://twitter.com/lildude){:target="_blank"}
 [![FetchEveryone](/img/fetcheveryone.png){:style="width:125px; height:71px"}](http://www.fetcheveryone.com/userprofile.php?id=32814){:target="_blank"}
 [![Strava](/img/StravaRun.jpg){:style="width:71px; height=:71px"}](http://app.strava.com/athletes/1295848){:target="_blank"}

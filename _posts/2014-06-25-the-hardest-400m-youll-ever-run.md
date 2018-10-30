@@ -12,6 +12,6 @@ I regularly have dreams where I'm running and find it so hard to run that I lean
 
 How's this for a brutal 400m race...
 
-<p><iframe width="853" height="480" src="//www.youtube.com/embed/Z94NVESBto0?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/Z94NVESBto0?rel=0" frameborder="0" allowfullscreen></iframe></p>
 
 200m of elevation in just 400m. Think I'll add this to my bucket list given I've had so much practice in my dreams.
