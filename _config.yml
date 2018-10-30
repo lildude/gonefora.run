@@ -21,12 +21,24 @@ author:
   avatar:         'https://gonefora.run/assets/profile.png'
 first_img:        true  # Use first image in post when a page.image is not defined.
 lang:             en-GB
+theme:            minima-dude
+strava:
+  id:        1295848
+parkrun:
+  id:       73185
+powerof10:
+  id:     246985
 
 social:
   name:           Colin Seymour
   links:
     - https://twitter.com/lildude
     - https://www.instagram.com/lildoodlil/
+
+# Theme settings
+minima_dude:
+  date_format: "%-d %b %Y"
+  whackwhack: true    # Splits site title into spaces, adds // to the beginning and colours the words so the first half are white and the second half are red
 
 # Custom vars
 google_site_verification:   X0GErJ8t4_IcMSb7Xy8JYdK8qlk_QoqgsxI3r94fe4A
@@ -36,13 +48,13 @@ sass:
   style:          compressed
 
 compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
+  clippings:      all
+  comments:       ["<!-- ", " -->"]
+  endings:        all
   ignore:
-    envs: [test, local]
-  profile: false
-  startings: [html, body]
+    envs:         [test, local]
+  profile:        false
+  startings:      [html, body]
 
 # Configure kramdown
 kramdown:
