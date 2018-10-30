@@ -6,8 +6,10 @@ GIT
     jekyll-feed (0.9.2)
       jekyll (~> 3.3)
 
-PATH
-  remote: /Users/lildude/Sites/static/minima-dude
+GIT
+  remote: https://github.com/lildude/minima-dude
+  revision: 50b553f3059d75b5f2c642493f659a8e2162a686
+  branch: make-running-site-compat
   specs:
     minima-dude (1.0.0)
       jekyll (~> 3.5)
