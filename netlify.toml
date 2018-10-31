@@ -56,49 +56,49 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 [[headers]]
   for = "/*"
   [headers.values]
-    Link = "</assets/main.css>; rel=preload; as=style"
+    Link = "</assets/main.css>; rel=preload; as=style"
 
 [[headers]]
   for = "/"
   [headers.values]
-    Link = "</css/home.css>; rel=preload; as=style"
+    Link = "</css/home.css>; rel=preload; as=style"
 
 [[headers]]
-  for = "/about
-  [headers.values]
+  for = "/about"
+  [headers.values]
     Link = "</css/about.css>; rel=preload; as=style"
 
 [[headers]]
-  for = "/archives
-  [headers.values]
+  for = "/archives"
+  [headers.values]
     Link = "</css/archives.css>; rel=preload; as=style"
 
 [[headers]]
-  for = "/calculators
-  [headers.values]
+  for = "/calculators"
+  [headers.values]
     Link = "</css/calculators.css>; rel=preload; as=style"
 
 [[headers]]
-  for = "/goals
+  for = "/goals"
   [headers.values]
-    Link = "</css/goals.css>; rel=preload; as=style"
+    Link = "</css/goals.css>; rel=preload; as=style"
 
 [[headers]]
-  for = "/assets/*
+  for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=2678400"
 
 [[headers]]
-  for = "*.svg
+  for = "*.svg"
   [headers.values]
     Content-Type = "image/svg+xml, charset=utf-8"
 
 [[headers]]
-  for = "/img/*
+  for = "/img/*"
   [headers.values]
     Cache-Control = "public, max-age=2678400"
 
 [[headers]]
-  for = "/css/*
+  for = "/css/*"
   [headers.values]
     Cache-Control = "public, max-age=86400"
