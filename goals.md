@@ -28,7 +28,7 @@ I was once a fast runner. Then I stopped, picked it up again, and now find mysel
 | 15K       | 59:29   | 10 Jan '99
 | 10M       | 57:59   | 14 Apr '17
 | 21.1K     | 1:17:02 | 19 Mar '17
-| 42.2K     | 2:43:39 | 2 Apr '17
+| 42.2K     | 2:39:46 | 23 Sep '18
 | 50K       | 3:54:46 | 28 Jul '18
 | 56K       | 4:48:24 | 11 Apr '98
 | Comrades - Up  | 7:55:16 | 4 Jun '17
@@ -67,5 +67,5 @@ I didn't put a target date on any of these as I didn't want to push myself or be
 | 20  | [The Comrades Marathon](http://www.comrades.com/) (before I'm 40) | [4 jun '17](/race-report-comrades-2017-an-up-run)
 
 
-\* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.  
+\* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.
 \+ - It was a race, but mainly on grass as opposed to on the road.
