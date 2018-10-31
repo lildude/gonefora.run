@@ -9,5 +9,6 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 [context.production.environment]
   JEKYLL_ENV = "production"
 
-[context.branch-deploy.environment]
-  JEKYLL_ENV = "production"
+# JEKYLL_ENV defaults to development so commenting out
+#[context.branch-deploy.environment]
+#  JEKYLL_ENV = "development"
