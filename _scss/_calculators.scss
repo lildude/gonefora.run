@@ -4,9 +4,8 @@ fieldset {
 }
 
 #calculatorWrapper {
-  line-height: 2;
+  line-height: 2.5;
   .form-control {
-    height: 32px;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -55,14 +54,26 @@ fieldset {
     margin-left: 4px;
   }
   #splitDistanceUnit {
-    width: 12.8em;
+    width: 18.6em;
   }
   #paceUnit {
-    width: 4.2em;
+    width: 6.2em;
   }
   #distanceUnit {
-    width: 6.7em;
+    width: 10.4em;
   }
+}
+
+.error,
+.success,
+.info,
+.warning {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.error {
+  background-color: #f2dede;
 }
 
 .resultValue {
@@ -105,14 +116,14 @@ fieldset {
   }
 }
 
-/* I DONT THINK I USE THIS YET */
+/* Notification colours borrowed from Bootstrap */
+/* I DONT THINK I USE THIS YET
 .theme-colin-ignore-me {
   .content {
     fieldset {
       border: 0;
     }
 
-    /* Notification colours borrowed from Bootstrap */
     .error,
     .success,
     .info,
@@ -183,3 +194,4 @@ fieldset {
     }
   }
 }
+*/
