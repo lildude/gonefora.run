@@ -13,6 +13,7 @@ tags:
 - 10km
 - records
 type: page
+add_css: /css/goals.css
 ---
 
 ### Personal Bests
