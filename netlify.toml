@@ -14,32 +14,39 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 #[context.branch-deploy.environment]
 #  JEKYLL_ENV = "development"
 
+# Gone AWOL
 [[redirects]]
-  # Gone AWOL
   from = "/privacy"
   to = "/"
   status = 410    # GONE
 
+[[redirects]]
   from = "/dom.webslookup.com"
   to = "/"
   status = 410    # GONE
 
-  # Redirects
+# Redirects
+[[redirects]]
   from = "/page*"
   to = "/archives"
 
+[[redirects]]
   from = "/*/Want_Speed_Slow_Down_2007.pdf"
   to =" /img/Want_Speed_Slow_Down_2007.pdf"
 
+[[redirects]]
   from = "/*/RunLikeYourAncestors.pdf"
   to = "/img/RunLikeYourAncestors.pdf"
 
+[[redirects]]
   from = "/*/hadd.pdf"
   to = "/img/hadd.pdf"
 
+[[redirects]]
   from = "/atom/*"
   to = "/atom.xml"
 
-  # Renames
+# Renames
+[[redirects]]
   from = "/tim-noakes-if-youve-got-lore-of-running-tear-out-the-section-on..."
   to = "/tim-noakes-if-youve-got-lore-of-running-tear-out-the-section-on-nutrition"
