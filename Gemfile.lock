@@ -23,8 +23,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: a5f65f45480d3304d1e25caccb7b6b89d02e9e58
-  branch: make-running-site-compat
+  revision: 4c4cf38e4c19f4ee86c68003eed40c9ec69f7d0d
   specs:
     minima-dude (1.0.0)
       jekyll (~> 3.5)

@@ -8,7 +8,7 @@ gem 'jekyll-paginate'
 gem 'jekyll-seo-tag'
 gem 'jekyll-feed', :git => 'https://github.com/lildude/jekyll-feed', :branch => 'lildude-customisations'
 #gem 'jekyll-json-feed'
-gem 'minima-dude', :git => 'https://github.com/lildude/minima-dude', :branch => 'make-running-site-compat'
+gem 'minima-dude', :git => 'https://github.com/lildude/minima-dude'
 
 group :development, :test do
   gem 'rake'
