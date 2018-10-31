@@ -1,0 +1,13 @@
+# See https://www.netlify.com/docs/netlify-toml-reference/
+[Settings]
+ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
+
+[context.deploy-preview.environment]
+  JEKYLL_ENV = "development"
+
+# Branch Deploy context: all deploys that are not from a pull/merge request or
+# from the Production branch will inherit these settings.
+#[context.branch-deploy]
+#  command = "echo branch"
+#[context.branch-deploy.environment]
+#  NODE_ENV = "development"
