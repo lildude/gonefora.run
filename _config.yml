@@ -48,7 +48,7 @@ compress_html:
   comments:       ["<!-- ", " -->"]
   endings:        all
   ignore:
-    envs:         [test, local]
+    envs:         [test, local, development]
   profile:        false
   startings:      [html, body]
 
