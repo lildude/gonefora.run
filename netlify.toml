@@ -6,12 +6,8 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
   publish = "_site/"
   command = "bundle exec jekyll build"
 
-[context.production]
-  environment = { JEKYLL_ENV = "production" }
+[context.production.environment]
+  JEKYLL_ENV = "production"
 
-[context.branch-deploy]
-#  command = "bundle exec jekyll build"
-  environment = { JEKYLL_ENV = "production" }
-
-#[context.branch-deploy.environment]
-#  JEKYLL_ENV = "development"
+[context.branch-deploy.environment]
+  JEKYLL_ENV = "production"
