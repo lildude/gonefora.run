@@ -2,6 +2,7 @@
 [Settings]
 ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 
+# Override UI settings
 [build]
   publish = "_site/"
   command = "bundle exec jekyll build"
@@ -12,3 +13,33 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 # JEKYLL_ENV defaults to development so commenting out
 #[context.branch-deploy.environment]
 #  JEKYLL_ENV = "development"
+
+[[redirects]]
+  # Gone AWOL
+  from = "/privacy"
+  to = "/"
+  status = 410    # GONE
+
+  from = "/dom.webslookup.com"
+  to = "/"
+  status = 410    # GONE
+
+  # Redirects
+  from = "/page*"
+  to = "/archives"
+
+  from = "/*/Want_Speed_Slow_Down_2007.pdf"
+  to =" /img/Want_Speed_Slow_Down_2007.pdf"
+
+  from = "/*/RunLikeYourAncestors.pdf"
+  to = "/img/RunLikeYourAncestors.pdf"
+
+  from = "/*/hadd.pdf"
+  to = "/img/hadd.pdf"
+
+  from = "/atom/*"
+  to = "/atom.xml"
+
+  # Renames
+  from = "/tim-noakes-if-youve-got-lore-of-running-tear-out-the-section-on..."
+  to = "/tim-noakes-if-youve-got-lore-of-running-tear-out-the-section-on-nutrition"
