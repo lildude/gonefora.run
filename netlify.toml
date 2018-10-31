@@ -2,12 +2,16 @@
 [Settings]
 ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 
+[build]
+  publish = "_site/"
+  command = "JEKYLL_ENV='production' bundle exec jekyll build"
+
 [context.deploy-preview.environment]
-  JEKYLL_ENV = "development"
+  command = "JEKYLL_ENV='development' bundle exec jekyll build"
 
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 #[context.branch-deploy]
 #  command = "echo branch"
-[context.branch-deploy.environment]
-  JEKYLL_ENV = "development"
+#[context.branch-deploy.environment]
+#  JEKYLL_ENV = "development"
