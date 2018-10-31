@@ -170,6 +170,7 @@ task :test do
     :check_html => true,
     :disable_external => true,
     :check_img_http => true,
+    :check_iframe_http => true,
     :cache => { :timeframe => '2w' },
     :empty_alt_ignore => false,
     :verbose => true,

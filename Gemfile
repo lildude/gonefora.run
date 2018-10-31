@@ -13,7 +13,7 @@ gem 'minima-dude', :git => 'https://github.com/lildude/minima-dude', :branch => 
 group :development, :test do
   gem 'rake'
   gem 'httpclient'
-  gem 'html-proofer'
+  gem 'html-proofer', :git => 'https://github.com/lildude/html-proofer.git', :branch => 'iframe-check-https-default'
   gem 'stringex'
   #gem 'minima-dude', :path => '/Users/lildude/Sites/static/minima-dude'
 end
