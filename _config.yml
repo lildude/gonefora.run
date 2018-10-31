@@ -7,26 +7,34 @@ permalink:        :title
 
 # Setup
 title:            Gone For A Run
-tagline:          'Where else would I have gone?'
-separator:        ' · '
-description:      "I ran. I ran fast. I ran lots. I stopped, got fat and now I'm back, but this time minimalist, zero-drop and with new goals, dreams and aspirations and running faster than I ever have."
+description:      'Where else would I have gone?'
 url:              https://gonefora.run
 baseurl:          ""
+logo:             /assets/favicon.png
+author:           'Colin Seymour'
+lang:             en-GB
+theme:            minima-dude
+
 twitter:
   username:       lildude
-logo:             /assets/favicon.png
-author:
-  name:           'Colin Seymour'
-  twitter:        lildude
-  avatar:         'https://gonefora.run/assets/profile.png'
-first_img:        true  # Use first image in post when a page.image is not defined.
-lang:             en-GB
+strava:
+  id:             1295848
+parkrun:
+  id:             73185
+powerof10:
+  id:             246985
 
 social:
   name:           Colin Seymour
   links:
     - https://twitter.com/lildude
     - https://www.instagram.com/lildoodlil/
+
+# Theme settings
+minima_dude:
+  date_format: "%-d %b %Y"
+  whackwhack: true    # Splits site title into spaces, adds // to the beginning and colours the words so the first half are white and the second half are red
+  show_author: false
 
 # Custom vars
 google_site_verification:   X0GErJ8t4_IcMSb7Xy8JYdK8qlk_QoqgsxI3r94fe4A
@@ -36,13 +44,13 @@ sass:
   style:          compressed
 
 compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
+  clippings:      all
+  comments:       ["<!-- ", " -->"]
+  endings:        all
   ignore:
-    envs: [test, local]
-  profile: false
-  startings: [html, body]
+    envs:         [test, local, development]
+  profile:        false
+  startings:      [html, body]
 
 # Configure kramdown
 kramdown:
@@ -63,7 +71,5 @@ feed:
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result]
-# Include _headers and _redirects else they don't take effect
-include: [_headers, _redirects]
 # Don't attempt to process these - ie leave as-is
 keep_files: [assets, img]

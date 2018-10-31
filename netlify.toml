@@ -1,0 +1,104 @@
+# See https://www.netlify.com/docs/netlify-toml-reference/
+[Settings]
+ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
+
+# Override UI settings
+[build]
+  publish = "_site/"
+  command = "bundle exec jekyll build"
+
+[context.production.environment]
+  JEKYLL_ENV = "production"
+
+# JEKYLL_ENV defaults to development so commenting out
+#[context.branch-deploy.environment]
+#  JEKYLL_ENV = "development"
+
+# Gone AWOL
+[[redirects]]
+  from = "/privacy"
+  to = "/"
+  status = 410    # GONE
+  force = true
+
+[[redirects]]
+  from = "/dom.webslookup.com"
+  to = "/"
+  status = 410    # GONE
+  force = true
+
+# Redirects
+[[redirects]]
+  from = "/page*"
+  to = "/archives"
+
+[[redirects]]
+  from = "/*/Want_Speed_Slow_Down_2007.pdf"
+  to =" /img/Want_Speed_Slow_Down_2007.pdf"
+
+[[redirects]]
+  from = "/*/RunLikeYourAncestors.pdf"
+  to = "/img/RunLikeYourAncestors.pdf"
+
+[[redirects]]
+  from = "/*/hadd.pdf"
+  to = "/img/hadd.pdf"
+
+[[redirects]]
+  from = "/atom/*"
+  to = "/atom.xml"
+
+# Renames
+[[redirects]]
+  from = "/tim-noakes-if-youve-got-lore-of-running-tear-out-the-section-on..."
+  to = "/tim-noakes-if-youve-got-lore-of-running-tear-out-the-section-on-nutrition"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Link = "</assets/main.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Link = "</css/home.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/about"
+  [headers.values]
+    Link = "</css/about.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/archives"
+  [headers.values]
+    Link = "</css/archives.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/calculators"
+  [headers.values]
+    Link = "</css/calculators.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/goals"
+  [headers.values]
+    Link = "</css/goals.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2678400"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Content-Type = "image/svg+xml, charset=utf-8"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2678400"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
