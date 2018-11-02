@@ -1,5 +1,5 @@
 /*
- NNM Pace Calculator JS.
+ Borrowed from: NNM Pace Calculator JS - http://pacecalc.nemonisimors.com/
  Copyright Anders Gustafson (http://www.nemonisimors.com). All rights reserved.
  */
 
