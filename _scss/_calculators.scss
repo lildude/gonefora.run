@@ -64,6 +64,13 @@ fieldset {
   }
 }
 
+// Hide these by default. We'll reveal when they have content.
+#messageWrapper,
+#resultWrapper,
+#splitTimeWrapper {
+  display: none;
+}
+
 .error,
 .success,
 .info,
@@ -115,83 +122,3 @@ fieldset {
     white-space: nowrap;
   }
 }
-
-/* Notification colours borrowed from Bootstrap */
-/* I DONT THINK I USE THIS YET
-.theme-colin-ignore-me {
-  .content {
-    fieldset {
-      border: 0;
-    }
-
-    .error,
-    .success,
-    .info,
-    .warning {
-      padding: 5px;
-      border-radius: 5px;
-    }
-
-    .error {
-      background-color: #f2dede;
-    }
-
-    .success {
-      background-color: #dff0d8;
-    }
-
-    .info {
-      background-color: #d9edf7;
-    }
-
-    .warning {
-      background-color: #fcf8e3;
-    }
-
-    .resultValue {
-      width: 2.5em;
-      display: inline-block;
-    }
-
-    .resultUnit {
-      padding-left: 10px;
-    }
-
-    #times {
-      max-width:15%;
-      td {
-        text-align: center;
-      }
-    }
-
-    #distances {
-      margin-right: 20px;
-    }
-
-    #distances,
-    #paces {
-      float: left;
-      width: 33%;
-    }
-
-    #distances,
-    #pace,
-    #times {
-      .header {
-        font-weight: bold;
-      }
-    }
-
-    .splitTimes {
-      .special {
-        font-weight: bold;
-      }
-
-      .splitDistanceUnit {
-        text-align: right;
-        white-space: nowrap;
-      }
-    }
-  }
-}
-*/
