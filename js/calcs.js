@@ -6,10 +6,8 @@
 var DEBUG = false;
 var INFO = false;
 var CLEAR_ALL_FIELDS_WHEN_RELOAD = true;
-var SHOW_CLEAR_FIELDS_BUTTON = false;
-var SET_DEFAULT_FOR_SPLIT_DISTANCE = false;
 
-var MAX_SPLIT_COLUMNS = 5; // TODO Named MAX_SPLIT_ROWS in original NNM Pace Calculator.
+var MAX_SPLIT_COLUMNS = 5;
 var SPLIT_INTERVAL = 10;
 var MAX_SPLITS = 200;
 
@@ -21,9 +19,6 @@ if (INFO) {
 }
 
 var distances = [
-    //new Distance("in", 0.0254, "inches"),
-    //new Distance("ft", 0.3048, "feet"),
-    //new Distance("yd", 0.9144, "yards"),
     new Distance("m", 1, "meters"),
     new Distance("100m", 100, "100 m splits"),
     new Distance("200m", 200, "200 m laps"),
@@ -31,8 +26,6 @@ var distances = [
     new Distance("500m", 500, "500 m splits"),
     new Distance("km", 1000, "kilometers"),
     new Distance("mi", 1609.344, "miles"),
-    //new Distance("nmi", 1852, "nautical miles")
-    //new Distance("au", 149597870700, "astronomical units"),
 ];
 
 var paces = [
@@ -42,12 +35,8 @@ var paces = [
     new Pace("/500m", 500, false),
     new Pace("/km", 1000, false),
     new Pace("/mi", 1609.344, false),
-    //new Pace("/nmi", 1852, false),
-    //new Pace("ft/s", 0.3048 / 1, true),
-    //new Pace("m/s", 1 / 1, true),
     new Pace("km/h", 1000 / 3600, true),
     new Pace("mph", 1609.344 / 3600, true),
-    //new Pace("knots", 1852 / 3600, true)
 ];
 
 function Distance(unit, factor, longName) {
@@ -70,47 +59,6 @@ function SplitTime(splitTimeInSeconds, splitNo, distanceUnit) {
     this.splitTimeInSeconds = splitTimeInSeconds;
     this.splitNo = splitNo;
     this.distanceUnit = distanceUnit;
-}
-
-function clearAllInputFields() {
-    info("Clearing all input fields");
-    $("#theForm input").each(function (index, element) {
-        debug("Clearing input field " + element.id);
-        //Not working in IE 7 and IE 8! element.value = null;
-        element.value = "";
-    });
-}
-
-function initDistanceSelections() {
-    info("Initializing distances...");
-    for (i = 0; i < distances.length; i++) {
-        var distance = distances[i];
-        debug("Distance: " + distance.unit + "/" + distance.longName + " = " + distance.factor + " m");
-
-        var appendedDistanceOption = $("<option value='" + distance.unit + "'>" + distance.longName + "</option>").appendTo("#distanceUnit");
-        if (distance.unit == "km") { // Set default distance.
-            appendedDistanceOption.attr("selected", "selected");
-        }
-
-        var appendedSplitDistanceOption = $("<option value='" + distance.unit + "'>" + distance.longName + "</option>").appendTo("#splitDistanceUnit");
-        if (SET_DEFAULT_FOR_SPLIT_DISTANCE && distance.unit == "km") { // Set default distance.
-            appendedSplitDistanceOption.attr("selected", "selected");
-        }
-    }
-}
-
-function initPaceSelections() {
-    info("Initializing paces...");
-    for (i = 0; i < paces.length; i++) {
-        var pace = paces[i];
-        debug("Pace: " + pace.unit + ", factor = " + pace.factor + " distance per time = " + pace.distancePerTime);
-
-        var appendedPaceOption = $("<option value='" + pace.unit + "'>" + pace.unit + "</option>").appendTo("#paceUnit");
-        if (pace.unit == "/km") { // Set default pace.
-            appendedPaceOption.attr("selected", "selected");
-        }
-    }
-    showCorrectPaceFieldsForUser();
 }
 
 function getDistanceDTO(distanceUnit) {
@@ -145,49 +93,29 @@ function init() {
     info("Initializing...");
 
     if (DEBUG || INFO) {
-        $("#logStatus").text("#### LOGGING IS ON #####");
+        document.getElementById('logStatus').textContent = "#### LOGGING IS ON #####";
     }
 
-    $(".currentYear").each(function (index, element) {
-        $(this).text(new Date().getFullYear());
+    var paceUnit = document.getElementById("paceUnit")
+    paceUnit.addEventListener('change', function(event) {
+        showCorrectPaceFieldsForUser()
+    });
+    paceUnit.addEventListener('keyup', function(event) {
+        showCorrectPaceFieldsForUser()
     });
 
-    $("#paceUnit").change(function (event) {
-        showCorrectPaceFieldsForUser();
-
-    }).keyup(function (event) {
-            showCorrectPaceFieldsForUser();
+    var calcFields = document.querySelectorAll(".calculate");
+    Array.prototype.forEach.call(calcFields, function(el, i){
+        el.addEventListener('change', function(event) {
+            calculate()
         });
-
-    $(".calculate").change(function (event) {
-        calculate();
-
-    }).keyup(function (event) {
-            calculate();
-
+        el.addEventListener('keyup', function(event) {
+            calculate()
         });
-
-    $("#clear").click(function (event) {
-        clearResult();
     });
-
 
     clearMessages();
     hideResultInformation();
-    initDistanceSelections();
-    initPaceSelections();
-    if (CLEAR_ALL_FIELDS_WHEN_RELOAD) {
-        clearAllInputFields();
-    }
-    if (!SHOW_CLEAR_FIELDS_BUTTON) {
-        $("#buttonBlock").hide();
-    }
-
-    if (!CLEAR_ALL_FIELDS_WHEN_RELOAD) {
-        calculate();
-    }
-
-    $("#jsContent").show(); // Show the page for JavaScript users.
 }
 
 function verifyStoragePossibility() {
@@ -196,14 +124,6 @@ function verifyStoragePossibility() {
     } else {
         info("Can NOT store user defined values");
     }
-}
-
-function doIt() {
-//    validateUserInput();
-//    showerrors
-//    calculate
-//    convert
-//    showresult
 }
 
 var context = new Object();
@@ -217,7 +137,10 @@ function calculate() {
     validateUserInput();
 
     function printErrorMessages(element, index, array) {
-        var errMsg = $("<div class='error'>" + element + "</div>").appendTo(".messages");
+        var div = document.createElement('div');
+        div.innerHTML = element;
+        div.className = 'error'
+        document.getElementById('messages').appendChild(div);
     }
 
     var distanceInMeters;
@@ -290,7 +213,6 @@ function calculate() {
             debug("i = " + i + ", x = " + splitTimeInSeconds + ", s = " + timeInSeconds);
             if (i == noOfSplits && splitTimeInSeconds + 0.000000001 < timeInSeconds) {
                 debug("Adding an extra split");
-                //splitTimes.push(new SplitTime(timeInSeconds, distanceInMeters/context.splitDistance.factor, context.splitDistance));
                 splitTimes.push(new SplitTime(timeInSeconds, round(distanceInMeters / context.splitDistance.factor, 3), context.splitDistance));
             }
         }
@@ -368,29 +290,26 @@ function easterEggs(distanceInMeters, timeInSeconds, paceInMetersPerSecond) {
 
     var msgElement = null;
     if (distanceInMeters == 42195) {
-        if (timeInSeconds == 7403) {
-            addMessage("This is the marathon world record (held by Wilson Kipsang)");
-        }
-        else if (timeInSeconds == 7897) {
-            addMessage("This is the course record in Stockholm Marathon (held by Hugh Jones)");
+        if (timeInSeconds == 7299) {
+            addMessage("This is the marathon world record (held by 🇰🇪 Eliud Kipchoge)");
         }
         else if (timeInSeconds == 8125) {
-            addMessage("This is the marathon world record (held by Paula Radcliffe)");
+            addMessage("This is the marathon world record (held by 🇬🇧 Paula Radcliffe)");
         }
-        else if (timeInSeconds == 8904) {
-            addMessage("This is the course record in Stockholm Marathon (held by Grete Waitz)");
+        else if (timeInSeconds == 9586) {
+            addMessage("This is my personal best for the marathon 🎉");
         }
     } else if (distanceInMeters == 10000) {
         if (timeInSeconds == 1577.53) {
-            addMessage("This is the world record in 10000 meters (held by Kenenisa Bekele)");
+            addMessage("This is the world record in 10000 meters (held by 🇪🇹 Kenenisa Bekele)");
         }
     } else if (distanceInMeters == 100) {
         if (timeInSeconds == 9.58) {
-            addMessage("This is the world record in 100 meters (held by Usain Bolt)");
+            addMessage("This is the world record in 100 meters (held by 🇯🇲 Usain Bolt)");
         }
     } else if (distanceInMeters == 800) {
         if (timeInSeconds == 100.91) {
-            addMessage("This is the world record in 800 meters (held by David Rudisha)");
+            addMessage("This is the world record in 800 meters (held by 🇰🇪 David Rudisha)");
         }
     }
 
@@ -399,7 +318,10 @@ function easterEggs(distanceInMeters, timeInSeconds, paceInMetersPerSecond) {
     }
 
     function addMessage(msg) {
-        msgElement = $("<div>" + msg + "</div>").appendTo(".messages");
+        msgElement = document.createElement('div');
+        msgElement.innerHTML = "DID YOU KNOW: " + msg;
+        msgElement.className = 'info';
+        document.getElementById('messages').appendChild(msgElement);
     }
 }
 
@@ -407,20 +329,16 @@ function validateUserInput() {
     info("Validating user input...");
 
     context.errors = new Array();
-
-    context.distanceFromUser = Number($("#distance").val());
-    context.distance = getDistanceDTO($("#distanceUnit").val());
-
-    context.splitDistance = getDistanceDTO($("#splitDistanceUnit").val());
-
-    context.hoursFromUser = Number($("#hours").val());
-    context.minutesFromUser = Number($("#minutes").val());
-    context.secondsFromUser = Number($("#seconds").val());
-
-    context.paceFromUser = Number($("#pace").val());
-    context.paceMinutesFromUser = Number($("#paceMinutes").val());
-    context.paceSecondsFromUser = Number($("#paceSeconds").val());
-    context.pace = getPaceDTO($("#paceUnit").val());
+    context.distanceFromUser = Number(document.getElementById('distance').value);
+    context.distance = getDistanceDTO(document.getElementById('distanceUnit').value);
+    context.splitDistance = getDistanceDTO(document.getElementById('splitDistanceUnit').value);
+    context.hoursFromUser = Number(document.getElementById('hours').value);
+    context.minutesFromUser = Number(document.getElementById('minutes').value);
+    context.secondsFromUser = Number(document.getElementById('seconds').value);
+    //context.paceFromUser = Number(document.getElementById('pace').value);
+    context.paceMinutesFromUser = Number(document.getElementById('paceMinutes').value);
+    context.paceSecondsFromUser = Number(document.getElementById('paceSeconds').value);
+    context.pace = getPaceDTO(document.getElementById('paceUnit').value);
 
     context.distanceDefined = context.distanceFromUser > 0 && context.distance != null;
 
@@ -473,7 +391,7 @@ function validateValues() {
     isValid &= validate(context.hoursFromUser);
     isValid &= validate(context.minutesFromUser);
     isValid &= validate(context.secondsFromUser);
-    isValid &= validate(context.paceFromUser);
+    //isValid &= validate(context.paceFromUser);
     isValid &= validate(context.paceMinutesFromUser);
     isValid &= validate(context.paceSecondsFromUser);
 
@@ -493,33 +411,33 @@ function validate(number) {
 
 function clearResult() {
     info("Clearing result...");
-    $("#distances").empty();
-    $("#distances").hide();
-    $("#times").empty();
-    $("#times").hide();
-    $("#paces").empty();
-    $("#paces").hide();
+    document.getElementById('distances').style.display = 'none';
+    document.getElementById('distances').innerHTML = '';
+    document.getElementById('times').style.display = 'none';
+    document.getElementById('times').innerHTML = '';
+    document.getElementById('paces').style.display = 'none';
+    document.getElementById('paces').innerHTML = '';
 }
 
 
 function clearMessages() {
     info("Clearing messages...");
-    $(".messages").empty();
+    document.getElementById('messages').innerHTML = '';
 }
 
 function showMessages() {
     info("Showing messages...");
-    $(".messageWrapper").show();
+    document.getElementById('messageWrapper').style.display = '';
 }
 
 function showResults() {
     info("Showing results...");
-    $(".resultWrapper").show();
+    document.getElementById('resultWrapper').style.display = '';
 }
 
 function showSplitTimes() {
     info("Showing split times...");
-    $(".splitTimeWrapper").show();
+    document.getElementById('splitTimeWrapper').style.display = '';
 }
 
 function addSplitTimesTable(splitTimes) {
@@ -577,14 +495,14 @@ function addSplitTimesTable(splitTimes) {
 //    table += "</tr>";
 //    table += "</table>";
 
-    $(".splitTimes").html(table);
+    document.getElementById('splitTimes').innerHTML = table;
 }
 
 function hideResultInformation() {
     info("Hiding result information...");
-    $(".messageWrapper").hide();
-    $(".resultWrapper").hide();
-    $(".splitTimeWrapper").hide();
+    document.getElementById('messageWrapper').style.display = 'none';
+    document.getElementById('resultWrapper').style.display = 'none';
+    document.getElementById('splitTimeWrapper').style.display = 'none';
 }
 
 function toHMS(timeInSeconds, format) {
@@ -620,10 +538,13 @@ function toHMS(timeInSeconds, format) {
 function convertTimes(timeInSeconds, isTimeDefinedByUser) {
     info("Converting times in result");
 
-    //$("#times").append("<div class='header'>Time</div>");
-    $("#times").append("<tr><th>Time</th></tr>");
-    //var timeHMS = $("<div><span class='resultValue'>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</span></div>").appendTo("#times");
-    var timeHMS = $("<tr><td>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</td></tr>").appendTo("#times");
+    var tr = document.createElement('tr');
+        tr.innerHTML = "<th>Time</th>";
+        document.getElementById('times').appendChild(tr);
+
+    var timeHMS = document.createElement('tr');
+        timeHMS.innerHTML = "<td>" + toHMS(Math.round(timeInSeconds), "hh:mm:ss") + "</td>";
+        document.getElementById('times').appendChild(timeHMS);
     //var timeSeconds = $("<div><span class='resultValue'>" + Math.round(timeInSeconds) + "</span><span class='resultUnit'>s</span></div>").appendTo("#times");
 
     // If time is defined by the user, don't show it.
@@ -635,15 +556,17 @@ function convertTimes(timeInSeconds, isTimeDefinedByUser) {
         //}
     //}
     if (! isTimeDefinedByUser) {
-      $("#times").show();
+        document.getElementById('times').style.display = '';
     }
 }
 
 function convertDistances(distanceInMeters, definedDistance) {
     info("Converting distances in result");
 
-    //$("#distances").append("<div class='header'>Distance</div>");
-    $("#distances").append("<tr><th colspan=2>Distance</th></tr>");
+    var tr = document.createElement('tr');
+        tr.innerHTML = "<th colspan=2>Distance</th>";
+        document.getElementById('distances').appendChild(tr);
+
     for (i = 0; i < distances.length; i++) {
         var distance = distances[i];
         var distanceUnit = distance.unit;
@@ -653,23 +576,26 @@ function convertDistances(distanceInMeters, definedDistance) {
         var convertedDistance = distanceInMeters / distanceFactor;
         convertedDistance = round(convertedDistance, 3);
 
-        //var appendedDistance = $("<div><span class='resultValue'>" + convertedDistance + "</span><span class='resultUnit'>" + distanceUnitLong + "</span></div>").appendTo("#distances");
-        var appendedDistance = $("<tr><td>" + convertedDistance + "</td><td>" + distanceUnitLong + "</td></tr>").appendTo("#distances");
+        var appendedDistance = document.createElement('tr');
+        appendedDistance.innerHTML = "<td>" + convertedDistance + "</td><td>" + distanceUnitLong + "</td>";
+        document.getElementById('distances').appendChild(appendedDistance);
+
         if (definedDistance != null) {
             debug("Comparing " + definedDistance.unit + " with " + distanceUnit);
             if (definedDistance.unit == distanceUnit) {
-                appendedDistance.addClass("definedUnit");
+                appendedDistance.className = "definedUnit";
             }
         }
     }
-    $("#distances").show();
+    document.getElementById('distances').style.display = '';
 }
 
 function convertPaces(paceInMetersPerSecond, definedPace) {
     info("Converting paces in result");
+    var tr = document.createElement('tr');
+        tr.innerHTML = "<th colspan=2>Pace</th>";
+        document.getElementById('paces').appendChild(tr);
 
-    //$("#paces").append("<div class='header'>Pace</div>");
-    $("#paces").append("<tr><th colspan=2>Pace</th></tr>");
     for (i = 0; i < paces.length; i++) {
         var pace = paces[i];
         var paceUnit = pace.unit;
@@ -679,16 +605,18 @@ function convertPaces(paceInMetersPerSecond, definedPace) {
         var convertedPace = isDistancePerTime ? paceInMetersPerSecond / paceFactor : paceFactor / paceInMetersPerSecond;
         convertedPace = isDistancePerTime ? round(convertedPace, 2) : toHMS(Math.round(convertedPace), "mm:ss");
 
-        //var appendedPace = $("<div><span class='resultValue'>" + convertedPace + "</span><span class='resultUnit'>" + paceUnit + "</span></div>").appendTo("#paces");
-        var appendedPace = $("<tr><td>" + convertedPace + "</td><td>" + paceUnit + "</td></tr>").appendTo("#paces");
+        var appendedPace = document.createElement('tr');
+        appendedPace.innerHTML = "<td>" + convertedPace + "</td><td>" + paceUnit + "</td>";
+        document.getElementById('paces').appendChild(appendedPace);
+
         if (definedPace != null) {
             debug("Comparing " + definedPace.unit + " with " + paceUnit);
             if (definedPace.unit == paceUnit) {
-                appendedPace.addClass("definedUnit");
+                appendedPace.className = "definedUnit";
             }
         }
     }
-    $("#paces").show();
+    document.getElementById('paces').style.display = '';
 }
 
 function round(value, decimals) {
@@ -709,31 +637,16 @@ function round(value, decimals) {
 }
 
 function showCorrectPaceFieldsForUser() {
-    var selectedPaceUnit = $("#paceUnit").val();
+    var selectedPaceUnit = document.getElementById('paceUnit').value;
     debug("PaceUnit = " + selectedPaceUnit);
     var distancePerTime = isDistancePerTime(selectedPaceUnit);
 
     if (distancePerTime) {
         debug("Pace " + selectedPaceUnit + " is defined as distance per time");
-        $("#distancePerTime").show();
-        $("#timePerDistance").hide();
-//        $("#pace").show();
-//        $("#paceMinutes").hide();
-//        $("#paceSeconds").hide();
-//        $("#pace").removeAttr("disabled");
-//        $("#paceMinutes").attr("disabled", "disabled");
-//        $("#paceSeconds").attr("disabled", "disabled");
-
+        document.getElementById('timePerDistance').style.display = 'none';
     } else {
         debug("Pace " + selectedPaceUnit + " is defined as time per distance");
-        $("#distancePerTime").hide();
-        $("#timePerDistance").show();
-//        $("#pace").hide();
-//        $("#paceMinutes").show();
-//        $("#paceSeconds").show();
-//        $("#pace").attr("disabled", "disabled");
-//        $("#paceMinutes").removeAttr("disabled");
-//        $("#paceSeconds").removeAttr("disabled");
+        document.getElementById('timePerDistance').style.display = '';
     }
 }
 
@@ -749,6 +662,6 @@ function info(message) {
     }
 }
 
-$(document).ready(function () {
-    init();
+document.addEventListener("DOMContentLoaded", function() {
+    init()
 });

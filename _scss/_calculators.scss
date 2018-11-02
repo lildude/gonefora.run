@@ -68,19 +68,24 @@ fieldset {
 #messageWrapper,
 #resultWrapper,
 #splitTimeWrapper {
-  display: none;
+  display: block;
 }
 
 .error,
 .success,
 .info,
 .warning {
-  padding: 5px;
+  padding: 1rem;
   border-radius: 5px;
+  color: #fff;
 }
 
 .error {
-  background-color: #f2dede;
+  background-color: #dc3545;
+}
+
+.info {
+  background-color: #17a2b8;
 }
 
 .resultValue {
@@ -112,7 +117,7 @@ fieldset {
   }
 }
 /* Calculators */
-.splitTimes {
+#splitTimes {
   .special {
     font-weight: bold;
   }
