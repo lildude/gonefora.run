@@ -86,7 +86,7 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 [[headers]]
   for = "/assets/*"
   [headers.values]
-    Cache-Control = "public, max-age=2678400"
+    Cache-Control = "public, max-age=2629000"
 
 [[headers]]
   for = "*.svg"
@@ -96,7 +96,7 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 [[headers]]
   for = "/img/*"
   [headers.values]
-    Cache-Control = "public, max-age=2678400"
+    Cache-Control = "public, max-age=2629000"
 
 [[headers]]
   for = "/css/*"
