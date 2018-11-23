@@ -8,6 +8,7 @@ gem 'jekyll-seo-tag'
 #gem 'jekyll-feed', :git => 'https://github.com/lildude/jekyll-feed', :branch => 'lildude-customisations'
 gem 'jekyll-feed'
 gem 'minima-dude', :git => 'https://github.com/lildude/minima-dude'
+gem 'jekyll-srcset'
 
 group :development, :test do
   gem 'rake'

@@ -63,11 +63,17 @@ plugins:
   - jekyll-seo-tag
   #- jekyll-json-feed
   - jekyll-feed
+  - jekyll-srcset
 
 # Configure jekyll-feed
 feed:
   path: atom.xml
   use_excerpts: false
+
+# Configure jekyll-srcset
+srcset:
+  optipng: true
+  cache: "_srcset_cache"
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result]
