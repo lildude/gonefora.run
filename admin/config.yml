@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: lildude/gonefora.run
+  branch: master
+media_folder: "img"
+public_folder: "/img"
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "_posts"
+    create: true
+    slug: {{slug}}
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS z"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
