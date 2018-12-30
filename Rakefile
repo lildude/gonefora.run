@@ -37,7 +37,7 @@ task :new, [:title, :bowfmt, :eowfmt] do |t, args|
     post.puts "type: post"
     post.puts "---"
   end
-  system "#{editor} ."
+  #system "#{editor} ."
 end
 
 desc "Begin new short post in _posts"
