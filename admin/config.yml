@@ -18,7 +18,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "note"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS z"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS Z", dateFormat: "D MMM 'YY HH:MM Z"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "post"
@@ -32,6 +32,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS z"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS Z", dateFormat: true}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
