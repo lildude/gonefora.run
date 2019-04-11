@@ -28,7 +28,6 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: false
-    summary: false
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
