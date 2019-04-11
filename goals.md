@@ -20,19 +20,19 @@ add_css: /css/goals.css
 
 I was once a fast runner. Then I stopped, picked it up again, and now find myself a fast runner again.  Here are my all time personal bests:
 
-|-----------+---------+-----------
-| Distance  | Time    | Date
-|-----------|:---------:|-----------
-| 5K        | 16:56   | 2 Jun '18
-| 8K / 5M   | 29:05   | 15 Jun '16
-| 10K       | 34:09   | 21 May '17
-| 15K       | 59:29   | 10 Jan '99
-| 10M       | 57:59   | 14 Apr '17
-| 21.1K     | 1:17:02 | 19 Mar '17
-| 42.2K     | 2:39:46 | 23 Sep '18
-| 50K       | 3:54:46 | 28 Jul '18
-| 56K       | 4:48:24 | 11 Apr '98
-| Comrades - Up  | 7:55:16 | 4 Jun '17
+|-----------------+---------+-----------
+| Distance        | Time    | Date
+|-----------------|:-------:|-----------
+| 5K              | 16:56   | 2 Jun '18
+| 8K / 5M         | 29:05   | 15 Jun '16
+| 10K             | 34:09   | 21 May '17
+| 15K             | 59:29   | 10 Jan '99
+| 10M             | 57:59   | 14 Apr '17
+| 21.1K           | 1:17:02 | 19 Mar '17
+| 42.2K           | 2:39:46 | 23 Sep '18
+| 50K             | 3:54:46 | 28 Jul '18
+| 56K             | 4:48:24 | 11 Apr '98
+| Comrades - Up   | 7:55:16 | 4 Jun '17
 | Comrades - Down | 7:21:03 | 10 Jun '18
 
 ### Goals
@@ -65,7 +65,7 @@ I didn't put a target date on any of these as I didn't want to push myself or be
 | 17  | 21.1km road race in under 90 mins (sub 4:15/km) | [1 Apr '12](/race-report-reading-half-marathon-2012)
 | 18  | 42.2km road race                                | [6 May '13](/it-wasnt-my-day-today)
 | 19  | 42.2km road race in under 3 hours (sub 4:15/km) | [10 Oct '13](/race-report-abingdon-marathon-2013)
-| 20  | [The Comrades Marathon](http://www.comrades.com/) (before I'm 40) | [4 jun '17](/race-report-comrades-2017-an-up-run)
+| 20  | [The Comrades Marathon](http://www.comrades.com/) (before I'm 40) | [4 Jun '17](/race-report-comrades-2017-an-up-run), 10 Jun '18
 
 
 \* - This wasn't the actual date.  This is just the date I realised I'd been doing it for a while and hadn't actually remembered to update this table.
