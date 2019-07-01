@@ -1,8 +1,11 @@
 language: ruby
+cache: bundler
 
 rvm:
 - 2.6.3
 
+git:
+  depth: 3
 
 before_install:
 - gem update --system
@@ -16,4 +19,4 @@ env:
 
 sudo: false # routes build to the container-based infrastructure for a faster build
 
-dist: trusty
+dist: xenial
