@@ -14,5 +14,5 @@ group :development, :test do
   gem 'httpclient'
   gem 'html-proofer', :git => 'https://github.com/lildude/html-proofer.git', :branch => 'iframe-check-https-default'
   gem 'stringex'
-  #gem 'minima-dude', :path => '/Users/lildude/Sites/static/minima-dude'
+  #gem 'minima-dude', :path => '/Users/lildude/Sites/static/jekyll/minima-dude'
 end
