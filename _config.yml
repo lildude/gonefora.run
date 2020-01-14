@@ -71,6 +71,6 @@ feed:
   use_excerpts: false
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result]
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result, script]
 # Don't attempt to process these - ie leave as-is
 keep_files: [assets, img]
