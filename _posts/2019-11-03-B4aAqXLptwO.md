@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B4aAqXLptwO/
 ---
 
-![Instagram - B4aAqXLptwO](https://gonefora.run/img/B4aAqXLptwO.jpg){: .instagram}
+![Instagram - B4aAqXLptwO](https://gonefora.run/img/B4aAqXLptwO.jpg){: .instagram}{:loading="lazy"}
 
-What a way to start your first longish training run in months.  
+What a way to start your first longish training run in months.

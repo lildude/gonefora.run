@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwQJko2JyZh/
 ---
 
-![Instagram - BwQJko2JyZh](https://gonefora.run/img/BwQJko2JyZh.jpg){: .instagram}
+![Instagram - BwQJko2JyZh](https://gonefora.run/img/BwQJko2JyZh.jpg){: .instagram}{:loading="lazy"}
 
-Rain or shine, this is all I need. Bring it on Boston!! For those watching at home... Wave 1. Corral 1. 10:02 start, just behind the really fast guys. Don't miss me.  
+Rain or shine, this is all I need. Bring it on Boston!! For those watching at home... Wave 1. Corral 1. 10:02 start, just behind the really fast guys. Don't miss me.

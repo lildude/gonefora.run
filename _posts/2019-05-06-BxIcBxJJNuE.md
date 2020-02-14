@@ -10,7 +10,7 @@ tags:
 instagram_url: https://www.instagram.com/p/BxIcBxJJNuE/
 ---
 
-![Instagram - BxIcBxJJNuE](https://gonefora.run/img/BxIcBxJJNuE.jpg){: .instagram}
+![Instagram - BxIcBxJJNuE](https://gonefora.run/img/BxIcBxJJNuE.jpg){: .instagram}{:loading="lazy"}
 
 🏃‍♂️: Oooo, a 🦌 in a farmer's field next to the woods.
-🦌: Oooo, a 🏃‍♂️ in the woods next to a farmer's field.   
+🦌: Oooo, a 🏃‍♂️ in the woods next to a farmer's field.
