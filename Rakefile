@@ -93,7 +93,7 @@ task :minify do
     end
   end
 
-  unless images.blank?
+  unless images.empty?
     puts "\n## Compressing new images".yellow
     puts images
     ok_failed(system("echo \"#{images}\" | ~/bin/ImageOptim-CLI-1.11.6/bin/imageoptim --image-alpha --quit"))
