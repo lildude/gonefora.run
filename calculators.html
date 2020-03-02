@@ -27,7 +27,7 @@ add_css: /css/calculators.css
 
             <div id="distanceBlock">
                 <div>
-                    <label for="distance" class="label">Distance:</label><input id="distance" class="calculate form-control" type="number">
+                    <label for="distance" class="label">Distance:</label><input id="distance" class="calculate form-control" type="text" inputmode="numeric" pattern="[0-9]*">
                     <select id="distanceUnit" class="calculate form-control" accesskey="d"></select>
                     <!-- or
                     <select id="pickEvent" class="calculate">
@@ -39,11 +39,11 @@ add_css: /css/calculators.css
             </div>
 
             <div id="timeBlock">
-                <label class="label">Time:</label><input id="hours" class="calculate form-control" type="text" placeholder="HH" pattern="[0-9]*">:<input id="minutes" class="calculate form-control" type="text" placeholder="MM" pattern="[0-9]*">:<input id="seconds" class="calculate form-control" type="text" placeholder="SS" pattern="[0-9]*">
+                <label class="label">Time:</label><input id="hours" class="calculate form-control" type="text" inputmode="numeric" placeholder="HH" pattern="[0-9]*">:<input id="minutes" class="calculate form-control" type="text" inputmode="numeric" placeholder="MM" pattern="[0-9]*">:<input id="seconds" class="calculate form-control" type="text" inputmode="numeric" placeholder="SS" pattern="[0-9]*">
             </div>
 
             <div id="paceBlock">
-              <label class="label">Pace:</label><span id="timePerDistance"><input id="paceMinutes" class="calculate form-control" type="text" placeholder="MM" pattern="[0-9]*">:<input id="paceSeconds" class="calculate form-control" type="text" placeholder="SS" pattern="[0-9]*">
+              <label class="label">Pace:</label><span id="timePerDistance"><input id="paceMinutes" class="calculate form-control" type="text" inputmode="numeric" placeholder="MM" pattern="[0-9]*">:<input id="paceSeconds" class="calculate form-control" type="text" inputmode="numeric" placeholder="SS" pattern="[0-9]*">
               </span>
 
             <span id="distancePerTime">
