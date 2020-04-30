@@ -24,6 +24,9 @@ parkrun:
 powerof10:
   id:             246985
 
+microblog:
+  username:       lildude
+
 social:
   name:           Colin Seymour
   links:
