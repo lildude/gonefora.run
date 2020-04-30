@@ -45,3 +45,4 @@ node_modules
 .jekyll-metadata
 sitespeed-result
 .netlify/state.json
+vendor
