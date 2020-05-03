@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 7e8554a4ed4ec52dece9a48dad6bddc54e7e1da2
+  revision: c7976a3a10434721b56d4c99627eb8677e0f3890
   specs:
     minima-dude (1.0.0)
       jekyll
