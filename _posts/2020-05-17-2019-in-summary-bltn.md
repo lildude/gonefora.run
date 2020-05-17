@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2019 In Summary (BLTN)"
-date: 2020-05-14 15:36:01 +0100
+date: 2020-05-17 19:51:34 +0100
 tags:
 - training
 - racing
