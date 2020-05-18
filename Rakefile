@@ -3,6 +3,7 @@ require "bundler/setup"
 require "yaml"
 require "html-proofer"
 require 'stringex'
+require 'strava-ruby-client'
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
@@ -60,6 +61,68 @@ task :note do
     post.puts "---"
   end
   system "#{editor} #{filename}"
+end
+
+desc "Create draft race report from latest race on Strava"
+task :race do
+  begin
+    client = Strava::Api::Client.new(access_token: ENV['STRAVA_ACCESS_TOKEN'])
+    # Grab first race in the last 30 activities
+    entry = client.athlete_activities(before: 1575302100).select { |a| a.workout_type == 1 }.first
+    # Grab the verbose detailed entry
+    race = client.activity(entry.id)
+    filename = "#{drafts_dir}/race-report-#{race.name.to_url}-#{race.start_date.year}.md"
+    if File.exist?(filename)
+      abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+    end
+
+    File.open(filename, 'w') do |post|
+      # Heavily inspired by that produced by https://coachview.github.io/race-reportr/
+      post.write <<~EOT
+      ---
+      layout: post
+      title: "Race Report: #{race.name}"
+      date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}
+      tags:
+      - race
+      type: post
+      ---
+
+      ### Training
+
+      ### Pre-Race
+
+      ### Race
+
+      <!-- Save the route image from #{race.strava_url}/edit -->
+      {% include figure class="alignright" src="http://via.placeholder.com/375x210?text=Replace+me" alt="#{race.name} Route" caption="Race route ([Strava Entry](#{race.strava_url})" %}
+
+      #{race.description}
+
+      ### Post-Race
+
+      ### Statistics
+
+      - **Race Date:** #{race.}
+      - **Gun time:** #{race.elapsed_time_in_hours_s.gsub(/[hm]/, ':').gsub('s', '')}
+      - **Chip time:**
+      - **Position Overall:**
+      - **Age Group Position:**
+      - **Weather:** #{race.description.split("\n").last}
+
+      EOT
+    end
+
+  rescue Strava::Errors::Fault => e
+    puts <<~EOF
+    Whoops. We have a problem: #{e.message}.
+    You probably need to set/update the access token.
+    Get a new one using:
+
+    $ cd ~/Development/third-party/strava-ruby-client
+    $ STRAVA_CLIENT_ID="1679" STRAVA_CLIENT_SECRET="secret_code_here" bundle exec bin/strava-oauth-token
+    EOF
+  end
 end
 
 desc "Publish a draft post in #{drafts_dir}"
