@@ -63,17 +63,23 @@ task :note do
   system "#{editor} #{filename}"
 end
 
-desc "Create draft race report from latest race on Strava"
-task :race do
+# Usage: rake race or rake race[12345667]
+desc "Create draft race report from latest race on Strava or a specific entry"
+task :race, [:activity_id] do |t, args|
   begin
     client = Strava::Api::Client.new(access_token: ENV['STRAVA_ACCESS_TOKEN'])
-    # Grab first race in the last 30 activities
-    entry = client.athlete_activities(before: 1575302100).select { |a| a.workout_type == 1 }.first
+    # Grab first race in the last 30 activities unless an explicit ID is provided
+    activity_id = args.activity_id || client.athlete_activities(before: 1575302100).select { |a| a.workout_type == 1 }.first.id
+
     # Grab the verbose detailed entry
-    race = client.activity(entry.id)
+    race = client.activity(activity_id)
     filename = "#{drafts_dir}/race-report-#{race.name.to_url}-#{race.start_date.year}.md"
     if File.exist?(filename)
       abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+    end
+
+    if race.photos.use_primary_photo
+      primary_photo = "![GIVE ME A BETTER TITLE](#{race.photos.primary.urls["600"]}){: .alignright width='375'}"
     end
 
     File.open(filename, 'w') do |post|
@@ -95,20 +101,25 @@ task :race do
       ### Race
 
       <!-- Save the route image from #{race.strava_url}/edit -->
-      {% include figure class="alignright" src="http://via.placeholder.com/375x210?text=Replace+me" alt="#{race.name} Route" caption="Race route ([Strava Entry](#{race.strava_url})" %}
+      {% include figure class="alignright" src="http://via.placeholder.com/375x210?text=Replace+me" alt="#{race.name} Route" caption="[View this Race on Strava](#{race.strava_url})" %}
 
       #{race.description}
+
+      #{primary_photo}
 
       ### Post-Race
 
       ### Statistics
 
-      - **Race Date:** #{race.}
+      - **Race Date:** #{race.start_date.strftime('%e %B %Y')}
       - **Gun time:** #{race.elapsed_time_in_hours_s.gsub(/[hm]/, ':').gsub('s', '')}
       - **Chip time:**
       - **Position Overall:**
       - **Age Group Position:**
       - **Weather:** #{race.description.split("\n").last}
+
+      <!-- SVG graphs here -->
+
 
       EOT
     end
