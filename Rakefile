@@ -82,6 +82,20 @@ task :race, [:activity_id] do |t, args|
       primary_photo = "![GIVE ME A BETTER TITLE](#{race.photos.primary.urls["600"]}){: .alignright width='375'}"
     end
 
+    weather = race.description.split("\n").last
+
+    # Themes: streets-v11 outdoors-v11 light-v10 dark-v10 satellite-v9 satellite-streets-v11
+    theme = "light-v10"
+    line_color = "f44"
+    line_width = 2
+    line_opacity = "1.0"
+    start_icon = "url-https%3A%2F%2Fgonefora.run%2Fassets%2Fs.png(#{race.start_latlng[1]},#{race.start_latlng[0]})"
+    finish_icon = "url-https%3A%2F%2Fgonefora.run%2Fassets%2Ff.png(#{race.end_latlng[1]},#{race.end_latlng[0]})"
+    path = CGI::escape(race.map.summary_polyline)
+
+    # TODO: Copy this locally to save on API calls etc
+    img = "https://api.mapbox.com/styles/v1/mapbox/#{theme}/static/path-#{line_width}+#{line_color}-#{line_opacity}(#{path}),#{start_icon},#{finish_icon}/auto/375x210?access_token=#{ENV['MAPBOX_TOKEN']}"
+
     File.open(filename, 'w') do |post|
       # Heavily inspired by that produced by https://coachview.github.io/race-reportr/
       post.write <<~EOT
@@ -100,12 +114,9 @@ task :race, [:activity_id] do |t, args|
 
       ### Race
 
-      <!-- Save the route image from #{race.strava_url}/edit -->
-      {% include figure class="alignright" src="http://via.placeholder.com/375x210?text=Replace+me" alt="#{race.name} Route" caption="[View this Race on Strava](#{race.strava_url})" %}
+      {% include figure class="alignright" src="#{img}" alt="#{race.name} Route" caption="[View this Race on Strava](#{race.strava_url})" %}
 
-      #{race.description}
-
-      #{primary_photo}
+      #{race.description.gsub(weather, "")}
 
       ### Post-Race
 
@@ -116,7 +127,7 @@ task :race, [:activity_id] do |t, args|
       - **Chip time:**
       - **Position Overall:**
       - **Age Group Position:**
-      - **Weather:** #{race.description.split("\n").last}
+      - **Weather:** #{weather.gsub("|", "\\|")}
 
       <!-- SVG graphs here -->
 
@@ -131,7 +142,7 @@ task :race, [:activity_id] do |t, args|
     Get a new one using:
 
     $ cd ~/Development/third-party/strava-ruby-client
-    $ STRAVA_CLIENT_ID="1679" STRAVA_CLIENT_SECRET="secret_code_here" bundle exec bin/strava-oauth-token
+    $ bundle exec bin/strava-oauth-token
     EOF
   end
 end
@@ -256,7 +267,7 @@ end
 
 desc "Generate and display locally"
 task :server do
-  system("JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20")
+  system("JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20 --livereload")
 end
 
 
