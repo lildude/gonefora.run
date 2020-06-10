@@ -9,7 +9,7 @@ type: page
 
 Ever seen someone out running, cycling, swimming or whatever and thought, "I really like that bit of kit, I wonder what it is"? Me too, all the time, so to help you, here's my annual kit bag contents. I'll use this page to document what I'm currently wearing or using for each year, starting January 2020, and update it as things change and as the years go by.
 
-I've keep the links to a minimum as I don't have affiliation links and I don't want to have to keep maintaining them 😁.
+I've kept the links to a minimum as I don't have affiliation links and I don't want to have to keep maintaining them 😁.
 
 ## 2020
 
