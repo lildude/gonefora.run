@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "30 Burpees A Day for 30 Days"
-date: 2020-10-01 15:05:16 +0100
+date: 2020-10-01 15:54:36 +0100
 tags:
 - challenge
 type: post
