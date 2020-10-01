@@ -18,7 +18,7 @@ Today is 1 October and here's how it went, but first some specifics:
 I set myself a few simple rules:
 
 - The only change to be made is to add 30 burpees a day to my normal routine.
-- Each burpee must be a proper full-pushup-with-jump burpee.
+- Each burpee must be a proper full-pushup-with-jump-and-arms-above-head burpee.
 - When, where and how these are done isn't important; just do 30 a day.
 
 ## So How'd It Go?
