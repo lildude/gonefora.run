@@ -90,7 +90,7 @@ feed:
 
 titles_from_content:
   enabled:     true
-  words:       5
+  words:       10
   collections: true
   dotdotdot:   "…"
 
