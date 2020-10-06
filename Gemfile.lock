@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/lildude/jekyll-titles-from-content
+  revision: 447d9a2c106c879338ff91afba7c78bc17e4bb24
+  branch: main
+  specs:
+    jekyll-titles-from-content (0.0.1)
+      jekyll (>= 3.3, < 5.0)
+
+GIT
   remote: https://github.com/lildude/minima-dude
   revision: ba228d32ffc7b068dfd928e2d5fe721d418810e7
   specs:
@@ -50,6 +58,9 @@ GEM
       terminal-table (~> 1.8)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-loading-lazy (0.1.1)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (>= 1.10, < 2.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
@@ -103,9 +114,11 @@ DEPENDENCIES
   httpclient
   jekyll
   jekyll-feed
+  jekyll-loading-lazy
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-titles-from-content!
   minima-dude!
   rake
   stringex
