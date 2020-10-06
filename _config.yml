@@ -89,7 +89,7 @@ feed:
   use_excerpts: false
 
 titles_from_content:
-  enabled:     true
+  enabled:     false
   words:       10
   collections: true
   dotdotdot:   "…"
