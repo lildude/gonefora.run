@@ -80,7 +80,6 @@ plugins:
   #- jekyll-json-feed
   - jekyll-feed
   - jekyll-loading-lazy
-  - jekyll-titles-from-content
   # - jekyll-responsive-image
 
 # Configure jekyll-feed
