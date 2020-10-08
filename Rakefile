@@ -52,13 +52,9 @@ task :note, [:note] do |_t, args|
   now = DateTime.now
   date = DateTime.now.strftime('%F')
   note = ARGV.first || args.note || get_stdin('Enter your note: ')
+  # Make filename from first 5 words
   filename = "#{posts_dir}/#{date}-#{note.split.first(5).join(' ').to_url}.#{new_post_ext}"
 
-  # Old date-based filenaming.
-  # now = DateTime.now
-  # number = now.strftime('%s').to_i % (24 * 60 * 60)
-  # date = now.strftime('%F')
-  # filename = "_posts/#{date}-#{number.to_s.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort('rake aborted!') if ask("#{filename} already exists. Do you want to overwrite?", %w[y n]) == 'n'
   end
@@ -76,7 +72,7 @@ task :note, [:note] do |_t, args|
       #{note}
     CONTENT
   end
-  #system "#{editor} #{filename}"
+  # system "#{editor} #{filename}"
 end
 
 desc "Publish a draft post in #{drafts_dir}"
@@ -139,9 +135,9 @@ task :test do
                                 file_ignore: ['./_site/admin/index.html'],
                                 verbose: true,
                                 # Matches /foo/doo but not //foo/doo - useful for protocol-less links.
-                                href_swap: {%r{(?<!\/)^\/{1}(?!\/)} => config['url']},
+                                href_swap: { %r{ (?<!\/)^\/{1}(?!\/) } => config['url'] },
                                 typhoeus: { verbose: true, followlocation: true },
-                                parallel: { in_processes: 3}
+                                parallel: { in_processes: 3 }
                               }).run
 end
 
@@ -166,7 +162,7 @@ end
 
 def ask(message, valid_options)
   if valid_options
-    answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /, '/')} ".yellow) until valid_options.include?(answer)
+    answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /, '/')} ".yellow) until valid_options.include?(answer) # rubocop:disable Layout/LineLength
   else
     answer = get_stdin(message)
   end
