@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-06-27 12:35:58 +0000
 title: "Daylight & a worn thru strap is probably…"
 type: post

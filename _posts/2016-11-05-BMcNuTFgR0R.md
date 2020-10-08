@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-05 19:51:38 +0000
 title: "At 7:10pm last night our #vanmom predicted our…"
 type: post

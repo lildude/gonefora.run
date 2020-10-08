@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-01-29 13:26:56 +0000
 title: "Look at me relacing my sandals all by…"
 type: post

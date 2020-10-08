@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2014-04-21 14:41:19 +0000
 title: "Enjoying my arvy watching the Boston Marathon out…"
 type: post

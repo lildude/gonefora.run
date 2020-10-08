@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-05 19:07:59 +0000
 title: "Check out our snazzy medals #fithub"
 type: post

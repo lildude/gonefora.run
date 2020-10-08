@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-08 23:38:46 +0000
 title: "Bay Bridge wanted a pic with the nutter…"
 type: post

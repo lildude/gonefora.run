@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-05 18:21:15 +0000
 title: "Team @fithubbers is just about to cross this…"
 type: post

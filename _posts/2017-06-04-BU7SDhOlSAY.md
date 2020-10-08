@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-06-04 17:37:05 +0000
 title: "Is that all!? I slogged my guys out…"
 type: post

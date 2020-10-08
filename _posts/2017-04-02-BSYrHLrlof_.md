@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-04-02 13:59:50 +0000
 title: "Post-race fan boy shot"
 type: post

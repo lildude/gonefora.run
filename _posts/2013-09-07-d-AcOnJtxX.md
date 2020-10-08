@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2013-09-07 18:14:13 +0000
 title: "Give Me a Shout | Give me shout…"
 type: post

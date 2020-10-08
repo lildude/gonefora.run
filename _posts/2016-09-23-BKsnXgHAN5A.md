@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-09-23 11:40:46 +0000
 title: "Added my tag to the Berlin Marathon graffiti…"
 type: post

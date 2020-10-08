@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-09-23 11:54:30 +0000
 title: "Huh? Erdinger now make sports bars!?"
 type: post

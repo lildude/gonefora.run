@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-06-15 09:42:19 +0000
 title: "Just a small insignificant hill spotted on my…"
 type: post

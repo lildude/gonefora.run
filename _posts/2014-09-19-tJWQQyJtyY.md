@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2014-09-19 23:47:23 +0000
 title: "Ragnar Exchange 10: The end of my first…"
 type: post

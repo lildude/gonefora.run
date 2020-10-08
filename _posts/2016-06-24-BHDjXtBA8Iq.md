@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-06-24 23:22:48 +0000
 title: "This is gonna be my sweatiest parkrun ever…"
 type: post

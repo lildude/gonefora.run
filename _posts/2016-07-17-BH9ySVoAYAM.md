@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-07-17 14:09:05 +0000
 title: "Just gonna pop up that hill. Back in…"
 type: post
