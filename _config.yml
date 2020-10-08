@@ -88,12 +88,6 @@ feed:
   path: atom.xml
   use_excerpts: false
 
-titles_from_content:
-  enabled:     false
-  words:       10
-  collections: true
-  dotdotdot:   "…"
-
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result, script]
 # Don't attempt to process these - ie leave as-is

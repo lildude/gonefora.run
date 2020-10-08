@@ -12,7 +12,7 @@ gem 'jekyll-loading-lazy'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 # gem 'jekyll-titles-from-content', path: '/Users/lildude/Sites/static/jekyll/plugins/jekyll-titles-from-content'
-gem 'jekyll-titles-from-content', git: 'https://github.com/lildude/jekyll-titles-from-content', branch: 'main'
+# gem 'jekyll-titles-from-content', git: 'https://github.com/lildude/jekyll-titles-from-content', branch: 'main'
 gem 'minima-dude', git: 'https://github.com/lildude/minima-dude'
 
 group :development, :test do

@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/lildude/jekyll-titles-from-content
-  revision: 447d9a2c106c879338ff91afba7c78bc17e4bb24
-  branch: main
-  specs:
-    jekyll-titles-from-content (0.0.1)
-      jekyll (>= 3.3, < 5.0)
-
-GIT
   remote: https://github.com/lildude/minima-dude
   revision: ba228d32ffc7b068dfd928e2d5fe721d418810e7
   specs:
@@ -118,7 +110,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-titles-from-content!
   minima-dude!
   rake
   stringex
