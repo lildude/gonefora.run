@@ -11,6 +11,7 @@ drafts_dir      = '_drafts'   # directory for draft files
 posts_dir       = '_posts'    # directory for blog files
 new_post_ext    = 'md'        # default new post file extension when using the new_post task
 editor          = ENV['JEKYLL_EDITOR'] || ENV['VISUAL'] || ENV['EDITOR'] # default editor to use
+config          = YAML.load_file('_config.yml')
 
 ## -- Tasks -- ##
 
@@ -41,6 +42,67 @@ task :new, [:title] do |_t, args|
   end
   system "#{editor} #{filename}"
 end
+
+desc 'Rename notes with titles'
+task :renamenotestitles do
+  Dir.glob("#{posts_dir}/*.md") do |file|
+    #puts "working on: #{file}...".blue
+    data, content = read_yaml(file)
+    next unless file =~ /-\d{5,}\.md/
+
+    puts "old: #{file}".blue
+    prefix = file.split("-")[0..2].join("-")
+    new_name = "#{prefix}-#{content.split(%r{ |-}).first(5).join(" ").to_url}.md"
+    puts "new: #{new_name}".pink
+    File.rename(file, new_name)
+    system("git rm #{file}")
+    system("git add #{new_name}")
+  end
+end
+
+desc 'Rename notes'
+task :renamenotes do
+  Dir.glob("#{posts_dir}/*.md") do |file|
+    #puts "working on: #{file}...".blue
+    data, content = read_yaml(file)
+    next if data["title"]
+
+    puts "old: #{file}".blue
+    prefix = file.split("-")[0..2].join("-")
+    new_name = "#{prefix}-#{content.split(%r{ |-}).first(5).join(" ").to_url}.md"
+    puts "new: #{new_name}".pink
+    File.rename(file, new_name)
+    system("git rm #{file}")
+    system("git add #{new_name}")
+  end
+end
+desc 'Rename insta'
+task :renameinsta do
+  Dir.glob("#{posts_dir}/*.md") do |file|
+    #puts "working on: #{file}...".blue
+    data, content = read_yaml(file)
+    next if data["layout"] != "photo"
+
+    puts "old: #{file}".blue
+    prefix = file.split("-")[0..2].join("-")
+    new_name = "#{prefix}-#{data["title"].gsub(/…/, "").to_url}.md"
+    puts "new: #{new_name}".pink
+
+    File.rename(file, new_name)
+    system("git rm #{file}")
+    system("git add #{new_name}")
+  end
+end
+
+
+YAML_FRONT_MATTER_REGEXP = /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
+
+def read_yaml(file)
+  if File.read(file) =~ YAML_FRONT_MATTER_REGEXP
+    data, content = YAML.load($1), Regexp.last_match.post_match
+  end
+end
+
 
 # Usage: rake note "The test of your note", or
 #        rake note ["The text of your note"], or
