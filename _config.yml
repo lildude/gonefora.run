@@ -15,16 +15,6 @@ author:           'Colin Seymour'
 lang:             en-GB
 theme:            minima-dude
 
-# Defaults for the entire site
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      title: ""
-
 twitter:
   username:       lildude
 strava:
