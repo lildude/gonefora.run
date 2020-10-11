@@ -26,7 +26,7 @@ powerof10:
 
 microblog:
   username:       lildude
-  #site:           dev
+  site:           dev
 
 social:
   name:           Colin Seymour
