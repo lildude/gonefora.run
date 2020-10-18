@@ -15,7 +15,7 @@ author:           'Colin Seymour'
 lang:             en-GB
 theme:            minima-dude
 
-# Defaults for the entire site
+# Defaults for the entire site - this ensures my notes and photos which use implied titles don't get a title in the feed
 defaults:
   -
     scope:
@@ -36,7 +36,7 @@ powerof10:
 
 microblog:
   username:       lildude
-  site:           dev
+  #site:           dev
 
 social:
   name:           Colin Seymour
