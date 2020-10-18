@@ -36,7 +36,7 @@ powerof10:
 
 microblog:
   username:       lildude
-  site:           /dev     # Needs the slash cos I'm lazy in my theme.
+  #site:           /dev     # Needs the slash cos I'm lazy in my theme.
 
 social:
   name:           Colin Seymour
