@@ -81,6 +81,7 @@ plugins:
   - jekyll-feed
   - jekyll-loading-lazy
   # - jekyll-responsive-image
+  - jekyll-include-cache
 
 # Configure jekyll-feed
 feed:
@@ -88,6 +89,6 @@ feed:
   use_excerpts: false
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result, script]
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result, script, .jekyll-cache]
 # Don't attempt to process these - ie leave as-is
 keep_files: [assets, img]
