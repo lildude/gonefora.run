@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'jekyll-paginate'
 # gem 'jekyll-feed', git: 'https://github.com/lildude/jekyll-feed', branch: 'lildude-customisations'
 gem 'jekyll-feed'
 gem 'jekyll-loading-lazy'
