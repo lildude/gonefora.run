@@ -89,6 +89,23 @@ feed:
   use_excerpts: false
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, sitespeed-result, script, .jekyll-cache]
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - LICENSE
+  - Rakefile
+  - README.md
+  - vendor
+  - sitespeed-result
+  - script
+  - .jekyll-cache
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tmp
 # Don't attempt to process these - ie leave as-is
-keep_files: [assets, img]
+keep_files:
+  - assets
+  - img
