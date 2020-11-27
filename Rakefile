@@ -205,7 +205,7 @@ end
 
 desc 'Generate and display locally'
 task :server do
-  system('JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20')
+  system('JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20 --livereload')
 end
 
 ## -- Misc Functions -- ##
