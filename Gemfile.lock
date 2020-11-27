@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 85ac35958f68d1f3de18ecb77bfa5e590b642841
+  revision: 663b6f578d5d687a13a7950be4506b8c84ce219e
   branch: main
   specs:
     minima-dude (1.0.0)
