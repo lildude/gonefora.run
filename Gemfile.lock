@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 75f00c06424d3d84ddc51d52926fa4ea4599ee74
+  revision: 667b708731372c421a673a2b5090cac436dfa166
   branch: main
   specs:
     minima-dude (1.0.0)
@@ -72,7 +72,7 @@ GEM
     liquid (4.0.3)
     liquid-c (4.0.0)
       liquid (>= 3.0.0)
-    listen (3.3.1)
+    listen (3.3.3)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
