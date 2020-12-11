@@ -2,7 +2,7 @@ name: Sync WP to Static
 
 on:
   schedule:
-    - cron:  '11 * * * *'
+    - cron:  '11 * * * 1'
 
 jobs:
   sync:
