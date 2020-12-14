@@ -191,8 +191,10 @@ task :test do
                                 check_favicon: true,
                                 check_html: true,
                                 disable_external: true,
-                                check_img_http: true,
+                                # Disabled until https://github.com/gjtorikian/html-proofer/issues/363 is fixed
+                                check_img_http: false,
                                 check_iframe_http: true,
+                                check_opengraph: true,
                                 cache: { timeframe: '2w' },
                                 empty_alt_ignore: false,
                                 file_ignore: ['./_site/admin/index.html'],

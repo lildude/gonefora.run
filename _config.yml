@@ -15,6 +15,10 @@ author:           'Colin Seymour'
 lang:             en-GB
 theme:            minima-dude
 
+dns_prefetch:
+  - images.weserv.nl
+  - d33wubrfki0l68.cloudfront.net
+
 # Defaults for the entire site - this ensures my notes and photos which use implied titles don't get a title in the feed
 defaults:
   -
@@ -82,6 +86,7 @@ plugins:
   - jekyll-loading-lazy
   # - jekyll-responsive-image
   - jekyll-include-cache
+  - jekyll-image-cache
 
 # Configure jekyll-feed
 feed:

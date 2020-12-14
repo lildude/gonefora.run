@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/lildude/jekyll-image-cache
+  revision: 9ea154d404b503e5be7646545338c5c3430c949d
+  branch: main
+  specs:
+    jekyll-image-cache (0.0.1)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (>= 1.10, < 2.0)
+
+GIT
   remote: https://github.com/lildude/minima-dude
   revision: 667b708731372c421a673a2b5090cac436dfa166
   branch: main
@@ -111,6 +120,7 @@ DEPENDENCIES
   httpclient
   jekyll
   jekyll-feed
+  jekyll-image-cache!
   jekyll-include-cache
   jekyll-loading-lazy
   jekyll-seo-tag

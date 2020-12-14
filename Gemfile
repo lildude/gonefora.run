@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'jekyll'
 # gem 'jekyll-feed', git: 'https://github.com/lildude/jekyll-feed', branch: 'lildude-customisations'
 gem 'jekyll-feed'
+gem 'jekyll-image-cache', git: 'https://github.com/lildude/jekyll-image-cache', branch: 'main'
+# gem 'jekyll-image-cache', path: '/Users/lildude/Development/jekyll-image-cache'
 gem 'jekyll-loading-lazy'
 # gem 'jekyll-responsive-image'  # TODO: Need to experiment with this more - https://github.com/wildlyinaccurate/jekyll-responsive-image
 # gem 'jekyll-seo-tag', git: 'https://github.com/lildude/jekyll-seo-tag', branch: 'lildude-customisations'
