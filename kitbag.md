@@ -11,13 +11,13 @@ Ever seen someone out running, cycling, swimming or whatever and thought, "I rea
 
 I've kept the links to a minimum as I don't have affiliation links and I don't want to have to keep maintaining them 😁.
 
-## 2020
+## 2021
 
 ### Running
 
 |---|---|
 | **Road training shoes**   | Altra Escalante 2.0 <small>(Updated: 19 Jun '19)</small>
-| **Road racing shoes**     | Altra Solstice
+| **Road racing shoes**     | None right now
 | **Alternate road shoes**  | Luna Sandals Mono Winged Sandals
 | **Trail shoes**           | Merrell Trail Glove 4
 | **Mud shoes**             | Altra Superior 4.0
@@ -25,7 +25,7 @@ I've kept the links to a minimum as I don't have affiliation links and I don't w
 | **Socks**                 | Injinji toe socks
 | **Tops**                  | Vests. Free shirts from races and a few cheapies from Decathlon
 | **Bottoms**               | Ron Hill Stride Cargo Racer Short (short shorts 😉). Cheapie tights from Decathlon when freezing cold
-| **Watch**                 | Garmin Forerunner 945 with running HR strap. Used for cycling and swimming too
+| **Watch**                 | Coros Pace 2 & Garmin Forerunner 945 with running HR strap. Used for cycling, rowing and swimming too
 | **Long Run Hydration**    | Salmon ADV Skin3 12 hydration vest (2018, red)
 | **Headphones**            | Aftershokz Aeropex
 
@@ -53,4 +53,4 @@ I've kept the links to a minimum as I don't have affiliation links and I don't w
 | What                                 | DoB         | Retired     | Dist.   | Reason
 |--------------------------------------|-------------|-------------|---------|--------
 | Altra Escalante Racer - London 2019  | 13/05/2019  | 19/06/2020  | 1907km  | Gaping holes in the upper on the outside of each foot barely containing my feet.
-
+| Altra Solstice                       | 20/09/2018  | 13/12/2020  | 824km   | As above. Seems to be a common issue with Altras for me.
