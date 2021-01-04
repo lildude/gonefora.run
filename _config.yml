@@ -41,6 +41,7 @@ powerof10:
 microblog:
   username:       lildude
   site:           /run     # Needs the slash cos I'm lazy in my theme.
+webmentions:      gonefora.run
 
 social:
   name:           Colin Seymour
