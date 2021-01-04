@@ -11,7 +11,7 @@ description:      'Where else would I have gone?'
 url:              https://gonefora.run
 baseurl:          ""
 logo:             /assets/favicon.png
-author:           'Colin Seymour'
+author:           'lildude'
 lang:             en-GB
 theme:            minima-dude
 
