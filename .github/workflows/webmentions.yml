@@ -20,6 +20,7 @@ jobs:
 
       - name: Fetch webmentions
         env:
+          DOMAIN_NAME: gonefora.run
           WEBMENTIONS_TOKEN: ${{ secrets.WEBMENTIONS_TOKEN }}
         run: node ./.github/webmentions.js
 
