@@ -1,0 +1,30 @@
+name: Webmentions
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  webmentions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12.x
+
+      - name: Fetch webmentions
+        env:
+          WEBMENTIONS_TOKEN: ${{ secrets.WEBMENTIONS_TOKEN }}
+        run: node ./.github/webmentions.js
+
+      - name: Commit webmentions
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Add webmentions
+          file_pattern: data/webmentions/*.json
