@@ -47,3 +47,4 @@ sitespeed-result
 .netlify/state.json
 vendor
 .jekyll-cache
+.env
