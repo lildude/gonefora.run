@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My First Rowing Competition: Row'd Royalty 2021"
-date: 2021-01-15 15:21:24 +0000
+date: 2021-01-15 16:16:37 +0000
 tags:
 - rowing
 type: post
