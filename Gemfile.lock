@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/lildude/jekyll-image-cache
-  revision: 9ea154d404b503e5be7646545338c5c3430c949d
+  revision: c69d91d2accf713980afb39d1c224c70c1e86b03
   branch: main
   specs:
-    jekyll-image-cache (0.0.1)
+    jekyll-image-cache (0.0.2)
       jekyll (>= 3.0, < 5.0)
       nokogiri (>= 1.10, < 2.0)
 
@@ -23,14 +23,14 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
-    concurrent-ruby (1.1.7)
+    concurrent-ruby (1.1.8)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     ethon (0.12.0)
       ffi (>= 1.3.0)
     eventmachine (1.2.7)
-    ffi (1.14.2)
+    ffi (1.15.0)
     forwardable-extended (2.6.0)
     html-proofer (3.16.0)
       addressable (~> 2.3)
@@ -42,7 +42,7 @@ GEM
       yell (~> 2.0)
     http_parser.rb (0.6.0)
     httpclient (2.8.3)
-    i18n (1.8.7)
+    i18n (1.8.9)
       concurrent-ruby (~> 1.0)
     jekyll (4.2.0)
       addressable (~> 2.4)
@@ -74,19 +74,19 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
     liquid-c (4.0.0)
       liquid (>= 3.0.0)
-    listen (3.4.0)
+    listen (3.4.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.5.0)
-    nokogiri (1.11.0)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     nokogumbo (2.0.2)
