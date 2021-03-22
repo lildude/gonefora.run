@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: cac8fafebf0ae665d023871afb5027adccd6fb2e
+  revision: d276446a1945a6c88eaf1e92f3bbca4e2aae86d4
   branch: main
   specs:
     minima-dude (1.0.0)
