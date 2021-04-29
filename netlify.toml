@@ -57,6 +57,7 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
   for = "/*"
   [headers.values]
     Link = "</assets/main.css>; rel=preload; as=style"
+    Permissions-Policy = "interest-cohort=()"
 
 [[headers]]
   for = "/"
