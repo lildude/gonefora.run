@@ -63,15 +63,15 @@ sass:
   sass_dir:       _scss
   style:          compressed
 
-compress_html:
-  clippings:      all
-  comments:       ["<!-- ", " -->"]
-  #endings:        all # Commented out in favour of selecting all _except_ p as this breaks formatting
-  endings:        [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
-  ignore:
-    envs:         [test, local, development]
-  profile:        false
-  startings:      [html, body]
+# compress_html:
+#   clippings:      all
+#   comments:       ["<!-- ", " -->"]
+#   #endings:        all # Commented out in favour of selecting all _except_ p as this breaks formatting
+#   endings:        [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+#   ignore:
+#     envs:         [test, local, development]
+#   profile:        false
+#   startings:      [html, body]
 
 # Configure kramdown
 kramdown:
@@ -82,10 +82,8 @@ kramdown:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  #- jekyll-json-feed
   - jekyll-feed
   - jekyll-loading-lazy
-  # - jekyll-responsive-image
   - jekyll-include-cache
   - jekyll-image-cache
 
