@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: e1bc0a7e0b695ad146884183fccb3fb1e4c4bf28
+  revision: e233bc2df9b38be35703f62997442add46375317
   branch: remove-compress
   specs:
     minima-dude (1.0.0)
