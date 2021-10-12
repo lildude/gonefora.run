@@ -14,6 +14,18 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 #[context.branch-deploy.environment]
 #  JEKYLL_ENV = "development"
 
+# Config for the Netlify Build Plugin: netlify-plugin-minify-html
+[[plugins]]
+  package = "netlify-plugin-minify-html"
+  [plugins.inputs]
+    contexts = [
+      'production',
+      'branch-deploy',
+      'deploy-preview'
+    ]
+  # Optionally, override the default options for the minification
+  # https://github.com/kangax/html-minifier#options-quick-reference
+  [plugins.inputs.minifierOptions]
 # Gone AWOL
 [[redirects]]
   from = "/privacy"

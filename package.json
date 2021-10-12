@@ -1,4 +1,7 @@
 {
   "name": "purgecss",
-  "version": "2.0.0"
+  "version": "2.0.0",
+  "devDependencies": {
+    "netlify-plugin-minify-html": "^0.3.1"
+  }
 }

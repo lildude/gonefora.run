@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: ad7d24b59e8d88cf6d1be8a1fad7cd772bcdc277
-  branch: main
+  revision: c174442219a684f94cbbe7c0ff90a0a5db340da1
+  branch: remove-compress
   specs:
     minima-dude (1.0.0)
       jekyll
