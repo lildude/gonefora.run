@@ -26,7 +26,11 @@ add_css: /css/archives.css
         <circle cx="16" cy="16" r="5" />
       </svg>
       {% endif %}
-      {{ post.title }}
+        {% if post.title != "" %}
+        {{ post.title }}
+        {% else %}
+        {{ post.content | strip_html | truncatewords: 10 }}
+        {% endif %}
       {% endif %}
     </a></li>
 {% endfor %}
