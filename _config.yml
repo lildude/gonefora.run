@@ -86,7 +86,7 @@ feed:
 picture:
   #source: "img"
   output: "g"
-  relative_url: true
+  relative_url: false
   ignore_baseurl: true
   fast_build: development
 
