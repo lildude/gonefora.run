@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 357ac4831451497614083196639f7648039af3f6
+  revision: e152fe7304e229858820a8b8f7ed12a29c06c677
   branch: main
   specs:
     minima-dude (1.0.0)
@@ -42,7 +42,7 @@ GEM
       yell (~> 2.0)
     http_parser.rb (0.6.0)
     httpclient (2.8.3)
-    i18n (1.8.10)
+    i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     jekyll (4.2.1)
       addressable (~> 2.4)
