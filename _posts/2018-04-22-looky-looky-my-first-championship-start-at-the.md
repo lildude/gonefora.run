@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bh3zcUBFO8D/
 ---
 
-![Instagram - Bh3zcUBFO8D](https://gonefora.run/img/Bh3zcUBFO8D.jpg){: .instagram}
+{% picture u-photo img/Bh3zcUBFO8D.jpg %}
 
 Looky looky. My first championship start at the  

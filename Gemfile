@@ -3,20 +3,22 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-# gem 'jekyll-feed', git: 'https://github.com/lildude/jekyll-feed', branch: 'lildude-customisations'
-gem 'jekyll-feed'
-gem 'jekyll-image-cache', git: 'https://github.com/lildude/jekyll-image-cache', branch: 'main'
-# gem 'jekyll-image-cache', path: '/Users/lildude/Development/jekyll-image-cache'
-gem 'jekyll-loading-lazy'
-# gem 'jekyll-responsive-image'  # TODO: Need to experiment with this more - https://github.com/wildlyinaccurate/jekyll-responsive-image
-# gem 'jekyll-seo-tag', git: 'https://github.com/lildude/jekyll-seo-tag', branch: 'lildude-customisations'
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
-# gem 'jekyll-titles-from-content', path: '/Users/lildude/Sites/static/jekyll/plugins/jekyll-titles-from-content'
-# gem 'jekyll-titles-from-content', git: 'https://github.com/lildude/jekyll-titles-from-content', branch: 'main'
+
 gem 'minima-dude', git: 'https://github.com/lildude/minima-dude', branch: 'main'
-gem 'jekyll-include-cache'
 gem 'liquid-c'
+
+group :jekyll_plugins do
+  # gem 'jekyll-responsive-image'  # TODO: Need to experiment with this more - https://github.com/wildlyinaccurate/jekyll-responsive-image
+  gem 'jekyll-feed'
+  # gem 'jekyll-feed', git: 'https://github.com/lildude/jekyll-feed', branch: 'lildude-customisations'
+  #gem 'jekyll-image-cache', git: 'https://github.com/lildude/jekyll-image-cache', branch: 'main'
+  # gem 'jekyll-image-cache', path: '/Users/lildude/Development/jekyll-image-cache'
+  gem 'jekyll-include-cache'
+  #gem 'jekyll-loading-lazy'
+  gem 'jekyll_picture_tag'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+end
 
 group :development, :test do
   gem 'html-proofer'

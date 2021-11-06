@@ -13,6 +13,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B0s6lxVpQZk/
 ---
 
-![Winner!! Winner!! Chicken Dinner!! My first race victory…](https://gonefora.run/img/B0s6lxVpQZk.jpg){: .instagram}{:loading="lazy"}{: .u-photo}
+{% picture u-photo img/B0s6lxVpQZk.jpg %}
 
 Winner!! Winner!! Chicken Dinner!! My first race victory came today at the Round Reading Ultra Marathon 50k (RRUM50). I only did it for the rum 😂🤣
