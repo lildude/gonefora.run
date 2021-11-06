@@ -2,7 +2,7 @@
 layout: photo
 date: 2021-01-25 14:44:08 +0000
 ---
-{% picture u-photo img/ceb14483cdd4.jpg %}
+![](https://gonefora.run/img/ceb14483cdd4.jpg){: .u-photo}
   
 Row’d Royalty workout 2: 10 Minutes To Midnight
 

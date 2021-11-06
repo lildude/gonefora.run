@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BlfUo-ylrGn/
 ---
 
-{% picture u-photo img/BlfUo-ylrGn.jpg %}
+![Instagram - BlfUo-ylrGn](https://gonefora.run/img/BlfUo-ylrGn.jpg){: .instagram}
 
 I don't think I've ever seen this before... First 5 in increasing age category by position @dintonparkrun today  /cc @tomwilliams1974 cos you like number things like this

@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BjwmpA2ljdJ/
 ---
 
-{% picture u-photo img/BjwmpA2ljdJ.jpg %}
+![Instagram - BjwmpA2ljdJ](https://gonefora.run/img/BjwmpA2ljdJ.jpg){: .instagram}
 
 Taking a quick test stop in Arthur’s seat  

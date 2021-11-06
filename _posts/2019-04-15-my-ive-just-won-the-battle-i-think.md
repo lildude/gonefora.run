@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwSxB7Jp_OM/
 ---
 
-{% picture u-photo img/BwSxB7Jp %}
+![Instagram - BwSxB7Jp_OM](https://gonefora.run/img/BwSxB7Jp_OM.jpg){: .instagram}{:loading="lazy"}
 
 My "I've just won the battle, I think I might go 🤮 once I'm done smiling" face 🤣😂

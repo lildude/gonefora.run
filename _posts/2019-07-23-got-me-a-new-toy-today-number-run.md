@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B0QfbTTpOcl/
 ---
 
-{% picture u-photo img/B0QfbTTpOcl.jpg %}
+![Instagram - B0QfbTTpOcl](https://gonefora.run/img/B0QfbTTpOcl.jpg){: .instagram}{:loading="lazy"}
 
 Got me a new toy today 🤩

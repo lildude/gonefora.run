@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B31p0fyJe0C/
 ---
 
-{% picture u-photo img/B31p0fyJe0C.jpg %}
+![Race recovery Portuguese-style… beer and a pasteis de nata](https://gonefora.run/img/B31p0fyJe0C.jpg){: .instagram}{:loading="lazy"}{: .u-photo}
 
 Race recovery Portuguese-style… beer and a pasteis de nata 😋

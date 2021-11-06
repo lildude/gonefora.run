@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B5hSpqcp2Oh/
 ---
 
-{% picture u-photo img/B5hSpqcp2Oh.jpg %}
+![Good morning Valencia Time for a marathon around…](https://gonefora.run/img/B5hSpqcp2Oh.jpg){: .instagram}{:loading="lazy"}{: .u-photo}
 
 Good morning Valencia. Time for a marathon around the city.

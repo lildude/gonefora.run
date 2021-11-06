@@ -32,7 +32,7 @@ Score B: Time it took to row the entire 2000m
 
 My results (a cropped version of the photo I submitted as proof):
 
-{% picture u-photo img/RR21.1-proof.jpg %}
+![RR21.1: Water Water Everywhere](https://gonefora.run/img/RR21.1-proof.jpg){: .u-photo}
 
 Score A: 1:38.4  
 Score B: 6:51.9 which is a new 2k PB for me by 8s too.

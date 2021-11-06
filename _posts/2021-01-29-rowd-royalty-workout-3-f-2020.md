@@ -2,7 +2,7 @@
 layout: photo
 date: 2021-01-29 15:55:15 +0000
 ---
-{% picture u-photo img/3cc3b1edd21f.jpg %}
+![](https://gonefora.run/img/3cc3b1edd21f.jpg){: .u-photo}
   
 Row’d Royalty workout 3: F-2020!!
 

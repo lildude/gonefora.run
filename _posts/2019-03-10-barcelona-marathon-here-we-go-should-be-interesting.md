@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bu0Wv8inI-V/
 ---
 
-{% picture u-photo img/Bu0Wv8inI-V.jpg %}
+![Instagram - Bu0Wv8inI-V](https://gonefora.run/img/Bu0Wv8inI-V.jpg){: .instagram}{:loading="lazy"}
 
 Barcelona Marathon here we go. Should be interesting with tender ribs from a recent "fall"

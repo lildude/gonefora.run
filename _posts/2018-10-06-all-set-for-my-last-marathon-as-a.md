@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BomfYNrglon/
 ---
 
-{% picture u-photo img/BomfYNrglon.jpg %}
+![Instagram - BomfYNrglon](https://gonefora.run/img/BomfYNrglon.jpg){: .instagram}
 
 All set for my last marathon as a youngster at tomorrow's @_chester_marathon_ 🤞for a PB too 

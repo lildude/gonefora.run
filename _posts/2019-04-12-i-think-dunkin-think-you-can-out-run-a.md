@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwKXOgOJ2jP/
 ---
 
-{% picture u-photo img/BwKXOgOJ2jP.jpg %}
+![Instagram - BwKXOgOJ2jP](https://gonefora.run/img/BwKXOgOJ2jP.jpg){: .instagram}{:loading="lazy"}
 
 I think Dunkin think you can out-run a bad diet.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B4-804opyLQ/
 ---
 
-{% picture u-photo img/B4-804opyLQ.jpg %}
+![Was forced to walk during my run this…](https://gonefora.run/img/B4-804opyLQ.jpg){: .instagram}{:loading="lazy"}{: .u-photo}
 
 Was forced to walk during my run this morning by the unruly youths hogging the path 😂🤣

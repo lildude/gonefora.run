@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BfnfkeplA-R/
 ---
 
-{% picture u-photo img/BfnfkeplA-R.jpg %}
+![Instagram - BfnfkeplA-R](https://gonefora.run/img/BfnfkeplA-R.jpg?v=1){: .instagram}
 
 3:04:20 at the Seville Marathon off bugger all training. This is gonna hurt in the morning 😬
