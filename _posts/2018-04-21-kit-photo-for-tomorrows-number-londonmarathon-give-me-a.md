@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bh019UKF1j1/
 ---
 
-![Instagram - Bh019UKF1j1](https://gonefora.run/img/Bh019UKF1j1.jpg){: .instagram}
+{% picture u-photo img/Bh019UKF1j1.jpg %}
 
 Kit photo for tomorrow's . Give me a wave and shout when you see me… I plan to be somewhere near the back of the front 😁  

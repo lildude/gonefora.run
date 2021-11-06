@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BnoOnFzlyCK/
 ---
 
-![Instagram - BnoOnFzlyCK](https://gonefora.run/img/BnoOnFzlyCK.jpg){: .instagram}
+{% picture u-photo img/BnoOnFzlyCK.jpg %}
 
 Woohoo!! Spring break in Boston!!! Stepping up an age category has its advantages 😁  

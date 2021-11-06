@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BpUkojRAt8f/
 ---
 
-![Instagram - BpUkojRAt8f](https://gonefora.run/img/BpUkojRAt8f.jpg){: .instagram}{:loading="lazy"}
+{% picture u-photo img/BpUkojRAt8f.jpg %}
 
 Time to send my first ever pair of @altrarunning shoes to the big shoe heaven in the sky. 2560.7km later and I can see daylight through the bottom of the left.
