@@ -63,16 +63,6 @@ sass:
   sass_dir:       _scss
   style:          compressed
 
-# compress_html:
-#   clippings:      all
-#   comments:       ["<!-- ", " -->"]
-#   #endings:        all # Commented out in favour of selecting all _except_ p as this breaks formatting
-#   endings:        [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
-#   ignore:
-#     envs:         [test, local, development]
-#   profile:        false
-#   startings:      [html, body]
-
 # Configure kramdown
 kramdown:
   input:            GFM
