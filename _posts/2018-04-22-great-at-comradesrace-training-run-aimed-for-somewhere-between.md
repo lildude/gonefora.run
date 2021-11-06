@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bh31D_HF324/
 ---
 
-{% picture u-photo img/Bh31D %}
+{% picture u-photo img/Bh31D_HF324.jpg %}
 
 Great @ComradesRace training run. Aimed for somewhere between 2:50 and 2:55 and hit it bang on 2:52:30 
