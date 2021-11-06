@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bj19vlxFfD3/
 ---
 
-![Instagram - Bj19vlxFfD3](https://gonefora.run/img/Bj19vlxFfD3.jpg){: .instagram}
+{% picture u-photo img/Bj19vlxFfD3.jpg %}
 
 Woohoo! Did it! sub-7:30 to get the silver medal I've been wanting. Got the back-to-back too  

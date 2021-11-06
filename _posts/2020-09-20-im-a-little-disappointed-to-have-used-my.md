@@ -11,6 +11,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CFXbsXlpNxX/
 ---
 
-![Instagram - CFXbsXlpNxX](https://gonefora.run/img/CFXbsXlpNxX.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CFXbsXlpNxX.jpg %}
 
 I’m a little disappointed to have used my last 50% investor discount on these @vivobarefoot shoes, only because they’re so comfy I should have bought many pairs.    

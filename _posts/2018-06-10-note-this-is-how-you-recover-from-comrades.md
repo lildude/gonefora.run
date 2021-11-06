@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bj2KbVjlQhy/
 ---
 
-![Instagram - Bj2KbVjlQhy](https://gonefora.run/img/Bj2KbVjlQhy.jpg){: .instagram}
+{% picture u-photo img/Bj2KbVjlQhy.jpg %}
 
 Note this is how you recover from Comrades: a great pale ale from @darlingbrew, a cool sea breeze and an amazing view  

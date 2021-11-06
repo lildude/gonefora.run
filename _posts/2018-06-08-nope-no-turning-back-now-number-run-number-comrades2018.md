@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BjwzOikFnkK/
 ---
 
-![Instagram - BjwzOikFnkK](https://gonefora.run/img/BjwzOikFnkK.jpg){: .instagram}
+{% picture u-photo img/BjwzOikFnkK.jpg %}
 
 Nope. No turning back now.  

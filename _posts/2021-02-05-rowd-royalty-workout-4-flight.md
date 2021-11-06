@@ -2,7 +2,7 @@
 layout: photo
 date: 2021-02-05 14:57:59 +0000
 ---
-![](https://gonefora.run/img/99d52a8db6df.jpg){: .u-photo}
+{% picture u-photo img/99d52a8db6df.jpg %}
   
 Row’d Royalty workout 4: Flight to the Finale (747)
 
