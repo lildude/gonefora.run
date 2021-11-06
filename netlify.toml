@@ -84,33 +84,7 @@ ID = "f2149f79-c71c-480c-98d0-66e917ce60cf"
 [[headers]]
   for = "/*"
   [headers.values]
-    Link = "</assets/main.css>; rel=preload; as=style"
     Permissions-Policy = "interest-cohort=()"
-
-[[headers]]
-  for = "/"
-  [headers.values]
-    Link = "</css/home.css>; rel=preload; as=style"
-
-[[headers]]
-  for = "/about"
-  [headers.values]
-    Link = "</css/about.css>; rel=preload; as=style"
-
-[[headers]]
-  for = "/archives"
-  [headers.values]
-    Link = "</css/archives.css>; rel=preload; as=style"
-
-[[headers]]
-  for = "/calculators"
-  [headers.values]
-    Link = "</css/calculators.css>; rel=preload; as=style"
-
-[[headers]]
-  for = "/goals"
-  [headers.values]
-    Link = "</css/goals.css>; rel=preload; as=style"
 
 [[headers]]
   for = "/assets/*"
