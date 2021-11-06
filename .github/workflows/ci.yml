@@ -13,6 +13,6 @@ jobs:
         ruby-version: '3.0'
         bundler-cache: true
     - name: Install libvips
-      run: sudo apt-get -y  install --no-install-recommends libvips
+      run: sudo apt-get -y  install --no-install-recommends libvips libvips-tools
     - name: Run tests
       run: script/cibuild
