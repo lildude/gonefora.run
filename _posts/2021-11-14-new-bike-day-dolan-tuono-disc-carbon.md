@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Bike Day: Dolan Tuono Disc Carbon"
-date: 2021-11-14 17:43:08 +0000
+date: 2021-11-14 12:52:22 +0000
 tags:
 - cycling
 type: post
