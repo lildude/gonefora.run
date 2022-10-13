@@ -10,8 +10,8 @@ tags:
 <%      end -%>
 <%    end -%>
 <% end -%>
-<% unless post.title.rendered.empty? -%>
-title: <%= post.title.rendered %>
+<% unless post.title.empty? || post.title.rendered.empty? -%>
+title: <%= post.title || post.title.rendered %>
 <% end -%>
 ---
 

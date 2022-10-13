@@ -11,35 +11,46 @@ Ever seen someone out running, cycling, swimming or whatever and thought, "I rea
 
 I've kept the links to a minimum as I don't have affiliation links and I don't want to have to keep maintaining them 😁.
 
-## 2020
+## 2021
 
 ### Running
 
-- Road training shoes: Altra Escalante Racer - London 2019.
-- Road racing shoes: Altra Solstice.
-- Alternate road shoes: Luna Sandals Mono Winged Sandals.
-- Trail shoes: Merrell Trail Glove 4.
-- Mud shoes: Altra Superior 4.0.
-- Alternate trail shoes: Luna Sandals Oso Winged Sandals.
-- Socks: Injinji toe socks.
-- Tops: Vests. Free shirts from races and a few cheapies from Decathlon.
-- Bottoms: Ron Hill Stride Cargo Racer Short (short shorts 😉). Cheapie tights from Decathlon when freezing cold.
-- Watch: Garmin Forerunner 945 with running HR strap. Used for cycling and swimming too.
-- Long Run Hydration: Salmon ADV Skin3 12 hydration vest (2018, red).
-- Headphones: Aftershokz Aeropex.
+|---|---|
+| **Road training shoes**   | Altra Escalante 2.0 <small>(Updated: 19 Jun '19)</small>
+| **Road racing shoes**     | None right now
+| **Alternate road shoes**  | Luna Sandals Mono Winged Sandals
+| **Trail shoes**           | Merrell Trail Glove 4
+| **Mud shoes**             | Altra Superior 4.0
+| **Alternate trail shoes** | Luna Sandals Oso Winged Sandals
+| **Socks**                 | Injinji toe socks
+| **Tops**                  | Vests. Free shirts from races and a few cheapies from Decathlon
+| **Bottoms**               | Ron Hill Stride Cargo Racer Short (short shorts 😉). Cheapie tights from Decathlon when freezing cold
+| **Watch**                 | Coros Pace 2 & Garmin Forerunner 945 with running HR strap. Used for cycling, rowing and swimming too
+| **Long Run Hydration**    | Salmon ADV Skin3 12 hydration vest (2018, red)
+| **Headphones**            | Aftershokz Aeropex
 
 ### Swimming
 
-- Goggles: Speedo Fastskin Speedsocket 2 Mirrored.
-- Cap: Cheapie silicon cap from Amazon.
-- Costume: [SAFFA - Swim Briefs Bros](https://www.beanbagthebrand.com/collections/swim-briefs-bros/products/saffa-swim) 🇿🇦 - these were [made famous by Faf de Klerk](https://www.timeslive.co.za/sport/rugby/2019-11-04-watch-faf-de-klerk-greeting-prince-harry-in-an-sa-flag-cozzie-is-a-whole-mood/) after South Africa won the rugby world cup.
+|---|---|
+| **Goggles** | Speedo Fastskin Speedsocket 2 Mirrored.
+| **Cap**     | Cheapie silicon cap from Amazon.
+| **Costume** | [SAFFA - Swim Briefs Bros](https://www.beanbagthebrand.com/collections/swim-briefs-bros/products/saffa-swim) 🇿🇦 - these were [made famous by Faf de Klerk](https://www.timeslive.co.za/sport/rugby/2019-11-04-watch-faf-de-klerk-greeting-prince-harry-in-an-sa-flag-cozzie-is-a-whole-mood/) after South Africa won the rugby world cup.
 
 ### Cycling
 
-- Road Bike: Cannondale Cyclocross 105 (2012).
-- Bib/Shorts: Cheapies from Evans Cycles.
-- Jersey: Cheapie from Wiggle.
-- Shoes: I don't have cycling shoes right now.
-- Helmet: A blue one 🤣.
-- Computer: Catseye something or other from about 2008.
+|---|---|
+| **Road Bike**   | Cannondale Cyclocross 105 (2012)
+| **Bib/Shorts**  | Cheapies from Evans Cycles
+| **Jersey**      | Cheapie from Wiggle
+| **Shoes**       | I don't have cycling shoes right now
+| **Helmet**      | A blue one 🤣
+| **Computer**    | Catseye something or other from about 2008
 
+---
+
+## Retired
+
+| What                                 | DoB         | Retired     | Dist.   | Reason
+|--------------------------------------|-------------|-------------|---------|--------
+| Altra Escalante Racer - London 2019  | 13/05/2019  | 19/06/2020  | 1907km  | Gaping holes in the upper on the outside of each foot barely containing my feet.
+| Altra Solstice                       | 20/09/2018  | 13/12/2020  | 824km   | As above. Seems to be a common issue with Altras for me.
