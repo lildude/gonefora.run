@@ -6,4 +6,8 @@ $header-background-color: #001e49;
 $brand-color: #EB0006;
 $post-title-color: $text-color;
 
+.splits {
+  width: fit-content;
+}
+
 @import "minima_dude";
