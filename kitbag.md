@@ -11,17 +11,17 @@ Ever seen someone out running, cycling, swimming or whatever and thought, "I rea
 
 I've kept the links to a minimum as I don't have affiliation links and I don't want to have to keep maintaining them 😁.
 
-## 2021
+## 2022
 
 ### Running
 
 |---|---|
-| **Road training shoes**   | Altra Escalante 2.0 <small>(Updated: 19 Jun '19)</small>
-| **Road racing shoes**     | None right now
-| **Alternate road shoes**  | Luna Sandals Mono Winged Sandals
-| **Trail shoes**           | Merrell Trail Glove 4
+| **Road training shoes**   | Altra Rivera 2 (DoB 29/5/2022)
+| **Road racing shoes**     | Nike Air Zoom Alphafly NEXT% "Cheat shoes" (DoB 29/8/2021)
+| **Alternate road shoes**  | None
+| **Trail shoes**           | None
 | **Mud shoes**             | Altra Superior 4.0
-| **Alternate trail shoes** | Luna Sandals Oso Winged Sandals
+| **Alternate trail shoes** | None
 | **Socks**                 | Injinji toe socks
 | **Tops**                  | Vests. Free shirts from races and a few cheapies from Decathlon
 | **Bottoms**               | Ron Hill Stride Cargo Racer Short (short shorts 😉). Cheapie tights from Decathlon when freezing cold
@@ -39,18 +39,20 @@ I've kept the links to a minimum as I don't have affiliation links and I don't w
 ### Cycling
 
 |---|---|
-| **Road Bike**   | Cannondale Cyclocross 105 (2012)
-| **Bib/Shorts**  | Cheapies from Evans Cycles
-| **Jersey**      | Cheapie from Wiggle
-| **Shoes**       | I don't have cycling shoes right now
-| **Helmet**      | A blue one 🤣
-| **Computer**    | Catseye something or other from about 2008
+| **Road Bike**   | Dolan Tuono Disc (2021)
+| **Bib/Shorts**  | Endura FS260 Pro Bib Shorts
+| **Jersey**      | Various from Wiggle
+| **Shoes**       | Shimano XC701
+| **Helmet**      | A black one 🤣
+| **Computer**    | Garmin Edge 830
 
 ---
 
 ## Retired
 
-| What                                 | DoB         | Retired     | Dist.   | Reason
-|--------------------------------------|-------------|-------------|---------|--------
-| Altra Escalante Racer - London 2019  | 13/05/2019  | 19/06/2020  | 1907km  | Gaping holes in the upper on the outside of each foot barely containing my feet.
-| Altra Solstice                       | 20/09/2018  | 13/12/2020  | 824km   | As above. Seems to be a common issue with Altras for me.
+| What                                 | DoB         | Retired     | Dist.    | Reason
+|--------------------------------------|-------------|-------------|----------|--------
+| Altra Escalante Racer - London 2019  | 13/05/2019  | 19/06/2020  | 1907 km  | Gaping holes in the upper on the outside of each foot barely containing my feet.
+| Altra Solstice                       | 20/09/2018  | 13/12/2020  | 824  km  | As above. Seems to be a common issue with Altras for me.
+| Altra Escalante 2.0                  | 19/06/2020  | 29/05/2022  | 2916 km  | As above. The problem persists.
+| Cannondale Cyclocross 105 (2012)     | 2012        | 2022        | 1910 km  | Got a new bike which is a major upgrade.
