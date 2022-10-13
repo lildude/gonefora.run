@@ -45,18 +45,18 @@ task :new, [:title] do |_t, args|
 end
 
 # Usage: rake race or rake race[12345667]
-desc "Create draft race report from latest race on Strava or a specific entry"
+desc 'Create draft race report from latest race on Strava or a specific entry'
 task :race, [:activity_id] do |t, args|
   begin
     client = Strava::Api::Client.new(access_token: ENV['STRAVA_ACCESS_TOKEN'])
     # Grab first race in the last 30 activities unless an explicit ID is provided
-    activity_id = args.activity_id || client.athlete_activities(before: 1575302100).select { |a| a.workout_type == 1 }.first.id
+    activity_id = args.activity_id || client.athlete_activities(before: 1_575_302_100).select { |a| a.workout_type == 1 }.first.id
 
     # Grab the verbose detailed entry
     race = client.activity(activity_id)
     filename = "#{drafts_dir}/race-report-#{race.name.to_url}-#{race.start_date.year}.md"
     if File.exist?(filename)
-      abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+      abort('rake aborted!') if ask("#{filename} already exists. Do you want to overwrite?", %w[y n]) == 'n'
     end
 
     if race.photos.use_primary_photo
@@ -66,10 +66,10 @@ task :race, [:activity_id] do |t, args|
     weather = race.description.split("\n").last
 
     # Themes: streets-v11 outdoors-v11 light-v10 dark-v10 satellite-v9 satellite-streets-v11
-    theme = "light-v10"
-    line_color = "f44"
+    theme = 'light-v10'
+    line_color = 'f44'
     line_width = 2
-    line_opacity = "1.0"
+    line_opacity = '1.0'
     start_icon = "url-https%3A%2F%2Fgonefora.run%2Fassets%2Fs.png(#{race.start_latlng[1]},#{race.start_latlng[0]})"
     finish_icon = "url-https%3A%2F%2Fgonefora.run%2Fassets%2Ff.png(#{race.end_latlng[1]},#{race.end_latlng[0]})"
     path = CGI::escape(race.map.summary_polyline)
@@ -79,113 +79,54 @@ task :race, [:activity_id] do |t, args|
 
     File.open(filename, 'w') do |post|
       # Heavily inspired by that produced by https://coachview.github.io/race-reportr/
-      post.write <<~EOT
-      ---
-      layout: post
-      title: "Race Report: #{race.name}"
-      date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}
-      tags:
-      - race
-      type: post
-      ---
+      post.write <<~POST_CONTENT
+        ---
+        layout: post
+        title: "Race Report: #{race.name}"
+        date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}
+        tags:
+        - race
+        type: post
+        ---
 
-      ### Training
+        ### Training
 
-      ### Pre-Race
+        ### Pre-Race
 
-      ### Race
+        ### Race
 
-      {% include figure class="alignright" src="#{img}" alt="#{race.name} Route" caption="[View this Race on Strava](#{race.strava_url})" %}
+        {% include figure class="alignright" src="#{img}" alt="#{race.name} Route" caption="[View this Race on Strava](#{race.strava_url})" %}
 
-      #{race.description.gsub(weather, "")}
+        #{race.description.gsub(weather, "")}
 
-      ### Post-Race
+        ### Post-Race
 
-      ### Statistics
+        ### Statistics
 
-      - **Race Date:** #{race.start_date.strftime('%e %B %Y')}
-      - **Gun time:** #{race.elapsed_time_in_hours_s.gsub(/[hm]/, ':').gsub('s', '')}
-      - **Chip time:**
-      - **Position Overall:**
-      - **Age Group Position:**
-      - **Weather:** #{weather.gsub("|", "\\|")}
+        - **Race Date:** #{race.start_date.strftime('%e %B %Y')}
+        - **Gun time:** #{race.elapsed_time_in_hours_s.gsub(/[hm]/, ':').gsub('s', '')}
+        - **Chip time:**
+        - **Position Overall:**
+        - **Age Group Position:**
+        - **Weather:** #{weather.gsub('|', '\\|')}
 
-      <!-- SVG graphs here -->
+        <!-- SVG graphs here -->
 
 
-      EOT
+      POST_CONTENT
     end
 
   rescue Strava::Errors::Fault => e
-    puts <<~EOF
-    Whoops. We have a problem: #{e.message}.
-    You probably need to set/update the access token.
-    Get a new one using:
+    puts <<~ERROR
+      Whoops. We have a problem: #{e.message}.
+      You probably need to set/update the access token.
+      Get a new one using:
 
-    $ cd ~/Development/third-party/strava-ruby-client
-    $ bundle exec bin/strava-oauth-token
-    EOF
-  end
-desc 'Rename notes with titles'
-task :renamenotestitles do
-  Dir.glob("#{posts_dir}/*.md") do |file|
-    #puts "working on: #{file}...".blue
-    data, content = read_yaml(file)
-    next unless file =~ /-\d{5,}\.md/
-
-    puts "old: #{file}".blue
-    prefix = file.split("-")[0..2].join("-")
-    new_name = "#{prefix}-#{content.split(%r{ |-}).first(5).join(" ").to_url}.md"
-    puts "new: #{new_name}".pink
-    File.rename(file, new_name)
-    system("git rm #{file}")
-    system("git add #{new_name}")
+      $ cd ~/Development/third-party/strava-ruby-client
+      $ bundle exec bin/strava-oauth-token
+    ERROR
   end
 end
-
-desc 'Rename notes'
-task :renamenotes do
-  Dir.glob("#{posts_dir}/*.md") do |file|
-    #puts "working on: #{file}...".blue
-    data, content = read_yaml(file)
-    next if data["title"]
-
-    puts "old: #{file}".blue
-    prefix = file.split("-")[0..2].join("-")
-    new_name = "#{prefix}-#{content.split(%r{ |-}).first(5).join(" ").to_url}.md"
-    puts "new: #{new_name}".pink
-    File.rename(file, new_name)
-    system("git rm #{file}")
-    system("git add #{new_name}")
-  end
-end
-desc 'Rename insta'
-task :renameinsta do
-  Dir.glob("#{posts_dir}/*.md") do |file|
-    #puts "working on: #{file}...".blue
-    data, content = read_yaml(file)
-    next if data["layout"] != "photo"
-
-    puts "old: #{file}".blue
-    prefix = file.split("-")[0..2].join("-")
-    new_name = "#{prefix}-#{data["title"].gsub(/…/, "").to_url}.md"
-    puts "new: #{new_name}".pink
-
-    File.rename(file, new_name)
-    system("git rm #{file}")
-    system("git add #{new_name}")
-  end
-end
-
-
-YAML_FRONT_MATTER_REGEXP = /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
-
-def read_yaml(file)
-  if File.read(file) =~ YAML_FRONT_MATTER_REGEXP
-    data, content = YAML.load($1), Regexp.last_match.post_match
-  end
-end
-
 
 # Usage: rake note "The test of your note", or
 #        rake note ["The text of your note"], or
