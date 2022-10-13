@@ -49,8 +49,8 @@ desc 'Create draft race report from latest race on Strava or a specific entry'
 task :race, [:activity_id] do |t, args|
   begin
     client = Strava::Api::Client.new(access_token: ENV['STRAVA_ACCESS_TOKEN'])
-    # Grab first race in the last 30 activities unless an explicit ID is provided
-    activity_id = args.activity_id || client.athlete_activities(before: 1_575_302_100).select { |a| a.workout_type == 1 }.first.id
+    # Grab first race in the last 14 days unless an explicit ID is provided
+    activity_id = args.activity_id || client.athlete_activities(after: (Time.now - 60 * 60 * 24 * 14).to_i).select { |a| a.workout_type == 1 }.first.id
 
     # Grab the verbose detailed entry
     race = client.activity(activity_id)
@@ -60,7 +60,7 @@ task :race, [:activity_id] do |t, args|
     end
 
     if race.photos.use_primary_photo
-      primary_photo = "![GIVE ME A BETTER TITLE](#{race.photos.primary.urls["600"]}){: .alignright width='375'}"
+      primary_photo = "![GIVE ME A BETTER TITLE](#{race.photos.primary.urls['600']}){: .alignright width='375'}"
     end
 
     weather = race.description.split("\n").last
@@ -74,8 +74,11 @@ task :race, [:activity_id] do |t, args|
     finish_icon = "url-https%3A%2F%2Fgonefora.run%2Fassets%2Ff.png(#{race.end_latlng[1]},#{race.end_latlng[0]})"
     path = CGI::escape(race.map.summary_polyline)
 
-    # TODO: Copy this locally to save on API calls etc
-    img = "https://api.mapbox.com/styles/v1/mapbox/#{theme}/static/path-#{line_width}+#{line_color}-#{line_opacity}(#{path}),#{start_icon},#{finish_icon}/auto/375x210?access_token=#{ENV['MAPBOX_TOKEN']}"
+    # TODO: Copy this locally to save on API calls etc - also try find a higher resolution
+    img = "https://api.mapbox.com/styles/v1/mapbox/#{theme}/static/path-#{line_width}+#{line_color}-#{line_opacity}(#{path}),#{start_icon},#{finish_icon}/auto/375x210@2x?attribution=false&logo=false&access_token=#{ENV['MAPBOX_TOKEN']}"
+
+    # Temp over ride img
+    img = ''
 
     File.open(filename, 'w') do |post|
       # Heavily inspired by that produced by https://coachview.github.io/race-reportr/
@@ -89,6 +92,9 @@ task :race, [:activity_id] do |t, args|
         type: post
         ---
 
+        <!-- Pre-amble defaulting to the wording from Strava -->
+        #{race.description.gsub(weather, '')}
+
         ### Training
 
         ### Pre-Race
@@ -96,8 +102,6 @@ task :race, [:activity_id] do |t, args|
         ### Race
 
         {% include figure class="alignright" src="#{img}" alt="#{race.name} Route" caption="[View this Race on Strava](#{race.strava_url})" %}
-
-        #{race.description.gsub(weather, "")}
 
         ### Post-Race
 
@@ -108,9 +112,24 @@ task :race, [:activity_id] do |t, args|
         - **Chip time:**
         - **Position Overall:**
         - **Age Group Position:**
+        - **Strava Activity:** <https://www.strava.com/activities/#{activity_id}>
         - **Weather:** #{weather.gsub('|', '\\|')}
 
-        <!-- SVG graphs here -->
+        ### Splits
+
+        {:class .splits}
+        | Split  | Time     | min/km |
+        |--------|:--------:|:------:|
+        | 5K     | 0:00:00  |  0:00  |
+        | 10K    | 0:00:00  |  0:00  |
+        | 15K    | 0:00:00  |  0:00  |
+        | 20K    | 0:00:00  |  0:00  |
+        | HAL    | 0:00:00  |  0:00  |
+        | 25K    | 0:00:00  |  0:00  |
+        | 30K    | 0:00:00  |  0:00  |
+        | 35K    | 0:00:00  |  0:00  |
+        | 40K    | 0:00:00  |  0:00  |
+        | Finish | 0:00:00  |  0:00  |
 
 
       POST_CONTENT
