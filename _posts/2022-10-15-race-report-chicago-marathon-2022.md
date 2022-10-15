@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Race Report: Chicago Marathon 2022"
-date: 2022-10-13 16:30:32 +0100
+date: 2022-10-15 13:45:18 +0100
 tags:
 - race
 type: post

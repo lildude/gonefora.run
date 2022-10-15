@@ -197,7 +197,7 @@ task :publish, :draft_file do |_t, args|
   post = File.read(filename)
   File.write(filename, post.sub!(/^date:.*?$/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"))
   # Get post title for nice commit message.
-  f = YAML.load_file(filename)
+  f = YAML.load_file(filename, permitted_classes: [Time])
   post_title = f['title']
   system("git mv #{filename} #{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{draft_post}")
   system("git commit -am \"Publishing: #{post_title} \"")
