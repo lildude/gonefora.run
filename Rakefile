@@ -72,7 +72,7 @@ task :race, [:activity_id] do |t, args|
     line_opacity = '1.0'
     start_icon = "url-https%3A%2F%2Fgonefora.run%2Fassets%2Fs.png(#{race.start_latlng[1]},#{race.start_latlng[0]})"
     finish_icon = "url-https%3A%2F%2Fgonefora.run%2Fassets%2Ff.png(#{race.end_latlng[1]},#{race.end_latlng[0]})"
-    path = CGI::escape(race.map.summary_polyline)
+    path = CGI.escape(race.map.summary_polyline)
 
     # TODO: Copy this locally to save on API calls etc - also try find a higher resolution
     img = "https://api.mapbox.com/styles/v1/mapbox/#{theme}/static/path-#{line_width}+#{line_color}-#{line_opacity}(#{path}),#{start_icon},#{finish_icon}/auto/375x210@2x?attribution=false&logo=false&access_token=#{ENV['MAPBOX_TOKEN']}"
@@ -93,6 +93,9 @@ task :race, [:activity_id] do |t, args|
         ---
 
         <!-- Pre-amble defaulting to the wording from Strava -->
+
+        #{primary_photo}
+
         #{race.description.gsub(weather, '')}
 
         ### Training
@@ -112,25 +115,30 @@ task :race, [:activity_id] do |t, args|
         - **Chip time:**
         - **Position Overall:**
         - **Age Group Position:**
-        - **Strava Activity:** <https://www.strava.com/activities/#{activity_id}>
         - **Weather:** #{weather.gsub('|', '\\|')}
+        - **Links:** [Strava Activity][] \| [Official Results][]
+
 
         ### Splits
 
         {:class .splits}
-        | Split  | Time     | min/km |
-        |--------|:--------:|:------:|
-        | 5K     | 0:00:00  |  0:00  |
-        | 10K    | 0:00:00  |  0:00  |
-        | 15K    | 0:00:00  |  0:00  |
-        | 20K    | 0:00:00  |  0:00  |
-        | HAL    | 0:00:00  |  0:00  |
-        | 25K    | 0:00:00  |  0:00  |
-        | 30K    | 0:00:00  |  0:00  |
-        | 35K    | 0:00:00  |  0:00  |
-        | 40K    | 0:00:00  |  0:00  |
-        | Finish | 0:00:00  |  0:00  |
+        | Split  | Time     |  Diff  | Pace  |
+        |--------|:--------:|:------:|:-----:|
+        | 5K     | 0:00:00  | 00:00  | 0:00  |
+        | 10K    | 0:00:00  | 00:00  | 0:00  |
+        | 15K    | 0:00:00  | 00:00  | 0:00  |
+        | 20K    | 0:00:00  | 00:00  | 0:00  |
+        | Half   | 0:00:00  | 00:00  | 0:00  |
+        | 25K    | 0:00:00  | 00:00  | 0:00  |
+        | 30K    | 0:00:00  | 00:00  | 0:00  |
+        | 35K    | 0:00:00  | 00:00  | 0:00  |
+        | 40K    | 0:00:00  | 00:00  | 0:00  |
+        | Finish | 0:00:00  | 00:00  | 0:00  |
 
+        ### Bonus
+
+        [Strava Activity]: https://www.strava.com/activities/#{activity_id}
+        [Official Results]: TBC
 
       POST_CONTENT
     end
