@@ -4,7 +4,6 @@ title: "Race Report: Chicago Marathon 2022"
 date: 2022-10-15 13:45:18 +0100
 tags:
 - race
-type: post
 ---
 
 ![Chicago Marathon Start](/img/chicago-start.jpg){:width="250" .alignright}

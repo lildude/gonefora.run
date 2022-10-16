@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: note
 title: I’m Baaaaack
 date: 2022-09-18 17:37:44 +0000
 ---

@@ -89,7 +89,6 @@ task :race, [:activity_id] do |t, args|
         date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}
         tags:
         - race
-        type: post
         ---
 
         <!-- Pre-amble defaulting to the wording from Strava -->
