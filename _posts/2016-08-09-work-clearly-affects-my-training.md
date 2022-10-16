@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-I was poking around the graphs and other things [Stravistix](http://thomaschampagne.github.io/stravistix/) - great extension by the way - adds to Strava today and I noticed this section on the right of my profile page:
+I was poking around the graphs and other things [Stravistix](https://thomaschampagne.github.io/stravistix/) - great extension by the way - adds to Strava today and I noticed this section on the right of my profile page:
 
 ![My Yearly Progressions](/img/year-progressions.png){:class="center"}
 

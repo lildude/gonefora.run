@@ -8,17 +8,17 @@ tags:
 type: post
 published: true
 ---
-<img class="alignleft" src="/img/parkrun50.jpg" alt="parkrun 50 club" width="169" height="151" /> It's taken me four years and eight months and I've finally done it.  I can now proudly say I'm now a member of the [parkrun 50 club](http://www.parkrun.com/about/our-clubs/50club/).
+<img class="alignleft" src="/img/parkrun50.jpg" alt="parkrun 50 club" width="169" height="151" /> It's taken me four years and eight months and I've finally done it.  I can now proudly say I'm now a member of the [parkrun 50 club](https://www.parkrun.com/about/our-clubs/50club/).
 
 Waaaay back on 23 May 2010, I _didn't_ don my running shoes and ran my first ever parkrun, and ran it [completely barefoot](/reading-parkrun-barefoot).  Since then I've run three more completely barefoot and all the rest in a variety of minimalist shoes - the stony & rocky parts of the Reading course became a hinderance to my times 😉.
 
 <!--more-->
-It's been a great 4+ years and I've grown to really love parkrun and have decided this year I'll be trying out a wider variety of parkruns - I've already done 4 different parkruns in 5 weeks.  I also plan to do the local parkruns, where available, when I'm travelling, which will be much easier now [San Francisco has one](http://www.parkrun.us/crissyfield/) - I'm often in San Francisco.
+It's been a great 4+ years and I've grown to really love parkrun and have decided this year I'll be trying out a wider variety of parkruns - I've already done 4 different parkruns in 5 weeks.  I also plan to do the local parkruns, where available, when I'm travelling, which will be much easier now [San Francisco has one](https://www.parkrun.us/crissyfield/) - I'm often in San Francisco.
 
 So without much further ado, here are a few statistics from my 50 parkruns.
 
 * 4 run completely barefoot
-* 7 different parkruns: [Reading](http://www.parkrun.org.uk/reading/) (40), [Woodley](http://www.parkrun.org.uk/woodley/) (2), [Delta Park](http://www.parkrun.co.za/delta/) (2), [Black Park](http://www.parkrun.org.uk/black-park/) (2), [Newbury](http://www.parkrun.org.uk/newbury/) (2), [Frimley Lodge](http://www.parkrun.org.uk/FrimleyLodge/) (1), [Rushmoor](http://www.parkrun.org.uk/rushmoor/) (1)
+* 7 different parkruns: [Reading](https://www.parkrun.org.uk/reading/) (40), [Woodley](https://www.parkrun.org.uk/woodley/) (2), [Delta Park](https://www.parkrun.co.za/delta/) (2), [Black Park](https://www.parkrun.org.uk/black-park/) (2), [Newbury](https://www.parkrun.org.uk/newbury/) (2), [Frimley Lodge](https://www.parkrun.org.uk/FrimleyLodge/) (1), [Rushmoor](https://www.parkrun.org.uk/rushmoor/) (1)
 * 11 personal bests
 * 3 first places
 * Lowest position: 16, my very first parkrun

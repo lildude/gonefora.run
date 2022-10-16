@@ -8,7 +8,7 @@ tags:
 type: post
 published: true
 ---
-I regularly have dreams where I'm running and find it so hard to run that I lean so far forward that I'm almost running on all fours, and it's still tough to run. Well imagine my surprise when I discovered I've probably been mentally training for what is probably the toughest 400m race in the world, let alone Europe... [the Red Bull 400 in Planica, Slovenia](http://www.redbull.com/uk/en/stories/1331590542998/red-bull-400-planica).
+I regularly have dreams where I'm running and find it so hard to run that I lean so far forward that I'm almost running on all fours, and it's still tough to run. Well imagine my surprise when I discovered I've probably been mentally training for what is probably the toughest 400m race in the world, let alone Europe... [the Red Bull 400 in Planica, Slovenia](https://www.redbull.com/uk/en/stories/1331590542998/red-bull-400-planica).
 
 How's this for a brutal 400m race...
 

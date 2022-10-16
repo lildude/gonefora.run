@@ -15,4 +15,4 @@ I've finally caught up with some of my backlog of "stuff I must watch" and have 
 
 This is a great advert and it's a pity Adidas fobbed the maker off without much consideration. I picture myself trying to break free in forty year's time.
 
-([Source](http://www.branding.news/2017/01/11/unofficial-adidas-advert-is-showing-people-how-to-break-free/))
+([Source](https://www.branding.news/2017/01/11/unofficial-adidas-advert-is-showing-people-how-to-break-free/))

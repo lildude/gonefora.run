@@ -8,7 +8,7 @@ tags:
 type: post
 published: true
 ---
-I stumbled upon [this interesting article](http://well.blogs.nytimes.com/2015/04/22/the-worlds-fastest-everyday-runners/) from the New York Times which links to an [analysis performed by Danish statisticians](http://runrepeat.com/research-marathon-performance-across-nations) on the non-elite finishers of the Amsterdam, Athens, Berlin, Boston, Budapest, Chicago, Frankfurt, London, Madrid, Marine Corps (Washington), Paris and Warsaw marathons, between 2009 and 2014, and then determined which were the fastest nations by average finishing time.
+I stumbled upon [this interesting article](https://well.blogs.nytimes.com/2015/04/22/the-worlds-fastest-everyday-runners/) from the New York Times which links to an [analysis performed by Danish statisticians](https://runrepeat.com/research-marathon-performance-across-nations) on the non-elite finishers of the Amsterdam, Athens, Berlin, Boston, Budapest, Chicago, Frankfurt, London, Madrid, Marine Corps (Washington), Paris and Warsaw marathons, between 2009 and 2014, and then determined which were the fastest nations by average finishing time.
 
 This is interesting idea and the New York Times article opens with:
 
@@ -18,9 +18,9 @@ This is interesting idea and the New York Times article opens with:
 
 > "Many see Africa as the marathon continent, but they only dominate in the elite scene," says Jens Jakob Andersen, a runner and statistician in Haderslev, Denmark, and the lead researcher for the new analysis. "In recreational running, it is not a popular sport.""
 
-... and by looking at the [infographic and analysis](http://runrepeat.com/research-marathon-performance-across-nations), they're right:
+... and by looking at the [infographic and analysis](https://runrepeat.com/research-marathon-performance-across-nations), they're right:
 
-<a href="http://runrepeat.com/research-marathon-performance-across-nations" target="_blank"><img src="/img/RunRepeat-Graphic.jpg" class="center" alt="Truncated infographic"></a>
+<a href="https://runrepeat.com/research-marathon-performance-across-nations" target="_blank"><img src="/img/RunRepeat-Graphic.jpg" class="center" alt="Truncated infographic"></a>
 
 ... however, as I see it, the data isn't really representative of the world as a whole and as such doesn't fully support the comments and conclusions made.
 

@@ -18,7 +18,7 @@ Tuesday I hit my big hill for a hills session. Started off slower than last time
 
 Wednesday was a nice easy medium long run at MAF pace. This was a great run in the sunshine. Very relaxed and I found it really easy to remain within my MAF range.
 
-Thursday I took my new trail shoes - the [Vivobarefoot Primus Trail SGs](http://www.vivobarefoot.com/uk/mens/off-road/primus-trail-sg-mens?colour=Black/Red) - out for their first spin. Nice ride but I think I may have tightened the right shoe a little too tight as I ended up with a blister in my arch. Could also be new-shoe syndrome. I think I'll have to wear them in slowly to give them time to expand and relax.
+Thursday I took my new trail shoes - the [Vivobarefoot Primus Trail SGs](https://www.vivobarefoot.com/uk/mens/off-road/primus-trail-sg-mens?colour=Black/Red) - out for their first spin. Nice ride but I think I may have tightened the right shoe a little too tight as I ended up with a blister in my arch. Could also be new-shoe syndrome. I think I'll have to wear them in slowly to give them time to expand and relax.
 
 It was also pretty cold and I suspect I may have been tensing my shoulders, hence the pain in my upper back on Friday morning, which meant no run for me.
 

@@ -12,7 +12,7 @@ published: true
 
 Second race week in a row.
 
-Things started off well with a rest day on Monday and then some nice easy running on Tuesday and Wednesday.  Thursday was another rest day as I was racing the [Maidenhead Easter 10](http://www.maidenheadac.co.uk/easter+10/general) on Friday.  As I ran so well at the Fleet half last Sunday and was feeling great during the week, I was pretty certain a sub-60 and 10 mile PB was on the cards on Friday, but that soon changed when it came to actually racing.
+Things started off well with a rest day on Monday and then some nice easy running on Tuesday and Wednesday.  Thursday was another rest day as I was racing the [Maidenhead Easter 10](https://www.maidenheadac.co.uk/easter+10/general) on Friday.  As I ran so well at the Fleet half last Sunday and was feeling great during the week, I was pretty certain a sub-60 and 10 mile PB was on the cards on Friday, but that soon changed when it came to actually racing.
 
 I'd planned on doing a similar, but faster, pacing strategy as I did at the Wokingham and Fleet halves, but I soon found it quite hard going keeping my pace up at the slower pace in the early stages and it didn't get much easier as the race progressed.  It also didn't help that I had a terrible night's sleep the night before and there was a bit of a breeze... I know, I'm making excuses but they all contributed to what ended up being a slightly disappointing performance. I finished in my slowest time ever: 1:01:55 gun time / 1:01:51 chip time.  Ultimately, I think I probably hadn't fully recovered from Sunday's race.
 

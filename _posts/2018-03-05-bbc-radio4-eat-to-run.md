@@ -14,4 +14,4 @@ All three episodes discuss the topic of eating for running and cover things like
 
 No definitive "best diet" decision was made, but it was interesting to hear the discussion about the different diets and the research behind them.
 
-All three episodes can be found at <http://www.bbc.co.uk/programmes/b006qnx3/topics/Running> if you're in the UK. I did find versions on YouTube but they seem to have been removed now.
+All three episodes can be found at <https://www.bbc.co.uk/programmes/b006qnx3/topics/Running> if you're in the UK. I did find versions on YouTube but they seem to have been removed now.

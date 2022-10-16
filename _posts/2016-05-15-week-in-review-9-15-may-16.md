@@ -28,6 +28,6 @@ Thankfully not too delicate as whilst my HRV was low - expected after lots of be
 
 And that was the last of running for the week.  Saturday was spent in airports and traipsing across Mallorca and this morning I really wasn't up for a run, so opted for a lie-in before heading down for breakfast.
 
-For the next two weeks I'll be on my early summer holiday. I'm not sure how much running I'll be doing, but I do intend to use this time to relax, recover and enjoy myself because when I get back, it'll be 16 weeks to [Berlin](http://www.bmw-berlin-marathon.com/) which means 16 weeks of grueling training.  I will of course get out at least a few times: you can't travel without going for a run.
+For the next two weeks I'll be on my early summer holiday. I'm not sure how much running I'll be doing, but I do intend to use this time to relax, recover and enjoy myself because when I get back, it'll be 16 weeks to [Berlin](https://www.bmw-berlin-marathon.com/) which means 16 weeks of grueling training.  I will of course get out at least a few times: you can't travel without going for a run.
 
 I'm off to relax and enjoy my holiday. 👋

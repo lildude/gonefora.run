@@ -11,9 +11,9 @@ type: post
 published: true
 ---
 
-I'm in the process of reading [Faster, Higher, Stronger: How Sports Science Is Creating a New Generation of Superathletes--and What We Can Learn from Them by Mark McClusky](http://www.amazon.co.uk/Faster-Higher-Stronger-Generation-Superathletes---ebook/dp/B00INIXN9Q/) - a great read so far - and I've just read chapter 8 "What Getting Tired Means".  It's a chapter that talks about how science and research has changed the definition of what fatigue is and talks about how it is likely to be more of a mental state than a physical state.
+I'm in the process of reading [Faster, Higher, Stronger: How Sports Science Is Creating a New Generation of Superathletes--and What We Can Learn from Them by Mark McClusky](https://www.amazon.co.uk/Faster-Higher-Stronger-Generation-Superathletes---ebook/dp/B00INIXN9Q/) - a great read so far - and I've just read chapter 8 "What Getting Tired Means".  It's a chapter that talks about how science and research has changed the definition of what fatigue is and talks about how it is likely to be more of a mental state than a physical state.
 
-It covers Tim Noakes' [central governor theory](http://en.wikipedia.org/wiki/Central_governor) and how various mental stimuli can be used to reduce the sense of fatigue and how drugs have been known to do the same thing.  One little thing they brought up was the topic of tricking the mind by manipulating a runner's watch.
+It covers Tim Noakes' [central governor theory](https://en.wikipedia.org/wiki/Central_governor) and how various mental stimuli can be used to reduce the sense of fatigue and how drugs have been known to do the same thing.  One little thing they brought up was the topic of tricking the mind by manipulating a runner's watch.
 
 This got me thinking... how likely are we to get that sub-2 hour marathon if Dennis Kimetto's (or any other elite athlete) coach/manager and the Berlin marathon race organisers "rigged" things to make Dennis think he's running slower than he really is?  What if they colluded to make Dennis's wristwatch and the clock on the lead car to run deliberately fast by a second or two per kilometer?  Would this be enough to drive him to run even quicker and break the two hour mark or would he soon realise something was suss?
 

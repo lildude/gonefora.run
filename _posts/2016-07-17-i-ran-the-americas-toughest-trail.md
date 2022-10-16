@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-Today is Sunday and that means one thing: it's long run day, and there's no way I was going to miss out on it with all these great Colorado mountains within spitting distance.  As luck would have it, I happened to be staying no too far from [America’s Toughest Trail: The Manitou Incline](http://running.competitor.com/2016/06/trail-running/americas-toughest-trail-the-manitou-incline_152535).  To quote the article...
+Today is Sunday and that means one thing: it's long run day, and there's no way I was going to miss out on it with all these great Colorado mountains within spitting distance.  As luck would have it, I happened to be staying no too far from [America’s Toughest Trail: The Manitou Incline](https://running.competitor.com/2016/06/trail-running/americas-toughest-trail-the-manitou-incline_152535).  To quote the article...
 
 > When it comes to describing the Manitou Incline, there’s no mincing words. It’s relentlessly steep and a ferocious challenge for anyone who tries to hike or run it.
 >

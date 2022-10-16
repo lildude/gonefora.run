@@ -9,9 +9,9 @@ type: post
 published: true
 ---
 
-<img src="/img/ragnar-logo.png" class="alignleft" width="158" height="160"/> Way back on the 19th and 20th of September I joined 11 of my US-based colleagues as their ringer in the [Ragnar Napa Valley relay](http://www.ragnarrelay.com/race/napavalley) and what an awesome event.
+<img src="/img/ragnar-logo.png" class="alignleft" width="158" height="160"/> Way back on the 19th and 20th of September I joined 11 of my US-based colleagues as their ringer in the [Ragnar Napa Valley relay](https://www.ragnarrelay.com/race/napavalley) and what an awesome event.
 
-For the uninformed, [Ragnar](http://www.ragnarrelay.com) put on a series of overnight relays around the US with the Ragnar Napa Valley being one of the newest.  The Napa Valley relay covers 205 miles (~330km) from Golden Gate park in San Francisco to Calistoga, just north of Napa broken up into 36 legs of varing lengths:
+For the uninformed, [Ragnar](https://www.ragnarrelay.com) put on a series of overnight relays around the US with the Ragnar Napa Valley being one of the newest.  The Napa Valley relay covers 205 miles (~330km) from Golden Gate park in San Francisco to Calistoga, just north of Napa broken up into 36 legs of varing lengths:
 <!-- more -->
 <img alt="Ragnar Napa Valley" src="/img/ragnar-napa-route.jpg" width="600" height="776" class="center" />
 
@@ -37,7 +37,7 @@ I was runner ten so by the time I was handed the baton and sent off on my first 
 
 
 
-Results: http://www.webscorer.com/race?raceid=28755&live=1
+Results: https://www.webscorer.com/race?raceid=28755&live=1
 
 68th over all out of 502 teams
 63rd of 464 regular (as opposed to Ultra) teams

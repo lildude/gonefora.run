@@ -16,4 +16,4 @@ Took Friday off, not because I'd had too much to drink the night before, but bec
 
 I start the run off a little quick with the first kilometre in 3:27 but thought, "What the heck, I'm feeling great, lets see how it goes."  Well, it went well. I dropped into a slightly slower pace but kept things pretty consistent and felt great the whole way round.  Finished in 17:45, a 41 second improvement on my time from the 9th and my fastest parkrun since October last year.  I think this is another indicator the MAF and high mileage training is really working and I'm starting to see the results in the shorter events.  
 
-I'll be cutting my training down a bit next week in time for Sunday's [Woodley 10k](http://www.barnesfitness.co.uk/event/woodley-10km).  It'll be interesting to see how more rest and the MAF training translates then. Watch this space.
+I'll be cutting my training down a bit next week in time for Sunday's [Woodley 10k](https://www.barnesfitness.co.uk/event/woodley-10km).  It'll be interesting to see how more rest and the MAF training translates then. Watch this space.

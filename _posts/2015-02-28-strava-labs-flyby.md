@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-I discovered another of Strava's experimental features the other day: [FlyBy](http://labs.strava.com/flyby/).
+I discovered another of Strava's experimental features the other day: [FlyBy](https://labs.strava.com/flyby/).
 
 So what is it? It's a site that will let you know who you passed or "flew by" while you were out running or riding.  It puts together all the logged runs that crossed or came very close to your uploaded run and then lets you replay your run/ride to see exactly where you passed the other runners.
 

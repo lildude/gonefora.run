@@ -21,11 +21,11 @@ As you'd expect, people turned to Twitter to express their disbelief which soon 
 > She said: "Please accept our apologies for an admin error that may have caused some initial pricing confusion.
 >
 > "We’ve had a small number of complaints so I would like to confirm the 2017 early bird entry fee is £38 for non affiliated and £34 for UKA affiliated.  
-> — [Reading Half Marathon 2017 early bird entry fee rise of £11 was 'admin error'](http://www.getreading.co.uk/news/reading-berkshire-news/reading-half-marathon-2017-early-11223845).
+> — [Reading Half Marathon 2017 early bird entry fee rise of £11 was 'admin error'](https://www.getreading.co.uk/news/reading-berkshire-news/reading-half-marathon-2017-early-11223845).
 
 I think the "admin error" here is they revealed their cards too early. I suspect £45 is the normal extortionate "non-early bird" price they plan to charge closer to the event.
 
-[Big business has been putting its grubby paws all over great events in the USA](http://www.esquire.com/news-politics/a21913/the-running-racket/) for many years, cranking the prices up with little reason and no improvement in return for the runners or local community, and now it's [becoming more and more prevalent in the UK](http://www.theguardian.com/lifeandstyle/datablog/2015/mar/17/running-costs-what-are-the-worlds-most-expensive-marathons), with the likes of Vitality leading the way.
+[Big business has been putting its grubby paws all over great events in the USA](https://www.esquire.com/news-politics/a21913/the-running-racket/) for many years, cranking the prices up with little reason and no improvement in return for the runners or local community, and now it's [becoming more and more prevalent in the UK](https://www.theguardian.com/lifeandstyle/datablog/2015/mar/17/running-costs-what-are-the-worlds-most-expensive-marathons), with the likes of Vitality leading the way.
 
 Vitality events are some of the most expensive races, per mile/km, in the UK now and the local clubs, community or runners don't get very much for the extra cost. The Reading and Oxford half-marathons used to be lovely affordable, moderately sized "clubby" races before Vitality got involved.  Now they're hellish expensive, big money-making ventures which somehow pull in significant numbers of runners - maybe this little "ooops" may make people think twice, but I doubt it.
 

@@ -14,7 +14,7 @@ What a week of running!! Topped out at just short of 130km for the week includin
 
 I started the week off with the usual recovery run on Monday and then a moderately long run on Tuesday with 10x 100m strides with a full recovery walk between each. I did contemplate skipping the strides due to Wednesday's race, but decided against it as I didn't think they'd have that much of an impact.
 
-Wednesday was scheduled to be one medium long run, but as I'd already entered the [Forest Five](http://bfrraces.weebly.com/forest-5.html) I opted for an hour run in the morning, a long warmup, the race and then a short cool down to get the total planned for the day.
+Wednesday was scheduled to be one medium long run, but as I'd already entered the [Forest Five](https://bfrraces.weebly.com/forest-5.html) I opted for an hour run in the morning, a long warmup, the race and then a short cool down to get the total planned for the day.
 
 The race itself went way better than expected.
 
@@ -26,7 +26,7 @@ The last kilometre is mostly downhill and a fantastic run into the finish. As we
 
 I flew across the finish line feeling absolutely fantastic and very pleased with my performance and strong finish. After the race Jock said he'd seen me finish strong in other races so was expecting me to blitz him on the final straight 😊.
 
-[![Forest Five 2016 Top 10](/img/Forest-Five-2016.png)](http://bfrraces.weebly.com/uploads/5/7/0/1/57012387/provisional_results.pdf)
+[![Forest Five 2016 Top 10](/img/Forest-Five-2016.png)](https://bfrraces.weebly.com/uploads/5/7/0/1/57012387/provisional_results.pdf)
 
 This is still a great offroad race and Wednesday's race was a new 5 mile / 8k offroad PB.  It was also my second podium finish ~~(no prize though 😢)~~.
 
@@ -36,4 +36,4 @@ The rest of the week was back on schedule though Saturday and today's runs were 
 
 All in all a great week of training with a brilliant performance in the middle of the week.  I'm only three weeks in and this is definitely working out. I think ensuring most of my running is at of below MAF is definitely ensuring I'm not over-training and still feeling great.
 
-Next week's going to be an interesting week... I'm off to Singapore for a conference. A combination of early starts and the heat and humidity will make it tough to get in the miles, especially if I enjoy the beers and company too much. I'll definitely need to hold back and be good.  I also hope to get down to the [East Coast Park parkrun](http://www.parkrun.sg/eastcoastpark/) on Saturday before the [GitHub Patchwork](https://github.com/blog/2177-patchwork-singapore) I'm hosting with some of my colleagues.
+Next week's going to be an interesting week... I'm off to Singapore for a conference. A combination of early starts and the heat and humidity will make it tough to get in the miles, especially if I enjoy the beers and company too much. I'll definitely need to hold back and be good.  I also hope to get down to the [East Coast Park parkrun](https://www.parkrun.sg/eastcoastpark/) on Saturday before the [GitHub Patchwork](https://github.com/blog/2177-patchwork-singapore) I'm hosting with some of my colleagues.

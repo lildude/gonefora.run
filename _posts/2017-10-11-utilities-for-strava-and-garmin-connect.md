@@ -17,6 +17,6 @@ Ever wanted to...
 - export a Garmin Connect course as a GPX file, or
 - upload to Strava via email now they've killed the ability?
 
-I have, and it was a right PITA. Not anymore. I've just discovered [Utilities for Strava and Garmin Connect](http://gotoes.org/strava/) which offer little tools to do all of the above in a very simple and easy-to-use web interface.
+I have, and it was a right PITA. Not anymore. I've just discovered [Utilities for Strava and Garmin Connect](https://gotoes.org/strava/) which offer little tools to do all of the above in a very simple and easy-to-use web interface.
 
 Definitely one to add to your arsenal of utilities for manipulating your activities... no cheating though. We'll all know when you've hacked your data to claim all the KOMs in your area 😉.

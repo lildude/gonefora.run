@@ -10,7 +10,7 @@ published: true
 
 ![Week in Review: 8 - 14 Aug '16](/img/week-in-review-8-14Aug16.png){:height="240" width="840" class="center"}
 
-The goal of last week was to back off my training just a little bit to give my body a rest after the heeeeaaaaawwwwwwgggg week before it, in preparation for the [Burnham Beeches half](http://bbhm.burnhamjoggers.org.uk/), which I had scheduled as a trial to see how the training was going.
+The goal of last week was to back off my training just a little bit to give my body a rest after the heeeeaaaaawwwwwwgggg week before it, in preparation for the [Burnham Beeches half](https://bbhm.burnhamjoggers.org.uk/), which I had scheduled as a trial to see how the training was going.
 
 I started the week off with the now normal double recovery run Monday. I was pleasantly surprised as how good I felt on the morning run considering the 39k I ran the day before.  The second run however felt sluggish as I'd expected the first to feel.
 

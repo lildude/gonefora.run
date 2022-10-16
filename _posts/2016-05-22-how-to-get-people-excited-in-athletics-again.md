@@ -9,7 +9,7 @@ published: true
 ---
 
 > Saturday night were the 2016 British Olympic 10,000m Trials, held as part of the “Highgate Harriers Night of the 10,000m PBs” in London. Stakes were high with potentially four automatic qualifying spots for the Rio Olympics on the line and the atmosphere was electric as thousands of fans lined the track, many of whom hung out in the make-shift “beer tent” which the runners came through on each lap.  
-— [UK 10K Trials Run Through A Bar](http://www.letsrun.com/news/2016/05/uk-10k-trials-run-bar-total-unknown-jess-andrews-sets-huge-83-second-pb-win-british-10000m-trials-qualify-rio-jo-pavey-falters-might-miss-rio/)
+— [UK 10K Trials Run Through A Bar](https://www.letsrun.com/news/2016/05/uk-10k-trials-run-bar-total-unknown-jess-andrews-sets-huge-83-second-pb-win-british-10000m-trials-qualify-rio-jo-pavey-falters-might-miss-rio/)
 
 Last night saw the UK 10,000m trails being held in one of the most innovative and exciting way I've ever seen an olympic trials being held.
 

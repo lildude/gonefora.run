@@ -14,6 +14,6 @@ On Sunday morning I went for my last long run before the London Marathon and ran
 
 <!-- more -->
 
-The 5K race had [727 finishers](http://results.chronotrack.com/event/results/event/event-13531?lc=en), all of whom paid between $35 and $45 to run those 5 kilometers. $35??!! And all they got for their money and time was a T-shirt.  Saturday morning, [Crissy Field parkrun](http://www.parkrun.us/crissyfield/), which takes place in the exact same place, which costs absolutely NOTHING had 19 finishers.
+The 5K race had [727 finishers](https://results.chronotrack.com/event/results/event/event-13531?lc=en), all of whom paid between $35 and $45 to run those 5 kilometers. $35??!! And all they got for their money and time was a T-shirt.  Saturday morning, [Crissy Field parkrun](https://www.parkrun.us/crissyfield/), which takes place in the exact same place, which costs absolutely NOTHING had 19 finishers.
 
-What's the affliction with free?  parkrun is not an inferior product.  Yes, you don't get a T-shirt and medal after each run, but you do after [50, 100, 250 etc](http://www.parkrun.com/about/our-clubs/) but that's not the point. It's about getting out and having fun and keeping healthy all for the handsome price of nothing, zip, nada, not a penny. And best of all, officially timed results each and every time.
+What's the affliction with free?  parkrun is not an inferior product.  Yes, you don't get a T-shirt and medal after each run, but you do after [50, 100, 250 etc](https://www.parkrun.com/about/our-clubs/) but that's not the point. It's about getting out and having fun and keeping healthy all for the handsome price of nothing, zip, nada, not a penny. And best of all, officially timed results each and every time.

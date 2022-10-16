@@ -15,7 +15,7 @@ As you can see from March's review, I finished off the week before the Mancheste
 
 I went into the race with a sub-2:45 time in mind so set a goal pace of 3:54/km, but I wasn't sticking to it too strictly as this was a week after a big week and not a race I'd specifically tapered for.
 
-Things started off really well and I found the 3:54 pace really easy. So easy that I ran quicker than my planned pace until the 26th km when I finally slowed slightly. I then held a pretty consistent pace around 3:54 right until the end. How consistently? My pace variability for the entire race was 4% according to [SmashRun](http://en-gb.smashrun.com/colin.seymour/run/2017/4/20) an is quite clear from the [Strava pace analysis](https://www.strava.com/activities/924677143/pace-analysis):
+Things started off really well and I found the 3:54 pace really easy. So easy that I ran quicker than my planned pace until the 26th km when I finally slowed slightly. I then held a pretty consistent pace around 3:54 right until the end. How consistently? My pace variability for the entire race was 4% according to [SmashRun](https://en-gb.smashrun.com/colin.seymour/run/2017/4/20) an is quite clear from the [Strava pace analysis](https://www.strava.com/activities/924677143/pace-analysis):
 
 ![My Manchester Marathon 2017 Pace Analysis](/img/Manchester-marathon-pace-analysis.png){:class="center"}
 

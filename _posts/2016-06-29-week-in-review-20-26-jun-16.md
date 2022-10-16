@@ -12,7 +12,7 @@ published: true
 
 Last week was a tough week for training; I was in Singapore for RedDotRubyConf and a combination of the heat, humidity and jet lag made it tough to get in al the run I'd originally planned.
 
-In retrospect I think I was probably a little over optimistic and seriously under-estimated how much of an impact the humidity would have.  That said, I did get in three quality runs and a parkrun - I couldn't miss the [only parkrun in Asia](http://www.parkrun.sg/eastcoastpark/) when it was right there. It also happened to be their second anniversary.
+In retrospect I think I was probably a little over optimistic and seriously under-estimated how much of an impact the humidity would have.  That said, I did get in three quality runs and a parkrun - I couldn't miss the [only parkrun in Asia](https://www.parkrun.sg/eastcoastpark/) when it was right there. It also happened to be their second anniversary.
 
 [![Me with the Marina Bay Sands Hotel](/img/marina-sands-selfie.jpg){:height="200" width="200" class="alignright"}](https://www.instagram.com/p/BG5nB3BJtwB/) I landed in Singapore on Monday afternoon and got to my hotel just after 5pm so I donned my running gear and hit the road for a gentle tourist run, ie lots of photo stops including a selfie with a landmark, around the marina.  This is a great route with plenty other people running too.  This run gave me an idea of what to expect for the rest of the week. I attempted to keep my HR within my MAF range but after struggling for 40mins gave up and resorted to running easy by feel. I'm pretty sure the shock of the humidity and the tiredness from the flight are to blame.
 

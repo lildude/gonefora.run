@@ -15,13 +15,13 @@ Earlier this year I was in the market for a new pair of zero-drop racing flats t
 
 I got nowt, however I did find within an hour of posting that tweet the [Altra Golden Spike](https://www.altrarunning.com/men/golden-spike), hence the follow up tweet.
 
-Well imagine my excitement this morning when I discovered my prayers may just well have been answered when I stumbled upon slide 7 in competitor.com's [First Look At 2018 Running Shoes Showcased At Outdoor Retailer](http://running.competitor.com/2017/07/shoes-and-gear/first-look-2018-running-shoes_166686):
+Well imagine my excitement this morning when I discovered my prayers may just well have been answered when I stumbled upon slide 7 in competitor.com's [First Look At 2018 Running Shoes Showcased At Outdoor Retailer](https://running.competitor.com/2017/07/shoes-and-gear/first-look-2018-running-shoes_166686):
 
 ![Altra Vanish-R](/img/Altra-Vanish-R.jpg){:class="center"}
 
 (I'd link directly to the slide but competitor.com seem to make it deliberately hard to do so).
 
-Sadly they included no other details so I hit up my old friend Google and found just the information I was after in [Altra Footwear Announces Three New Road Shoes With A Fast and Light Theme](http://www.endurancesportswire.com/altra-footwear-announces-three-new-road-shoes-with-a-fast-and-light-theme/):
+Sadly they included no other details so I hit up my old friend Google and found just the information I was after in [Altra Footwear Announces Three New Road Shoes With A Fast and Light Theme](https://www.endurancesportswire.com/altra-footwear-announces-three-new-road-shoes-with-a-fast-and-light-theme/):
 
 > **The Altra Vanish-R:**
 >

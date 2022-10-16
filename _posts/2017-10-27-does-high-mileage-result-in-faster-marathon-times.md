@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-Jason Fitzgerald over at [Strength Running](http://strengthrunning.com/) posted an interesting article today, [How Much Mileage Should You Run During Marathon Training?](http://strengthrunning.com/2017/10/much-mileage-run-marathon-training/) that emphasises a great point:
+Jason Fitzgerald over at [Strength Running](https://strengthrunning.com/) posted an interesting article today, [How Much Mileage Should You Run During Marathon Training?](https://strengthrunning.com/2017/10/much-mileage-run-marathon-training/) that emphasises a great point:
 
 > Every day, I get questions from my readers about the marathon:
 >

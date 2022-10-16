@@ -53,9 +53,9 @@ The race itself was a fantastic race and I really loved the atmosphere, route an
 
 I'll definitely be back to give Berlin another go in future.
 
-On a lighter note, you have to checkout [this cool interactive infographic](http://interaktiv.morgenpost.de/berlin-marathon-2016/) from the race. It's all in German but that shouldn't stop you from playing with things.  Here's a screenshot I took of where I stood (probably quite literally 😆) and where the average finisher was when Kenenisa Bekele crosses the finish line.
+On a lighter note, you have to checkout [this cool interactive infographic](https://interaktiv.morgenpost.de/berlin-marathon-2016/) from the race. It's all in German but that shouldn't stop you from playing with things.  Here's a screenshot I took of where I stood (probably quite literally 😆) and where the average finisher was when Kenenisa Bekele crosses the finish line.
 
-[![Berlin Marathon 2016 Infographic](/img/berlin-marathon-info-graphic.png){:class="center"}](http://interaktiv.morgenpost.de/berlin-marathon-2016/)
+[![Berlin Marathon 2016 Infographic](/img/berlin-marathon-info-graphic.png){:class="center"}](https://interaktiv.morgenpost.de/berlin-marathon-2016/)
 
 I'm the red man in the bottom left, the average finisher is the red clock.
 

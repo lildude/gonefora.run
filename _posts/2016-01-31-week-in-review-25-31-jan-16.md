@@ -14,4 +14,4 @@ I'm really liking this MAF training right now.  I'm getting quite a bit quicker 
 
 The running for the week was good though today's long run ended up feeling like a trudge.  It all started well but then it started to rain and the breeze picked up which soon left me very wet and very cold. I think the wind and cold also led to hunching and tensing as the muscles in my upper back are really tense now.
 
-This week I also started to introduce [this little strength routine](http://www.rockcreekrunner.com/2016/01/14/strength-routine-for-runners/) after my shorter runs.  I've only done one set twice and so far so good.  It's a nice short little routine that fits in nicely at the end of a run.  Will see how I get on with this in the coming weeks and months.
+This week I also started to introduce [this little strength routine](https://www.rockcreekrunner.com/2016/01/14/strength-routine-for-runners/) after my shorter runs.  I've only done one set twice and so far so good.  It's a nice short little routine that fits in nicely at the end of a run.  Will see how I get on with this in the coming weeks and months.
