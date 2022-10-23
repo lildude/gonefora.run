@@ -172,7 +172,8 @@
 
   /* lildude's customisations */
   .css-18lb5pr-AppHeaderTestRepoIndicator,
-  .css-6fxb8u-SearchContainer {
+  .css-6fxb8u-SearchContainer,
+  .css-e9z4u8-AppHeaderSiteLink {
     display: none;
   }
 
