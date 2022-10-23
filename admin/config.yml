@@ -1,0 +1,99 @@
+media_folder: "img"
+display_url: https://gonefora.run
+site_url: https://gonefora.run
+publish_mode: editorial_workflow
+backend:
+  name: git-gateway #test-repo
+  branch: main
+local_backend: true
+slug:
+  encoding: "ascii"
+collections:
+  - name: "note"
+    label: "Notes"
+    label_singular: "Note"
+    # summary: "{{body}}"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{slug}}"
+    sortable_fields: ['date']
+    editor:
+      preview: true
+    filter:
+      field: "layout"
+      value: "note"
+    fields:
+    - {label: "Layout", name: "layout", widget: "hidden", default: "note"}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss ZZ", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss ZZ"}
+    - {label: "Tags", name: "tags", widget: "list", allow_add: true, collapsed: true}
+    - {label: "Body", name: "body", widget: "markdown", editor_components: [], buttons: [bold, italic, code, link, quote, bulleted-list, numbered-list]}
+  - name: "photo"
+    label: "Photos"
+    label_singular: "Photo"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{title}}"
+    sortable_fields: ['date']
+    filter:
+      field: "layout"
+      value: "photo"
+    editor:
+      preview: true
+    fields:
+    - {label: "Layout", name: "layout", widget: "hidden", default: "photo"}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss ZZ", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss ZZ"}
+    - {label: "Tags", name: "tags", widget: "list", allow_add: true, collapsed: true}
+    - {label: "Body", name: "body", widget: "markdown", minimal: true, buttons: [], editor_components: ["photo"], modes: ["rich_text"]}
+  - name: "post"
+    label: "Posts"
+    label_singular: "Post"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{slug}}"
+    sortable_fields: ['date']
+    editor:
+      preview: true
+    filter:
+      field: "layout"
+      value: "post"
+    fields:
+    - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss ZZ", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss ZZ"}
+    - {label: "Tags", name: "tags", widget: "list", allow_add: true, collapsed: true}
+    - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Layout, name: layout, widget: hidden}
+          - {label: Description, name: "description", widget: "text"}
+          - {label: Tags, name: "tags", widget: "list", allow_add: true, collapsed: true}
+          - {label: Body, name: "body", widget: "markdown"}
+      - label: "Goals"
+        name: "goals"
+        file: "goals.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Layout, name: layout, widget: hidden}
+          - {label: Description, name: "description", widget: "text"}
+          - {label: Tags, name: "tags", widget: "list", allow_add: true, collapsed: true}
+          - {label: Body, name: "body", widget: "markdown"}
+      - label: "Kitbag"
+        name: "kitbag"
+        file: "kitbag.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Layout, name: layout, widget: hidden}
+          - {label: Description, name: "description", widget: "text"}
+          - {label: Tags, name: "tags", widget: "list", allow_add: true, collapsed: true}
+          - {label: Body, name: "body", widget: "markdown"}

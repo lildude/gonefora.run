@@ -15,7 +15,8 @@ I've kept the links to a minimum as I don't have affiliation links and I don't w
 
 ### Running
 
-|---|---|
+| What | Info |
+|------|------|
 | **Road training shoes**   | Altra Rivera 2 (DoB 29/5/2022)
 | **Road racing shoes**     | Nike Air Zoom Alphafly NEXT% "Cheat shoes" (DoB 29/8/2021)
 | **Alternate road shoes**  | None
@@ -31,14 +32,16 @@ I've kept the links to a minimum as I don't have affiliation links and I don't w
 
 ### Swimming
 
-|---|---|
+| What | Info |
+|------|------|
 | **Goggles** | Speedo Fastskin Speedsocket 2 Mirrored.
 | **Cap**     | Cheapie silicon cap from Amazon.
 | **Costume** | [SAFFA - Swim Briefs Bros](https://www.beanbagthebrand.com/collections/swim-briefs-bros/products/saffa-swim) 🇿🇦 - these were [made famous by Faf de Klerk](https://www.timeslive.co.za/sport/rugby/2019-11-04-watch-faf-de-klerk-greeting-prince-harry-in-an-sa-flag-cozzie-is-a-whole-mood/) after South Africa won the rugby world cup.
 
 ### Cycling
 
-|---|---|
+| What | Info |
+|------|------|
 | **Road Bike**   | Dolan Tuono Disc (2021)
 | **Bib/Shorts**  | Endura FS260 Pro Bib Shorts
 | **Jersey**      | Various from Wiggle

@@ -20,20 +20,43 @@ add_css: /css/goals.css
 
 I was once a fast runner. Then I stopped, picked it up again, and now find myself a fast runner again.  Here are my all time personal bests:
 
-|-----------------+---------+-----------
-| Distance        | Time    | Date
-|-----------------|:-------:|-----------
-| 5K              | 16:56   | 2 Jun '18
-| 8K / 5M         | 29:05   | 15 Jun '16
-| 10K             | 34:09   | 21 May '17
-| 15K             | 59:29   | 10 Jan '99
-| 10M             | 57:59   | 14 Apr '17
-| 21.1K           | 1:17:02 | 19 Mar '17
-| 42.2K           | 2:39:46 | 23 Sep '18
-| 50K             | 3:39:03 | 3 Aug '19
-| 56K             | 4:48:24 | 11 Apr '98
-| Comrades - Up   | 7:55:16 | 4 Jun '17
-| Comrades - Down | 7:21:03 | 10 Jun '18
+| Distance        | Time    | Date         |
+|-----------------|:-------:|--------------|
+| 5K              | 16:56   | [2 Jun '18]  |
+| - V40           | 17:13   | [27 Jul '19] |
+| 8K / 5M         | 29:05   | 15 Jun '16   |
+| - V40           | 29:05   | [9 Jun '19]  |
+| 10K             | 34:09   | [21 May '17] |
+| - V40           | 35:27   | [3 Feb '19]  |
+| 15K             | 59:29   | 10 Jan '99   |
+| 10M             | 57:59   | [14 Apr '17] |
+| - V40           |         |              |
+| 21.1K           | 1:17:02 | [19 Mar '17] |
+| - V40           | 1:17:08 | [24 Feb '19] |
+| 32K / 20M       | 2:04:52 | [17 Feb '19] |
+| - V40           | 2:04:52 | [17 Feb '19] |
+| 42.2K           | 2:39:46 | [23 Sep '18] |
+| - V40           | 2:52:06 | [10 Mar '19] |
+| 50K             | 3:39:03 | [3 Aug '19]  |
+| - V40           | 3:39:03 | [3 Aug '19]  |
+| 56K             | 4:48:24 | 11 Apr '98   |
+| Comrades - Up   | 7:55:16 | [4 Jun '17]  |
+| Comrades - Down | 7:21:03 | [10 Jun '18] |
+
+[2 Jun '18]: https://www.strava.com/activities/1611357220
+[27 Jul '19]: https://www.strava.com/activities/2566481136
+[9 Jun '19]: https://www.strava.com/activities/2435814131
+[21 May '17]: https://www.strava.com/activities/998276591
+[3 Feb '19]: https://www.strava.com/activities/2120844703
+[14 Apr '17]: https://www.strava.com/activities/941450355
+[19 Mar '17]: https://www.strava.com/activities/906148439
+[24 Feb '19]: https://www.strava.com/activities/2171560328
+[17 Feb '19]: https://www.strava.com/activities/2155653930
+[23 Sep '18]: https://gonefora.run/race-report-chester-marathon-2018
+[10 Mar '19]: https://www.strava.com/activities/2203420325
+[3 Aug '19]: https://gonefora.run/race-report-round-reading-50k-2019
+[4 Jun '17]: https://www.strava.com/activities/1021080709
+[10 Jun '18]: https://www.strava.com/activities/1629901062
 
 ### Goals
 
@@ -43,9 +66,8 @@ To try and motivate me and keep track of my running progress, since returning to
 
 I didn't put a target date on any of these as I didn't want to push myself or become a slave to my goals.
 
-|-----+-------------------------------------------------+---------------------------
-| #   | Goal/Distance                                   | Date Achieved
-|-----|-------------------------------------------------|---------------------------
+| #   | Goal/Distance                                   | Date Achieved             |
+|-----|-------------------------------------------------|---------------------------|
 | 1   | 1km training run, 3x a week                     | 14 Jun '09 <sup>*</sup>
 | 2   | 2km training run, 3x a week                     | 14 Jun '09 <sup>*</sup>
 | 3   | 10km per week in training                       | 14 Jun '09 <sup>*</sup>

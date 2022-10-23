@@ -14,6 +14,7 @@ logo:             /assets/favicon.png
 author:           'lildude'
 lang:             en-GB
 theme:            minima-dude
+netlifycms:       true
 
 dns_prefetch:
   - images.weserv.nl
