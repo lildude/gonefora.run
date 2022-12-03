@@ -12,6 +12,10 @@
   .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton {
     margin: 0;
     padding: 16px 7px;
+    /* text-indent: 100%; */
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
   }
 
   .css-1f7nhiq-CollectionMain {
@@ -183,12 +187,6 @@
 
   .css-tg1x8v-IconWrapper {
     text-indent: 0;
-  }
-
-  .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton, .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
   }
 
   .css-eixap-PaginationMessage-NoEntriesMessage {
