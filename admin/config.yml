@@ -1,7 +1,7 @@
 media_folder: "img"
 display_url: https://gonefora.run
 site_url: https://gonefora.run
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 backend:
   name: git-gateway #test-repo
   branch: main
