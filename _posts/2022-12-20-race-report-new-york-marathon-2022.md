@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Race Report: New York Marathon 2022"
-date: 2022-11-09 13:58:44 +0000
+date: 2022-12-20 10:47:37 +0000
 tags:
 - race
 ---
@@ -102,4 +102,3 @@ All in all, a fabulous long weekend with a great race made difficult by the weat
 [training for that race]: https://gonefora.run/race-report-chicago-marathon-2022#training
 [Strava Activity]: https://www.strava.com/activities/8078773914
 [Official Results]: https://results.nyrr.org/event/M2022/result/3222
-
