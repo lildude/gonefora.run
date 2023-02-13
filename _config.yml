@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
-permalink:        :title
+permalink:        /:title
 
 # Setup
 title:            Gone For A Run
@@ -38,6 +38,9 @@ parkrun:
   id:             73185
 powerof10:
   id:             246985
+mastodon:
+  server:         "mastodon.social"
+  username:       "@lildude"
 
 microblog:
   username:       lildude
