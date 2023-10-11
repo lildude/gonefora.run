@@ -93,6 +93,7 @@ picture:
   relative_url: false
   ignore_baseurl: true
   fast_build: development
+  suppress_warnings: true
 
 # Don't copy these files to the generated site
 exclude:
