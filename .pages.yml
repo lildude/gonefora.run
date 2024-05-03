@@ -5,14 +5,10 @@ content:
     type: collection
     path: '_posts'
     view:
-      fields: [ title, date, published ]
+      fields: [ title, date ]
       default:
         search: 'layout:note'
     fields:
-      - name: published
-        label: Published
-        type: boolean
-        default: true
       - name: date
         label: Date
         type: date
@@ -40,14 +36,10 @@ content:
     type: collection
     path: '_posts'
     view:
-      fields: [ title, date, published ]
+      fields: [ title, date ]
       default:
         search: 'layout:post'
     fields:
-      - name: published
-        label: Published
-        type: boolean
-        default: true
       - name: date
         label: Date
         type: date
