@@ -51,6 +51,8 @@ content:
       - name: date
         label: Date
         type: date
+        options:
+          time: true
       - name: title
         label: Title
         type: string
