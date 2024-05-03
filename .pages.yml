@@ -31,6 +31,37 @@ content:
         type: text
         options:
           maxlength: 500
+  - name: photos
+    label: Photos
+    type: collection
+    path: '_posts'
+    view:
+      fields: [ title, date ]
+      default:
+        search: 'layout:photo'
+    fields:
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+      - name: title
+        label: Title
+        type: string
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: layout
+        label: Layout
+        type: string
+        default: photo
+        hidden: true
+      - name: body
+        label: Body
+        type: text
+        options:
+          maxlength: 500
   - name: posts
     label: Posts
     type: collection
