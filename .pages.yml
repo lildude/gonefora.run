@@ -5,7 +5,7 @@ content:
     type: collection
     path: '_posts'
     view:
-      fields: [ title, published, date, tags ]
+      fields: [ title, published, date ]
     fields:
       - name: published
         label: Published
@@ -51,6 +51,10 @@ content:
         label: Layout
         type: string
         default: post
+      - name: tags
+        label: Tags
+        type: string
+        list: true
       - name: body
         label: Body
         type: rich-text
