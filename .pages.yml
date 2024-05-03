@@ -25,6 +25,7 @@ content:
         label: Layout
         type: string
         default: note
+        hidden: true
       - name: body
         label: Body
         type: text
@@ -51,6 +52,7 @@ content:
         label: Layout
         type: string
         default: post
+        hidden: true
       - name: tags
         label: Tags
         type: string
