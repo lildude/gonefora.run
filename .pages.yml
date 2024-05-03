@@ -6,6 +6,8 @@ content:
     path: '_posts'
     view:
       fields: [ title, published, date ]
+      default:
+        search: 'layout:note'
     fields:
       - name: published
         label: Published
@@ -37,6 +39,8 @@ content:
     path: '_posts'
     view:
       fields: [ title, published, date ]
+      default:
+        search: 'layout:post'
     fields:
       - name: published
         label: Published
